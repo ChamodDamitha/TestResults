@@ -1,0 +1,556 @@
+JAVA_HOME environment variable is set to /home/chamod/Softwares/jdk1.8.0_131
+CARBON_HOME environment variable is set to /home/chamod/Softwares/wso2/wso2das-3.1.0
+Using Java memory options: -Xms256m -Xmx2048m
+Loading spark environment variables 
+[2017-08-29 10:51:58,781]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon...
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 4.4.0-92-generic, amd64
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /home/chamod/Softwares/jdk1.8.0_131/jre
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.8.0_131
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 25.131-b11,Oracle Corporation
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/chamod/Softwares/wso2/wso2das-3.1.0
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/chamod/Softwares/wso2/wso2das-3.1.0/tmp
+[2017-08-29 10:51:58,782]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : chamod, en-US, Asia/Colombo
+[2017-08-29 10:51:58,892]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile.
+[2017-08-29 10:51:59,071]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} -  Successfully deployed the Kafka output event adaptor service
+[2017-08-29 10:51:59,145]  INFO {org.wso2.carbon.event.processor.manager.core.internal.util.ManagementModeConfigurationLoader} -  CEP started in Single node mode
+[2017-08-29 10:51:59,229]  INFO {org.wso2.carbon.event.template.manager.core.internal.ds.TemplateDeployerServiceTrackerDS} -  Successfully deployed the execution manager tracker service
+[2017-08-29 10:52:01,345]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Started Binary SSL Transport on port : 9711
+[2017-08-29 10:52:01,350]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Started Binary TCP Transport on port : 9611
+[2017-08-29 10:52:01,364]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} -  Successfully deployed Agent Server 
+[2017-08-29 10:52:01,609]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 93ms
+[2017-08-29 10:52:01,719]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE
+[2017-08-29 10:52:03,601]  INFO {org.wso2.carbon.metrics.impl.util.JDBCReporterBuilder} -  Creating JDBC reporter for Metrics with source 'wso2-ThinkPad-T530', data source 'jdbc/WSO2MetricsDB' and 60 seconds polling period
+[2017-08-29 10:52:03,603]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} -  Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+[2017-08-29 10:52:03,621]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JDBC reporter for Metrics
+[2017-08-29 10:52:03,622]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Started JMX reporter for Metrics
+[2017-08-29 10:52:05,607]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized
+[2017-08-29 10:52:06,202]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully.
+[2017-08-29 10:52:13,813]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+[2017-08-29 10:52:15,845]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+[2017-08-29 10:52:15,846]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated.
+[2017-08-29 10:52:18,604]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/
+[2017-08-29 10:52:18,611]  INFO {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder} -  Kafka input event adaptor waiting for dependent configurations to load
+[2017-08-29 10:52:18,640]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy...
+[2017-08-29 10:52:18,650]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234
+[2017-08-29 10:52:18,776]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763
+[2017-08-29 10:52:18,776]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443
+[2017-08-29 10:52:18,813]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant}
+[2017-08-29 10:52:18,864]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant}
+[2017-08-29 10:52:18,869]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :DATA_PUBLISHER.xml, Stream validation exception : Stream SMARTHOME_DATA:1.0.0 does not exist
+[2017-08-29 10:52:18,870]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :humidityLogger.xml, Stream validation exception : Stream avgHumidityStream:1.0.0 does not exist
+[2017-08-29 10:52:18,870]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :maxHumidityLogger.xml, Stream validation exception : Stream maxHumidity:1.0.0 does not exist
+[2017-08-29 10:52:18,871]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :testIntegerInputPublisher.xml, Stream validation exception : Stream testIntegerInputStream:1.0.0 does not exist
+[2017-08-29 10:52:18,871]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :testIntgerCardinalityPublisher.xml, Stream validation exception : Stream testIntgerCardinalityStream:1.0.0 does not exist
+[2017-08-29 10:52:18,872]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :testOutputPublisher.xml, Stream validation exception : Stream testOutputStream:1.0.0 does not exist
+[2017-08-29 10:52:18,873]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state :usage_publisher.xml, Stream validation exception : Stream usageStream:1.0.0 does not exist
+[2017-08-29 10:52:18,877]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: DATA_RECEIVER.xml, Stream validation exception: Stream SMARTHOME_DATA:1.0.0 does not exist
+[2017-08-29 10:52:18,878]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: sensorWSO2Receiver.xml, Stream validation exception: Stream org.wso2.event.sensor.stream:1.0.0 does not exist
+[2017-08-29 10:52:18,879]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testIntegerInputReceiver.xml, Stream validation exception: Stream testIntegerInputStream:1.0.0 does not exist
+[2017-08-29 10:52:18,879]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testIntgerReceiver.xml, Stream validation exception: Stream testIntegerInputStream:1.0.0 does not exist
+[2017-08-29 10:52:18,880]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testReceiver.xml, Stream validation exception: Stream testInputStream:1.0.0 does not exist
+[2017-08-29 10:52:18,881]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testStringInputReceiver.xml, Stream validation exception: Stream testStringInputStream:1.0.0 does not exist
+[2017-08-29 10:52:19,021]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-APIRequestPatternChangeAnalysisMatrixBuilder.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.stateStream:1.0.0 does not exist
+[2017-08-29 10:52:19,077]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-AbnormalAccessTokenRefresh.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.allApimAlertsStream:1.0.0 does not exist
+[2017-08-29 10:52:19,094]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-AbnormalRequestCountDetection-AbnormalRequestCountDetection-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.requestPerMinStream:1.0.0 does not exist
+[2017-08-29 10:52:19,108]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-AbnormalResponseAndBackendTimeDetection-AbnormalResponseAndBackendTimeDetection-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.abnormalResponseTimeAlertStream:1.0.0 does not exist
+[2017-08-29 10:52:19,130]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-EmailNotification.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.abnormalResponseTimeAlertStream:1.0.0 does not exist
+[2017-08-29 10:52:19,141]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-FrequentTierLimitHitting-FrequentTierLimitHitting-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.tierLimitHittingAlert:1.0.0 does not exist
+[2017-08-29 10:52:19,280]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-HealthAvailabilityPerMinAlert-HealthAvailabilityPerMin-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.allApimAlertsStream:1.0.0 does not exist
+[2017-08-29 10:52:19,282]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-LastAccessTime.siddhiql, Dependency validation exception: Stream org.wso2.apimgt.statistics.perMinuteRequest:1.0.0 does not exist
+[2017-08-29 10:52:19,294]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-MarkovStateClassifier-MarkovStateClassifier-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.apimgt.statistics.requestsPerMinPerKeyStream:1.0.0 does not exist
+[2017-08-29 10:52:19,387]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-RequestPatternChangeDetection-APIRequestPatternChangeAnalysisMetric-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.allApimAlertsStream:1.0.0 does not exist
+[2017-08-29 10:52:19,426]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-RequestSummarizer-RequestSummarizer-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.apimgt.statistics.perMinuteExecutionTimes:1.0.0 does not exist
+[2017-08-29 10:52:19,477]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : APIMAnalytics-UnusualIPAccessTemplate-UnusualIPAccessAlert-realtime1.siddhiql, Dependency validation exception: Stream org.wso2.analytics.apim.allApimAlertsStream:1.0.0 does not exist
+[2017-08-29 10:52:19,485]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : ExecutionPlan.siddhiql, Dependency validation exception: Stream testInputStream:1.0.0 does not exist
+[2017-08-29 10:52:19,491]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : ExecutionPlanCardinality.siddhiql, Dependency validation exception: Stream testStringInputStream:1.0.0 does not exist
+[2017-08-29 10:52:19,509]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : PowerConsumptionAlerts-PowerConsumptionAlerts-UsageHouse39-realtime1.siddhiql, Dependency validation exception: Stream House39AlertStream:1.0.0 does not exist
+[2017-08-29 10:52:19,510]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : SensorExecutionPlan.siddhiql, Dependency validation exception: Stream org.wso2.event.sensor.stream:1.0.0 does not exist
+[2017-08-29 10:52:19,517]  INFO {org.wso2.carbon.event.simulator.core.CSVFileDeployer} -  CSV file sample.csv deployed successfully.
+[2017-08-29 10:52:19,540]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : PowerConsumptionAlerts-PowerConsumptionAlerts-UsageHouse39-realtime1.siddhiql
+[2017-08-29 10:52:19,556]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : PowerConsumptionAlerts-PowerConsumptionAlerts-UsageHouse39-realtime1.siddhiql, Dependency validation exception: Stream SMARTHOME_DATA:1.0.0 does not exist
+[2017-08-29 10:52:19,556]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : House39AlertStream:1.0.0
+[2017-08-29 10:52:19,557]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : PowerConsumptionAlerts-PowerConsumptionAlerts-UsageHouse39-realtime1.siddhiql
+[2017-08-29 10:52:19,680]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:House39AlertStream:1.0.0
+[2017-08-29 10:52:19,681]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:SMARTHOME_DATA:1.0.0
+[2017-08-29 10:52:19,681]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : PowerConsumptionAlerts-PowerConsumptionAlerts-UsageHouse39-realtime1
+[2017-08-29 10:52:19,683]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : DATA_PUBLISHER.xml
+[2017-08-29 10:52:19,688]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:SMARTHOME_DATA:1.0.0
+[2017-08-29 10:52:19,690]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : DATA_PUBLISHER
+[2017-08-29 10:52:19,692]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: DATA_RECEIVER.xml
+[2017-08-29 10:52:19,697]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver DATA_RECEIVER
+[2017-08-29 10:52:19,697]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:SMARTHOME_DATA:1.0.0
+[2017-08-29 10:52:19,697]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: DATA_RECEIVER
+[2017-08-29 10:52:19,697]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : SMARTHOME_DATA:1.0.0
+[2017-08-29 10:52:19,698]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : humidityLogger.xml
+[2017-08-29 10:52:19,699]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:avgHumidityStream:1.0.0
+[2017-08-29 10:52:19,699]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : humidityLogger
+[2017-08-29 10:52:19,699]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : avgHumidityStream:1.0.0
+[2017-08-29 10:52:19,700]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : maxHumidityLogger.xml
+[2017-08-29 10:52:19,701]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:maxHumidity:1.0.0
+[2017-08-29 10:52:19,701]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : maxHumidityLogger
+[2017-08-29 10:52:19,701]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : maxHumidity:1.0.0
+[2017-08-29 10:52:19,702]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : SensorExecutionPlan.siddhiql
+[2017-08-29 10:52:19,712]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:maxHumidity:1.0.0
+[2017-08-29 10:52:19,712]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:org.wso2.event.sensor.stream:1.0.0
+[2017-08-29 10:52:19,712]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SensorExecutionPlan
+[2017-08-29 10:52:19,712]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: sensorWSO2Receiver.xml
+[2017-08-29 10:52:19,713]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver sensorWSO2Receiver
+[2017-08-29 10:52:19,713]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:org.wso2.event.sensor.stream:1.0.0
+[2017-08-29 10:52:19,714]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: sensorWSO2Receiver
+[2017-08-29 10:52:19,714]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : org.wso2.event.sensor.stream:1.0.0
+[2017-08-29 10:52:19,714]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : ExecutionPlan.siddhiql
+[2017-08-29 10:52:19,720]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan deployment held back and in inactive state : ExecutionPlan.siddhiql, Dependency validation exception: Stream testOutputStream:1.0.0 does not exist
+[2017-08-29 10:52:19,721]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testReceiver.xml
+[2017-08-29 10:52:19,721]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver testReceiver
+[2017-08-29 10:52:19,721]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testInputStream:1.0.0
+[2017-08-29 10:52:19,721]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: testReceiver
+[2017-08-29 10:52:19,721]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : testInputStream:1.0.0
+[2017-08-29 10:52:19,722]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testIntegerInputPublisher.xml
+[2017-08-29 10:52:19,723]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:testIntegerInputStream:1.0.0
+[2017-08-29 10:52:19,723]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : testIntegerInputPublisher
+[2017-08-29 10:52:19,723]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testIntegerInputReceiver.xml
+[2017-08-29 10:52:19,724]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver testIntegerInputReceiver
+[2017-08-29 10:52:19,724]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testIntegerInputStream:1.0.0
+[2017-08-29 10:52:19,724]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: testIntegerInputReceiver
+[2017-08-29 10:52:19,724]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testIntgerReceiver.xml
+[2017-08-29 10:52:19,725]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver testIntgerReceiver
+[2017-08-29 10:52:19,725]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testIntegerInputStream:1.0.0
+[2017-08-29 10:52:19,725]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: testIntgerReceiver
+[2017-08-29 10:52:19,725]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : testIntegerInputStream:1.0.0
+[2017-08-29 10:52:19,726]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testIntgerCardinalityPublisher.xml
+[2017-08-29 10:52:19,727]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:testIntgerCardinalityStream:1.0.0
+[2017-08-29 10:52:19,727]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : testIntgerCardinalityPublisher
+[2017-08-29 10:52:19,727]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : testIntgerCardinalityStream:1.0.0
+[2017-08-29 10:52:19,728]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : ExecutionPlan.siddhiql
+[2017-08-29 10:52:19,760]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testOutputStream:1.0.0
+[2017-08-29 10:52:19,760]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:testInputStream:1.0.0
+[2017-08-29 10:52:19,760]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : ExecutionPlan
+[2017-08-29 10:52:19,760]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testOutputPublisher.xml
+[2017-08-29 10:52:19,761]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:testOutputStream:1.0.0
+[2017-08-29 10:52:19,761]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : testOutputPublisher
+[2017-08-29 10:52:19,762]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : testOutputStream:1.0.0
+[2017-08-29 10:52:19,762]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution Plan was undeployed successfully : ExecutionPlanCardinality.siddhiql
+[2017-08-29 10:52:19,787]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testIntgerCardinalityStream:1.0.0
+[2017-08-29 10:52:19,788]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Consumer added to the junction. Stream:testStringInputStream:1.0.0
+[2017-08-29 10:52:19,788]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : ExecutionPlanCardinality
+[2017-08-29 10:52:19,788]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testStringInputReceiver.xml
+[2017-08-29 10:52:19,789]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} -  Connecting receiver testStringInputReceiver
+[2017-08-29 10:52:19,789]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  Producer added to the junction. Stream:testStringInputStream:1.0.0
+[2017-08-29 10:52:19,789]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver configuration successfully deployed and in active state: testStringInputReceiver
+[2017-08-29 10:52:19,789]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : testStringInputStream:1.0.0
+[2017-08-29 10:52:19,790]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : usage_publisher.xml
+[2017-08-29 10:52:19,791]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:usageStream:1.0.0
+[2017-08-29 10:52:19,791]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher configuration successfully deployed and in active state : usage_publisher
+[2017-08-29 10:52:19,791]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} -  Stream definition is deployed successfully  : usageStream:1.0.0
+[2017-08-29 10:52:20,970]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Refreshing Root WebApplicationContext: startup date [Tue Aug 29 10:52:20 IST 2017]; root of context hierarchy
+[2017-08-29 10:52:21,022]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+[2017-08-29 10:52:21,115]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from URL [jndi:/localhost/analytics/WEB-INF/cxf-servlet.xml]
+[2017-08-29 10:52:21,217]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3066280e: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,analyticsServices,analyticsBean,analyticsExceptionMapper,analyticsIndexExceptionMapper,analyticsTableNotFoundExceptionMapper,analyticsTimeoutExceptionMapper,jacksonJsonProvider,httpHeadersOutInterceptor]; root of factory hierarchy
+[2017-08-29 10:52:21,699]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/analytics].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/analytics.war]
+[2017-08-29 10:52:22,338]  INFO {org.springframework.web.context.ContextLoader} -  Root WebApplicationContext: initialization started
+[2017-08-29 10:52:22,367]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Refreshing Root WebApplicationContext: startup date [Tue Aug 29 10:52:22 IST 2017]; root of context hierarchy
+[2017-08-29 10:52:22,412]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+[2017-08-29 10:52:22,461]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+[2017-08-29 10:52:22,485]  INFO {org.springframework.beans.factory.xml.XmlBeanDefinitionReader} -  Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+[2017-08-29 10:52:22,737]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2e8b5011: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.context.support.ServletContextPropertyPlaceholderConfigurer#0,org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0,services,servicesV11,servicesV10,servicesV20,basicAuthenticationFilter,sessionAuthenticationFilter]; root of factory hierarchy
+[2017-08-29 10:52:23,252]  INFO {org.springframework.web.context.ContextLoader} -  Root WebApplicationContext: initialization completed in 914 ms
+[2017-08-29 10:52:23,258]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/api.war]
+[2017-08-29 10:52:23,303]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/inputwebsocket.war]
+[2017-08-29 10:52:23,334]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/outputwebsocket.war]
+[2017-08-29 10:52:25,568]  INFO {net.sf.ehcache.pool.sizeof.filter.AnnotationSizeOfFilter} -  Using regular expression provided through VM argument net.sf.ehcache.pool.sizeof.ignore.pattern for IgnoreSizeOf annotation : ^.*cache\..*IgnoreSizeOf$
+[2017-08-29 10:52:25,570]  INFO {net.sf.ehcache.pool.impl.DefaultSizeOfEngine} -  Using user supplied filter @ jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/shindig/WEB-INF/lib/shindig-common-2.5.2.jar!/org/apache/shindig/common/cache/ehcache/SizeOfFilter.txt
+[2017-08-29 10:52:25,578]  INFO {net.sf.ehcache.pool.sizeof.JvmInformation} -  Detected JVM data model settings of: 64-Bit HotSpot JVM with Compressed OOPs
+[2017-08-29 10:52:25,805]  INFO {net.sf.ehcache.pool.sizeof.AgentLoader} -  Extracted agent jar to temporary file /home/chamod/Softwares/wso2/wso2das-3.1.0/tmp/ehcache-sizeof-agent4774457464723215616.jar
+[2017-08-29 10:52:25,805]  INFO {net.sf.ehcache.pool.sizeof.AgentLoader} -  Trying to load agent @ /home/chamod/Softwares/wso2/wso2das-3.1.0/tmp/ehcache-sizeof-agent4774457464723215616.jar
+[2017-08-29 10:52:25,816]  INFO {net.sf.ehcache.pool.impl.DefaultSizeOfEngine} -  using Agent sizeof engine
+[2017-08-29 10:52:25,926]  INFO {net.sf.ehcache.pool.impl.DefaultSizeOfEngine} -  using Agent sizeof engine
+[2017-08-29 10:52:25,952]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features/features.txt are loading.
+[2017-08-29 10:52:25,960]  INFO {org.apache.shindig.common.xml.XmlUtil} -  The XML processor being used does not support secure parsing.
+[2017-08-29 10:52:25,961]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Document builders are being reused.
+[2017-08-29 10:52:26,106]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:features-extras/features.txt are loading.
+[2017-08-29 10:52:26,122]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Resources from res:wso2features/features.txt are loading.
+[2017-08-29 10:52:26,131]  WARN {org.apache.shindig.gadgets.features.FeatureRegistry} -  The container.site.gadget feature with definition at res:wso2features/container.site.gadget/feature.xml is being overridden.
+[2017-08-29 10:52:26,246]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Resources from containers/default/container.js are loading.
+[2017-08-29 10:52:26,246]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Container configuration containers/default/container.js is being read.
+[2017-08-29 10:52:26,757]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Using random key for OAuth2 client-side state encryption
+[2017-08-29 10:52:26,757]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  OAuth2CrypterProvider constructor
+[2017-08-29 10:52:26,767]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  The OAuth signing key from res://wso2carbon.pem is loading.
+[2017-08-29 10:52:26,770]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Using random key for OAuth client-side state encryption
+[2017-08-29 10:52:26,770]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  A random key for OAuth client-side state encryption is being used.
+[2017-08-29 10:52:26,902]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/webapps/shindig.war]
+[2017-08-29 10:52:27,437]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ml].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/jaggeryapps/ml]
+[2017-08-29 10:52:27,620]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/deployment/server/jaggeryapps/portal]
+[2017-08-29 10:52:27,645]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift Server started at 0.0.0.0
+[2017-08-29 10:52:27,659]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift SSL port : 7711
+[2017-08-29 10:52:27,666]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift port : 7611
+[2017-08-29 10:52:27,678]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+[2017-08-29 10:52:27,714]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read
+[2017-08-29 10:52:28,064]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} -  Task service starting in STANDALONE mode...
+[2017-08-29 10:52:28,621]  INFO {org.wso2.carbon.analytics.dataservice.core.indexing.IndexNodeCoordinator} -  My Analytics Node ID: 08a7e56a-5be4-4c25-95f5-6c12f99f5bf7
+[2017-08-29 10:52:28,653]  INFO {org.wso2.carbon.analytics.dataservice.core.indexing.IndexNodeCoordinator} -  Indexing Initialized: STANDALONE | Current Node Indexing: Yes
+[2017-08-29 10:52:28,659]  INFO {org.wso2.carbon.analytics.dataservice.core.AnalyticsDataServiceImpl} -  Current Node Data Purging: Yes
+[2017-08-29 10:52:28,701]  INFO {org.wso2.carbon.analytics.spark.core.internal.SparkAnalyticsExecutor} -  Loading Spark defaults from /home/chamod/Softwares/wso2/wso2das-3.1.0/repository/conf/analytics/spark/spark-defaults.conf
+[2017-08-29 10:52:28,954]  INFO {org.wso2.carbon.analytics.spark.core.internal.SparkAnalyticsExecutor} -  Starting SPARK in the Client Local. Master : local
+[2017-08-29 10:52:28,954]  INFO {org.wso2.carbon.analytics.spark.core.internal.SparkAnalyticsExecutor} -  Initializing the Spark application locally
+[2017-08-29 10:52:29,677]  INFO {Remoting} -  Starting remoting
+[2017-08-29 10:52:29,796]  INFO {Remoting} -  Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@10.100.4.224:13001]
+[2017-08-29 10:52:31,160]  INFO {org.wso2.carbon.analytics.spark.core.internal.SparkAnalyticsExecutor} -  Started Spark CLIENT in the cluster pointing to MASTER local with the application name : CarbonAnalytics and UI port : 4040
+[2017-08-29 10:52:31,196]  INFO {org.wso2.carbon.ml.core.internal.MLCoreDS} -  H2O Server will start in local mode.
+08-29 10:52:31.526 10.100.4.224:54321    11974  #rtStop-1 INFO: ----- H2O started  -----
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Build git branch: rel-slater
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Build git hash: 075d2a21960e1a658984542494a3f1d7164f79fa
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Build git describe: jenkins-rel-slater-9
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Build project version: 3.2.0.9
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Built by: 'jenkins'
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Built on: '2015-10-19 14:16:12'
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Java availableProcessors: 4
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Java heap totalMemory: 884.5 MB
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Java heap maxMemory: 1.78 GB
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: Java version: Java 1.8.0_131 (from Oracle Corporation)
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: JVM launch parameters: [-Xbootclasspath/a:, -Xms256m, -Xmx2048m, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/logs/heap-dump.hprof, -Dcom.sun.management.jmxremote, -Djava.endorsed.dirs=/home/chamod/Softwares/wso2/wso2das-3.1.0/lib/endorsed:/home/chamod/Softwares/jdk1.8.0_131/jre/lib/endorsed:/home/chamod/Softwares/jdk1.8.0_131/lib/endorsed, -Djava.io.tmpdir=/home/chamod/Softwares/wso2/wso2das-3.1.0/tmp, -Dcatalina.base=/home/chamod/Softwares/wso2/wso2das-3.1.0/lib/tomcat, -Dwso2.server.standalone=true, -Dcarbon.registry.root=/, -Djava.command=/home/chamod/Softwares/jdk1.8.0_131/bin/java, -Dcarbon.home=/home/chamod/Softwares/wso2/wso2das-3.1.0, -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager, -Dcarbon.config.dir.path=/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/conf, -Djava.util.logging.config.file=/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/conf/etc/logging-bridge.properties, -Dcomponents.repo=/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins, -Dconf.location=/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/conf, -Dcom.atomikos.icatch.file=/home/chamod/Softwares/wso2/wso2das-3.1.0/lib/transactions.properties, -Dcom.atomikos.icatch.hide_init_file_path=true, -Dorg.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING=false, -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true, -Dcom.sun.jndi.ldap.connect.pool.authentication=simple, -Dcom.sun.jndi.ldap.connect.pool.timeout=3000, -Dorg.terracotta.quartz.skipUpdateCheck=true, -Djava.security.egd=file:/dev/./urandom, -Dfile.encoding=UTF8, -Djava.net.preferIPv4Stack=true, -Dcom.ibm.cacheLocalHost=true, -DworkerNode=false, -Dorg.apache.cxf.io.CachedOutputStream.Threshold=104857600, -DdisableMl=false]
+08-29 10:52:31.560 10.100.4.224:54321    11974  #rtStop-1 INFO: OS version: Linux 4.4.0-92-generic (amd64)
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: Machine physical memory: 7.50 GB
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: X-h2o-cluster-id: 1503984151214
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: User name: 'chamod'
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: Possible IP Address: wlp3s0 (wlp3s0), 10.100.4.224
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: Possible IP Address: lo (lo), 127.0.0.1
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: Internal communication uses port: 54322
+08-29 10:52:31.561 10.100.4.224:54321    11974  #rtStop-1 INFO: Listening for HTTP and REST traffic on http://10.100.4.224:54321/
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO: H2O cloud name: 'chamod' on /10.100.4.224:54321, discovery address /226.215.16.230:58071
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 chamod@10.100.4.224'
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO:   2. Point your browser to http://localhost:55555
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO: Log dir: '/tmp/h2o-chamod/h2ologs'
+08-29 10:52:31.562 10.100.4.224:54321    11974  #rtStop-1 INFO: Cur dir: '/home/chamod/Softwares/wso2/wso2das-3.1.0'
+08-29 10:52:31.567 10.100.4.224:54321    11974  #rtStop-1 INFO: HDFS subsystem not available
+08-29 10:52:31.568 10.100.4.224:54321    11974  #rtStop-1 INFO: S3 subsystem successfully initialized
+08-29 10:52:31.568 10.100.4.224:54321    11974  #rtStop-1 INFO: Flow dir: '/home/chamod/h2oflows'
+08-29 10:52:31.583 10.100.4.224:54321    11974  #rtStop-1 INFO: Cloud of size 1 formed [/10.100.4.224:54321]
+08-29 10:52:31.584 10.100.4.224:54321    11974  #rtStop-1 INFO: Registered 0 extensions in: 42mS
+08-29 10:52:31.642 10.100.4.224:54321    11974  #rtStop-1 INFO: Registered: 88 REST APIs in: 2mS
+08-29 10:52:31.666 10.100.4.224:54321    11974  #rtStop-1 INFO: Registered: 5 schemas in: 24mS
+[2017-08-29 10:52:31,666]  INFO {org.wso2.carbon.ml.core.impl.H2OServer} -  H2o Server has started.
+[2017-08-29 10:52:31,669]  INFO {org.wso2.carbon.ml.core.internal.MLCoreDS} -  Machine Learner Wizard URL : https://10.100.4.224:9443/ml
+[2017-08-29 10:52:31,670]  INFO {org.wso2.carbon.ml.core.internal.MLCoreDS} -  ML core bundle activated successfully.
+[2017-08-29 10:52:31,786]  INFO {org.wso2.carbon.ntask.core.impl.AbstractQuartzTaskManager} -  Task scheduled: [-1234][ANALYTICS_SPARK_EVENTING][STORE_EVENT_ROUTER_TASK]
+[2017-08-29 10:52:31,834]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi
+[2017-08-29 10:52:31,837]  INFO {org.wso2.carbon.analytics.eventsink.AnalyticsEventStoreDeployer} -  Deploying analytics event store: SMARTHOME_DATA.xml
+[2017-08-29 10:52:31,843]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Data Analytics Server-3.1.0
+[2017-08-29 10:52:31,844]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 36 sec
+[2017-08-29 10:52:31,917]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:SMARTHOME_DATA:1.0.0
+[2017-08-29 10:52:31,918]  INFO {org.wso2.carbon.analytics.eventsink.AnalyticsEventStoreDeployer} -  Deployed successfully analytics event store: SMARTHOME_DATA.xml
+[2017-08-29 10:52:31,918]  INFO {org.wso2.carbon.analytics.eventsink.AnalyticsEventStoreDeployer} -  Deploying analytics event store: usageStream.xml
+[2017-08-29 10:52:31,940]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} -  WSO2EventConsumer added to the junction. Stream:usageStream:1.0.0
+[2017-08-29 10:52:31,940]  INFO {org.wso2.carbon.analytics.eventsink.AnalyticsEventStoreDeployer} -  Deployed successfully analytics event store: usageStream.xml
+[2017-08-29 10:52:32,269]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.224:9443/carbon/
+[2017-08-29 10:52:51,796]  INFO {org.wso2.carbon.databridge.core.DataBridge} -  user admin connected
+[2017-08-29 10:52:52,355]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:842.0
+[2017-08-29 10:52:52,852]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:1292.0
+[2017-08-29 10:52:53,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:1743.0
+[2017-08-29 10:52:53,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:2196.0
+[2017-08-29 10:52:54,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:2653.0
+[2017-08-29 10:52:54,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:3108.0
+[2017-08-29 10:52:55,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:3564.0
+[2017-08-29 10:52:55,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:4019.0
+[2017-08-29 10:52:56,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:4475.0
+[2017-08-29 10:52:56,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:4934.0
+[2017-08-29 10:52:57,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:5393.0
+[2017-08-29 10:52:57,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:5849.0
+[2017-08-29 10:52:58,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:6304.0
+[2017-08-29 10:52:58,612]  INFO {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} -  Starting polling event receivers
+[2017-08-29 10:52:58,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:6764.0
+[2017-08-29 10:52:59,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:7226.0
+[2017-08-29 10:52:59,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:7684.0
+[2017-08-29 10:53:00,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:8138.0
+[2017-08-29 10:53:00,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:8596.0
+[2017-08-29 10:53:01,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:9047.0
+[2017-08-29 10:53:01,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:9501.0
+[2017-08-29 10:53:02,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:9961.0
+[2017-08-29 10:53:02,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:10419.0
+[2017-08-29 10:53:03,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:10876.0
+[2017-08-29 10:53:03,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:11329.0
+[2017-08-29 10:53:04,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:11783.0
+[2017-08-29 10:53:04,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:12236.0
+[2017-08-29 10:53:05,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:12693.0
+[2017-08-29 10:53:05,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:13149.0
+[2017-08-29 10:53:06,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:13605.0
+[2017-08-29 10:53:06,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:14063.0
+[2017-08-29 10:53:07,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:14519.0
+[2017-08-29 10:53:07,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:14975.0
+[2017-08-29 10:53:08,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:15435.0
+[2017-08-29 10:53:08,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:15894.0
+[2017-08-29 10:53:09,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:16349.0
+[2017-08-29 10:53:09,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:16806.0
+[2017-08-29 10:53:10,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:17263.0
+[2017-08-29 10:53:10,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:17718.0
+[2017-08-29 10:53:11,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:18177.0
+[2017-08-29 10:53:11,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:18639.0
+[2017-08-29 10:53:12,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:19097.0
+[2017-08-29 10:53:12,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:19557.0
+[2017-08-29 10:53:13,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:20014.0
+[2017-08-29 10:53:13,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:20465.0
+[2017-08-29 10:53:14,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:20922.0
+[2017-08-29 10:53:14,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:21377.0
+[2017-08-29 10:53:15,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:21833.0
+[2017-08-29 10:53:15,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:22289.0
+[2017-08-29 10:53:16,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:22740.0
+[2017-08-29 10:53:16,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:23202.0
+[2017-08-29 10:53:17,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:23650.0
+[2017-08-29 10:53:17,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:24112.0
+[2017-08-29 10:53:18,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:24565.0
+[2017-08-29 10:53:18,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:25025.0
+[2017-08-29 10:53:19,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:25480.0
+[2017-08-29 10:53:19,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:25936.0
+[2017-08-29 10:53:20,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:26395.0
+[2017-08-29 10:53:20,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:26849.0
+[2017-08-29 10:53:21,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:27308.0
+[2017-08-29 10:53:21,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:27763.0
+[2017-08-29 10:53:22,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:28220.0
+[2017-08-29 10:53:22,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:28679.0
+[2017-08-29 10:53:23,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:29133.0
+[2017-08-29 10:53:23,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:29591.0
+[2017-08-29 10:53:24,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:30046.0
+[2017-08-29 10:53:24,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:30503.0
+[2017-08-29 10:53:25,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:30958.0
+[2017-08-29 10:53:25,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:31419.0
+[2017-08-29 10:53:26,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:31875.0
+[2017-08-29 10:53:26,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:32335.0
+[2017-08-29 10:53:27,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:32791.0
+[2017-08-29 10:53:27,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:33250.0
+[2017-08-29 10:53:28,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:33709.0
+[2017-08-29 10:53:28,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:34164.0
+[2017-08-29 10:53:29,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:34619.0
+[2017-08-29 10:53:29,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:35071.0
+[2017-08-29 10:53:30,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:35532.0
+[2017-08-29 10:53:30,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:35986.0
+[2017-08-29 10:53:31,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:36441.0
+[2017-08-29 10:53:31,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:36895.0
+[2017-08-29 10:53:32,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:37358.0
+[2017-08-29 10:53:32,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:37816.0
+[2017-08-29 10:53:33,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:38254.0
+[2017-08-29 10:53:33,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:38710.0
+[2017-08-29 10:53:34,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:39169.0
+[2017-08-29 10:53:34,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:39623.0
+[2017-08-29 10:53:35,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:40088.0
+[2017-08-29 10:53:35,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:40547.0
+[2017-08-29 10:53:36,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:40999.0
+[2017-08-29 10:53:36,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:41457.0
+[2017-08-29 10:53:37,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:41912.0
+[2017-08-29 10:53:37,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:42369.0
+[2017-08-29 10:53:38,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:42825.0
+[2017-08-29 10:53:38,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:43282.0
+[2017-08-29 10:53:39,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:43738.0
+[2017-08-29 10:53:39,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:44195.0
+[2017-08-29 10:53:40,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:44655.0
+[2017-08-29 10:53:40,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:45109.0
+[2017-08-29 10:53:41,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:45568.0
+[2017-08-29 10:53:41,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:46024.0
+[2017-08-29 10:53:42,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:46484.0
+[2017-08-29 10:53:42,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:46939.0
+[2017-08-29 10:53:43,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:47396.0
+[2017-08-29 10:53:43,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:47857.0
+[2017-08-29 10:53:44,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:48315.0
+[2017-08-29 10:53:44,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:48774.0
+[2017-08-29 10:53:45,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:49234.0
+[2017-08-29 10:53:45,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:49685.0
+[2017-08-29 10:53:46,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:50140.0
+[2017-08-29 10:53:46,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:50601.0
+[2017-08-29 10:53:47,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:51059.0
+[2017-08-29 10:53:47,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:51515.0
+[2017-08-29 10:53:48,351]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:51963.0
+[2017-08-29 10:53:48,851]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:52422.0
+[2017-08-29 10:53:49,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:52875.0
+[2017-08-29 10:53:49,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:53334.0
+[2017-08-29 10:53:50,350]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:53792.0
+[2017-08-29 10:53:50,850]  INFO {org.wso2.carbon.event.output.adapter.logger.LoggerEventAdapter} -  Unique ID: maxHumidityLogger,
+ Event: maxHumidity:53865.0
+[2017-08-29 10:53:55,920]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered....
+[2017-08-29 10:53:55,925]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Data Analytics Server...
+[2017-08-29 10:53:55,927]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode...
+[2017-08-29 10:53:55,930]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners
+[2017-08-29 10:53:55,931]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion...
+[2017-08-29 10:53:55,941]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served.
+[2017-08-29 10:53:55,941]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion...
+[2017-08-29 10:53:55,949]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Closing Root WebApplicationContext: startup date [Tue Aug 29 10:52:20 IST 2017]; root of context hierarchy
+[2017-08-29 10:53:55,951]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3066280e: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,analyticsServices,analyticsBean,analyticsExceptionMapper,analyticsIndexExceptionMapper,analyticsTableNotFoundExceptionMapper,analyticsTimeoutExceptionMapper,jacksonJsonProvider,httpHeadersOutInterceptor]; root of factory hierarchy
+[2017-08-29 10:53:55,977]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/analytics]
+[2017-08-29 10:53:55,985]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket]
+[2017-08-29 10:53:56,031]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig]
+[2017-08-29 10:53:57,803]  INFO {org.springframework.web.context.support.XmlWebApplicationContext} -  Closing Root WebApplicationContext: startup date [Tue Aug 29 10:52:22 IST 2017]; root of context hierarchy
+[2017-08-29 10:53:57,809]  INFO {org.springframework.beans.factory.support.DefaultListableBeanFactory} -  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2e8b5011: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.context.support.ServletContextPropertyPlaceholderConfigurer#0,org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer#0,services,servicesV11,servicesV10,servicesV20,basicAuthenticationFilter,sessionAuthenticationFilter]; root of factory hierarchy
+[2017-08-29 10:53:57,829]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api]
+[2017-08-29 10:53:57,839]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket]
+[2017-08-29 10:53:57,855]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ml]
+[2017-08-29 10:53:57,867]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal]
+[2017-08-29 10:53:57,867]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed.
+[2017-08-29 10:53:57,867]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion...
+[2017-08-29 10:53:57,886]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Writing logs 
+[2017-08-29 10:53:57,888]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed.
+[2017-08-29 10:53:57,888]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Data Analytics Server...
+[2017-08-29 10:53:57,888]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework...
+[2017-08-29 10:53:57,944]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} -  Binary Data Receiver server shutting down...
+[2017-08-29 10:53:57,944]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} -  Stopping Binary Server..
+[2017-08-29 10:53:57,945]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} -  Thrift server shutting down...
+[2017-08-29 10:53:57,949]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testStringInputReceiver.xml
+[2017-08-29 10:53:57,951]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testStringInputReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,951]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : testStringInputReceiver in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,952]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: DATA_RECEIVER.xml
+[2017-08-29 10:53:57,952]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: DATA_RECEIVER.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,952]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : DATA_RECEIVER in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,952]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: sensorWSO2Receiver.xml
+[2017-08-29 10:53:57,953]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: sensorWSO2Receiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,953]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : sensorWSO2Receiver in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,953]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testIntegerInputReceiver.xml
+[2017-08-29 10:53:57,954]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testIntegerInputReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,954]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : testIntegerInputReceiver in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,954]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testReceiver.xml
+[2017-08-29 10:53:57,955]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,955]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : testReceiver in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,955]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event Receiver undeployed successfully: testIntgerReceiver.xml
+[2017-08-29 10:53:57,956]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} -  Event receiver deployment held back and in inactive state: testIntgerReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2017-08-29 10:53:57,956]  INFO {org.wso2.carbon.event.receiver.core.internal.CarbonEventReceiverService} -  Event receiver : testIntgerReceiver in inactive state because dependency could not be found: wso2event
+[2017-08-29 10:53:57,968]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testOutputPublisher.xml
+[2017-08-29 10:53:57,970]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : testOutputPublisher.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,970]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : testOutputPublisher  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,970]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testIntegerInputPublisher.xml
+[2017-08-29 10:53:57,971]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : testIntegerInputPublisher.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,971]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : testIntegerInputPublisher  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,971]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : humidityLogger.xml
+[2017-08-29 10:53:57,972]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : humidityLogger.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,972]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : humidityLogger  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,972]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : usage_publisher.xml
+[2017-08-29 10:53:57,973]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : usage_publisher.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,973]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : usage_publisher  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,973]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : maxHumidityLogger.xml
+[2017-08-29 10:53:57,974]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : maxHumidityLogger.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,974]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : maxHumidityLogger  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,974]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : testIntgerCardinalityPublisher.xml
+[2017-08-29 10:53:57,975]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : testIntgerCardinalityPublisher.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,975]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : testIntgerCardinalityPublisher  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,975]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher undeployed successfully : DATA_PUBLISHER.xml
+[2017-08-29 10:53:57,976]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} -  Event Publisher deployment held back and in inactive state : DATA_PUBLISHER.xml, waiting for Output Event Adapter dependency : logger
+[2017-08-29 10:53:57,976]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} -  Event publisher : DATA_PUBLISHER  is in inactive state because dependency could not be found : logger
+[2017-08-29 10:53:57,998]  INFO {org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService} -  Successfully shutdown ExecutionPlans
+[2017-08-29 10:53:58,001]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager...
+[2017-08-29 10:54:00,292]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /
+[2017-08-29 10:54:00,322]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Stopped JDBC reporter for Metrics
+[2017-08-29 10:54:00,323]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} -  Stopped JMX reporter for Metrics
+[2017-08-29 10:54:02,510]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete
+[2017-08-29 10:54:02,511]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM

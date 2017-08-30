@@ -1,0 +1,14 @@
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 108978 milliseconds with total throughput of 918 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107809 milliseconds with total throughput of 928 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107656 milliseconds with total throughput of 929 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107633 milliseconds with total throughput of 929 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107889 milliseconds with total throughput of 927 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107841 milliseconds with total throughput of 927 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 107838 milliseconds with total throughput of 927 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 108106 milliseconds with total throughput of 925 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 108238 milliseconds with total throughput of 924 events per second.
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 100000 sensor events in 108122 milliseconds with total throughput of 925 events per second.
+     [java] EVENT SENDING FINISHED.................
+     [java] TOTAL NO OF EVENTS : 1000000
+     [java] FILTERED NO OF EVENTS : 600480
+
