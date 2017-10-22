@@ -1,0 +1,322 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+init:
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:81: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] user admin connected
+     [java] count : 267
+     [java] Event: avgHumidity : 1980.947565543071, count : 267, timestamp : 1508648933009
+     [java] eventCount : 0
+     [java] count : 200
+     [java] Event: avgHumidity : 2058.655, count : 200, timestamp : 1508648933176
+     [java] eventCount : 1
+     [java] count : 146
+     [java] Event: avgHumidity : 2064.753424657534, count : 146, timestamp : 1508648933387
+     [java] eventCount : 2
+     [java] count : 187
+     [java] Event: avgHumidity : 2043.1764705882354, count : 187, timestamp : 1508648933615
+     [java] eventCount : 3
+     [java] count : 300
+     [java] Event: avgHumidity : 2023.14, count : 300, timestamp : 1508648933783
+     [java] eventCount : 4
+     [java] count : 309
+     [java] Event: avgHumidity : 1985.7669902912621, count : 309, timestamp : 1508648934058
+     [java] eventCount : 5
+     [java] count : 289
+     [java] Event: avgHumidity : 2055.1487889273358, count : 289, timestamp : 1508648934259
+     [java] eventCount : 6
+     [java] user admin disconnected
+     [java] count : 304
+     [java] Event: avgHumidity : 2045.7467105263158, count : 304, timestamp : 1508648934469
+     [java] eventCount : 7
+     [java] count : 316
+     [java] Event: avgHumidity : 1888.9746835443038, count : 316, timestamp : 1508648934625
+     [java] eventCount : 8
+     [java] count : 305
+     [java] Event: avgHumidity : 2013.5672131147542, count : 305, timestamp : 1508648934782
+     [java] eventCount : 9
+     [java] count : 297
+     [java] Event: avgHumidity : 1999.4646464646464, count : 297, timestamp : 1508648934925
+     [java] eventCount : 10
+     [java] count : 316
+     [java] Event: avgHumidity : 1993.0253164556962, count : 316, timestamp : 1508648935068
+     [java] eventCount : 11
+     [java] count : 311
+     [java] Event: avgHumidity : 1996.0996784565916, count : 311, timestamp : 1508648935211
+     [java] eventCount : 12
+     [java] count : 289
+     [java] count : 206
+     [java] count : 139
+     [java] count : 110
+     [java] count : 92
+     [java] count : 79
+     [java] count : 45
+     [java] count : 36
+     [java] count : 22
+     [java] count : 122
+     [java] count : 98
+     [java] count : 90
+     [java] count : 70
+     [java] Event: avgHumidity : 2128.5121107266436, count : 289, timestamp : 1508648935356
+     [java] eventCount : 13
+     [java] Event: avgHumidity : 1962.8009708737864, count : 206, timestamp : 1508648935501
+     [java] eventCount : 14
+     [java] Event: avgHumidity : 2021.4244604316548, count : 139, timestamp : 1508648935645
+     [java] eventCount : 15
+     [java] Event: avgHumidity : 1895.490909090909, count : 110, timestamp : 1508648935787
+     [java] eventCount : 16
+     [java] Event: avgHumidity : 1804.5326086956522, count : 92, timestamp : 1508648935933
+     [java] eventCount : 17
+     [java] Event: avgHumidity : 1814.3291139240507, count : 79, timestamp : 1508648936075
+     [java] eventCount : 18
+     [java] Event: avgHumidity : 2189.9333333333334, count : 45, timestamp : 1508648936219
+     [java] eventCount : 19
+     [java] Event: avgHumidity : 2028.5, count : 36, timestamp : 1508648936377
+     [java] eventCount : 20
+     [java] Event: avgHumidity : 2093.090909090909, count : 22, timestamp : 1508648936526
+     [java] eventCount : 21
+     [java] Event: avgHumidity : 2066.8688524590166, count : 122, timestamp : 1508648936684
+     [java] eventCount : 22
+     [java] Event: avgHumidity : 2008.5, count : 98, timestamp : 1508648936826
+     [java] eventCount : 23
+     [java] Event: avgHumidity : 2183.9777777777776, count : 90, timestamp : 1508648936969
+     [java] eventCount : 24
+     [java] Event: avgHumidity : 2046.2714285714285, count : 70, timestamp : 1508648937120
+     [java] eventCount : 25
+     [java] count : 50
+     [java] Event: avgHumidity : 1969.46, count : 50, timestamp : 1508648937263
+     [java] eventCount : 26
+     [java] count : 37
+     [java] Event: avgHumidity : 1873.4054054054054, count : 37, timestamp : 1508648937407
+     [java] eventCount : 27
+     [java] count : 25
+     [java] Event: avgHumidity : 2091.32, count : 25, timestamp : 1508648937551
+     [java] eventCount : 28
+     [java] count : 19
+     [java] Event: avgHumidity : 2399.842105263158, count : 19, timestamp : 1508648937704
+     [java] eventCount : 29
+     [java] count : 17
+     [java] Event: avgHumidity : 1454.0, count : 17, timestamp : 1508648937819
+     [java] eventCount : 30
+     [java] count : 12
+     [java] Event: avgHumidity : 2309.5833333333335, count : 12, timestamp : 1508648938001
+     [java] eventCount : 31
+     [java] count : 11
+     [java] Event: avgHumidity : 2661.090909090909, count : 11, timestamp : 1508648938149
+     [java] eventCount : 32
+     [java] count : 5
+     [java] count : 60
+     [java] count : 97
+     [java] count : 74
+     [java] count : 49
+     [java] count : 47
+     [java] count : 24
+     [java] count : 17
+     [java] count : 17
+     [java] count : 18
+     [java] count : 6
+     [java] count : 5
+     [java] count : 4
+     [java] count : 1
+     [java] count : 214
+     [java] Event: avgHumidity : 1419.4, count : 5, timestamp : 1508648938302
+     [java] eventCount : 33
+     [java] Event: avgHumidity : 2032.2333333333333, count : 60, timestamp : 1508648938467
+     [java] eventCount : 34
+     [java] Event: avgHumidity : 1931.1546391752577, count : 97, timestamp : 1508648938622
+     [java] eventCount : 35
+     [java] Event: avgHumidity : 1971.9324324324325, count : 74, timestamp : 1508648938773
+     [java] eventCount : 36
+     [java] Event: avgHumidity : 1879.061224489796, count : 49, timestamp : 1508648938923
+     [java] eventCount : 37
+     [java] Event: avgHumidity : 1757.4255319148936, count : 47, timestamp : 1508648939061
+     [java] eventCount : 38
+     [java] Event: avgHumidity : 1798.75, count : 24, timestamp : 1508648939188
+     [java] eventCount : 39
+     [java] Event: avgHumidity : 1792.2941176470588, count : 17, timestamp : 1508648939354
+     [java] eventCount : 40
+     [java] Event: avgHumidity : 1960.4117647058824, count : 17, timestamp : 1508648939483
+     [java] eventCount : 41
+     [java] Event: avgHumidity : 2151.722222222222, count : 18, timestamp : 1508648939631
+     [java] eventCount : 42
+     [java] Event: avgHumidity : 2277.6666666666665, count : 6, timestamp : 1508648939758
+     [java] eventCount : 43
+     [java] Event: avgHumidity : 2254.4, count : 5, timestamp : 1508648939839
+     [java] eventCount : 44
+     [java] Event: avgHumidity : 2811.5, count : 4, timestamp : 1508648940043
+     [java] eventCount : 45
+     [java] Event: avgHumidity : 2616.0, count : 1, timestamp : 1508648940105
+     [java] eventCount : 46
+     [java] Event: avgHumidity : 2012.5467289719627, count : 214, timestamp : 1508648940329
+     [java] eventCount : 47
+     [java] count : 197
+     [java] Event: avgHumidity : 2035.6345177664975, count : 197, timestamp : 1508648940464
+     [java] eventCount : 48
+     [java] count : 160
+     [java] count : 136
+     [java] count : 87
+     [java] count : 59
+     [java] count : 95
+     [java] Event: avgHumidity : 1889.25, count : 160, timestamp : 1508648940608
+     [java] eventCount : 49
+     [java] Event: avgHumidity : 2052.8970588235293, count : 136, timestamp : 1508648940759
+     [java] eventCount : 50
+     [java] Event: avgHumidity : 1932.7586206896551, count : 87, timestamp : 1508648940905
+     [java] eventCount : 51
+     [java] Event: avgHumidity : 1919.3559322033898, count : 59, timestamp : 1508648941047
+     [java] eventCount : 52
+     [java] Event: avgHumidity : 1995.1368421052632, count : 95, timestamp : 1508648941191
+     [java] eventCount : 53
+     [java] count : 257
+     [java] Event: avgHumidity : 1975.591439688716, count : 257, timestamp : 1508648941333
+     [java] eventCount : 54
+     [java] count : 181
+     [java] count : 122
+     [java] count : 104
+     [java] count : 66
+     [java] count : 58
+     [java] Event: avgHumidity : 1934.0497237569061, count : 181, timestamp : 1508648941476
+     [java] eventCount : 55
+     [java] Event: avgHumidity : 1730.877049180328, count : 122, timestamp : 1508648941620
+     [java] eventCount : 56
+     [java] Event: avgHumidity : 1809.4423076923076, count : 104, timestamp : 1508648941763
+     [java] eventCount : 57
+     [java] Event: avgHumidity : 2230.9545454545455, count : 66, timestamp : 1508648941906
+     [java] eventCount : 58
+     [java] Event: avgHumidity : 1912.396551724138, count : 58, timestamp : 1508648942046
+     [java] eventCount : 59
+     [java] count : 238
+     [java] Event: avgHumidity : 2054.7100840336134, count : 238, timestamp : 1508648942196
+     [java] eventCount : 60
+     [java] count : 224
+     [java] Event: avgHumidity : 2129.8571428571427, count : 224, timestamp : 1508648942345
+     [java] eventCount : 61
+     [java] count : 153
+     [java] count : 127
+     [java] count : 95
+     [java] count : 65
+     [java] Event: avgHumidity : 2066.8888888888887, count : 153, timestamp : 1508648942486
+     [java] eventCount : 62
+     [java] Event: avgHumidity : 1920.1653543307086, count : 127, timestamp : 1508648942625
+     [java] eventCount : 63
+     [java] Event: avgHumidity : 1928.7894736842106, count : 95, timestamp : 1508648942763
+     [java] eventCount : 64
+     [java] Event: avgHumidity : 2262.1384615384613, count : 65, timestamp : 1508648942898
+     [java] eventCount : 65
+     [java] count : 106
+     [java] Event: avgHumidity : 2091.754716981132, count : 106, timestamp : 1508648943044
+     [java] eventCount : 66
+     [java] count : 278
+     [java] Event: avgHumidity : 1927.8453237410072, count : 278, timestamp : 1508648943181
+     [java] eventCount : 67
+     [java] count : 262
+     [java] count : 189
+     [java] count : 134
+     [java] Event: avgHumidity : 2061.538167938931, count : 262, timestamp : 1508648943319
+     [java] eventCount : 68
+     [java] Event: avgHumidity : 1969.8941798941798, count : 189, timestamp : 1508648943454
+     [java] eventCount : 69
+     [java] Event: avgHumidity : 1816.2910447761194, count : 134, timestamp : 1508648943597
+     [java] eventCount : 70
+     [java] count : 106
+     [java] Event: avgHumidity : 2091.198113207547, count : 106, timestamp : 1508648943737
+     [java] eventCount : 71
+     [java] count : 86
+     [java] Event: avgHumidity : 1891.5116279069769, count : 86, timestamp : 1508648943880
+     [java] eventCount : 72
+     [java] count : 55
+     [java] Event: avgHumidity : 2096.6545454545453, count : 55, timestamp : 1508648944023
+     [java] eventCount : 73
+     [java] count : 188
+     [java] Event: avgHumidity : 1977.7659574468084, count : 188, timestamp : 1508648944164
+     [java] eventCount : 74
+     [java] count : 283
+     [java] count : 228
+     [java] count : 208
+     [java] count : 150
+     [java] count : 113
+     [java] count : 80
+     [java] count : 56
+     [java] Event: avgHumidity : 2056.4558303886924, count : 283, timestamp : 1508648944301
+     [java] eventCount : 75
+     [java] Event: avgHumidity : 1974.1491228070176, count : 228, timestamp : 1508648944440
+     [java] eventCount : 76
+     [java] Event: avgHumidity : 1989.8221153846155, count : 208, timestamp : 1508648944579
+     [java] eventCount : 77
+     [java] Event: avgHumidity : 1925.6266666666668, count : 150, timestamp : 1508648944718
+     [java] eventCount : 78
+     [java] Event: avgHumidity : 2153.6548672566373, count : 113, timestamp : 1508648944856
+     [java] eventCount : 79
+     [java] Event: avgHumidity : 1988.3875, count : 80, timestamp : 1508648944992
+     [java] eventCount : 80
+     [java] Event: avgHumidity : 2027.4642857142858, count : 56, timestamp : 1508648945135
+     [java] eventCount : 81
+     [java] count : 174
+     [java] Event: avgHumidity : 2105.862068965517, count : 174, timestamp : 1508648945273
+     [java] eventCount : 82
+     [java] count : 306
+     [java] count : 227
+     [java] count : 187
+     [java] count : 130
+     [java] count : 84
+     [java] count : 60
+     [java] count : 60
+     [java] Event: avgHumidity : 2076.4607843137255, count : 306, timestamp : 1508648945411
+     [java] eventCount : 83
+     [java] Event: avgHumidity : 2079.246696035242, count : 227, timestamp : 1508648945549
+     [java] eventCount : 84
+     [java] Event: avgHumidity : 1856.8181818181818, count : 187, timestamp : 1508648945687
+     [java] eventCount : 85
+     [java] Event: avgHumidity : 2079.107692307692, count : 130, timestamp : 1508648945825
+     [java] eventCount : 86
+     [java] Event: avgHumidity : 2061.6190476190477, count : 84, timestamp : 1508648945963
+     [java] eventCount : 87
+     [java] Event: avgHumidity : 1848.3166666666666, count : 60, timestamp : 1508648946099
+     [java] eventCount : 88
+     [java] Event: avgHumidity : 1973.55, count : 60, timestamp : 1508648946240
+     [java] eventCount : 89
+     [java] count : 266
+     [java] count : 259
+     [java] count : 195
+     [java] count : 127
+     [java] count : 129
+     [java] count : 76
+     [java] count : 53
+     [java] Event: avgHumidity : 1980.2593984962407, count : 266, timestamp : 1508648946379
+     [java] eventCount : 90
+     [java] Event: avgHumidity : 1845.2625482625483, count : 259, timestamp : 1508648946518
+     [java] eventCount : 91
+     [java] Event: avgHumidity : 1993.4923076923078, count : 195, timestamp : 1508648946656
+     [java] eventCount : 92
+     [java] Event: avgHumidity : 1939.6850393700788, count : 127, timestamp : 1508648946799
+     [java] eventCount : 93
+     [java] Event: avgHumidity : 1998.6821705426357, count : 129, timestamp : 1508648946933
+     [java] eventCount : 94
+     [java] Event: avgHumidity : 1934.3157894736842, count : 76, timestamp : 1508648947071
+     [java] eventCount : 95
+     [java] Event: avgHumidity : 1680.132075471698, count : 53, timestamp : 1508648947207
+     [java] eventCount : 96
+     [java] count : 150
+     [java] Event: avgHumidity : 2018.1733333333334, count : 150, timestamp : 1508648947348
+     [java] eventCount : 97
+     [java] count : 309
+     [java] Event: avgHumidity : 1993.6537216828478, count : 309, timestamp : 1508648947483
+     [java] eventCount : 98
+     [java] count : 247
+     [java] Event: avgHumidity : 2004.259109311741, count : 247, timestamp : 1508648947622
+     [java] eventCount : 99

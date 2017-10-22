@@ -1,0 +1,9 @@
+ if (Math.abs(queueFillage - 1) < 0.001) {
+                            accuracy = 0;
+////                            System.out.println("ac : 0");
+                        } else {
+                            accuracy = Math.floor((0.5 - 0.5*(Math.floor(queueFillage * 10) / 10.0)) * 1000) / 1000.0;
+//                            accuracy = Math.floor((1 - queueFillage) * 1000) / 1000.0;
+//                            accuracy = Math.floor((1.5 - (2 * (Math.ceil(queueFillage * 10) / 10.0))) * 1000) / 1000.0;
+//                              accuracy = 0.4;
+                        }

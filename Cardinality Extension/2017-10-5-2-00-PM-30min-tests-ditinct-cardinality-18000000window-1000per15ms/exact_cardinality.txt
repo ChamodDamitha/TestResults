@@ -1,0 +1,206 @@
+Started recording 1. The result will be written to:
+
+/home/chamod/Approximate_Computing/git/siddhi-benchmarks/filter-4.0.0-M20/distinct-cardinality-test-5-10-2017.jfr
+recevied i : 0
+Event : timestamp : 1507192379591, cardinality : 1
+sent i : 0
+recevied i : 1000000
+Event : timestamp : 1507192396422, cardinality : 1000000
+sent i : 1000000
+recevied i : 2000000
+Event : timestamp : 1507192413693, cardinality : 2000000
+sent i : 2000000
+recevied i : 3000000
+Event : timestamp : 1507192430234, cardinality : 3000000
+sent i : 3000000
+recevied i : 4000000
+Event : timestamp : 1507192447718, cardinality : 4000000
+sent i : 4000000
+recevied i : 5000000
+Event : timestamp : 1507192464245, cardinality : 5000000
+sent i : 5000000
+recevied i : 6000000
+Event : timestamp : 1507192481783, cardinality : 6000000
+sent i : 6000000
+recevied i : 7000000
+Event : timestamp : 1507192498348, cardinality : 7000000
+sent i : 7000000
+recevied i : 8000000
+Event : timestamp : 1507192515773, cardinality : 8000000
+sent i : 8000000
+recevied i : 9000000
+Event : timestamp : 1507192532290, cardinality : 9000000
+sent i : 9000000
+recevied i : 10000000
+Event : timestamp : 1507192550348, cardinality : 10000000
+sent i : 10000000
+recevied i : 11000000
+Event : timestamp : 1507192566898, cardinality : 11000000
+sent i : 11000000
+recevied i : 12000000
+Event : timestamp : 1507192584723, cardinality : 12000000
+sent i : 12000000
+recevied i : 13000000
+Event : timestamp : 1507192602411, cardinality : 13000000
+sent i : 13000000
+recevied i : 14000000
+Event : timestamp : 1507192619505, cardinality : 14000000
+sent i : 14000000
+recevied i : 15000000
+Event : timestamp : 1507192636818, cardinality : 15000000
+sent i : 15000000
+recevied i : 16000000
+Event : timestamp : 1507192677511, cardinality : 16000000
+sent i : 16000000
+recevied i : 17000000
+Event : timestamp : 1507192701377, cardinality : 17000000
+sent i : 17000000
+recevied i : 18000000
+Event : timestamp : 1507192725642, cardinality : 18000000
+sent i : 18000000
+recevied i : 19000000
+Event : timestamp : 1507192751260, cardinality : 18000000
+sent i : 19000000
+recevied i : 20000000
+Event : timestamp : 1507192785460, cardinality : 18000000
+sent i : 20000000
+recevied i : 21000000
+Event : timestamp : 1507192820031, cardinality : 18000000
+sent i : 21000000
+recevied i : 22000000
+Event : timestamp : 1507192844492, cardinality : 18000000
+sent i : 22000000
+recevied i : 23000000
+Event : timestamp : 1507192876917, cardinality : 18000000
+sent i : 23000000
+recevied i : 24000000
+Event : timestamp : 1507192909259, cardinality : 18000000
+sent i : 24000000
+recevied i : 25000000
+Event : timestamp : 1507192941565, cardinality : 18000000
+sent i : 25000000
+recevied i : 26000000
+Event : timestamp : 1507192966039, cardinality : 18000000
+sent i : 26000000
+recevied i : 27000000
+Event : timestamp : 1507192998937, cardinality : 18000000
+sent i : 27000000
+recevied i : 28000000
+Event : timestamp : 1507193031601, cardinality : 18000000
+sent i : 28000000
+recevied i : 29000000
+Event : timestamp : 1507193056719, cardinality : 18000000
+sent i : 29000000
+recevied i : 30000000
+Event : timestamp : 1507193088617, cardinality : 18000000
+sent i : 30000000
+recevied i : 31000000
+Event : timestamp : 1507193121951, cardinality : 18000000
+sent i : 31000000
+recevied i : 32000000
+Event : timestamp : 1507193146586, cardinality : 18000000
+sent i : 32000000
+recevied i : 33000000
+Event : timestamp : 1507193179033, cardinality : 18000000
+sent i : 33000000
+recevied i : 34000000
+Event : timestamp : 1507193212102, cardinality : 18000000
+sent i : 34000000
+recevied i : 35000000
+Event : timestamp : 1507193237217, cardinality : 18000000
+sent i : 35000000
+recevied i : 36000000
+Event : timestamp : 1507193269418, cardinality : 18000000
+sent i : 36000000
+recevied i : 37000000
+Event : timestamp : 1507193302158, cardinality : 18000000
+sent i : 37000000
+recevied i : 38000000
+Event : timestamp : 1507193327153, cardinality : 18000000
+sent i : 38000000
+recevied i : 39000000
+Event : timestamp : 1507193359875, cardinality : 18000000
+sent i : 39000000
+recevied i : 40000000
+Event : timestamp : 1507193392458, cardinality : 18000000
+sent i : 40000000
+recevied i : 41000000
+Event : timestamp : 1507193417215, cardinality : 18000000
+sent i : 41000000
+recevied i : 42000000
+Event : timestamp : 1507193450252, cardinality : 18000000
+sent i : 42000000
+recevied i : 43000000
+Event : timestamp : 1507193483289, cardinality : 18000000
+sent i : 43000000
+recevied i : 44000000
+Event : timestamp : 1507193508696, cardinality : 18000000
+sent i : 44000000
+recevied i : 45000000
+Event : timestamp : 1507193541613, cardinality : 18000000
+sent i : 45000000
+recevied i : 46000000
+Event : timestamp : 1507193574048, cardinality : 18000000
+sent i : 46000000
+recevied i : 47000000
+Event : timestamp : 1507193606762, cardinality : 18000000
+sent i : 47000000
+recevied i : 48000000
+Event : timestamp : 1507193632082, cardinality : 18000000
+sent i : 48000000
+recevied i : 49000000
+Event : timestamp : 1507193663903, cardinality : 18000000
+sent i : 49000000
+recevied i : 50000000
+Event : timestamp : 1507193695743, cardinality : 18000000
+sent i : 50000000
+recevied i : 51000000
+Event : timestamp : 1507193720096, cardinality : 18000000
+sent i : 51000000
+recevied i : 52000000
+Event : timestamp : 1507193751926, cardinality : 18000000
+sent i : 52000000
+recevied i : 53000000
+Event : timestamp : 1507193783510, cardinality : 18000000
+sent i : 53000000
+recevied i : 54000000
+Event : timestamp : 1507193807570, cardinality : 18000000
+sent i : 54000000
+recevied i : 55000000
+Event : timestamp : 1507193838993, cardinality : 18000000
+sent i : 55000000
+recevied i : 56000000
+Event : timestamp : 1507193870638, cardinality : 18000000
+sent i : 56000000
+recevied i : 57000000
+Event : timestamp : 1507193894769, cardinality : 18000000
+sent i : 57000000
+recevied i : 58000000
+Event : timestamp : 1507193927104, cardinality : 18000000
+sent i : 58000000
+recevied i : 59000000
+Event : timestamp : 1507193959357, cardinality : 18000000
+sent i : 59000000
+recevied i : 60000000
+Event : timestamp : 1507193983583, cardinality : 18000000
+sent i : 60000000
+recevied i : 61000000
+Event : timestamp : 1507194015257, cardinality : 18000000
+sent i : 61000000
+recevied i : 62000000
+Event : timestamp : 1507194046812, cardinality : 18000000
+sent i : 62000000
+recevied i : 63000000
+Event : timestamp : 1507194071221, cardinality : 18000000
+sent i : 63000000
+recevied i : 64000000
+Event : timestamp : 1507194102880, cardinality : 18000000
+sent i : 64000000
+recevied i : 65000000
+Event : timestamp : 1507194135209, cardinality : 18000000
+sent i : 65000000
+recevied i : 66000000
+Event : timestamp : 1507194167437, cardinality : 18000000
+sent i : 66000000
+Exit flag set.
+Done the experiment. Exitting the benchmark.

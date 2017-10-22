@@ -1,0 +1,15 @@
+ if (Math.abs(queueFillage - 1) < 0.001) {
+                        accuracy = 0;
+////                            System.out.println("ac : 0");
+                    } else {
+                        if (droppedBatch) {
+                            dropFactor -= 0.1;
+                            droppedBatch = false;
+                        } else {
+                            dropFactor = 0.5;
+                        }
+                        accuracy = Math.floor(1000 * dropFactor * (1 - queueFillage)) / 1000.0;
+////                            accuracy = Math.floor((1 - queueFillage) * 1000) / 1000.0;
+////                            accuracy = Math.floor((1.5 - (2 * (Math.ceil(queueFillage * 10) / 10.0))) * 1000) / 1000.0;
+////                              accuracy = 0.4;
+                    }

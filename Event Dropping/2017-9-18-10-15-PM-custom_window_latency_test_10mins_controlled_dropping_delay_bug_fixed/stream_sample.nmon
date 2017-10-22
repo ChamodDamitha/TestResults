@@ -1,0 +1,420 @@
+AAA,progname,nmon_x86_64_ubuntu1104
+AAA,command,./nmon_x86_64_ubuntu1104 -f -c 900 -F stream_sample.nmon 0s 1 
+AAA,version,14g
+AAA,disks_per_line,150
+AAA,max_disks,256,set by -d option
+AAA,disks,4,
+AAA,host,wso2-ThinkPad-T530
+AAA,user,chamod
+AAA,OS,Linux,4.4.0-93-generic,#116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017,x86_64
+AAA,runname,wso2-ThinkPad-T530
+AAA,time,10:09.59
+AAA,date,18-SEP-2017
+AAA,interval,300
+AAA,snapshots,900
+AAA,cpus,4
+AAA,proc_stat_variables,8
+AAA,note0, Warning - use the UNIX sort command to order this file before loading into a spreadsheet
+AAA,note1, The First Column is simply to get the output sorted in the right order
+AAA,note2, The T0001-T9999 column is a snapshot number. To work out the actual time; see the ZZZ section at the end
+CPU001,CPU 1 wso2-ThinkPad-T530,User%,Sys%,Wait%,Idle%
+CPU002,CPU 2 wso2-ThinkPad-T530,User%,Sys%,Wait%,Idle%
+CPU003,CPU 3 wso2-ThinkPad-T530,User%,Sys%,Wait%,Idle%
+CPU004,CPU 4 wso2-ThinkPad-T530,User%,Sys%,Wait%,Idle%
+CPU_ALL,CPU Total wso2-ThinkPad-T530,User%,Sys%,Wait%,Idle%,Busy,CPUs
+MEM,Memory MB wso2-ThinkPad-T530,memtotal,hightotal,lowtotal,swaptotal,memfree,highfree,lowfree,swapfree,memshared,cached,active,bigfree,buffers,swapcached,inactive
+PROC,Processes wso2-ThinkPad-T530,Runnable,Blocked,pswitch,syscall,read,write,fork,exec,sem,msg
+NET,Network I/O wso2-ThinkPad-T530,wlp3s0-read-KB/s,lo-read-KB/s,enp0s25-read-KB/s,wlp3s0-write-KB/s,lo-write-KB/s,enp0s25-write-KB/s,
+NETPACKET,Network Packets wso2-ThinkPad-T530,wlp3s0-read/s,lo-read/s,enp0s25-read/s,wlp3s0-write/s,lo-write/s,enp0s25-write/s,
+DISKBUSY,Disk %Busy wso2-ThinkPad-T530,sda,sda1,sda2,sda5
+DISKREAD,Disk Read KB/s wso2-ThinkPad-T530,sda,sda1,sda2,sda5
+DISKWRITE,Disk Write KB/s wso2-ThinkPad-T530,sda,sda1,sda2,sda5
+DISKXFER,Disk transfers per second wso2-ThinkPad-T530,sda,sda1,sda2,sda5
+DISKBSIZE,Disk Block Size wso2-ThinkPad-T530,sda,sda1,sda2,sda5
+DGBUSY,Disk Group Busy wso2-ThinkPad-T530
+DGREAD,Disk Group Read KB/s wso2-ThinkPad-T530
+DGWRITE,Disk Group Write KB/s wso2-ThinkPad-T530
+DGSIZE,Disk Group Block Size KB wso2-ThinkPad-T530
+DGXFER,Disk Group Transfers/s wso2-ThinkPad-T530
+JFSFILE,JFS Filespace %Used wso2-ThinkPad-T530,/dev,/run,/,/run/lock,/dev/mqueue,/dev/hugepages,/run/user/1001,/run/user/1001/gvfs
+BBBP,000,/etc/release
+BBBP,001,/etc/release,"DISTRIB_ID=Ubuntu"
+BBBP,002,/etc/release,"DISTRIB_RELEASE=16.04"
+BBBP,003,/etc/release,"DISTRIB_CODENAME=xenial"
+BBBP,004,/etc/release,"DISTRIB_DESCRIPTION="Ubuntu 16.04.3 LTS""
+BBBP,005,/etc/release,"NAME="Ubuntu""
+BBBP,006,/etc/release,"VERSION="16.04.3 LTS (Xenial Xerus)""
+BBBP,007,/etc/release,"ID=ubuntu"
+BBBP,008,/etc/release,"ID_LIKE=debian"
+BBBP,009,/etc/release,"PRETTY_NAME="Ubuntu 16.04.3 LTS""
+BBBP,010,/etc/release,"VERSION_ID="16.04""
+BBBP,011,/etc/release,"HOME_URL="http://www.ubuntu.com/""
+BBBP,012,/etc/release,"SUPPORT_URL="http://help.ubuntu.com/""
+BBBP,013,/etc/release,"BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/""
+BBBP,014,/etc/release,"VERSION_CODENAME=xenial"
+BBBP,015,/etc/release,"UBUNTU_CODENAME=xenial"
+BBBP,016,lsb_release
+BBBP,017,lsb_release,"Distributor ID:	Ubuntu"
+BBBP,018,lsb_release,"Description:	Ubuntu 16.04.3 LTS"
+BBBP,019,lsb_release,"Release:	16.04"
+BBBP,020,lsb_release,"Codename:	xenial"
+BBBP,021,fdisk-l
+BBBP,022,/proc/cpuinfo
+BBBP,023,/proc/cpuinfo,"processor	: 0"
+BBBP,024,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,025,/proc/cpuinfo,"cpu family	: 6"
+BBBP,026,/proc/cpuinfo,"model		: 58"
+BBBP,027,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz"
+BBBP,028,/proc/cpuinfo,"stepping	: 9"
+BBBP,029,/proc/cpuinfo,"microcode	: 0x16"
+BBBP,030,/proc/cpuinfo,"cpu MHz		: 3401.609"
+BBBP,031,/proc/cpuinfo,"cache size	: 4096 KB"
+BBBP,032,/proc/cpuinfo,"physical id	: 0"
+BBBP,033,/proc/cpuinfo,"siblings	: 4"
+BBBP,034,/proc/cpuinfo,"core id		: 0"
+BBBP,035,/proc/cpuinfo,"cpu cores	: 2"
+BBBP,036,/proc/cpuinfo,"apicid		: 0"
+BBBP,037,/proc/cpuinfo,"initial apicid	: 0"
+BBBP,038,/proc/cpuinfo,"fpu		: yes"
+BBBP,039,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,040,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,041,/proc/cpuinfo,"wp		: yes"
+BBBP,042,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts"
+BBBP,043,/proc/cpuinfo,"bugs		:"
+BBBP,044,/proc/cpuinfo,"bogomips	: 5786.62"
+BBBP,045,/proc/cpuinfo,"clflush size	: 64"
+BBBP,046,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,047,/proc/cpuinfo,"address sizes	: 36 bits physical, 48 bits virtual"
+BBBP,048,/proc/cpuinfo,"power management:"
+BBBP,049,/proc/cpuinfo,""
+BBBP,050,/proc/cpuinfo,"processor	: 1"
+BBBP,051,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,052,/proc/cpuinfo,"cpu family	: 6"
+BBBP,053,/proc/cpuinfo,"model		: 58"
+BBBP,054,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz"
+BBBP,055,/proc/cpuinfo,"stepping	: 9"
+BBBP,056,/proc/cpuinfo,"microcode	: 0x16"
+BBBP,057,/proc/cpuinfo,"cpu MHz		: 2477.121"
+BBBP,058,/proc/cpuinfo,"cache size	: 4096 KB"
+BBBP,059,/proc/cpuinfo,"physical id	: 0"
+BBBP,060,/proc/cpuinfo,"siblings	: 4"
+BBBP,061,/proc/cpuinfo,"core id		: 0"
+BBBP,062,/proc/cpuinfo,"cpu cores	: 2"
+BBBP,063,/proc/cpuinfo,"apicid		: 1"
+BBBP,064,/proc/cpuinfo,"initial apicid	: 1"
+BBBP,065,/proc/cpuinfo,"fpu		: yes"
+BBBP,066,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,067,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,068,/proc/cpuinfo,"wp		: yes"
+BBBP,069,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts"
+BBBP,070,/proc/cpuinfo,"bugs		:"
+BBBP,071,/proc/cpuinfo,"bogomips	: 5786.62"
+BBBP,072,/proc/cpuinfo,"clflush size	: 64"
+BBBP,073,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,074,/proc/cpuinfo,"address sizes	: 36 bits physical, 48 bits virtual"
+BBBP,075,/proc/cpuinfo,"power management:"
+BBBP,076,/proc/cpuinfo,""
+BBBP,077,/proc/cpuinfo,"processor	: 2"
+BBBP,078,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,079,/proc/cpuinfo,"cpu family	: 6"
+BBBP,080,/proc/cpuinfo,"model		: 58"
+BBBP,081,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz"
+BBBP,082,/proc/cpuinfo,"stepping	: 9"
+BBBP,083,/proc/cpuinfo,"microcode	: 0x16"
+BBBP,084,/proc/cpuinfo,"cpu MHz		: 3460.289"
+BBBP,085,/proc/cpuinfo,"cache size	: 4096 KB"
+BBBP,086,/proc/cpuinfo,"physical id	: 0"
+BBBP,087,/proc/cpuinfo,"siblings	: 4"
+BBBP,088,/proc/cpuinfo,"core id		: 1"
+BBBP,089,/proc/cpuinfo,"cpu cores	: 2"
+BBBP,090,/proc/cpuinfo,"apicid		: 2"
+BBBP,091,/proc/cpuinfo,"initial apicid	: 2"
+BBBP,092,/proc/cpuinfo,"fpu		: yes"
+BBBP,093,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,094,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,095,/proc/cpuinfo,"wp		: yes"
+BBBP,096,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts"
+BBBP,097,/proc/cpuinfo,"bugs		:"
+BBBP,098,/proc/cpuinfo,"bogomips	: 5786.62"
+BBBP,099,/proc/cpuinfo,"clflush size	: 64"
+BBBP,100,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,101,/proc/cpuinfo,"address sizes	: 36 bits physical, 48 bits virtual"
+BBBP,102,/proc/cpuinfo,"power management:"
+BBBP,103,/proc/cpuinfo,""
+BBBP,104,/proc/cpuinfo,"processor	: 3"
+BBBP,105,/proc/cpuinfo,"vendor_id	: GenuineIntel"
+BBBP,106,/proc/cpuinfo,"cpu family	: 6"
+BBBP,107,/proc/cpuinfo,"model		: 58"
+BBBP,108,/proc/cpuinfo,"model name	: Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz"
+BBBP,109,/proc/cpuinfo,"stepping	: 9"
+BBBP,110,/proc/cpuinfo,"microcode	: 0x16"
+BBBP,111,/proc/cpuinfo,"cpu MHz		: 3402.402"
+BBBP,112,/proc/cpuinfo,"cache size	: 4096 KB"
+BBBP,113,/proc/cpuinfo,"physical id	: 0"
+BBBP,114,/proc/cpuinfo,"siblings	: 4"
+BBBP,115,/proc/cpuinfo,"core id		: 1"
+BBBP,116,/proc/cpuinfo,"cpu cores	: 2"
+BBBP,117,/proc/cpuinfo,"apicid		: 3"
+BBBP,118,/proc/cpuinfo,"initial apicid	: 3"
+BBBP,119,/proc/cpuinfo,"fpu		: yes"
+BBBP,120,/proc/cpuinfo,"fpu_exception	: yes"
+BBBP,121,/proc/cpuinfo,"cpuid level	: 13"
+BBBP,122,/proc/cpuinfo,"wp		: yes"
+BBBP,123,/proc/cpuinfo,"flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts"
+BBBP,124,/proc/cpuinfo,"bugs		:"
+BBBP,125,/proc/cpuinfo,"bogomips	: 5786.62"
+BBBP,126,/proc/cpuinfo,"clflush size	: 64"
+BBBP,127,/proc/cpuinfo,"cache_alignment	: 64"
+BBBP,128,/proc/cpuinfo,"address sizes	: 36 bits physical, 48 bits virtual"
+BBBP,129,/proc/cpuinfo,"power management:"
+BBBP,130,/proc/cpuinfo,""
+BBBP,131,/proc/meminfo
+BBBP,132,/proc/meminfo,"MemTotal:        7868504 kB"
+BBBP,133,/proc/meminfo,"MemFree:         1660928 kB"
+BBBP,134,/proc/meminfo,"MemAvailable:    4038680 kB"
+BBBP,135,/proc/meminfo,"Buffers:          536152 kB"
+BBBP,136,/proc/meminfo,"Cached:          2242192 kB"
+BBBP,137,/proc/meminfo,"SwapCached:            0 kB"
+BBBP,138,/proc/meminfo,"Active:          4220680 kB"
+BBBP,139,/proc/meminfo,"Inactive:        1512308 kB"
+BBBP,140,/proc/meminfo,"Active(anon):    2895232 kB"
+BBBP,141,/proc/meminfo,"Inactive(anon):   484124 kB"
+BBBP,142,/proc/meminfo,"Active(file):    1325448 kB"
+BBBP,143,/proc/meminfo,"Inactive(file):  1028184 kB"
+BBBP,144,/proc/meminfo,"Unevictable:          32 kB"
+BBBP,145,/proc/meminfo,"Mlocked:              32 kB"
+BBBP,146,/proc/meminfo,"SwapTotal:       8077308 kB"
+BBBP,147,/proc/meminfo,"SwapFree:        8077308 kB"
+BBBP,148,/proc/meminfo,"Dirty:             53552 kB"
+BBBP,149,/proc/meminfo,"Writeback:             0 kB"
+BBBP,150,/proc/meminfo,"AnonPages:       2954948 kB"
+BBBP,151,/proc/meminfo,"Mapped:           416492 kB"
+BBBP,152,/proc/meminfo,"Shmem:            424716 kB"
+BBBP,153,/proc/meminfo,"Slab:             367720 kB"
+BBBP,154,/proc/meminfo,"SReclaimable:     330000 kB"
+BBBP,155,/proc/meminfo,"SUnreclaim:        37720 kB"
+BBBP,156,/proc/meminfo,"KernelStack:       10080 kB"
+BBBP,157,/proc/meminfo,"PageTables:        35004 kB"
+BBBP,158,/proc/meminfo,"NFS_Unstable:          0 kB"
+BBBP,159,/proc/meminfo,"Bounce:                0 kB"
+BBBP,160,/proc/meminfo,"WritebackTmp:          0 kB"
+BBBP,161,/proc/meminfo,"CommitLimit:    12011560 kB"
+BBBP,162,/proc/meminfo,"Committed_AS:    7227880 kB"
+BBBP,163,/proc/meminfo,"VmallocTotal:   34359738367 kB"
+BBBP,164,/proc/meminfo,"VmallocUsed:           0 kB"
+BBBP,165,/proc/meminfo,"VmallocChunk:          0 kB"
+BBBP,166,/proc/meminfo,"HardwareCorrupted:     0 kB"
+BBBP,167,/proc/meminfo,"AnonHugePages:   1013760 kB"
+BBBP,168,/proc/meminfo,"CmaTotal:              0 kB"
+BBBP,169,/proc/meminfo,"CmaFree:               0 kB"
+BBBP,170,/proc/meminfo,"HugePages_Total:       0"
+BBBP,171,/proc/meminfo,"HugePages_Free:        0"
+BBBP,172,/proc/meminfo,"HugePages_Rsvd:        0"
+BBBP,173,/proc/meminfo,"HugePages_Surp:        0"
+BBBP,174,/proc/meminfo,"Hugepagesize:       2048 kB"
+BBBP,175,/proc/meminfo,"DirectMap4k:      136380 kB"
+BBBP,176,/proc/meminfo,"DirectMap2M:     7942144 kB"
+BBBP,177,/proc/stat
+BBBP,178,/proc/stat,"cpu  116529 5324 20214 771631 69919 0 617 0 0 0"
+BBBP,179,/proc/stat,"cpu0 29618 3016 5307 190811 17190 0 128 0 0 0"
+BBBP,180,/proc/stat,"cpu1 28961 790 4996 189053 21775 0 244 0 0 0"
+BBBP,181,/proc/stat,"cpu2 29811 774 5167 191387 18738 0 124 0 0 0"
+BBBP,182,/proc/stat,"cpu3 28137 743 4743 200379 12214 0 120 0 0 0"
+BBBP,183,/proc/stat,"intr 6283232 25 4464 0 0 0 0 0 0 1 1489 0 0 431638 0 0 0 198 0 0 17 0 0 0 35 0 0 0 0 1230 144 189375 151154 25 99028 511 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,184,/proc/stat,"ctxt 20342754"
+BBBP,185,/proc/stat,"btime 1505707116"
+BBBP,186,/proc/stat,"processes 569846"
+BBBP,187,/proc/stat,"procs_running 1"
+BBBP,188,/proc/stat,"procs_blocked 0"
+BBBP,189,/proc/stat,"softirq 3250569 7 865226 193 818980 189277 0 3566 702911 0 670409"
+BBBP,190,/proc/version
+BBBP,191,/proc/version,"Linux version 4.4.0-93-generic (buildd@lgw01-03) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017"
+BBBP,192,/proc/net/dev
+BBBP,193,/proc/net/dev,"Inter-|   Receive                                                |  Transmit"
+BBBP,194,/proc/net/dev," face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed"
+BBBP,195,/proc/net/dev,"wlp3s0: 22431413   25503    0    0    0     0          0         0  2866017   18646    0    0    0     0       0          0"
+BBBP,196,/proc/net/dev,"    lo: 157094648  833291    0    0    0     0          0         0 157094648  833291    0    0    0     0       0          0"
+BBBP,197,/proc/net/dev,"enp0s25:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0"
+BBBP,198,/proc/diskinfo
+BBBP,199,/proc/diskstats
+BBBP,200,/proc/diskstats,"   7       0 loop0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,201,/proc/diskstats,"   7       1 loop1 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,202,/proc/diskstats,"   7       2 loop2 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,203,/proc/diskstats,"   7       3 loop3 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,204,/proc/diskstats,"   7       4 loop4 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,205,/proc/diskstats,"   7       5 loop5 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,206,/proc/diskstats,"   7       6 loop6 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,207,/proc/diskstats,"   7       7 loop7 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,208,/proc/diskstats,"   8       0 sda 169367 3806 4368638 2197220 17896 31342 2351664 1253224 0 475848 3450668"
+BBBP,209,/proc/diskstats,"   8       1 sda1 169226 3806 4360042 2195184 17435 31342 2351664 1241228 0 468268 3436584"
+BBBP,210,/proc/diskstats,"   8       2 sda2 2 0 4 80 0 0 0 0 0 80 80"
+BBBP,211,/proc/diskstats,"   8       5 sda5 50 0 4408 1316 0 0 0 0 0 1296 1316"
+BBBP,212,/proc/diskstats,"  11       0 sr0 0 0 0 0 0 0 0 0 0 0 0"
+BBBP,213,/sbin/multipath
+BBBP,214,/dev/mapper
+BBBP,215,/dev/mapper,"total 0"
+BBBP,216,/dev/mapper,"crw------- 1 root root 10, 236 සැප්  18 09:28 control"
+BBBP,217,/dev/mpath
+BBBP,218,/dev/dm-*
+BBBP,219,/dev/md*
+BBBP,220,/dev/sd*
+BBBP,221,/dev/sd*,"brw-rw---- 1 root disk 8, 0 සැප්  18 09:28 /dev/sda"
+BBBP,222,/dev/sd*,"brw-rw---- 1 root disk 8, 1 සැප්  18 09:28 /dev/sda1"
+BBBP,223,/dev/sd*,"brw-rw---- 1 root disk 8, 2 සැප්  18 09:28 /dev/sda2"
+BBBP,224,/dev/sd*,"brw-rw---- 1 root disk 8, 5 සැප්  18 09:28 /dev/sda5"
+BBBP,225,/proc/partitions
+BBBP,226,/proc/partitions,"major minor  #blocks  name"
+BBBP,227,/proc/partitions,""
+BBBP,228,/proc/partitions,"   8        0  488386584 sda"
+BBBP,229,/proc/partitions,"   8        1  480306176 sda1"
+BBBP,230,/proc/partitions,"   8        2          1 sda2"
+BBBP,231,/proc/partitions,"   8        5    8077312 sda5"
+BBBP,232,/proc/partitions,"  11        0    1048575 sr0"
+BBBP,233,/proc/1/stat
+BBBP,234,/proc/1/stat,"1 (systemd) S 0 1 1 0 -1 4194560 15365 670600 53 697 54 158 5215 913 20 0 1 0 6 122896384 1552 18446744073709551615 1 1 0 0 0 0 671173123 4096 1260 0 0 0 17 1 0 0 310 0 0 0 0 0 0 0 0 0 0"
+BBBP,235,/proc/1/statm
+BBBP,236,/proc/1/statm,"30004 1552 1005 348 0 20975 0"
+BBBP,237,/proc/net/rpc/nfs
+BBBP,238,/proc/net/rpc/nfsd
+BBBP,239,ifconfig
+BBBP,240,ifconfig,"enp0s25   Link encap:Ethernet  HWaddr 3c:97:0e:84:47:e5  "
+BBBP,241,ifconfig,"          UP BROADCAST MULTICAST  MTU:1500  Metric:1"
+BBBP,242,ifconfig,"          RX packets:0 errors:0 dropped:0 overruns:0 frame:0"
+BBBP,243,ifconfig,"          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0"
+BBBP,244,ifconfig,"          collisions:0 txqueuelen:1000 "
+BBBP,245,ifconfig,"          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)"
+BBBP,246,ifconfig,"          Interrupt:20 Memory:f3a00000-f3a20000 "
+BBBP,247,ifconfig,""
+BBBP,248,ifconfig,"lo        Link encap:Local Loopback  "
+BBBP,249,ifconfig,"          inet addr:127.0.0.1  Mask:255.0.0.0"
+BBBP,250,ifconfig,"          inet6 addr: ::1/128 Scope:Host"
+BBBP,251,ifconfig,"          UP LOOPBACK RUNNING  MTU:65536  Metric:1"
+BBBP,252,ifconfig,"          RX packets:833291 errors:0 dropped:0 overruns:0 frame:0"
+BBBP,253,ifconfig,"          TX packets:833291 errors:0 dropped:0 overruns:0 carrier:0"
+BBBP,254,ifconfig,"          collisions:0 txqueuelen:1 "
+BBBP,255,ifconfig,"          RX bytes:157094648 (157.0 MB)  TX bytes:157094648 (157.0 MB)"
+BBBP,256,ifconfig,""
+BBBP,257,ifconfig,"wlp3s0    Link encap:Ethernet  HWaddr 84:3a:4b:9b:d1:2a  "
+BBBP,258,ifconfig,"          inet addr:10.100.4.224  Bcast:10.100.4.255  Mask:255.255.255.0"
+BBBP,259,ifconfig,"          inet6 addr: fe80::a165:becd:79bc:701b/64 Scope:Link"
+BBBP,260,ifconfig,"          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1"
+BBBP,261,ifconfig,"          RX packets:25503 errors:0 dropped:0 overruns:0 frame:0"
+BBBP,262,ifconfig,"          TX packets:18646 errors:0 dropped:0 overruns:0 carrier:0"
+BBBP,263,ifconfig,"          collisions:0 txqueuelen:1000 "
+BBBP,264,ifconfig,"          RX bytes:22431413 (22.4 MB)  TX bytes:2866017 (2.8 MB)"
+BBBP,265,ifconfig,""
+BBBP,266,/bin/df-m
+BBBP,267,/bin/df-m,"Filesystem     1M-blocks   Used Available Use% Mounted on"
+BBBP,268,/bin/df-m,"udev                3823      0      3823   0% /dev"
+BBBP,269,/bin/df-m,"tmpfs                769     10       760   2% /run"
+BBBP,270,/bin/df-m,"ddev/sda1         461561 141651    296442  33% /"
+BBBP,271,/bin/df-m,"tmpfs               3843     30      3813   1% /dev/shm"
+BBBP,272,/bin/df-m,"tmpfs                  5      1         5   1% /run/lock"
+BBBP,273,/bin/df-m,"tmpfs               3843      0      3843   0% /sys/fs/cgroup"
+BBBP,274,/bin/df-m,"tmpfs                769      1       769   1% /run/user/1001"
+BBBP,275,/bin/mount
+BBBP,276,/bin/mount,"sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,277,/bin/mount,"proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)"
+BBBP,278,/bin/mount,"udev on /dev type devtmpfs (rw,nosuid,relatime,size=3914008k,nr_inodes=978502,mode=755)"
+BBBP,279,/bin/mount,"devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)"
+BBBP,280,/bin/mount,"tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=786852k,mode=755)"
+BBBP,281,/bin/mount,"ddev/sda1 on / type ext4 (rw,relatime,errors=remount-ro,data=ordered)"
+BBBP,282,/bin/mount,"securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)"
+BBBP,283,/bin/mount,"tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)"
+BBBP,284,/bin/mount,"tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)"
+BBBP,285,/bin/mount,"tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)"
+BBBP,286,/bin/mount,"cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)"
+BBBP,287,/bin/mount,"pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)"
+BBBP,288,/bin/mount,"cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)"
+BBBP,289,/bin/mount,"cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)"
+BBBP,290,/bin/mount,"cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)"
+BBBP,291,/bin/mount,"cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)"
+BBBP,292,/bin/mount,"cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)"
+BBBP,293,/bin/mount,"cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)"
+BBBP,294,/bin/mount,"cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)"
+BBBP,295,/bin/mount,"cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)"
+BBBP,296,/bin/mount,"cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)"
+BBBP,297,/bin/mount,"cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)"
+BBBP,298,/bin/mount,"systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=35,pgrp=1,timeout=0,minproto=5,maxproto=5,direct)"
+BBBP,299,/bin/mount,"mqueue on /dev/mqueue type mqueue (rw,relatime)"
+BBBP,300,/bin/mount,"debugfs on /sys/kernel/debug type debugfs (rw,relatime)"
+BBBP,301,/bin/mount,"hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime)"
+BBBP,302,/bin/mount,"fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)"
+BBBP,303,/bin/mount,"binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)"
+BBBP,304,/bin/mount,"tmpfs on /run/user/1001 type tmpfs (rw,nosuid,nodev,relatime,size=786852k,mode=700,uid=1001,gid=1001)"
+BBBP,305,/bin/mount,"gvfsd-fuse on /run/user/1001/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1001,group_id=1001)"
+BBBP,306,/etc/fstab
+BBBP,307,/etc/fstab,"# /etc/fstab: static file system information."
+BBBP,308,/etc/fstab,"#"
+BBBP,309,/etc/fstab,"# Use 'blkid' to print the universally unique identifier for a"
+BBBP,310,/etc/fstab,"# device; this may be used with UUID= as a more robust way to name devices"
+BBBP,311,/etc/fstab,"# that works even if disks are added and removed. See fstab(5)."
+BBBP,312,/etc/fstab,"#"
+BBBP,313,/etc/fstab,"# <file system> <mount point>   <type>  <options>       <dump>  <pass>"
+BBBP,314,/etc/fstab,"# / was on /dev/sda1 during installation"
+BBBP,315,/etc/fstab,"UUID=37355e70-ff33-4586-a27d-40a9c7e1c73b /               ext4    errors=remount-ro 0       1"
+BBBP,316,/etc/fstab,"# swap was on /dev/sda5 during installation"
+BBBP,317,/etc/fstab,"UUID=c74abe03-c80b-4576-8437-22a608dcae89 none            swap    sw              0       0"
+BBBP,318,netstat -r
+BBBP,319,netstat -r,"Kernel IP routing table"
+BBBP,320,netstat -r,"Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface"
+BBBP,321,netstat -r,"default         10.100.4.254    0.0.0.0         UG        0 0          0 wlp3s0"
+BBBP,322,netstat -r,"1.1.1.1         10.100.4.254    255.255.255.255 UGH       0 0          0 wlp3s0"
+BBBP,323,netstat -r,"10.100.4.0      *               255.255.255.0   U         0 0          0 wlp3s0"
+BBBP,324,netstat -r,"link-local      *               255.255.0.0     U         0 0          0 wlp3s0"
+BBBP,325,uptime
+BBBP,326,uptime," 10:10:00 up 41 min,  4 users,  load average: 0.67, 0.56, 0.77"
+BBBP,327,getconf PAGESIZE
+BBBP,328,getconf PAGESIZE,"4096"
+ZZZZ,T0001,10:10:01,18-SEP-2017
+CPU001,T0001,4.1,3.3,2.5,90.1
+CPU002,T0001,3.3,4.1,0.8,91.7
+CPU003,T0001,1.7,1.7,0.0,96.7
+CPU004,T0001,4.9,2.4,4.9,87.8
+CPU_ALL,T0001,3.3,2.9,2.1,91.8,,4
+MEM,T0001,7684.1,-0.0,-0.0,7888.0,1622.2,-0.0,-0.0,7888.0,-0.0,2189.7,4121.4,-1.0,523.6,0.0,1477.1
+VM,Paging and Virtual Memory,nr_dirty,nr_writeback,nr_unstable,nr_page_table_pages,nr_mapped,nr_slab,pgpgin,pgpgout,pswpin,pswpout,pgfree,pgactivate,pgdeactivate,pgfault,pgmajfault,pginodesteal,slabs_scanned,kswapd_steal,kswapd_inodesteal,pageoutrun,allocstall,pgrotated,pgalloc_high,pgalloc_normal,pgalloc_dma,pgrefill_high,pgrefill_normal,pgrefill_dma,pgsteal_high,pgsteal_normal,pgsteal_dma,pgscan_kswapd_high,pgscan_kswapd_normal,pgscan_kswapd_dma,pgscan_direct_high,pgscan_direct_normal,pgscan_direct_dma
+VM,T0001,13394,0,0,8734,104106,-1,0,136,0,0,8949,16,0,10788,0,0,0,0,0,0,0,0,0,7402,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0001,2,1,0.0,-1.0,-1.0,-1.0,0.0,-1.0,-1.0,-1.0
+NET,T0001,0.3,0.3,0.0,0.2,0.3,0.0,
+NETPACKET,T0001,2.4,3.1,0.0,1.6,3.1,0.0,
+JFSFILE,T0001,0.0,1.2,30.7,0.1,-nan,-nan,0.0,-nan
+DISKBUSY,T0001,4.7,2.4,0.0,0.0
+DISKREAD,T0001,0.0,0.0,0.0,0.0
+DISKWRITE,T0001,103.8,103.8,0.0,0.0
+DISKXFER,T0001,2.4,1.6,0.0,0.0
+DISKBSIZE,T0001,44.0,66.0,0.0,0.0
+ZZZZ,T0002,10:15:01,18-SEP-2017
+CPU001,T0002,6.1,2.1,0.9,90.9
+CPU002,T0002,4.9,1.7,0.8,92.6
+CPU003,T0002,6.3,2.1,0.7,90.9
+CPU004,T0002,5.3,1.7,1.2,91.7
+CPU_ALL,T0002,5.7,1.9,0.9,91.5,,4
+MEM,T0002,7684.1,-0.0,-0.0,7888.0,643.5,-0.0,-0.0,7888.0,-0.0,2190.7,5097.4,-1.0,524.4,0.0,1474.9
+VM,T0002,86,0,0,9597,107271,-1,6000,77412,0,0,617626,1281,0,335317,0,0,0,0,0,0,80,0,0,547594,0,0,0,0,0,0,0,0,0,0,0,0,0
+PROC,T0002,1,0,8266.5,-1.0,-1.0,-1.0,202.6,-1.0,-1.0,-1.0
+NET,T0002,0.3,46.4,0.0,0.2,46.4,0.0,
+NETPACKET,T0002,2.0,167.4,0.0,1.5,167.4,0.0,
+JFSFILE,T0002,0.0,1.2,30.7,0.1,-nan,-nan,0.0,-nan
+DISKBUSY,T0002,2.4,2.2,0.0,0.0
+DISKREAD,T0002,20.0,20.0,0.0,0.0
+DISKWRITE,T0002,258.1,258.1,0.0,0.0
+DISKXFER,T0002,4.6,4.5,0.0,0.0
+DISKBSIZE,T0002,60.2,61.2,0.0,0.0
+ZZZZ,T0003,10:20:01,18-SEP-2017
+CPU001,T0003,3.8,1.6,0.1,94.6
+CPU002,T0003,3.7,1.2,0.1,95.0
+CPU003,T0003,4.0,1.7,0.1,94.3
+CPU004,T0003,3.1,1.3,1.0,94.5
+CPU_ALL,T0003,3.6,1.5,0.3,94.6,,4
+MEM,T0003,7684.1,-0.0,-0.0,7888.0,266.2,-0.0,-0.0,7888.0,-0.0,2200.5,5441.2,-1.0,523.5,0.0,1508.9
+VM,T0003,95,0,0,9808,107346,-1,24,8284,0,5,628272,543,7071,208347,1,0,1664,0,0,0,124,5,0,417247,0,0,6566,0,0,0,0,0,0,0,0,2285,0
+PROC,T0003,2,0,6023.5,-1.0,-1.0,-1.0,196.7,-1.0,-1.0,-1.0
+NET,T0003,0.3,18.3,0.0,0.2,18.3,0.0,
+NETPACKET,T0003,2.0,56.7,0.0,1.4,56.7,0.0,
+JFSFILE,T0003,0.0,1.2,30.7,0.1,-nan,-nan,0.0,-nan
+DISKBUSY,T0003,1.0,1.0,0.0,0.0
+DISKREAD,T0003,0.1,0.1,0.0,0.0
+DISKWRITE,T0003,27.6,27.5,0.0,0.1
+DISKXFER,T0003,1.4,1.4,0.0,0.0
+DISKBSIZE,T0003,19.9,20.1,0.0,5.0

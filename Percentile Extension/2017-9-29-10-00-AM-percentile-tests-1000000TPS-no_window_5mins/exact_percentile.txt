@@ -1,0 +1,323 @@
+Started recording 1. The result will be written to:
+
+/home/chamod/Approximate_Computing/git/siddhi-benchmarks/filter-4.0.0-M20/exact-percentile-test-28-9-2017.jfr
+recevied i : 0
+Event : timestamp : 1506659653284, percentile : 0.0
+sent i : 0
+recevied i : 1000000
+Event : timestamp : 1506659655821, percentile : 499999.0
+sent i : 1000000
+recevied i : 2000000
+Event : timestamp : 1506659658078, percentile : 999999.0
+sent i : 2000000
+recevied i : 3000000
+Event : timestamp : 1506659660385, percentile : 1499999.0
+sent i : 3000000
+recevied i : 4000000
+Event : timestamp : 1506659662863, percentile : 1999999.0
+sent i : 4000000
+recevied i : 5000000
+Event : timestamp : 1506659665025, percentile : 2499999.0
+sent i : 5000000
+recevied i : 6000000
+Event : timestamp : 1506659667382, percentile : 2999999.0
+sent i : 6000000
+recevied i : 7000000
+Event : timestamp : 1506659669752, percentile : 3499999.0
+sent i : 7000000
+recevied i : 8000000
+Event : timestamp : 1506659672004, percentile : 3999999.0
+sent i : 8000000
+recevied i : 9000000
+Event : timestamp : 1506659674542, percentile : 4499999.0
+sent i : 9000000
+recevied i : 10000000
+Event : timestamp : 1506659676856, percentile : 4999999.0
+sent i : 10000000
+recevied i : 11000000
+Event : timestamp : 1506659679153, percentile : 5499999.0
+sent i : 11000000
+recevied i : 12000000
+Event : timestamp : 1506659681428, percentile : 5999999.0
+sent i : 12000000
+recevied i : 13000000
+Event : timestamp : 1506659684101, percentile : 6499999.0
+sent i : 13000000
+recevied i : 14000000
+Event : timestamp : 1506659686529, percentile : 6999999.0
+sent i : 14000000
+recevied i : 15000000
+Event : timestamp : 1506659688730, percentile : 7499999.0
+sent i : 15000000
+recevied i : 16000000
+Event : timestamp : 1506659691078, percentile : 7999999.0
+sent i : 16000000
+recevied i : 17000000
+Event : timestamp : 1506659693851, percentile : 8499999.0
+sent i : 17000000
+recevied i : 18000000
+Event : timestamp : 1506659696138, percentile : 8999999.0
+sent i : 18000000
+recevied i : 19000000
+Event : timestamp : 1506659698380, percentile : 9499999.0
+sent i : 19000000
+recevied i : 20000000
+Event : timestamp : 1506659700789, percentile : 9999999.0
+sent i : 20000000
+recevied i : 21000000
+Event : timestamp : 1506659703573, percentile : 1.0499999E7
+sent i : 21000000
+recevied i : 22000000
+Event : timestamp : 1506659705842, percentile : 1.0999999E7
+sent i : 22000000
+recevied i : 23000000
+Event : timestamp : 1506659708189, percentile : 1.1499999E7
+sent i : 23000000
+recevied i : 24000000
+Event : timestamp : 1506659710509, percentile : 1.1999999E7
+sent i : 24000000
+recevied i : 25000000
+Event : timestamp : 1506659712918, percentile : 1.2499999E7
+sent i : 25000000
+recevied i : 26000000
+Event : timestamp : 1506659715597, percentile : 1.2999999E7
+sent i : 26000000
+recevied i : 27000000
+Event : timestamp : 1506659717935, percentile : 1.3499999E7
+sent i : 27000000
+recevied i : 28000000
+Event : timestamp : 1506659720311, percentile : 1.3999999E7
+sent i : 28000000
+recevied i : 29000000
+Event : timestamp : 1506659722952, percentile : 1.4499999E7
+sent i : 29000000
+recevied i : 30000000
+Event : timestamp : 1506659725201, percentile : 1.4999999E7
+sent i : 30000000
+recevied i : 31000000
+Event : timestamp : 1506659727507, percentile : 1.5499999E7
+sent i : 31000000
+recevied i : 32000000
+Event : timestamp : 1506659730339, percentile : 1.5999999E7
+sent i : 32000000
+recevied i : 33000000
+Event : timestamp : 1506659732465, percentile : 1.6499999E7
+sent i : 33000000
+recevied i : 34000000
+Event : timestamp : 1506659734712, percentile : 1.6999999E7
+sent i : 34000000
+recevied i : 35000000
+Event : timestamp : 1506659737430, percentile : 1.7499999E7
+sent i : 35000000
+recevied i : 36000000
+Event : timestamp : 1506659739760, percentile : 1.7999999E7
+sent i : 36000000
+recevied i : 37000000
+Event : timestamp : 1506659742066, percentile : 1.8499999E7
+sent i : 37000000
+recevied i : 38000000
+Event : timestamp : 1506659744778, percentile : 1.8999999E7
+sent i : 38000000
+recevied i : 39000000
+Event : timestamp : 1506659747021, percentile : 1.9499999E7
+sent i : 39000000
+recevied i : 40000000
+Event : timestamp : 1506659749256, percentile : 1.9999999E7
+sent i : 40000000
+recevied i : 41000000
+Event : timestamp : 1506659752265, percentile : 2.0499999E7
+sent i : 41000000
+recevied i : 42000000
+Event : timestamp : 1506659754572, percentile : 2.0999999E7
+sent i : 42000000
+recevied i : 43000000
+Event : timestamp : 1506659756933, percentile : 2.1499999E7
+sent i : 43000000
+recevied i : 44000000
+Event : timestamp : 1506659759643, percentile : 2.1999999E7
+sent i : 44000000
+recevied i : 45000000
+Event : timestamp : 1506659761998, percentile : 2.2499999E7
+sent i : 45000000
+recevied i : 46000000
+Event : timestamp : 1506659764279, percentile : 2.2999999E7
+sent i : 46000000
+recevied i : 47000000
+Event : timestamp : 1506659767185, percentile : 2.3499999E7
+sent i : 47000000
+recevied i : 48000000
+Event : timestamp : 1506659769423, percentile : 2.3999999E7
+sent i : 48000000
+recevied i : 49000000
+Event : timestamp : 1506659772142, percentile : 2.4499999E7
+sent i : 49000000
+recevied i : 50000000
+Event : timestamp : 1506659774524, percentile : 2.4999999E7
+sent i : 50000000
+recevied i : 51000000
+Event : timestamp : 1506659776863, percentile : 2.5499999E7
+sent i : 51000000
+recevied i : 52000000
+Event : timestamp : 1506659779927, percentile : 2.5999999E7
+sent i : 52000000
+recevied i : 53000000
+Event : timestamp : 1506659782206, percentile : 2.6499999E7
+sent i : 53000000
+recevied i : 54000000
+Event : timestamp : 1506659784644, percentile : 2.6999999E7
+sent i : 54000000
+recevied i : 55000000
+Event : timestamp : 1506659787010, percentile : 2.7499999E7
+sent i : 55000000
+recevied i : 56000000
+Event : timestamp : 1506659789806, percentile : 2.7999999E7
+sent i : 56000000
+recevied i : 57000000
+Event : timestamp : 1506659792082, percentile : 2.8499999E7
+sent i : 57000000
+recevied i : 58000000
+Event : timestamp : 1506659794377, percentile : 2.8999999E7
+sent i : 58000000
+recevied i : 59000000
+Event : timestamp : 1506659797236, percentile : 2.9499999E7
+sent i : 59000000
+recevied i : 60000000
+Event : timestamp : 1506659799475, percentile : 2.9999999E7
+sent i : 60000000
+recevied i : 61000000
+Event : timestamp : 1506659801777, percentile : 3.0499999E7
+sent i : 61000000
+recevied i : 62000000
+Event : timestamp : 1506659804625, percentile : 3.0999999E7
+sent i : 62000000
+recevied i : 63000000
+Event : timestamp : 1506659806921, percentile : 3.1499999E7
+sent i : 63000000
+recevied i : 64000000
+Event : timestamp : 1506659809244, percentile : 3.1999999E7
+sent i : 64000000
+recevied i : 65000000
+Event : timestamp : 1506659812018, percentile : 3.2499999E7
+sent i : 65000000
+recevied i : 66000000
+Event : timestamp : 1506659814415, percentile : 3.2999999E7
+sent i : 66000000
+recevied i : 67000000
+Event : timestamp : 1506659816767, percentile : 3.3499999E7
+sent i : 67000000
+recevied i : 68000000
+Event : timestamp : 1506659819626, percentile : 3.3999999E7
+sent i : 68000000
+recevied i : 69000000
+Event : timestamp : 1506659821938, percentile : 3.4499999E7
+sent i : 69000000
+recevied i : 70000000
+Event : timestamp : 1506659824225, percentile : 3.4999999E7
+sent i : 70000000
+recevied i : 71000000
+Event : timestamp : 1506659827080, percentile : 3.5499999E7
+sent i : 71000000
+recevied i : 72000000
+Event : timestamp : 1506659829379, percentile : 3.5999999E7
+sent i : 72000000
+recevied i : 73000000
+Event : timestamp : 1506659831725, percentile : 3.6499999E7
+sent i : 73000000
+recevied i : 74000000
+Event : timestamp : 1506659840421, percentile : 3.6999999E7
+sent i : 74000000
+recevied i : 75000000
+Event : timestamp : 1506659842717, percentile : 3.7499999E7
+sent i : 75000000
+recevied i : 76000000
+Event : timestamp : 1506659844897, percentile : 3.7999999E7
+sent i : 76000000
+recevied i : 77000000
+Event : timestamp : 1506659847870, percentile : 3.8499999E7
+sent i : 77000000
+recevied i : 78000000
+Event : timestamp : 1506659852357, percentile : 3.8999999E7
+sent i : 78000000
+recevied i : 79000000
+Event : timestamp : 1506659854708, percentile : 3.9499999E7
+sent i : 79000000
+recevied i : 80000000
+Event : timestamp : 1506659857838, percentile : 3.9999999E7
+sent i : 80000000
+recevied i : 81000000
+Event : timestamp : 1506659860205, percentile : 4.0499999E7
+sent i : 81000000
+recevied i : 82000000
+Event : timestamp : 1506659862562, percentile : 4.0999999E7
+sent i : 82000000
+recevied i : 83000000
+Event : timestamp : 1506659864950, percentile : 4.1499999E7
+sent i : 83000000
+recevied i : 84000000
+Event : timestamp : 1506659869635, percentile : 4.1999999E7
+sent i : 84000000
+recevied i : 85000000
+Event : timestamp : 1506659872083, percentile : 4.2499999E7
+sent i : 85000000
+recevied i : 86000000
+Event : timestamp : 1506659874385, percentile : 4.2999999E7
+sent i : 86000000
+recevied i : 87000000
+Event : timestamp : 1506659877440, percentile : 4.3499999E7
+sent i : 87000000
+recevied i : 88000000
+Event : timestamp : 1506659879697, percentile : 4.3999999E7
+sent i : 88000000
+recevied i : 89000000
+Event : timestamp : 1506659882010, percentile : 4.4499999E7
+sent i : 89000000
+recevied i : 90000000
+Event : timestamp : 1506659884262, percentile : 4.4999999E7
+sent i : 90000000
+recevied i : 91000000
+Event : timestamp : 1506659887959, percentile : 4.5499999E7
+sent i : 91000000
+recevied i : 92000000
+Event : timestamp : 1506659890261, percentile : 4.5999999E7
+sent i : 92000000
+recevied i : 93000000
+Event : timestamp : 1506659892817, percentile : 4.6499999E7
+sent i : 93000000
+recevied i : 94000000
+Event : timestamp : 1506659895894, percentile : 4.6999999E7
+sent i : 94000000
+recevied i : 95000000
+Event : timestamp : 1506659899295, percentile : 4.7499999E7
+sent i : 95000000
+recevied i : 96000000
+Event : timestamp : 1506659901472, percentile : 4.7999999E7
+sent i : 96000000
+recevied i : 97000000
+Event : timestamp : 1506659903769, percentile : 4.8499999E7
+sent i : 97000000
+recevied i : 98000000
+Event : timestamp : 1506659916190, percentile : 4.8999999E7
+sent i : 98000000
+recevied i : 99000000
+Event : timestamp : 1506659918943, percentile : 4.9499999E7
+sent i : 99000000
+recevied i : 100000000
+Event : timestamp : 1506659922274, percentile : 4.9999999E7
+sent i : 100000000
+recevied i : 101000000
+Event : timestamp : 1506659924583, percentile : 5.0499999E7
+sent i : 101000000
+recevied i : 102000000
+Event : timestamp : 1506659927639, percentile : 5.0999999E7
+sent i : 102000000
+recevied i : 103000000
+Event : timestamp : 1506659929873, percentile : 5.1499999E7
+sent i : 103000000
+recevied i : 104000000
+Event : timestamp : 1506659932380, percentile : 5.1999999E7
+sent i : 104000000
+recevied i : 105000000
+Event : timestamp : 1506659934670, percentile : 5.2499999E7
+sent i : 105000000
+Exit flag set.
+Done the experiment. Exitting the benchmark.

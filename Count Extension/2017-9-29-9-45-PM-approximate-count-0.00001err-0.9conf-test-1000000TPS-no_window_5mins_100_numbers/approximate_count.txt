@@ -1,0 +1,349 @@
+Started recording 1. The result will be written to:
+
+/home/chamod/Approximate_Computing/git/siddhi-benchmarks/filter-4.0.0-M20/approximate-count-test-28-9-2017.jfr
+depth : 3
+width : 271829
+recevied i : 0
+Event : timestamp : 1506701309739, count : 1
+sent i : 0
+recevied i : 1000000
+Event : timestamp : 1506701312092, count : 9907
+sent i : 1000000
+recevied i : 2000000
+Event : timestamp : 1506701314610, count : 10127
+sent i : 2000000
+recevied i : 3000000
+Event : timestamp : 1506701317395, count : 10029
+sent i : 3000000
+recevied i : 4000000
+Event : timestamp : 1506701319843, count : 10006
+sent i : 4000000
+recevied i : 5000000
+Event : timestamp : 1506701322612, count : 9948
+sent i : 5000000
+recevied i : 6000000
+Event : timestamp : 1506701325199, count : 10094
+sent i : 6000000
+recevied i : 7000000
+Event : timestamp : 1506701328295, count : 9887
+sent i : 7000000
+recevied i : 8000000
+Event : timestamp : 1506701330813, count : 10091
+sent i : 8000000
+recevied i : 9000000
+Event : timestamp : 1506701333222, count : 9884
+sent i : 9000000
+recevied i : 10000000
+Event : timestamp : 1506701336043, count : 9919
+sent i : 10000000
+recevied i : 11000000
+Event : timestamp : 1506701338533, count : 9894
+sent i : 11000000
+recevied i : 12000000
+Event : timestamp : 1506701341193, count : 10021
+sent i : 12000000
+recevied i : 13000000
+Event : timestamp : 1506701343975, count : 9899
+sent i : 13000000
+recevied i : 14000000
+Event : timestamp : 1506701346505, count : 10052
+sent i : 14000000
+recevied i : 15000000
+Event : timestamp : 1506701348876, count : 9999
+sent i : 15000000
+recevied i : 16000000
+Event : timestamp : 1506701351643, count : 10043
+sent i : 16000000
+recevied i : 17000000
+Event : timestamp : 1506701353995, count : 10090
+sent i : 17000000
+recevied i : 18000000
+Event : timestamp : 1506701356250, count : 10012
+sent i : 18000000
+recevied i : 19000000
+Event : timestamp : 1506701359010, count : 10113
+sent i : 19000000
+recevied i : 20000000
+Event : timestamp : 1506701361877, count : 10034
+sent i : 20000000
+recevied i : 21000000
+Event : timestamp : 1506701364636, count : 9810
+sent i : 21000000
+recevied i : 22000000
+Event : timestamp : 1506701367123, count : 9982
+sent i : 22000000
+recevied i : 23000000
+Event : timestamp : 1506701370147, count : 9933
+sent i : 23000000
+recevied i : 24000000
+Event : timestamp : 1506701372792, count : 10086
+sent i : 24000000
+recevied i : 25000000
+Event : timestamp : 1506701375543, count : 9957
+sent i : 25000000
+recevied i : 26000000
+Event : timestamp : 1506701378314, count : 10067
+sent i : 26000000
+recevied i : 27000000
+Event : timestamp : 1506701381293, count : 9992
+sent i : 27000000
+recevied i : 28000000
+Event : timestamp : 1506701384009, count : 9920
+sent i : 28000000
+recevied i : 29000000
+Event : timestamp : 1506701386846, count : 10125
+sent i : 29000000
+recevied i : 30000000
+Event : timestamp : 1506701389852, count : 9900
+sent i : 30000000
+recevied i : 31000000
+Event : timestamp : 1506701392451, count : 9881
+sent i : 31000000
+recevied i : 32000000
+Event : timestamp : 1506701395131, count : 10124
+sent i : 32000000
+recevied i : 33000000
+Event : timestamp : 1506701398085, count : 10063
+sent i : 33000000
+recevied i : 34000000
+Event : timestamp : 1506701401150, count : 10064
+sent i : 34000000
+recevied i : 35000000
+Event : timestamp : 1506701403867, count : 10274
+sent i : 35000000
+recevied i : 36000000
+Event : timestamp : 1506701406705, count : 10110
+sent i : 36000000
+recevied i : 37000000
+Event : timestamp : 1506701409330, count : 10088
+sent i : 37000000
+recevied i : 38000000
+Event : timestamp : 1506701412342, count : 10091
+sent i : 38000000
+recevied i : 39000000
+Event : timestamp : 1506701414728, count : 10056
+sent i : 39000000
+recevied i : 40000000
+Event : timestamp : 1506701417413, count : 10092
+sent i : 40000000
+recevied i : 41000000
+Event : timestamp : 1506701420022, count : 10308
+sent i : 41000000
+recevied i : 42000000
+Event : timestamp : 1506701422907, count : 9897
+sent i : 42000000
+recevied i : 43000000
+Event : timestamp : 1506701425511, count : 10078
+sent i : 43000000
+recevied i : 44000000
+Event : timestamp : 1506701428063, count : 10036
+sent i : 44000000
+recevied i : 45000000
+Event : timestamp : 1506701430441, count : 10078
+sent i : 45000000
+recevied i : 46000000
+Event : timestamp : 1506701433169, count : 10036
+sent i : 46000000
+recevied i : 47000000
+Event : timestamp : 1506701435527, count : 9811
+sent i : 47000000
+recevied i : 48000000
+Event : timestamp : 1506701437927, count : 10174
+sent i : 48000000
+recevied i : 49000000
+Event : timestamp : 1506701440693, count : 10122
+sent i : 49000000
+recevied i : 50000000
+Event : timestamp : 1506701443131, count : 9910
+sent i : 50000000
+recevied i : 51000000
+Event : timestamp : 1506701445596, count : 10030
+sent i : 51000000
+recevied i : 52000000
+Event : timestamp : 1506701448168, count : 10000
+sent i : 52000000
+recevied i : 53000000
+Event : timestamp : 1506701451074, count : 9828
+sent i : 53000000
+recevied i : 54000000
+Event : timestamp : 1506701453665, count : 9986
+sent i : 54000000
+recevied i : 55000000
+Event : timestamp : 1506701456059, count : 9948
+sent i : 55000000
+recevied i : 56000000
+Event : timestamp : 1506701458661, count : 10143
+sent i : 56000000
+recevied i : 57000000
+Event : timestamp : 1506701461489, count : 10090
+sent i : 57000000
+recevied i : 58000000
+Event : timestamp : 1506701464023, count : 9984
+sent i : 58000000
+recevied i : 59000000
+Event : timestamp : 1506701466535, count : 9940
+sent i : 59000000
+recevied i : 60000000
+Event : timestamp : 1506701469021, count : 9996
+sent i : 60000000
+recevied i : 61000000
+Event : timestamp : 1506701471827, count : 10131
+sent i : 61000000
+recevied i : 62000000
+Event : timestamp : 1506701474312, count : 10029
+sent i : 62000000
+recevied i : 63000000
+Event : timestamp : 1506701476937, count : 9955
+sent i : 63000000
+recevied i : 64000000
+Event : timestamp : 1506701479835, count : 9903
+sent i : 64000000
+recevied i : 65000000
+Event : timestamp : 1506701482513, count : 9983
+sent i : 65000000
+recevied i : 66000000
+Event : timestamp : 1506701485182, count : 9947
+sent i : 66000000
+recevied i : 67000000
+Event : timestamp : 1506701487781, count : 9881
+sent i : 67000000
+recevied i : 68000000
+Event : timestamp : 1506701490775, count : 10115
+sent i : 68000000
+recevied i : 69000000
+Event : timestamp : 1506701493259, count : 9823
+sent i : 69000000
+recevied i : 70000000
+Event : timestamp : 1506701495834, count : 9894
+sent i : 70000000
+recevied i : 71000000
+Event : timestamp : 1506701498414, count : 10129
+sent i : 71000000
+recevied i : 72000000
+Event : timestamp : 1506701501119, count : 9972
+sent i : 72000000
+recevied i : 73000000
+Event : timestamp : 1506701503717, count : 9963
+sent i : 73000000
+recevied i : 74000000
+Event : timestamp : 1506701506127, count : 10303
+sent i : 74000000
+recevied i : 75000000
+Event : timestamp : 1506701508823, count : 9976
+sent i : 75000000
+recevied i : 76000000
+Event : timestamp : 1506701511782, count : 9811
+sent i : 76000000
+recevied i : 77000000
+Event : timestamp : 1506701514233, count : 9996
+sent i : 77000000
+recevied i : 78000000
+Event : timestamp : 1506701516808, count : 10094
+sent i : 78000000
+recevied i : 79000000
+Event : timestamp : 1506701519442, count : 10009
+sent i : 79000000
+recevied i : 80000000
+Event : timestamp : 1506701522323, count : 10034
+sent i : 80000000
+recevied i : 81000000
+Event : timestamp : 1506701524841, count : 10017
+sent i : 81000000
+recevied i : 82000000
+Event : timestamp : 1506701527270, count : 9895
+sent i : 82000000
+recevied i : 83000000
+Event : timestamp : 1506701530164, count : 10165
+sent i : 83000000
+recevied i : 84000000
+Event : timestamp : 1506701532636, count : 10076
+sent i : 84000000
+recevied i : 85000000
+Event : timestamp : 1506701534926, count : 9882
+sent i : 85000000
+recevied i : 86000000
+Event : timestamp : 1506701537292, count : 9975
+sent i : 86000000
+recevied i : 87000000
+Event : timestamp : 1506701540232, count : 9864
+sent i : 87000000
+recevied i : 88000000
+Event : timestamp : 1506701542615, count : 9880
+sent i : 88000000
+recevied i : 89000000
+Event : timestamp : 1506701545133, count : 9968
+sent i : 89000000
+recevied i : 90000000
+Event : timestamp : 1506701547658, count : 9992
+sent i : 90000000
+recevied i : 91000000
+Event : timestamp : 1506701550526, count : 10053
+sent i : 91000000
+recevied i : 92000000
+Event : timestamp : 1506701552885, count : 9944
+sent i : 92000000
+recevied i : 93000000
+Event : timestamp : 1506701555340, count : 10152
+sent i : 93000000
+recevied i : 94000000
+Event : timestamp : 1506701557870, count : 10041
+sent i : 94000000
+recevied i : 95000000
+Event : timestamp : 1506701560631, count : 10203
+sent i : 95000000
+recevied i : 96000000
+Event : timestamp : 1506701563060, count : 10035
+sent i : 96000000
+recevied i : 97000000
+Event : timestamp : 1506701565491, count : 10121
+sent i : 97000000
+recevied i : 98000000
+Event : timestamp : 1506701568012, count : 9968
+sent i : 98000000
+recevied i : 99000000
+Event : timestamp : 1506701570928, count : 9895
+sent i : 99000000
+recevied i : 100000000
+Event : timestamp : 1506701573413, count : 10015
+sent i : 100000000
+recevied i : 101000000
+Event : timestamp : 1506701576124, count : 10132
+sent i : 101000000
+recevied i : 102000000
+Event : timestamp : 1506701578809, count : 10055
+sent i : 102000000
+recevied i : 103000000
+Event : timestamp : 1506701581645, count : 10019
+sent i : 103000000
+recevied i : 104000000
+Event : timestamp : 1506701584021, count : 10014
+sent i : 104000000
+recevied i : 105000000
+Event : timestamp : 1506701586521, count : 10130
+sent i : 105000000
+recevied i : 106000000
+Event : timestamp : 1506701589394, count : 10018
+sent i : 106000000
+recevied i : 107000000
+Event : timestamp : 1506701592056, count : 10042
+sent i : 107000000
+recevied i : 108000000
+Event : timestamp : 1506701594520, count : 9934
+sent i : 108000000
+recevied i : 109000000
+Event : timestamp : 1506701596978, count : 9925
+sent i : 109000000
+recevied i : 110000000
+Event : timestamp : 1506701599811, count : 10143
+sent i : 110000000
+recevied i : 111000000
+Event : timestamp : 1506701602382, count : 9964
+sent i : 111000000
+recevied i : 112000000
+Event : timestamp : 1506701604902, count : 9969
+sent i : 112000000
+recevied i : 113000000
+Event : timestamp : 1506701607386, count : 10048
+sent i : 113000000
+Exit flag set.
+Done the experiment. Exitting the benchmark.

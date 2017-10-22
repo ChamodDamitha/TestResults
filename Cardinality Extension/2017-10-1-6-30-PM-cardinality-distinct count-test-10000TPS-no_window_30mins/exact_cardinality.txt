@@ -1,0 +1,52 @@
+Started recording 1. The result will be written to:
+/home/chamod/Approximate_Computing/git/siddhi-benchmarks/filter-4.0.0-M20/approximate-count-test-1-10-2017.jfr
+recevied i : 0
+Event : timestamp : 1506860675124, cardinality : 1
+sent i : 0
+recevied i : 1000000
+Event : timestamp : 1506860789450, cardinality : 10000
+sent i : 1000000
+recevied i : 2000000
+Event : timestamp : 1506860902853, cardinality : 10000
+sent i : 2000000
+recevied i : 3000000
+Event : timestamp : 1506861016730, cardinality : 10000
+sent i : 3000000
+recevied i : 4000000
+Event : timestamp : 1506861130259, cardinality : 10000
+sent i : 4000000
+recevied i : 5000000
+Event : timestamp : 1506861244233, cardinality : 10000
+sent i : 5000000
+recevied i : 6000000
+Event : timestamp : 1506861357602, cardinality : 10000
+sent i : 6000000
+recevied i : 7000000
+Event : timestamp : 1506861471246, cardinality : 10000
+sent i : 7000000
+recevied i : 8000000
+Event : timestamp : 1506861584607, cardinality : 10000
+sent i : 8000000
+recevied i : 9000000
+Event : timestamp : 1506861697904, cardinality : 10000
+sent i : 9000000
+recevied i : 10000000
+Event : timestamp : 1506861810591, cardinality : 10000
+sent i : 10000000
+recevied i : 11000000
+Event : timestamp : 1506861923263, cardinality : 10000
+sent i : 11000000
+recevied i : 12000000
+Event : timestamp : 1506862035909, cardinality : 10000
+sent i : 12000000
+recevied i : 13000000
+Event : timestamp : 1506862148792, cardinality : 10000
+sent i : 13000000
+recevied i : 14000000
+Event : timestamp : 1506862262035, cardinality : 10000
+sent i : 14000000
+recevied i : 15000000
+Event : timestamp : 1506862374920, cardinality : 10000
+sent i : 15000000
+Exit flag set.
+Done the experiment. Exitting the benchmark.

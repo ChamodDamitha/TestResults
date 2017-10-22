@@ -1,0 +1,14 @@
+Started recording 1. The result will be written to:
+
+/home/chamod/Approximate_Computing/git/siddhi-benchmarks/filter-4.0.0-M20/exact-cardinality-test-3-10-2017.jfr
+recevied i : 0
+Event : timestamp : 1507004688408, cardinality : 1
+sent i : 0
+recevied i : 1000000
+Event : timestamp : 1507004801223, cardinality : 1000000
+sent i : 1000000
+recevied i : 2000000
+Event : timestamp : 1507004913371, cardinality : 2000000
+sent i : 2000000
+Exit flag set.
+Done the experiment. Exitting the benchmark.

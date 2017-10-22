@@ -1,0 +1,2329 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:81: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] count : 990
+     [java] Event: sumHumidity : 0, count : 990, timestamp : 1508219894526
+     [java] eventCount : 0
+     [java] count : 1000
+     [java] Event: sumHumidity : 1000, count : 1000, timestamp : 1508219895651
+     [java] eventCount : 1
+     [java] count : 1000
+     [java] Event: sumHumidity : 2000, count : 1000, timestamp : 1508219896761
+     [java] eventCount : 2
+     [java] count : 1000
+     [java] Event: sumHumidity : 3000, count : 1000, timestamp : 1508219897861
+     [java] eventCount : 3
+     [java] count : 975
+     [java] Event: sumHumidity : 3900, count : 975, timestamp : 1508219898959
+     [java] eventCount : 4
+     [java] count : 990
+     [java] Event: sumHumidity : 4950, count : 990, timestamp : 1508219900070
+     [java] eventCount : 5
+     [java] count : 979
+     [java] Event: sumHumidity : 5874, count : 979, timestamp : 1508219901174
+     [java] eventCount : 6
+     [java] count : 965
+     [java] Event: sumHumidity : 6755, count : 965, timestamp : 1508219902261
+     [java] eventCount : 7
+     [java] count : 967
+     [java] Event: sumHumidity : 7736, count : 967, timestamp : 1508219903347
+     [java] eventCount : 8
+     [java] count : 975
+     [java] Event: sumHumidity : 8775, count : 975, timestamp : 1508219904446
+     [java] eventCount : 9
+     [java] count : 745
+     [java] Event: sumHumidity : 7450, count : 745, timestamp : 1508219905545
+     [java] eventCount : 10
+     [java] count : 794
+     [java] Event: sumHumidity : 8734, count : 794, timestamp : 1508219906660
+     [java] eventCount : 11
+     [java] count : 972
+     [java] Event: sumHumidity : 11664, count : 972, timestamp : 1508219907756
+     [java] eventCount : 12
+     [java] count : 943
+     [java] Event: sumHumidity : 12259, count : 943, timestamp : 1508219908852
+     [java] eventCount : 13
+     [java] count : 956
+     [java] Event: sumHumidity : 13384, count : 956, timestamp : 1508219909946
+     [java] eventCount : 14
+     [java] count : 962
+     [java] Event: sumHumidity : 14430, count : 962, timestamp : 1508219911039
+     [java] eventCount : 15
+     [java] count : 962
+     [java] Event: sumHumidity : 15392, count : 962, timestamp : 1508219912137
+     [java] eventCount : 16
+     [java] count : 977
+     [java] Event: sumHumidity : 16609, count : 977, timestamp : 1508219913243
+     [java] eventCount : 17
+     [java] count : 938
+     [java] Event: sumHumidity : 16884, count : 938, timestamp : 1508219914338
+     [java] eventCount : 18
+     [java] count : 985
+     [java] Event: sumHumidity : 18715, count : 985, timestamp : 1508219915445
+     [java] eventCount : 19
+     [java] count : 357
+     [java] Event: sumHumidity : 7140, count : 357, timestamp : 1508219916542
+     [java] eventCount : 20
+     [java] count : 633
+     [java] Event: sumHumidity : 13293, count : 633, timestamp : 1508219917647
+     [java] eventCount : 21
+     [java] count : 965
+     [java] Event: sumHumidity : 21230, count : 965, timestamp : 1508219918748
+     [java] eventCount : 22
+     [java] count : 928
+     [java] Event: sumHumidity : 21344, count : 928, timestamp : 1508219919844
+     [java] eventCount : 23
+     [java] count : 958
+     [java] Event: sumHumidity : 22992, count : 958, timestamp : 1508219920947
+     [java] eventCount : 24
+     [java] count : 641
+     [java] Event: sumHumidity : 16025, count : 641, timestamp : 1508219922060
+     [java] eventCount : 25
+     [java] count : 899
+     [java] Event: sumHumidity : 23374, count : 899, timestamp : 1508219923144
+     [java] eventCount : 26
+     [java] count : 946
+     [java] Event: sumHumidity : 25542, count : 946, timestamp : 1508219924240
+     [java] eventCount : 27
+     [java] count : 945
+     [java] Event: sumHumidity : 26460, count : 945, timestamp : 1508219925330
+     [java] eventCount : 28
+     [java] count : 971
+     [java] Event: sumHumidity : 28159, count : 971, timestamp : 1508219926432
+     [java] eventCount : 29
+     [java] count : 555
+     [java] Event: sumHumidity : 16650, count : 555, timestamp : 1508219927541
+     [java] eventCount : 30
+     [java] count : 954
+     [java] Event: sumHumidity : 29574, count : 954, timestamp : 1508219928631
+     [java] eventCount : 31
+     [java] count : 944
+     [java] Event: sumHumidity : 30208, count : 944, timestamp : 1508219929723
+     [java] eventCount : 32
+     [java] count : 569
+     [java] Event: sumHumidity : 18777, count : 569, timestamp : 1508219930831
+     [java] eventCount : 33
+     [java] count : 891
+     [java] Event: sumHumidity : 30294, count : 891, timestamp : 1508219931924
+     [java] eventCount : 34
+     [java] count : 184
+     [java] Event: sumHumidity : 6440, count : 184, timestamp : 1508219932642
+     [java] eventCount : 35
+     [java] count : 263
+     [java] Event: sumHumidity : 9468, count : 263, timestamp : 1508219934169
+     [java] eventCount : 36
+     [java] count : 968
+     [java] Event: sumHumidity : 35816, count : 968, timestamp : 1508219935290
+     [java] eventCount : 37
+     [java] count : 959
+     [java] Event: sumHumidity : 36442, count : 959, timestamp : 1508219936394
+     [java] eventCount : 38
+     [java] count : 582
+     [java] Event: sumHumidity : 22698, count : 582, timestamp : 1508219937505
+     [java] eventCount : 39
+     [java] count : 680
+     [java] Event: sumHumidity : 27200, count : 680, timestamp : 1508219938612
+     [java] eventCount : 40
+     [java] count : 283
+     [java] Event: sumHumidity : 11603, count : 283, timestamp : 1508219939728
+     [java] eventCount : 41
+     [java] count : 823
+     [java] Event: sumHumidity : 34566, count : 823, timestamp : 1508219940804
+     [java] eventCount : 42
+     [java] count : 694
+     [java] Event: sumHumidity : 29842, count : 694, timestamp : 1508219941921
+     [java] eventCount : 43
+     [java] count : 945
+     [java] Event: sumHumidity : 41580, count : 945, timestamp : 1508219943029
+     [java] eventCount : 44
+     [java] count : 621
+     [java] Event: sumHumidity : 27945, count : 621, timestamp : 1508219944153
+     [java] eventCount : 45
+     [java] count : 917
+     [java] Event: sumHumidity : 42182, count : 917, timestamp : 1508219945276
+     [java] eventCount : 46
+     [java] count : 974
+     [java] Event: sumHumidity : 45778, count : 974, timestamp : 1508219946390
+     [java] eventCount : 47
+     [java] count : 962
+     [java] Event: sumHumidity : 46176, count : 962, timestamp : 1508219947518
+     [java] eventCount : 48
+     [java] count : 950
+     [java] Event: sumHumidity : 46550, count : 950, timestamp : 1508219948634
+     [java] eventCount : 49
+     [java] count : 806
+     [java] Event: sumHumidity : 40300, count : 806, timestamp : 1508219949748
+     [java] eventCount : 50
+     [java] count : 598
+     [java] Event: sumHumidity : 30498, count : 598, timestamp : 1508219950870
+     [java] eventCount : 51
+     [java] count : 966
+     [java] Event: sumHumidity : 50232, count : 966, timestamp : 1508219951987
+     [java] eventCount : 52
+     [java] count : 673
+     [java] Event: sumHumidity : 35669, count : 673, timestamp : 1508219953090
+     [java] eventCount : 53
+     [java] count : 298
+     [java] Event: sumHumidity : 16092, count : 298, timestamp : 1508219954202
+     [java] eventCount : 54
+     [java] count : 979
+     [java] Event: sumHumidity : 53845, count : 979, timestamp : 1508219955315
+     [java] eventCount : 55
+     [java] count : 666
+     [java] Event: sumHumidity : 37296, count : 666, timestamp : 1508219956449
+     [java] eventCount : 56
+     [java] count : 89
+     [java] Event: sumHumidity : 5073, count : 89, timestamp : 1508219957493
+     [java] eventCount : 57
+     [java] count : 1
+     [java] Event: sumHumidity : 58, count : 1, timestamp : 1508219957647
+     [java] eventCount : 58
+     [java] count : 954
+     [java] Event: sumHumidity : 56286, count : 954, timestamp : 1508219959761
+     [java] eventCount : 59
+     [java] count : 975
+     [java] Event: sumHumidity : 58500, count : 975, timestamp : 1508219960866
+     [java] eventCount : 60
+     [java] count : 944
+     [java] Event: sumHumidity : 57584, count : 944, timestamp : 1508219961968
+     [java] eventCount : 61
+     [java] count : 563
+     [java] Event: sumHumidity : 34906, count : 563, timestamp : 1508219963069
+     [java] eventCount : 62
+     [java] count : 831
+     [java] Event: sumHumidity : 52353, count : 831, timestamp : 1508219964163
+     [java] eventCount : 63
+     [java] count : 426
+     [java] Event: sumHumidity : 27264, count : 426, timestamp : 1508219965260
+     [java] eventCount : 64
+     [java] count : 26
+     [java] Event: sumHumidity : 1690, count : 26, timestamp : 1508219965815
+     [java] eventCount : 65
+     [java] count : 850
+     [java] Event: sumHumidity : 56100, count : 850, timestamp : 1508219967485
+     [java] eventCount : 66
+     [java] count : 955
+     [java] Event: sumHumidity : 63985, count : 955, timestamp : 1508219968593
+     [java] eventCount : 67
+     [java] count : 561
+     [java] Event: sumHumidity : 38148, count : 561, timestamp : 1508219969714
+     [java] eventCount : 68
+     [java] count : 869
+     [java] Event: sumHumidity : 59961, count : 869, timestamp : 1508219970823
+     [java] eventCount : 69
+     [java] count : 740
+     [java] Event: sumHumidity : 51800, count : 740, timestamp : 1508219971937
+     [java] eventCount : 70
+     [java] count : 252
+     [java] Event: sumHumidity : 17892, count : 252, timestamp : 1508219973047
+     [java] eventCount : 71
+     [java] count : 965
+     [java] Event: sumHumidity : 69480, count : 965, timestamp : 1508219974159
+     [java] eventCount : 72
+     [java] count : 939
+     [java] Event: sumHumidity : 68547, count : 939, timestamp : 1508219975270
+     [java] eventCount : 73
+     [java] count : 968
+     [java] Event: sumHumidity : 71632, count : 968, timestamp : 1508219976380
+     [java] eventCount : 74
+     [java] count : 951
+     [java] Event: sumHumidity : 71325, count : 951, timestamp : 1508219977462
+     [java] eventCount : 75
+     [java] count : 923
+     [java] Event: sumHumidity : 70148, count : 923, timestamp : 1508219978548
+     [java] eventCount : 76
+     [java] count : 804
+     [java] Event: sumHumidity : 61908, count : 804, timestamp : 1508219979637
+     [java] eventCount : 77
+     [java] count : 702
+     [java] Event: sumHumidity : 54756, count : 702, timestamp : 1508219980736
+     [java] eventCount : 78
+     [java] count : 325
+     [java] Event: sumHumidity : 25675, count : 325, timestamp : 1508219981765
+     [java] eventCount : 79
+     [java] count : 627
+     [java] Event: sumHumidity : 50160, count : 627, timestamp : 1508219982924
+     [java] eventCount : 80
+     [java] count : 956
+     [java] Event: sumHumidity : 77436, count : 956, timestamp : 1508219984024
+     [java] eventCount : 81
+     [java] count : 697
+     [java] Event: sumHumidity : 57154, count : 697, timestamp : 1508219985123
+     [java] eventCount : 82
+     [java] count : 766
+     [java] Event: sumHumidity : 63578, count : 766, timestamp : 1508219986217
+     [java] eventCount : 83
+     [java] count : 650
+     [java] Event: sumHumidity : 54600, count : 650, timestamp : 1508219987302
+     [java] eventCount : 84
+     [java] count : 949
+     [java] Event: sumHumidity : 80665, count : 949, timestamp : 1508219988393
+     [java] eventCount : 85
+     [java] count : 932
+     [java] Event: sumHumidity : 80152, count : 932, timestamp : 1508219989479
+     [java] eventCount : 86
+     [java] count : 746
+     [java] Event: sumHumidity : 64902, count : 746, timestamp : 1508219990571
+     [java] eventCount : 87
+     [java] count : 99
+     [java] Event: sumHumidity : 8712, count : 99, timestamp : 1508219991106
+     [java] eventCount : 88
+     [java] count : 1
+     [java] Event: sumHumidity : 89, count : 1, timestamp : 1508219992200
+     [java] eventCount : 89
+     [java] count : 242
+     [java] Event: sumHumidity : 21780, count : 242, timestamp : 1508219993900
+     [java] eventCount : 90
+     [java] count : 955
+     [java] Event: sumHumidity : 86905, count : 955, timestamp : 1508219995018
+     [java] eventCount : 91
+     [java] count : 935
+     [java] Event: sumHumidity : 86020, count : 935, timestamp : 1508219996116
+     [java] eventCount : 92
+     [java] count : 961
+     [java] Event: sumHumidity : 89373, count : 961, timestamp : 1508219997219
+     [java] eventCount : 93
+     [java] count : 661
+     [java] Event: sumHumidity : 62134, count : 661, timestamp : 1508219998324
+     [java] eventCount : 94
+     [java] count : 760
+     [java] Event: sumHumidity : 72200, count : 760, timestamp : 1508219999446
+     [java] eventCount : 95
+     [java] count : 682
+     [java] Event: sumHumidity : 65472, count : 682, timestamp : 1508220000559
+     [java] eventCount : 96
+     [java] count : 878
+     [java] Event: sumHumidity : 85166, count : 878, timestamp : 1508220001676
+     [java] eventCount : 97
+     [java] count : 204
+     [java] Event: sumHumidity : 19992, count : 204, timestamp : 1508220002423
+     [java] eventCount : 98
+     [java] count : 1
+     [java] Event: sumHumidity : 99, count : 1, timestamp : 1508220002878
+     [java] eventCount : 99
+     [java] count : 623
+     [java] Event: sumHumidity : 62300, count : 623, timestamp : 1508220005008
+     [java] eventCount : 100
+     [java] count : 929
+     [java] Event: sumHumidity : 93829, count : 929, timestamp : 1508220006104
+     [java] eventCount : 101
+     [java] count : 946
+     [java] Event: sumHumidity : 96492, count : 946, timestamp : 1508220007216
+     [java] eventCount : 102
+     [java] count : 521
+     [java] Event: sumHumidity : 53663, count : 521, timestamp : 1508220008333
+     [java] eventCount : 103
+     [java] count : 449
+     [java] Event: sumHumidity : 46696, count : 449, timestamp : 1508220009447
+     [java] eventCount : 104
+     [java] count : 954
+     [java] Event: sumHumidity : 100170, count : 954, timestamp : 1508220010547
+     [java] eventCount : 105
+     [java] count : 425
+     [java] Event: sumHumidity : 45050, count : 425, timestamp : 1508220011652
+     [java] eventCount : 106
+     [java] count : 18
+     [java] Event: sumHumidity : 1926, count : 18, timestamp : 1508220011976
+     [java] eventCount : 107
+     [java] count : 756
+     [java] Event: sumHumidity : 81648, count : 756, timestamp : 1508220013868
+     [java] eventCount : 108
+     [java] count : 650
+     [java] Event: sumHumidity : 70850, count : 650, timestamp : 1508220014979
+     [java] eventCount : 109
+     [java] count : 573
+     [java] Event: sumHumidity : 63030, count : 573, timestamp : 1508220016103
+     [java] eventCount : 110
+     [java] count : 711
+     [java] Event: sumHumidity : 78921, count : 711, timestamp : 1508220017235
+     [java] eventCount : 111
+     [java] count : 841
+     [java] Event: sumHumidity : 94192, count : 841, timestamp : 1508220018343
+     [java] eventCount : 112
+     [java] count : 827
+     [java] Event: sumHumidity : 93451, count : 827, timestamp : 1508220019446
+     [java] eventCount : 113
+     [java] count : 720
+     [java] Event: sumHumidity : 82080, count : 720, timestamp : 1508220020562
+     [java] eventCount : 114
+     [java] count : 930
+     [java] Event: sumHumidity : 106950, count : 930, timestamp : 1508220021678
+     [java] eventCount : 115
+     [java] count : 695
+     [java] Event: sumHumidity : 80620, count : 695, timestamp : 1508220022797
+     [java] eventCount : 116
+     [java] count : 695
+     [java] Event: sumHumidity : 81315, count : 695, timestamp : 1508220023905
+     [java] eventCount : 117
+     [java] count : 675
+     [java] Event: sumHumidity : 79650, count : 675, timestamp : 1508220025027
+     [java] eventCount : 118
+     [java] count : 292
+     [java] Event: sumHumidity : 34748, count : 292, timestamp : 1508220026126
+     [java] eventCount : 119
+     [java] count : 659
+     [java] Event: sumHumidity : 79080, count : 659, timestamp : 1508220027236
+     [java] eventCount : 120
+     [java] count : 853
+     [java] Event: sumHumidity : 103213, count : 853, timestamp : 1508220028340
+     [java] eventCount : 121
+     [java] count : 266
+     [java] Event: sumHumidity : 32452, count : 266, timestamp : 1508220029373
+     [java] eventCount : 122
+     [java] count : 678
+     [java] Event: sumHumidity : 83394, count : 678, timestamp : 1508220030537
+     [java] eventCount : 123
+     [java] count : 253
+     [java] Event: sumHumidity : 31372, count : 253, timestamp : 1508220031531
+     [java] eventCount : 124
+     [java] count : 595
+     [java] Event: sumHumidity : 74375, count : 595, timestamp : 1508220032757
+     [java] eventCount : 125
+     [java] count : 976
+     [java] Event: sumHumidity : 122976, count : 976, timestamp : 1508220033859
+     [java] eventCount : 126
+     [java] count : 961
+     [java] Event: sumHumidity : 122047, count : 961, timestamp : 1508220034962
+     [java] eventCount : 127
+     [java] count : 939
+     [java] Event: sumHumidity : 120192, count : 939, timestamp : 1508220036068
+     [java] eventCount : 128
+     [java] count : 766
+     [java] Event: sumHumidity : 98814, count : 766, timestamp : 1508220037182
+     [java] eventCount : 129
+     [java] count : 106
+     [java] Event: sumHumidity : 13780, count : 106, timestamp : 1508220037830
+     [java] eventCount : 130
+     [java] count : 2
+     [java] Event: sumHumidity : 262, count : 2, timestamp : 1508220039382
+     [java] eventCount : 131
+     [java] count : 2
+     [java] Event: sumHumidity : 264, count : 2, timestamp : 1508220040224
+     [java] eventCount : 132
+     [java] count : 0
+     [java] count : 837
+     [java] Event: sumHumidity : 112158, count : 837, timestamp : 1508220042749
+     [java] eventCount : 133
+     [java] count : 665
+     [java] Event: sumHumidity : 89775, count : 665, timestamp : 1508220043872
+     [java] eventCount : 134
+     [java] count : 928
+     [java] Event: sumHumidity : 126208, count : 928, timestamp : 1508220044978
+     [java] eventCount : 135
+     [java] count : 969
+     [java] Event: sumHumidity : 132753, count : 969, timestamp : 1508220046093
+     [java] eventCount : 136
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100075 sensor events in 226186 milliseconds with total throughput of 442.45 events per second. Average delay is 36193.49
+     [java] count : 947
+     [java] Event: sumHumidity : 130686, count : 947, timestamp : 1508220047204
+     [java] eventCount : 137
+     [java] count : 560
+     [java] Event: sumHumidity : 77840, count : 560, timestamp : 1508220048309
+     [java] eventCount : 138
+     [java] count : 563
+     [java] Event: sumHumidity : 78820, count : 563, timestamp : 1508220049419
+     [java] eventCount : 139
+     [java] count : 749
+     [java] Event: sumHumidity : 105609, count : 749, timestamp : 1508220050530
+     [java] eventCount : 140
+     [java] count : 965
+     [java] Event: sumHumidity : 137030, count : 965, timestamp : 1508220051630
+     [java] eventCount : 141
+     [java] count : 831
+     [java] Event: sumHumidity : 118833, count : 831, timestamp : 1508220052739
+     [java] eventCount : 142
+     [java] count : 186
+     [java] Event: sumHumidity : 26784, count : 186, timestamp : 1508220053814
+     [java] eventCount : 143
+     [java] count : 1
+     [java] Event: sumHumidity : 145, count : 1, timestamp : 1508220054813
+     [java] eventCount : 144
+     [java] count : 3
+     [java] Event: sumHumidity : 438, count : 3, timestamp : 1508220056055
+     [java] eventCount : 145
+     [java] count : 970
+     [java] Event: sumHumidity : 142590, count : 970, timestamp : 1508220057147
+     [java] eventCount : 146
+     [java] count : 953
+     [java] Event: sumHumidity : 141044, count : 953, timestamp : 1508220058247
+     [java] eventCount : 147
+     [java] count : 871
+     [java] Event: sumHumidity : 129779, count : 871, timestamp : 1508220059340
+     [java] eventCount : 148
+     [java] count : 580
+     [java] Event: sumHumidity : 87000, count : 580, timestamp : 1508220060422
+     [java] eventCount : 149
+     [java] count : 799
+     [java] Event: sumHumidity : 120649, count : 799, timestamp : 1508220061526
+     [java] eventCount : 150
+     [java] count : 260
+     [java] Event: sumHumidity : 39520, count : 260, timestamp : 1508220062539
+     [java] eventCount : 151
+     [java] count : 161
+     [java] Event: sumHumidity : 24633, count : 161, timestamp : 1508220063757
+     [java] eventCount : 152
+     [java] count : 978
+     [java] Event: sumHumidity : 150612, count : 978, timestamp : 1508220064866
+     [java] eventCount : 153
+     [java] count : 936
+     [java] Event: sumHumidity : 145080, count : 936, timestamp : 1508220065979
+     [java] eventCount : 154
+     [java] count : 360
+     [java] Event: sumHumidity : 56160, count : 360, timestamp : 1508220067090
+     [java] eventCount : 155
+     [java] count : 26
+     [java] Event: sumHumidity : 4082, count : 26, timestamp : 1508220068204
+     [java] eventCount : 156
+     [java] count : 777
+     [java] Event: sumHumidity : 122766, count : 777, timestamp : 1508220069322
+     [java] eventCount : 157
+     [java] count : 722
+     [java] Event: sumHumidity : 114798, count : 722, timestamp : 1508220070422
+     [java] eventCount : 158
+     [java] count : 775
+     [java] Event: sumHumidity : 124000, count : 775, timestamp : 1508220071544
+     [java] eventCount : 159
+     [java] count : 758
+     [java] Event: sumHumidity : 122038, count : 758, timestamp : 1508220072663
+     [java] eventCount : 160
+     [java] count : 787
+     [java] Event: sumHumidity : 127494, count : 787, timestamp : 1508220073762
+     [java] eventCount : 161
+     [java] count : 764
+     [java] Event: sumHumidity : 124532, count : 764, timestamp : 1508220074870
+     [java] eventCount : 162
+     [java] count : 557
+     [java] Event: sumHumidity : 91348, count : 557, timestamp : 1508220075979
+     [java] eventCount : 163
+     [java] count : 681
+     [java] Event: sumHumidity : 112365, count : 681, timestamp : 1508220077092
+     [java] eventCount : 164
+     [java] count : 829
+     [java] Event: sumHumidity : 137614, count : 829, timestamp : 1508220078195
+     [java] eventCount : 165
+     [java] count : 965
+     [java] Event: sumHumidity : 161155, count : 965, timestamp : 1508220079310
+     [java] eventCount : 166
+     [java] count : 932
+     [java] Event: sumHumidity : 156576, count : 932, timestamp : 1508220080424
+     [java] eventCount : 167
+     [java] count : 565
+     [java] Event: sumHumidity : 95485, count : 565, timestamp : 1508220081541
+     [java] eventCount : 168
+     [java] count : 825
+     [java] Event: sumHumidity : 140250, count : 825, timestamp : 1508220082658
+     [java] eventCount : 169
+     [java] count : 288
+     [java] Event: sumHumidity : 49248, count : 288, timestamp : 1508220083597
+     [java] eventCount : 170
+     [java] count : 96
+     [java] Event: sumHumidity : 16512, count : 96, timestamp : 1508220084891
+     [java] eventCount : 171
+     [java] count : 959
+     [java] Event: sumHumidity : 165907, count : 959, timestamp : 1508220085991
+     [java] eventCount : 172
+     [java] count : 543
+     [java] Event: sumHumidity : 94482, count : 543, timestamp : 1508220087100
+     [java] eventCount : 173
+     [java] count : 852
+     [java] Event: sumHumidity : 149100, count : 852, timestamp : 1508220088205
+     [java] eventCount : 174
+     [java] count : 571
+     [java] Event: sumHumidity : 100496, count : 571, timestamp : 1508220089319
+     [java] eventCount : 175
+     [java] count : 66
+     [java] Event: sumHumidity : 11682, count : 66, timestamp : 1508220090096
+     [java] eventCount : 176
+     [java] count : 650
+     [java] Event: sumHumidity : 115700, count : 650, timestamp : 1508220091546
+     [java] eventCount : 177
+     [java] count : 297
+     [java] Event: sumHumidity : 53163, count : 297, timestamp : 1508220092657
+     [java] eventCount : 178
+     [java] count : 79
+     [java] Event: sumHumidity : 14220, count : 79, timestamp : 1508220093776
+     [java] eventCount : 179
+     [java] count : 816
+     [java] Event: sumHumidity : 147696, count : 816, timestamp : 1508220094889
+     [java] eventCount : 180
+     [java] count : 958
+     [java] Event: sumHumidity : 174356, count : 958, timestamp : 1508220096001
+     [java] eventCount : 181
+     [java] count : 944
+     [java] Event: sumHumidity : 172752, count : 944, timestamp : 1508220097120
+     [java] eventCount : 182
+     [java] count : 627
+     [java] Event: sumHumidity : 115368, count : 627, timestamp : 1508220098242
+     [java] eventCount : 183
+     [java] count : 904
+     [java] Event: sumHumidity : 167240, count : 904, timestamp : 1508220099347
+     [java] eventCount : 184
+     [java] count : 732
+     [java] Event: sumHumidity : 136152, count : 732, timestamp : 1508220100463
+     [java] eventCount : 185
+     [java] count : 758
+     [java] Event: sumHumidity : 141746, count : 758, timestamp : 1508220101582
+     [java] eventCount : 186
+     [java] count : 208
+     [java] Event: sumHumidity : 39104, count : 208, timestamp : 1508220102403
+     [java] eventCount : 187
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 190, count : 1, timestamp : 1508220104290
+     [java] eventCount : 188
+     [java] count : 1
+     [java] Event: sumHumidity : 191, count : 1, timestamp : 1508220105043
+     [java] eventCount : 189
+     [java] count : 82
+     [java] Event: sumHumidity : 15744, count : 82, timestamp : 1508220107137
+     [java] eventCount : 190
+     [java] count : 798
+     [java] Event: sumHumidity : 154014, count : 798, timestamp : 1508220108237
+     [java] eventCount : 191
+     [java] count : 682
+     [java] Event: sumHumidity : 132308, count : 682, timestamp : 1508220109318
+     [java] eventCount : 192
+     [java] count : 553
+     [java] Event: sumHumidity : 107835, count : 553, timestamp : 1508220110402
+     [java] eventCount : 193
+     [java] count : 950
+     [java] Event: sumHumidity : 186200, count : 950, timestamp : 1508220111484
+     [java] eventCount : 194
+     [java] count : 539
+     [java] Event: sumHumidity : 106183, count : 539, timestamp : 1508220112579
+     [java] eventCount : 195
+     [java] count : 951
+     [java] Event: sumHumidity : 188298, count : 951, timestamp : 1508220113659
+     [java] eventCount : 196
+     [java] count : 585
+     [java] Event: sumHumidity : 116415, count : 585, timestamp : 1508220114743
+     [java] eventCount : 197
+     [java] count : 671
+     [java] Event: sumHumidity : 134200, count : 671, timestamp : 1508220115825
+     [java] eventCount : 198
+     [java] count : 716
+     [java] Event: sumHumidity : 143916, count : 716, timestamp : 1508220116912
+     [java] eventCount : 199
+     [java] count : 388
+     [java] Event: sumHumidity : 78376, count : 388, timestamp : 1508220118012
+     [java] eventCount : 200
+     [java] count : 541
+     [java] Event: sumHumidity : 109823, count : 541, timestamp : 1508220119126
+     [java] eventCount : 201
+     [java] count : 890
+     [java] Event: sumHumidity : 181560, count : 890, timestamp : 1508220120232
+     [java] eventCount : 202
+     [java] count : 631
+     [java] Event: sumHumidity : 129355, count : 631, timestamp : 1508220121345
+     [java] eventCount : 203
+     [java] count : 444
+     [java] Event: sumHumidity : 91464, count : 444, timestamp : 1508220122430
+     [java] eventCount : 204
+     [java] count : 45
+     [java] Event: sumHumidity : 9315, count : 45, timestamp : 1508220123229
+     [java] eventCount : 205
+     [java] count : 1
+     [java] Event: sumHumidity : 208, count : 1, timestamp : 1508220124339
+     [java] eventCount : 206
+     [java] count : 2
+     [java] Event: sumHumidity : 418, count : 2, timestamp : 1508220125448
+     [java] eventCount : 207
+     [java] count : 682
+     [java] Event: sumHumidity : 143220, count : 682, timestamp : 1508220126768
+     [java] eventCount : 208
+     [java] count : 949
+     [java] Event: sumHumidity : 200239, count : 949, timestamp : 1508220127857
+     [java] eventCount : 209
+     [java] count : 564
+     [java] Event: sumHumidity : 119568, count : 564, timestamp : 1508220128967
+     [java] eventCount : 210
+     [java] count : 959
+     [java] Event: sumHumidity : 204267, count : 959, timestamp : 1508220130078
+     [java] eventCount : 211
+     [java] count : 559
+     [java] Event: sumHumidity : 119626, count : 559, timestamp : 1508220131192
+     [java] eventCount : 212
+     [java] count : 796
+     [java] Event: sumHumidity : 171140, count : 796, timestamp : 1508220132314
+     [java] eventCount : 213
+     [java] count : 146
+     [java] Event: sumHumidity : 31536, count : 146, timestamp : 1508220132891
+     [java] eventCount : 214
+     [java] count : 0
+     [java] count : 565
+     [java] Event: sumHumidity : 123170, count : 565, timestamp : 1508220135647
+     [java] eventCount : 215
+     [java] count : 702
+     [java] Event: sumHumidity : 153738, count : 702, timestamp : 1508220136754
+     [java] eventCount : 216
+     [java] count : 957
+     [java] Event: sumHumidity : 210540, count : 957, timestamp : 1508220137851
+     [java] eventCount : 217
+     [java] count : 854
+     [java] Event: sumHumidity : 188734, count : 854, timestamp : 1508220138958
+     [java] eventCount : 218
+     [java] count : 192
+     [java] Event: sumHumidity : 42624, count : 192, timestamp : 1508220140045
+     [java] eventCount : 219
+     [java] count : 749
+     [java] Event: sumHumidity : 167027, count : 749, timestamp : 1508220141187
+     [java] eventCount : 220
+     [java] count : 180
+     [java] Event: sumHumidity : 40320, count : 180, timestamp : 1508220141879
+     [java] eventCount : 221
+     [java] count : 538
+     [java] Event: sumHumidity : 121050, count : 538, timestamp : 1508220143397
+     [java] eventCount : 222
+     [java] count : 76
+     [java] Event: sumHumidity : 17176, count : 76, timestamp : 1508220144424
+     [java] eventCount : 223
+     [java] count : 947
+     [java] Event: sumHumidity : 214969, count : 947, timestamp : 1508220145574
+     [java] eventCount : 224
+     [java] count : 600
+     [java] Event: sumHumidity : 136800, count : 600, timestamp : 1508220146656
+     [java] eventCount : 225
+     [java] count : 331
+     [java] Event: sumHumidity : 75799, count : 331, timestamp : 1508220147767
+     [java] eventCount : 226
+     [java] count : 635
+     [java] Event: sumHumidity : 146050, count : 635, timestamp : 1508220148883
+     [java] eventCount : 227
+     [java] count : 776
+     [java] Event: sumHumidity : 179256, count : 776, timestamp : 1508220149999
+     [java] eventCount : 228
+     [java] count : 955
+     [java] Event: sumHumidity : 221560, count : 955, timestamp : 1508220151100
+     [java] eventCount : 229
+     [java] count : 916
+     [java] Event: sumHumidity : 213428, count : 916, timestamp : 1508220152219
+     [java] eventCount : 230
+     [java] count : 560
+     [java] Event: sumHumidity : 131040, count : 560, timestamp : 1508220153337
+     [java] eventCount : 231
+     [java] count : 822
+     [java] Event: sumHumidity : 193170, count : 822, timestamp : 1508220154447
+     [java] eventCount : 232
+     [java] count : 611
+     [java] Event: sumHumidity : 144196, count : 611, timestamp : 1508220155560
+     [java] eventCount : 233
+     [java] count : 931
+     [java] Event: sumHumidity : 220647, count : 931, timestamp : 1508220156669
+     [java] eventCount : 234
+     [java] count : 574
+     [java] Event: sumHumidity : 136612, count : 574, timestamp : 1508220157753
+     [java] eventCount : 235
+     [java] count : 597
+     [java] Event: sumHumidity : 142683, count : 597, timestamp : 1508220158865
+     [java] eventCount : 236
+     [java] count : 375
+     [java] Event: sumHumidity : 90000, count : 375, timestamp : 1508220159979
+     [java] eventCount : 237
+     [java] count : 947
+     [java] Event: sumHumidity : 228227, count : 947, timestamp : 1508220161093
+     [java] eventCount : 238
+     [java] count : 321
+     [java] Event: sumHumidity : 77682, count : 321, timestamp : 1508220162081
+     [java] eventCount : 239
+     [java] count : 2
+     [java] Event: sumHumidity : 486, count : 2, timestamp : 1508220162776
+     [java] eventCount : 240
+     [java] count : 358
+     [java] Event: sumHumidity : 87352, count : 358, timestamp : 1508220164428
+     [java] eventCount : 241
+     [java] count : 516
+     [java] Event: sumHumidity : 126420, count : 516, timestamp : 1508220165512
+     [java] eventCount : 242
+     [java] count : 785
+     [java] Event: sumHumidity : 193110, count : 785, timestamp : 1508220166622
+     [java] eventCount : 243
+     [java] count : 705
+     [java] Event: sumHumidity : 174135, count : 705, timestamp : 1508220167732
+     [java] eventCount : 244
+     [java] count : 275
+     [java] Event: sumHumidity : 68200, count : 275, timestamp : 1508220168688
+     [java] eventCount : 245
+     [java] count : 694
+     [java] Event: sumHumidity : 172806, count : 694, timestamp : 1508220169946
+     [java] eventCount : 246
+     [java] count : 558
+     [java] Event: sumHumidity : 139500, count : 558, timestamp : 1508220171032
+     [java] eventCount : 247
+     [java] count : 625
+     [java] Event: sumHumidity : 156875, count : 625, timestamp : 1508220172142
+     [java] eventCount : 248
+     [java] count : 73
+     [java] Event: sumHumidity : 18396, count : 73, timestamp : 1508220173083
+     [java] eventCount : 249
+     [java] count : 611
+     [java] Event: sumHumidity : 154583, count : 611, timestamp : 1508220174373
+     [java] eventCount : 250
+     [java] count : 798
+     [java] Event: sumHumidity : 202692, count : 798, timestamp : 1508220175483
+     [java] eventCount : 251
+     [java] count : 137
+     [java] Event: sumHumidity : 34935, count : 137, timestamp : 1508220176225
+     [java] eventCount : 252
+     [java] count : 0
+     [java] count : 732
+     [java] Event: sumHumidity : 188124, count : 732, timestamp : 1508220178817
+     [java] eventCount : 253
+     [java] count : 865
+     [java] Event: sumHumidity : 223170, count : 865, timestamp : 1508220179914
+     [java] eventCount : 254
+     [java] count : 686
+     [java] Event: sumHumidity : 177674, count : 686, timestamp : 1508220181044
+     [java] eventCount : 255
+     [java] count : 822
+     [java] Event: sumHumidity : 213720, count : 822, timestamp : 1508220182165
+     [java] eventCount : 256
+     [java] count : 171
+     [java] Event: sumHumidity : 44631, count : 171, timestamp : 1508220183002
+     [java] eventCount : 257
+     [java] count : 876
+     [java] Event: sumHumidity : 229512, count : 876, timestamp : 1508220184379
+     [java] eventCount : 258
+     [java] count : 243
+     [java] Event: sumHumidity : 63909, count : 243, timestamp : 1508220185364
+     [java] eventCount : 259
+     [java] count : 724
+     [java] Event: sumHumidity : 191136, count : 724, timestamp : 1508220186612
+     [java] eventCount : 260
+     [java] count : 207
+     [java] Event: sumHumidity : 54855, count : 207, timestamp : 1508220187524
+     [java] eventCount : 261
+     [java] count : 1
+     [java] Event: sumHumidity : 266, count : 1, timestamp : 1508220188382
+     [java] eventCount : 262
+     [java] count : 6
+     [java] Event: sumHumidity : 1602, count : 6, timestamp : 1508220189849
+     [java] eventCount : 263
+     [java] count : 0
+     [java] count : 2
+     [java] Event: sumHumidity : 538, count : 2, timestamp : 1508220191698
+     [java] eventCount : 264
+     [java] count : 332
+     [java] Event: sumHumidity : 89640, count : 332, timestamp : 1508220193170
+     [java] eventCount : 265
+     [java] count : 519
+     [java] Event: sumHumidity : 140649, count : 519, timestamp : 1508220194254
+     [java] eventCount : 266
+     [java] count : 973
+     [java] Event: sumHumidity : 264656, count : 973, timestamp : 1508220195334
+     [java] eventCount : 267
+     [java] count : 608
+     [java] Event: sumHumidity : 165984, count : 608, timestamp : 1508220196415
+     [java] eventCount : 268
+     [java] count : 766
+     [java] Event: sumHumidity : 209884, count : 766, timestamp : 1508220197499
+     [java] eventCount : 269
+     [java] count : 183
+     [java] Event: sumHumidity : 50325, count : 183, timestamp : 1508220198331
+     [java] eventCount : 270
+     [java] count : 821
+     [java] Event: sumHumidity : 226596, count : 821, timestamp : 1508220199672
+     [java] eventCount : 271
+     [java] count : 967
+     [java] Event: sumHumidity : 267859, count : 967, timestamp : 1508220200754
+     [java] eventCount : 272
+     [java] count : 452
+     [java] Event: sumHumidity : 125656, count : 452, timestamp : 1508220201827
+     [java] eventCount : 273
+     [java] count : 451
+     [java] Event: sumHumidity : 125829, count : 451, timestamp : 1508220202910
+     [java] eventCount : 274
+     [java] count : 946
+     [java] Event: sumHumidity : 264880, count : 946, timestamp : 1508220203986
+     [java] eventCount : 275
+     [java] count : 854
+     [java] Event: sumHumidity : 239974, count : 854, timestamp : 1508220205085
+     [java] eventCount : 276
+     [java] count : 201
+     [java] Event: sumHumidity : 56682, count : 201, timestamp : 1508220205991
+     [java] eventCount : 277
+     [java] count : 621
+     [java] Event: sumHumidity : 175743, count : 621, timestamp : 1508220207285
+     [java] eventCount : 278
+     [java] count : 605
+     [java] Event: sumHumidity : 171820, count : 605, timestamp : 1508220208390
+     [java] eventCount : 279
+     [java] count : 467
+     [java] Event: sumHumidity : 133095, count : 467, timestamp : 1508220209495
+     [java] eventCount : 280
+     [java] count : 617
+     [java] Event: sumHumidity : 176462, count : 617, timestamp : 1508220210604
+     [java] eventCount : 281
+     [java] count : 945
+     [java] Event: sumHumidity : 271215, count : 945, timestamp : 1508220211712
+     [java] eventCount : 282
+     [java] count : 653
+     [java] Event: sumHumidity : 188064, count : 653, timestamp : 1508220212821
+     [java] eventCount : 283
+     [java] count : 326
+     [java] Event: sumHumidity : 94214, count : 326, timestamp : 1508220213931
+     [java] eventCount : 284
+     [java] count : 653
+     [java] Event: sumHumidity : 189370, count : 653, timestamp : 1508220215058
+     [java] eventCount : 285
+     [java] count : 77
+     [java] Event: sumHumidity : 22407, count : 77, timestamp : 1508220215472
+     [java] eventCount : 286
+     [java] count : 1
+     [java] Event: sumHumidity : 292, count : 1, timestamp : 1508220216292
+     [java] eventCount : 287
+     [java] count : 3
+     [java] Event: sumHumidity : 879, count : 3, timestamp : 1508220218246
+     [java] eventCount : 288
+     [java] count : 1
+     [java] Event: sumHumidity : 294, count : 1, timestamp : 1508220219142
+     [java] eventCount : 289
+     [java] count : 400
+     [java] Event: sumHumidity : 118000, count : 400, timestamp : 1508220220638
+     [java] eventCount : 290
+     [java] count : 849
+     [java] Event: sumHumidity : 251304, count : 849, timestamp : 1508220221745
+     [java] eventCount : 291
+     [java] count : 616
+     [java] Event: sumHumidity : 182952, count : 616, timestamp : 1508220222836
+     [java] eventCount : 292
+     [java] count : 573
+     [java] Event: sumHumidity : 170754, count : 573, timestamp : 1508220223925
+     [java] eventCount : 293
+     [java] count : 937
+     [java] Event: sumHumidity : 280163, count : 937, timestamp : 1508220225035
+     [java] eventCount : 294
+     [java] count : 931
+     [java] Event: sumHumidity : 279300, count : 931, timestamp : 1508220226154
+     [java] eventCount : 295
+     [java] count : 806
+     [java] Event: sumHumidity : 242606, count : 806, timestamp : 1508220227272
+     [java] eventCount : 296
+     [java] count : 156
+     [java] Event: sumHumidity : 47112, count : 156, timestamp : 1508220228055
+     [java] eventCount : 297
+     [java] count : 1
+     [java] Event: sumHumidity : 303, count : 1, timestamp : 1508220229118
+     [java] eventCount : 298
+     [java] count : 2
+     [java] Event: sumHumidity : 608, count : 2, timestamp : 1508220229982
+     [java] eventCount : 299
+     [java] count : 395
+     [java] Event: sumHumidity : 120475, count : 395, timestamp : 1508220231734
+     [java] eventCount : 300
+     [java] count : 815
+     [java] Event: sumHumidity : 249390, count : 815, timestamp : 1508220232831
+     [java] eventCount : 301
+     [java] count : 198
+     [java] Event: sumHumidity : 60786, count : 198, timestamp : 1508220233688
+     [java] eventCount : 302
+     [java] count : 776
+     [java] Event: sumHumidity : 239008, count : 776, timestamp : 1508220234993
+     [java] eventCount : 303
+     [java] count : 850
+     [java] Event: sumHumidity : 262650, count : 850, timestamp : 1508220236074
+     [java] eventCount : 304
+     [java] count : 665
+     [java] Event: sumHumidity : 206150, count : 665, timestamp : 1508220237152
+     [java] eventCount : 305
+     [java] count : 368
+     [java] Event: sumHumidity : 114448, count : 368, timestamp : 1508220238241
+     [java] eventCount : 306
+     [java] count : 13
+     [java] Event: sumHumidity : 4056, count : 13, timestamp : 1508220238289
+     [java] eventCount : 307
+     [java] count : 840
+     [java] Event: sumHumidity : 262920, count : 840, timestamp : 1508220240404
+     [java] eventCount : 308
+     [java] count : 664
+     [java] Event: sumHumidity : 208496, count : 664, timestamp : 1508220241490
+     [java] eventCount : 309
+     [java] count : 82
+     [java] Event: sumHumidity : 25830, count : 82, timestamp : 1508220241905
+     [java] eventCount : 310
+     [java] count : 0
+     [java] count : 0
+     [java] count : 592
+     [java] Event: sumHumidity : 188256, count : 592, timestamp : 1508220245855
+     [java] eventCount : 311
+     [java] count : 550
+     [java] Event: sumHumidity : 175450, count : 550, timestamp : 1508220246973
+     [java] eventCount : 312
+     [java] count : 653
+     [java] Event: sumHumidity : 208960, count : 653, timestamp : 1508220248075
+     [java] eventCount : 313
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99947 sensor events in 273350 milliseconds with total throughput of 365.64 events per second. Average delay is 100770.95
+     [java] count : 334
+     [java] Event: sumHumidity : 107214, count : 334, timestamp : 1508220249179
+     [java] eventCount : 314
+     [java] count : 609
+     [java] Event: sumHumidity : 196098, count : 609, timestamp : 1508220250292
+     [java] eventCount : 315
+     [java] count : 335
+     [java] Event: sumHumidity : 108205, count : 335, timestamp : 1508220251402
+     [java] eventCount : 316
+     [java] count : 826
+     [java] Event: sumHumidity : 267624, count : 826, timestamp : 1508220252524
+     [java] eventCount : 317
+     [java] count : 939
+     [java] Event: sumHumidity : 305175, count : 939, timestamp : 1508220253619
+     [java] eventCount : 318
+     [java] count : 958
+     [java] Event: sumHumidity : 312308, count : 958, timestamp : 1508220254726
+     [java] eventCount : 319
+     [java] count : 498
+     [java] Event: sumHumidity : 162846, count : 498, timestamp : 1508220255842
+     [java] eventCount : 320
+     [java] count : 397
+     [java] Event: sumHumidity : 130216, count : 397, timestamp : 1508220256948
+     [java] eventCount : 321
+     [java] count : 809
+     [java] Event: sumHumidity : 266161, count : 809, timestamp : 1508220258048
+     [java] eventCount : 322
+     [java] count : 236
+     [java] Event: sumHumidity : 77880, count : 236, timestamp : 1508220259143
+     [java] eventCount : 323
+     [java] count : 755
+     [java] Event: sumHumidity : 249905, count : 755, timestamp : 1508220260266
+     [java] eventCount : 324
+     [java] count : 601
+     [java] Event: sumHumidity : 199532, count : 601, timestamp : 1508220261379
+     [java] eventCount : 325
+     [java] count : 581
+     [java] Event: sumHumidity : 193473, count : 581, timestamp : 1508220262497
+     [java] eventCount : 326
+     [java] count : 769
+     [java] Event: sumHumidity : 256846, count : 769, timestamp : 1508220263603
+     [java] eventCount : 327
+     [java] count : 138
+     [java] Event: sumHumidity : 46230, count : 138, timestamp : 1508220264195
+     [java] eventCount : 328
+     [java] count : 403
+     [java] Event: sumHumidity : 135408, count : 403, timestamp : 1508220265825
+     [java] eventCount : 329
+     [java] count : 519
+     [java] Event: sumHumidity : 174903, count : 519, timestamp : 1508220266920
+     [java] eventCount : 330
+     [java] count : 29
+     [java] Event: sumHumidity : 9802, count : 29, timestamp : 1508220267076
+     [java] eventCount : 331
+     [java] count : 1
+     [java] Event: sumHumidity : 339, count : 1, timestamp : 1508220268230
+     [java] eventCount : 332
+     [java] count : 528
+     [java] Event: sumHumidity : 179520, count : 528, timestamp : 1508220270268
+     [java] eventCount : 333
+     [java] count : 563
+     [java] Event: sumHumidity : 191983, count : 563, timestamp : 1508220271383
+     [java] eventCount : 334
+     [java] count : 649
+     [java] Event: sumHumidity : 221958, count : 649, timestamp : 1508220272505
+     [java] eventCount : 335
+     [java] count : 686
+     [java] Event: sumHumidity : 235298, count : 686, timestamp : 1508220273621
+     [java] eventCount : 336
+     [java] count : 265
+     [java] Event: sumHumidity : 91160, count : 265, timestamp : 1508220274526
+     [java] eventCount : 337
+     [java] count : 903
+     [java] Event: sumHumidity : 311535, count : 903, timestamp : 1508220275849
+     [java] eventCount : 338
+     [java] count : 602
+     [java] Event: sumHumidity : 208292, count : 602, timestamp : 1508220276970
+     [java] eventCount : 339
+     [java] count : 385
+     [java] Event: sumHumidity : 133595, count : 385, timestamp : 1508220278071
+     [java] eventCount : 340
+     [java] count : 653
+     [java] Event: sumHumidity : 227244, count : 653, timestamp : 1508220279179
+     [java] eventCount : 341
+     [java] count : 307
+     [java] Event: sumHumidity : 107143, count : 307, timestamp : 1508220280295
+     [java] eventCount : 342
+     [java] count : 629
+     [java] Event: sumHumidity : 220150, count : 629, timestamp : 1508220281416
+     [java] eventCount : 343
+     [java] count : 75
+     [java] Event: sumHumidity : 26325, count : 75, timestamp : 1508220282518
+     [java] eventCount : 344
+     [java] count : 15
+     [java] Event: sumHumidity : 5280, count : 15, timestamp : 1508220283644
+     [java] eventCount : 345
+     [java] count : 806
+     [java] Event: sumHumidity : 284518, count : 806, timestamp : 1508220284763
+     [java] eventCount : 346
+     [java] count : 924
+     [java] Event: sumHumidity : 327096, count : 924, timestamp : 1508220285866
+     [java] eventCount : 347
+     [java] count : 275
+     [java] Event: sumHumidity : 97625, count : 275, timestamp : 1508220286857
+     [java] eventCount : 348
+     [java] count : 3
+     [java] Event: sumHumidity : 1068, count : 3, timestamp : 1508220287927
+     [java] eventCount : 349
+     [java] count : 2
+     [java] Event: sumHumidity : 714, count : 2, timestamp : 1508220289160
+     [java] eventCount : 350
+     [java] count : 777
+     [java] Event: sumHumidity : 278166, count : 777, timestamp : 1508220290305
+     [java] eventCount : 351
+     [java] count : 968
+     [java] Event: sumHumidity : 347512, count : 968, timestamp : 1508220291399
+     [java] eventCount : 352
+     [java] count : 549
+     [java] Event: sumHumidity : 197640, count : 549, timestamp : 1508220292503
+     [java] eventCount : 353
+     [java] count : 801
+     [java] Event: sumHumidity : 289161, count : 801, timestamp : 1508220293614
+     [java] eventCount : 354
+     [java] count : 595
+     [java] Event: sumHumidity : 215390, count : 595, timestamp : 1508220294731
+     [java] eventCount : 355
+     [java] count : 799
+     [java] Event: sumHumidity : 290037, count : 799, timestamp : 1508220295829
+     [java] eventCount : 356
+     [java] count : 169
+     [java] Event: sumHumidity : 61516, count : 169, timestamp : 1508220296938
+     [java] eventCount : 357
+     [java] count : 862
+     [java] Event: sumHumidity : 314630, count : 862, timestamp : 1508220298019
+     [java] eventCount : 358
+     [java] count : 175
+     [java] Event: sumHumidity : 64050, count : 175, timestamp : 1508220298899
+     [java] eventCount : 359
+     [java] count : 277
+     [java] Event: sumHumidity : 101659, count : 277, timestamp : 1508220300249
+     [java] eventCount : 360
+     [java] count : 594
+     [java] Event: sumHumidity : 218592, count : 594, timestamp : 1508220301368
+     [java] eventCount : 361
+     [java] count : 64
+     [java] Event: sumHumidity : 23616, count : 64, timestamp : 1508220301870
+     [java] eventCount : 362
+     [java] count : 2
+     [java] Event: sumHumidity : 740, count : 2, timestamp : 1508220302790
+     [java] eventCount : 363
+     [java] count : 2
+     [java] Event: sumHumidity : 742, count : 2, timestamp : 1508220304698
+     [java] eventCount : 364
+     [java] count : 0
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 374, count : 1, timestamp : 1508220307813
+     [java] eventCount : 365
+     [java] count : 54
+     [java] Event: sumHumidity : 20250, count : 54, timestamp : 1508220309188
+     [java] eventCount : 366
+     [java] count : 674
+     [java] Event: sumHumidity : 253424, count : 674, timestamp : 1508220310304
+     [java] eventCount : 367
+     [java] count : 798
+     [java] Event: sumHumidity : 300846, count : 798, timestamp : 1508220311417
+     [java] eventCount : 368
+     [java] count : 816
+     [java] Event: sumHumidity : 308448, count : 816, timestamp : 1508220312518
+     [java] eventCount : 369
+     [java] count : 702
+     [java] Event: sumHumidity : 266058, count : 702, timestamp : 1508220313634
+     [java] eventCount : 370
+     [java] count : 333
+     [java] Event: sumHumidity : 126540, count : 333, timestamp : 1508220314689
+     [java] eventCount : 371
+     [java] count : 2
+     [java] Event: sumHumidity : 762, count : 2, timestamp : 1508220315544
+     [java] eventCount : 372
+     [java] count : 784
+     [java] Event: sumHumidity : 299488, count : 784, timestamp : 1508220316925
+     [java] eventCount : 373
+     [java] count : 733
+     [java] Event: sumHumidity : 280739, count : 733, timestamp : 1508220318016
+     [java] eventCount : 374
+     [java] count : 823
+     [java] Event: sumHumidity : 316032, count : 823, timestamp : 1508220319087
+     [java] eventCount : 375
+     [java] count : 151
+     [java] Event: sumHumidity : 58135, count : 151, timestamp : 1508220319679
+     [java] eventCount : 376
+     [java] count : 769
+     [java] Event: sumHumidity : 296834, count : 769, timestamp : 1508220321260
+     [java] eventCount : 377
+     [java] count : 189
+     [java] Event: sumHumidity : 73143, count : 189, timestamp : 1508220322066
+     [java] eventCount : 378
+     [java] count : 217
+     [java] Event: sumHumidity : 84196, count : 217, timestamp : 1508220323430
+     [java] eventCount : 379
+     [java] count : 786
+     [java] Event: sumHumidity : 305754, count : 786, timestamp : 1508220324512
+     [java] eventCount : 380
+     [java] count : 591
+     [java] Event: sumHumidity : 230490, count : 591, timestamp : 1508220325588
+     [java] eventCount : 381
+     [java] count : 163
+     [java] Event: sumHumidity : 63733, count : 163, timestamp : 1508220326269
+     [java] eventCount : 382
+     [java] count : 213
+     [java] Event: sumHumidity : 83496, count : 213, timestamp : 1508220327751
+     [java] eventCount : 383
+     [java] count : 784
+     [java] Event: sumHumidity : 308112, count : 784, timestamp : 1508220328821
+     [java] eventCount : 384
+     [java] count : 147
+     [java] Event: sumHumidity : 57918, count : 147, timestamp : 1508220329800
+     [java] eventCount : 385
+     [java] count : 698
+     [java] Event: sumHumidity : 275710, count : 698, timestamp : 1508220330997
+     [java] eventCount : 386
+     [java] count : 738
+     [java] Event: sumHumidity : 292248, count : 738, timestamp : 1508220332082
+     [java] eventCount : 387
+     [java] count : 954
+     [java] Event: sumHumidity : 378738, count : 954, timestamp : 1508220333164
+     [java] eventCount : 388
+     [java] count : 942
+     [java] Event: sumHumidity : 374916, count : 942, timestamp : 1508220334242
+     [java] eventCount : 389
+     [java] count : 832
+     [java] Event: sumHumidity : 331968, count : 832, timestamp : 1508220335322
+     [java] eventCount : 390
+     [java] count : 194
+     [java] Event: sumHumidity : 77600, count : 194, timestamp : 1508220336148
+     [java] eventCount : 391
+     [java] count : 202
+     [java] Event: sumHumidity : 81002, count : 202, timestamp : 1508220337491
+     [java] eventCount : 392
+     [java] count : 668
+     [java] Event: sumHumidity : 268536, count : 668, timestamp : 1508220338569
+     [java] eventCount : 393
+     [java] count : 77
+     [java] Event: sumHumidity : 31031, count : 77, timestamp : 1508220338956
+     [java] eventCount : 394
+     [java] count : 3
+     [java] Event: sumHumidity : 1212, count : 3, timestamp : 1508220340484
+     [java] eventCount : 395
+     [java] count : 1
+     [java] Event: sumHumidity : 405, count : 1, timestamp : 1508220341461
+     [java] eventCount : 396
+     [java] count : 2
+     [java] Event: sumHumidity : 812, count : 2, timestamp : 1508220342118
+     [java] eventCount : 397
+     [java] count : 2
+     [java] Event: sumHumidity : 814, count : 2, timestamp : 1508220343583
+     [java] eventCount : 398
+     [java] count : 1
+     [java] Event: sumHumidity : 408, count : 1, timestamp : 1508220344361
+     [java] eventCount : 399
+     [java] count : 528
+     [java] Event: sumHumidity : 215952, count : 528, timestamp : 1508220346389
+     [java] eventCount : 400
+     [java] count : 950
+     [java] Event: sumHumidity : 389500, count : 950, timestamp : 1508220347496
+     [java] eventCount : 401
+     [java] count : 731
+     [java] Event: sumHumidity : 300441, count : 731, timestamp : 1508220348572
+     [java] eventCount : 402
+     [java] count : 752
+     [java] Event: sumHumidity : 309824, count : 752, timestamp : 1508220349654
+     [java] eventCount : 403
+     [java] count : 791
+     [java] Event: sumHumidity : 326683, count : 791, timestamp : 1508220350743
+     [java] eventCount : 404
+     [java] count : 709
+     [java] Event: sumHumidity : 293526, count : 709, timestamp : 1508220351822
+     [java] eventCount : 405
+     [java] count : 945
+     [java] Event: sumHumidity : 392175, count : 945, timestamp : 1508220352923
+     [java] eventCount : 406
+     [java] count : 574
+     [java] Event: sumHumidity : 238784, count : 574, timestamp : 1508220354031
+     [java] eventCount : 407
+     [java] count : 386
+     [java] Event: sumHumidity : 160962, count : 386, timestamp : 1508220355148
+     [java] eventCount : 408
+     [java] count : 582
+     [java] Event: sumHumidity : 243276, count : 582, timestamp : 1508220356250
+     [java] eventCount : 409
+     [java] count : 67
+     [java] Event: sumHumidity : 28073, count : 67, timestamp : 1508220356663
+     [java] eventCount : 410
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 421, count : 1, timestamp : 1508220359361
+     [java] eventCount : 411
+     [java] count : 5
+     [java] Event: sumHumidity : 2110, count : 5, timestamp : 1508220360592
+     [java] eventCount : 412
+     [java] count : 404
+     [java] Event: sumHumidity : 170892, count : 404, timestamp : 1508220361779
+     [java] eventCount : 413
+     [java] count : 619
+     [java] Event: sumHumidity : 262456, count : 619, timestamp : 1508220362897
+     [java] eventCount : 414
+     [java] count : 659
+     [java] Event: sumHumidity : 280075, count : 659, timestamp : 1508220364008
+     [java] eventCount : 415
+     [java] count : 835
+     [java] Event: sumHumidity : 355710, count : 835, timestamp : 1508220365124
+     [java] eventCount : 416
+     [java] count : 655
+     [java] Event: sumHumidity : 279685, count : 655, timestamp : 1508220366232
+     [java] eventCount : 417
+     [java] count : 554
+     [java] Event: sumHumidity : 237112, count : 554, timestamp : 1508220367347
+     [java] eventCount : 418
+     [java] count : 763
+     [java] Event: sumHumidity : 327327, count : 763, timestamp : 1508220368457
+     [java] eventCount : 419
+     [java] count : 107
+     [java] Event: sumHumidity : 46010, count : 107, timestamp : 1508220369407
+     [java] eventCount : 420
+     [java] count : 1
+     [java] Event: sumHumidity : 431, count : 1, timestamp : 1508220370367
+     [java] eventCount : 421
+     [java] count : 202
+     [java] Event: sumHumidity : 87264, count : 202, timestamp : 1508220371805
+     [java] eventCount : 422
+     [java] count : 665
+     [java] Event: sumHumidity : 287945, count : 665, timestamp : 1508220372918
+     [java] eventCount : 423
+     [java] count : 75
+     [java] Event: sumHumidity : 32550, count : 75, timestamp : 1508220373479
+     [java] eventCount : 424
+     [java] count : 3
+     [java] Event: sumHumidity : 1305, count : 3, timestamp : 1508220374708
+     [java] eventCount : 425
+     [java] count : 0
+     [java] count : 480
+     [java] Event: sumHumidity : 209760, count : 480, timestamp : 1508220377368
+     [java] eventCount : 426
+     [java] count : 327
+     [java] Event: sumHumidity : 143226, count : 327, timestamp : 1508220378464
+     [java] eventCount : 427
+     [java] count : 788
+     [java] Event: sumHumidity : 345932, count : 788, timestamp : 1508220379582
+     [java] eventCount : 428
+     [java] count : 735
+     [java] Event: sumHumidity : 323400, count : 735, timestamp : 1508220380691
+     [java] eventCount : 429
+     [java] count : 655
+     [java] Event: sumHumidity : 288855, count : 655, timestamp : 1508220381801
+     [java] eventCount : 430
+     [java] count : 734
+     [java] Event: sumHumidity : 324428, count : 734, timestamp : 1508220382912
+     [java] eventCount : 431
+     [java] count : 258
+     [java] Event: sumHumidity : 114294, count : 258, timestamp : 1508220384020
+     [java] eventCount : 432
+     [java] count : 700
+     [java] Event: sumHumidity : 310800, count : 700, timestamp : 1508220385138
+     [java] eventCount : 433
+     [java] count : 69
+     [java] Event: sumHumidity : 30705, count : 69, timestamp : 1508220385496
+     [java] eventCount : 434
+     [java] count : 433
+     [java] Event: sumHumidity : 193118, count : 433, timestamp : 1508220387344
+     [java] eventCount : 435
+     [java] count : 808
+     [java] Event: sumHumidity : 361176, count : 808, timestamp : 1508220388448
+     [java] eventCount : 436
+     [java] count : 678
+     [java] Event: sumHumidity : 303744, count : 678, timestamp : 1508220389568
+     [java] eventCount : 437
+     [java] count : 924
+     [java] Event: sumHumidity : 414876, count : 924, timestamp : 1508220390670
+     [java] eventCount : 438
+     [java] count : 792
+     [java] Event: sumHumidity : 356400, count : 792, timestamp : 1508220391789
+     [java] eventCount : 439
+     [java] count : 108
+     [java] Event: sumHumidity : 48708, count : 108, timestamp : 1508220392388
+     [java] eventCount : 440
+     [java] count : 380
+     [java] Event: sumHumidity : 171760, count : 380, timestamp : 1508220394019
+     [java] eventCount : 441
+     [java] count : 799
+     [java] Event: sumHumidity : 361947, count : 799, timestamp : 1508220395120
+     [java] eventCount : 442
+     [java] count : 579
+     [java] Event: sumHumidity : 262866, count : 579, timestamp : 1508220396232
+     [java] eventCount : 443
+     [java] count : 807
+     [java] Event: sumHumidity : 367185, count : 807, timestamp : 1508220397336
+     [java] eventCount : 444
+     [java] count : 649
+     [java] Event: sumHumidity : 295944, count : 649, timestamp : 1508220398449
+     [java] eventCount : 445
+     [java] count : 546
+     [java] Event: sumHumidity : 249522, count : 546, timestamp : 1508220399552
+     [java] eventCount : 446
+     [java] count : 546
+     [java] Event: sumHumidity : 250068, count : 546, timestamp : 1508220400623
+     [java] eventCount : 447
+     [java] count : 734
+     [java] Event: sumHumidity : 336906, count : 734, timestamp : 1508220401734
+     [java] eventCount : 448
+     [java] count : 779
+     [java] Event: sumHumidity : 358340, count : 779, timestamp : 1508220402825
+     [java] eventCount : 449
+     [java] count : 144
+     [java] Event: sumHumidity : 66384, count : 144, timestamp : 1508220403630
+     [java] eventCount : 450
+     [java] count : 0
+     [java] count : 120
+     [java] Event: sumHumidity : 55560, count : 120, timestamp : 1508220406150
+     [java] eventCount : 451
+     [java] count : 962
+     [java] Event: sumHumidity : 446368, count : 962, timestamp : 1508220407234
+     [java] eventCount : 452
+     [java] count : 454
+     [java] Event: sumHumidity : 211110, count : 454, timestamp : 1508220408313
+     [java] eventCount : 453
+     [java] count : 402
+     [java] Event: sumHumidity : 187332, count : 402, timestamp : 1508220409434
+     [java] eventCount : 454
+     [java] count : 261
+     [java] Event: sumHumidity : 121887, count : 261, timestamp : 1508220410438
+     [java] eventCount : 455
+     [java] count : 1
+     [java] Event: sumHumidity : 468, count : 1, timestamp : 1508220410669
+     [java] eventCount : 456
+     [java] count : 147
+     [java] Event: sumHumidity : 68943, count : 147, timestamp : 1508220412781
+     [java] eventCount : 457
+     [java] count : 587
+     [java] Event: sumHumidity : 275890, count : 587, timestamp : 1508220413880
+     [java] eventCount : 458
+     [java] count : 794
+     [java] Event: sumHumidity : 373974, count : 794, timestamp : 1508220414998
+     [java] eventCount : 459
+     [java] count : 160
+     [java] Event: sumHumidity : 75520, count : 160, timestamp : 1508220415745
+     [java] eventCount : 460
+     [java] count : 688
+     [java] Event: sumHumidity : 325424, count : 688, timestamp : 1508220417214
+     [java] eventCount : 461
+     [java] count : 260
+     [java] Event: sumHumidity : 123240, count : 260, timestamp : 1508220418323
+     [java] eventCount : 462
+     [java] count : 780
+     [java] Event: sumHumidity : 370500, count : 780, timestamp : 1508220419437
+     [java] eventCount : 463
+     [java] count : 596
+     [java] Event: sumHumidity : 283696, count : 596, timestamp : 1508220420546
+     [java] eventCount : 464
+     [java] count : 796
+     [java] Event: sumHumidity : 379692, count : 796, timestamp : 1508220421656
+     [java] eventCount : 465
+     [java] count : 763
+     [java] Event: sumHumidity : 364714, count : 763, timestamp : 1508220422774
+     [java] eventCount : 466
+     [java] count : 353
+     [java] Event: sumHumidity : 169087, count : 353, timestamp : 1508220423833
+     [java] eventCount : 467
+     [java] count : 0
+     [java] count : 811
+     [java] Event: sumHumidity : 390091, count : 811, timestamp : 1508220426082
+     [java] eventCount : 468
+     [java] count : 121
+     [java] Event: sumHumidity : 58322, count : 121, timestamp : 1508220426641
+     [java] eventCount : 469
+     [java] count : 0
+     [java] count : 3
+     [java] Event: sumHumidity : 1452, count : 3, timestamp : 1508220429123
+     [java] eventCount : 470
+     [java] count : 504
+     [java] Event: sumHumidity : 244440, count : 504, timestamp : 1508220430558
+     [java] eventCount : 471
+     [java] count : 553
+     [java] Event: sumHumidity : 268758, count : 553, timestamp : 1508220431676
+     [java] eventCount : 472
+     [java] count : 677
+     [java] Event: sumHumidity : 329699, count : 677, timestamp : 1508220432787
+     [java] eventCount : 473
+     [java] count : 78
+     [java] Event: sumHumidity : 38064, count : 78, timestamp : 1508220433241
+     [java] eventCount : 474
+     [java] count : 1
+     [java] Event: sumHumidity : 489, count : 1, timestamp : 1508220433907
+     [java] eventCount : 475
+     [java] count : 1
+     [java] Event: sumHumidity : 490, count : 1, timestamp : 1508220435623
+     [java] eventCount : 476
+     [java] count : 2
+     [java] Event: sumHumidity : 982, count : 2, timestamp : 1508220436938
+     [java] eventCount : 477
+     [java] count : 936
+     [java] Event: sumHumidity : 460512, count : 936, timestamp : 1508220438223
+     [java] eventCount : 478
+     [java] count : 951
+     [java] Event: sumHumidity : 468843, count : 951, timestamp : 1508220439301
+     [java] eventCount : 479
+     [java] count : 894
+     [java] Event: sumHumidity : 441636, count : 894, timestamp : 1508220440385
+     [java] eventCount : 480
+     [java] count : 244
+     [java] Event: sumHumidity : 120780, count : 244, timestamp : 1508220441321
+     [java] eventCount : 481
+     [java] count : 689
+     [java] Event: sumHumidity : 341744, count : 689, timestamp : 1508220442543
+     [java] eventCount : 482
+     [java] count : 596
+     [java] Event: sumHumidity : 296212, count : 596, timestamp : 1508220443635
+     [java] eventCount : 483
+     [java] count : 502
+     [java] Event: sumHumidity : 249996, count : 502, timestamp : 1508220444716
+     [java] eventCount : 484
+     [java] count : 418
+     [java] Event: sumHumidity : 208582, count : 418, timestamp : 1508220445796
+     [java] eventCount : 485
+     [java] count : 553
+     [java] Event: sumHumidity : 276500, count : 553, timestamp : 1508220446879
+     [java] eventCount : 486
+     [java] count : 962
+     [java] Event: sumHumidity : 481962, count : 962, timestamp : 1508220447953
+     [java] eventCount : 487
+     [java] count : 634
+     [java] Event: sumHumidity : 318268, count : 634, timestamp : 1508220449039
+     [java] eventCount : 488
+     [java] count : 69
+     [java] Event: sumHumidity : 34707, count : 69, timestamp : 1508220449771
+     [java] eventCount : 489
+     [java] count : 0
+     [java] count : 776
+     [java] Event: sumHumidity : 391880, count : 776, timestamp : 1508220452322
+     [java] eventCount : 490
+     [java] count : 167
+     [java] Event: sumHumidity : 84502, count : 167, timestamp : 1508220453410
+     [java] eventCount : 491
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 508, count : 1, timestamp : 1508220455295
+     [java] eventCount : 492
+     [java] count : 1
+     [java] Event: sumHumidity : 509, count : 1, timestamp : 1508220455632
+     [java] eventCount : 493
+     [java] count : 2
+     [java] Event: sumHumidity : 1020, count : 2, timestamp : 1508220457190
+     [java] eventCount : 494
+     [java] count : 0
+     [java] count : 0
+     [java] count : 0
+     [java] count : 2
+     [java] Event: sumHumidity : 1028, count : 2, timestamp : 1508220462204
+     [java] eventCount : 495
+     [java] count : 74
+     [java] Event: sumHumidity : 38110, count : 74, timestamp : 1508220463422
+     [java] eventCount : 496
+     [java] count : 737
+     [java] Event: sumHumidity : 380292, count : 737, timestamp : 1508220464539
+     [java] eventCount : 497
+     [java] count : 779
+     [java] Event: sumHumidity : 402743, count : 779, timestamp : 1508220465650
+     [java] eventCount : 498
+     [java] count : 969
+     [java] Event: sumHumidity : 501942, count : 969, timestamp : 1508220466764
+     [java] eventCount : 499
+     [java] count : 525
+     [java] Event: sumHumidity : 272475, count : 525, timestamp : 1508220467866
+     [java] eventCount : 500
+     [java] count : 582
+     [java] Event: sumHumidity : 302640, count : 582, timestamp : 1508220468974
+     [java] eventCount : 501
+     [java] count : 142
+     [java] Event: sumHumidity : 73982, count : 142, timestamp : 1508220470101
+     [java] eventCount : 502
+     [java] count : 181
+     [java] Event: sumHumidity : 94482, count : 181, timestamp : 1508220470894
+     [java] eventCount : 503
+     [java] count : 666
+     [java] Event: sumHumidity : 348318, count : 666, timestamp : 1508220472312
+     [java] eventCount : 504
+     [java] count : 693
+     [java] Event: sumHumidity : 363132, count : 693, timestamp : 1508220473425
+     [java] eventCount : 505
+     [java] count : 798
+     [java] Event: sumHumidity : 418950, count : 798, timestamp : 1508220474542
+     [java] eventCount : 506
+     [java] count : 611
+     [java] Event: sumHumidity : 321386, count : 611, timestamp : 1508220475643
+     [java] eventCount : 507
+     [java] count : 457
+     [java] Event: sumHumidity : 240839, count : 457, timestamp : 1508220476732
+     [java] eventCount : 508
+     [java] count : 39
+     [java] Event: sumHumidity : 20592, count : 39, timestamp : 1508220477144
+     [java] eventCount : 509
+     [java] count : 709
+     [java] Event: sumHumidity : 375061, count : 709, timestamp : 1508220478921
+     [java] eventCount : 510
+     [java] count : 220
+     [java] Event: sumHumidity : 116600, count : 220, timestamp : 1508220479943
+     [java] eventCount : 511
+     [java] count : 3
+     [java] Event: sumHumidity : 1593, count : 3, timestamp : 1508220481113
+     [java] eventCount : 512
+     [java] count : 550
+     [java] Event: sumHumidity : 292600, count : 550, timestamp : 1508220482233
+     [java] eventCount : 513
+     [java] count : 527
+     [java] Event: sumHumidity : 280891, count : 527, timestamp : 1508220483349
+     [java] eventCount : 514
+     [java] count : 444
+     [java] Event: sumHumidity : 237096, count : 444, timestamp : 1508220484467
+     [java] eventCount : 515
+     [java] count : 501
+     [java] Event: sumHumidity : 268035, count : 501, timestamp : 1508220485582
+     [java] eventCount : 516
+     [java] count : 37
+     [java] Event: sumHumidity : 19832, count : 37, timestamp : 1508220486450
+     [java] eventCount : 517
+     [java] count : 157
+     [java] Event: sumHumidity : 84309, count : 157, timestamp : 1508220487789
+     [java] eventCount : 518
+     [java] count : 620
+     [java] Event: sumHumidity : 333560, count : 620, timestamp : 1508220488883
+     [java] eventCount : 519
+     [java] count : 522
+     [java] Event: sumHumidity : 281358, count : 522, timestamp : 1508220489952
+     [java] eventCount : 520
+     [java] count : 352
+     [java] Event: sumHumidity : 190080, count : 352, timestamp : 1508220491026
+     [java] eventCount : 521
+     [java] count : 265
+     [java] Event: sumHumidity : 143365, count : 265, timestamp : 1508220492129
+     [java] eventCount : 522
+     [java] count : 945
+     [java] Event: sumHumidity : 512190, count : 945, timestamp : 1508220493224
+     [java] eventCount : 523
+     [java] count : 927
+     [java] Event: sumHumidity : 503361, count : 927, timestamp : 1508220494324
+     [java] eventCount : 524
+     [java] count : 727
+     [java] Event: sumHumidity : 395488, count : 727, timestamp : 1508220495405
+     [java] eventCount : 525
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99996 sensor events in 322564 milliseconds with total throughput of 310 events per second. Average delay is 174538.23
+     [java] count : 738
+     [java] Event: sumHumidity : 402210, count : 738, timestamp : 1508220496510
+     [java] eventCount : 526
+     [java] count : 614
+     [java] Event: sumHumidity : 335244, count : 614, timestamp : 1508220497611
+     [java] eventCount : 527
+     [java] count : 493
+     [java] Event: sumHumidity : 269671, count : 493, timestamp : 1508220498702
+     [java] eventCount : 528
+     [java] count : 41
+     [java] Event: sumHumidity : 22468, count : 41, timestamp : 1508220499062
+     [java] eventCount : 529
+     [java] count : 150
+     [java] Event: sumHumidity : 82350, count : 150, timestamp : 1508220500923
+     [java] eventCount : 530
+     [java] count : 698
+     [java] Event: sumHumidity : 383900, count : 698, timestamp : 1508220502037
+     [java] eventCount : 531
+     [java] count : 97
+     [java] Event: sumHumidity : 53447, count : 97, timestamp : 1508220502502
+     [java] eventCount : 532
+     [java] count : 0
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 554, count : 1, timestamp : 1508220505721
+     [java] eventCount : 533
+     [java] count : 2
+     [java] Event: sumHumidity : 1110, count : 2, timestamp : 1508220507363
+     [java] eventCount : 534
+     [java] count : 0
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 558, count : 1, timestamp : 1508220509962
+     [java] eventCount : 535
+     [java] count : 583
+     [java] Event: sumHumidity : 325897, count : 583, timestamp : 1508220512044
+     [java] eventCount : 536
+     [java] count : 949
+     [java] Event: sumHumidity : 531440, count : 949, timestamp : 1508220513155
+     [java] eventCount : 537
+     [java] count : 701
+     [java] Event: sumHumidity : 393261, count : 701, timestamp : 1508220514271
+     [java] eventCount : 538
+     [java] count : 703
+     [java] Event: sumHumidity : 395086, count : 703, timestamp : 1508220515390
+     [java] eventCount : 539
+     [java] count : 964
+     [java] Event: sumHumidity : 542732, count : 964, timestamp : 1508220516483
+     [java] eventCount : 540
+     [java] count : 543
+     [java] Event: sumHumidity : 306252, count : 543, timestamp : 1508220517595
+     [java] eventCount : 541
+     [java] count : 738
+     [java] Event: sumHumidity : 416970, count : 738, timestamp : 1508220518705
+     [java] eventCount : 542
+     [java] count : 749
+     [java] Event: sumHumidity : 423934, count : 749, timestamp : 1508220519819
+     [java] eventCount : 543
+     [java] count : 674
+     [java] Event: sumHumidity : 382158, count : 674, timestamp : 1508220520929
+     [java] eventCount : 544
+     [java] count : 864
+     [java] Event: sumHumidity : 490752, count : 864, timestamp : 1508220522045
+     [java] eventCount : 545
+     [java] count : 620
+     [java] Event: sumHumidity : 352780, count : 620, timestamp : 1508220523161
+     [java] eventCount : 546
+     [java] count : 437
+     [java] Event: sumHumidity : 249090, count : 437, timestamp : 1508220524278
+     [java] eventCount : 547
+     [java] count : 42
+     [java] Event: sumHumidity : 23982, count : 42, timestamp : 1508220525118
+     [java] eventCount : 548
+     [java] count : 0
+     [java] count : 2
+     [java] Event: sumHumidity : 1146, count : 2, timestamp : 1508220526822
+     [java] eventCount : 549
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 575, count : 1, timestamp : 1508220529525
+     [java] eventCount : 550
+     [java] count : 1
+     [java] Event: sumHumidity : 576, count : 1, timestamp : 1508220530544
+     [java] eventCount : 551
+     [java] count : 203
+     [java] Event: sumHumidity : 117131, count : 203, timestamp : 1508220532084
+     [java] eventCount : 552
+     [java] count : 673
+     [java] Event: sumHumidity : 388994, count : 673, timestamp : 1508220533189
+     [java] eventCount : 553
+     [java] count : 273
+     [java] Event: sumHumidity : 158067, count : 273, timestamp : 1508220534291
+     [java] eventCount : 554
+     [java] count : 813
+     [java] Event: sumHumidity : 471540, count : 813, timestamp : 1508220535390
+     [java] eventCount : 555
+     [java] count : 559
+     [java] Event: sumHumidity : 324779, count : 559, timestamp : 1508220536489
+     [java] eventCount : 556
+     [java] count : 731
+     [java] Event: sumHumidity : 425442, count : 731, timestamp : 1508220537596
+     [java] eventCount : 557
+     [java] count : 756
+     [java] Event: sumHumidity : 440748, count : 756, timestamp : 1508220538706
+     [java] eventCount : 558
+     [java] count : 767
+     [java] Event: sumHumidity : 447928, count : 767, timestamp : 1508220539813
+     [java] eventCount : 559
+     [java] count : 722
+     [java] Event: sumHumidity : 422370, count : 722, timestamp : 1508220540925
+     [java] eventCount : 560
+     [java] count : 287
+     [java] Event: sumHumidity : 168182, count : 287, timestamp : 1508220541854
+     [java] eventCount : 561
+     [java] count : 0
+     [java] count : 2
+     [java] Event: sumHumidity : 1176, count : 2, timestamp : 1508220543499
+     [java] eventCount : 562
+     [java] count : 1
+     [java] Event: sumHumidity : 589, count : 1, timestamp : 1508220544741
+     [java] eventCount : 563
+     [java] count : 549
+     [java] Event: sumHumidity : 323910, count : 549, timestamp : 1508220546486
+     [java] eventCount : 564
+     [java] count : 843
+     [java] Event: sumHumidity : 498213, count : 843, timestamp : 1508220547594
+     [java] eventCount : 565
+     [java] count : 177
+     [java] Event: sumHumidity : 104784, count : 177, timestamp : 1508220548438
+     [java] eventCount : 566
+     [java] count : 271
+     [java] Event: sumHumidity : 160703, count : 271, timestamp : 1508220549831
+     [java] eventCount : 567
+     [java] count : 338
+     [java] Event: sumHumidity : 200772, count : 338, timestamp : 1508220550923
+     [java] eventCount : 568
+     [java] count : 0
+     [java] count : 2
+     [java] Event: sumHumidity : 1192, count : 2, timestamp : 1508220553114
+     [java] eventCount : 569
+     [java] count : 0
+     [java] count : 243
+     [java] Event: sumHumidity : 145314, count : 243, timestamp : 1508220555413
+     [java] eventCount : 570
+     [java] count : 643
+     [java] Event: sumHumidity : 385157, count : 643, timestamp : 1508220556507
+     [java] eventCount : 571
+     [java] count : 735
+     [java] Event: sumHumidity : 441000, count : 735, timestamp : 1508220557638
+     [java] eventCount : 572
+     [java] count : 649
+     [java] Event: sumHumidity : 390049, count : 649, timestamp : 1508220558748
+     [java] eventCount : 573
+     [java] count : 305
+     [java] Event: sumHumidity : 183610, count : 305, timestamp : 1508220559871
+     [java] eventCount : 574
+     [java] count : 805
+     [java] Event: sumHumidity : 485415, count : 805, timestamp : 1508220560986
+     [java] eventCount : 575
+     [java] count : 368
+     [java] Event: sumHumidity : 222272, count : 368, timestamp : 1508220562085
+     [java] eventCount : 576
+     [java] count : 1
+     [java] Event: sumHumidity : 605, count : 1, timestamp : 1508220563109
+     [java] eventCount : 577
+     [java] count : 0
+     [java] count : 632
+     [java] Event: sumHumidity : 383624, count : 632, timestamp : 1508220565419
+     [java] eventCount : 578
+     [java] count : 954
+     [java] Event: sumHumidity : 580032, count : 954, timestamp : 1508220566520
+     [java] eventCount : 579
+     [java] count : 570
+     [java] Event: sumHumidity : 347130, count : 570, timestamp : 1508220567625
+     [java] eventCount : 580
+     [java] count : 950
+     [java] Event: sumHumidity : 579500, count : 950, timestamp : 1508220568731
+     [java] eventCount : 581
+     [java] count : 953
+     [java] Event: sumHumidity : 582283, count : 953, timestamp : 1508220569836
+     [java] eventCount : 582
+     [java] count : 891
+     [java] Event: sumHumidity : 545292, count : 891, timestamp : 1508220570946
+     [java] eventCount : 583
+     [java] count : 662
+     [java] Event: sumHumidity : 405806, count : 662, timestamp : 1508220572069
+     [java] eventCount : 584
+     [java] count : 399
+     [java] Event: sumHumidity : 244986, count : 399, timestamp : 1508220573175
+     [java] eventCount : 585
+     [java] count : 18
+     [java] Event: sumHumidity : 11070, count : 18, timestamp : 1508220573307
+     [java] eventCount : 586
+     [java] count : 275
+     [java] Event: sumHumidity : 169400, count : 275, timestamp : 1508220575401
+     [java] eventCount : 587
+     [java] count : 332
+     [java] Event: sumHumidity : 204844, count : 332, timestamp : 1508220576510
+     [java] eventCount : 588
+     [java] count : 800
+     [java] Event: sumHumidity : 494400, count : 800, timestamp : 1508220577624
+     [java] eventCount : 589
+     [java] count : 145
+     [java] Event: sumHumidity : 89755, count : 145, timestamp : 1508220578269
+     [java] eventCount : 590
+     [java] count : 815
+     [java] Event: sumHumidity : 505300, count : 815, timestamp : 1508220579838
+     [java] eventCount : 591
+     [java] count : 160
+     [java] Event: sumHumidity : 99360, count : 160, timestamp : 1508220580959
+     [java] eventCount : 592
+     [java] count : 820
+     [java] Event: sumHumidity : 510040, count : 820, timestamp : 1508220582074
+     [java] eventCount : 593
+     [java] count : 604
+     [java] Event: sumHumidity : 376292, count : 604, timestamp : 1508220583188
+     [java] eventCount : 594
+     [java] count : 809
+     [java] Event: sumHumidity : 504816, count : 809, timestamp : 1508220584309
+     [java] eventCount : 595
+     [java] count : 599
+     [java] Event: sumHumidity : 374375, count : 599, timestamp : 1508220585403
+     [java] eventCount : 596
+     [java] count : 969
+     [java] Event: sumHumidity : 606594, count : 969, timestamp : 1508220586522
+     [java] eventCount : 597
+     [java] count : 522
+     [java] Event: sumHumidity : 327294, count : 522, timestamp : 1508220587626
+     [java] eventCount : 598
+     [java] count : 42
+     [java] Event: sumHumidity : 26376, count : 42, timestamp : 1508220587896
+     [java] eventCount : 599
+     [java] Exit flag set.
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 630, count : 1, timestamp : 1508220590257
+     [java] eventCount : 600
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 760
+     [java] Event: sumHumidity : 479560, count : 760, timestamp : 1508220592088
+     [java] eventCount : 601
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 170
+     [java] Event: sumHumidity : 107440, count : 170, timestamp : 1508220592879
+     [java] eventCount : 602
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 250
+     [java] Event: sumHumidity : 158250, count : 250, timestamp : 1508220594303
+     [java] eventCount : 603
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 369
+     [java] Event: sumHumidity : 233946, count : 369, timestamp : 1508220595405
+     [java] eventCount : 604
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 300
+     [java] Event: sumHumidity : 190500, count : 300, timestamp : 1508220596428
+     [java] eventCount : 605
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 631
+     [java] Event: sumHumidity : 401316, count : 631, timestamp : 1508220597640
+     [java] eventCount : 606
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 304
+     [java] Event: sumHumidity : 193648, count : 304, timestamp : 1508220598729
+     [java] eventCount : 607
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 474
+     [java] Event: sumHumidity : 302412, count : 474, timestamp : 1508220599853
+     [java] eventCount : 608
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 137
+     [java] Event: sumHumidity : 87543, count : 137, timestamp : 1508220600553
+     [java] eventCount : 609
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 102
+     [java] Event: sumHumidity : 65280, count : 102, timestamp : 1508220602094
+     [java] eventCount : 610
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 202
+     [java] Event: sumHumidity : 129482, count : 202, timestamp : 1508220602902
+     [java] eventCount : 611
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 217
+     [java] Event: sumHumidity : 139314, count : 217, timestamp : 1508220604334
+     [java] eventCount : 612
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 392
+     [java] Event: sumHumidity : 252056, count : 392, timestamp : 1508220605452
+     [java] eventCount : 613
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 527
+     [java] Event: sumHumidity : 339388, count : 527, timestamp : 1508220606565
+     [java] eventCount : 614
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 821
+     [java] Event: sumHumidity : 529545, count : 821, timestamp : 1508220607673
+     [java] eventCount : 615
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 349
+     [java] Event: sumHumidity : 225454, count : 349, timestamp : 1508220608776
+     [java] eventCount : 616
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 636
+     [java] Event: sumHumidity : 411492, count : 636, timestamp : 1508220609894
+     [java] eventCount : 617
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 553
+     [java] Event: sumHumidity : 358344, count : 553, timestamp : 1508220610991
+     [java] eventCount : 618
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 593
+     [java] Event: sumHumidity : 384857, count : 593, timestamp : 1508220612074
+     [java] eventCount : 619
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 845
+     [java] Event: sumHumidity : 549250, count : 845, timestamp : 1508220613156
+     [java] eventCount : 620
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 610
+     [java] Event: sumHumidity : 397110, count : 610, timestamp : 1508220614245
+     [java] eventCount : 621
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 464
+     [java] Event: sumHumidity : 302528, count : 464, timestamp : 1508220615327
+     [java] eventCount : 622
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 35
+     [java] Event: sumHumidity : 22855, count : 35, timestamp : 1508220616087
+     [java] eventCount : 623
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 655, count : 1, timestamp : 1508220617915
+     [java] eventCount : 624
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 656, count : 1, timestamp : 1508220619315
+     [java] eventCount : 625
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 657, count : 1, timestamp : 1508220619994
+     [java] eventCount : 626
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 658, count : 1, timestamp : 1508220621657
+     [java] eventCount : 627
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 636
+     [java] Event: sumHumidity : 419124, count : 636, timestamp : 1508220622948
+     [java] eventCount : 628
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 801
+     [java] Event: sumHumidity : 528660, count : 801, timestamp : 1508220624021
+     [java] eventCount : 629
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 572
+     [java] Event: sumHumidity : 378092, count : 572, timestamp : 1508220625107
+     [java] eventCount : 630
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 197
+     [java] Event: sumHumidity : 130414, count : 197, timestamp : 1508220625980
+     [java] eventCount : 631
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 663, count : 1, timestamp : 1508220626294
+     [java] eventCount : 632
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 2
+     [java] Event: sumHumidity : 1328, count : 2, timestamp : 1508220628357
+     [java] eventCount : 633
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 69
+     [java] Event: sumHumidity : 45885, count : 69, timestamp : 1508220629498
+     [java] eventCount : 634
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 169
+     [java] Event: sumHumidity : 112554, count : 169, timestamp : 1508220630236
+     [java] eventCount : 635
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 147
+     [java] Event: sumHumidity : 98049, count : 147, timestamp : 1508220631673
+     [java] eventCount : 636
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 847
+     [java] Event: sumHumidity : 565796, count : 847, timestamp : 1508220632752
+     [java] eventCount : 637
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 895
+     [java] Event: sumHumidity : 598755, count : 895, timestamp : 1508220633838
+     [java] eventCount : 638
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 595
+     [java] Event: sumHumidity : 398650, count : 595, timestamp : 1508220634938
+     [java] eventCount : 639
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 955
+     [java] Event: sumHumidity : 640805, count : 955, timestamp : 1508220636029
+     [java] eventCount : 640
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 373
+     [java] Event: sumHumidity : 250656, count : 373, timestamp : 1508220637039
+     [java] eventCount : 641
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 673, count : 1, timestamp : 1508220637331
+     [java] eventCount : 642
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 754
+     [java] Event: sumHumidity : 508196, count : 754, timestamp : 1508220639280
+     [java] eventCount : 643
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 169
+     [java] Event: sumHumidity : 114075, count : 169, timestamp : 1508220640193
+     [java] eventCount : 644
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 675
+     [java] Event: sumHumidity : 456300, count : 675, timestamp : 1508220641449
+     [java] eventCount : 645
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 732
+     [java] Event: sumHumidity : 495564, count : 732, timestamp : 1508220642527
+     [java] eventCount : 646
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 362
+     [java] Event: sumHumidity : 245436, count : 362, timestamp : 1508220643618
+     [java] eventCount : 647
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 551
+     [java] Event: sumHumidity : 374129, count : 551, timestamp : 1508220644702
+     [java] eventCount : 648
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 367
+     [java] Event: sumHumidity : 249560, count : 367, timestamp : 1508220645780
+     [java] eventCount : 649
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 539
+     [java] Event: sumHumidity : 367059, count : 539, timestamp : 1508220646868
+     [java] eventCount : 650
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 484
+     [java] Event: sumHumidity : 330088, count : 484, timestamp : 1508220647950
+     [java] eventCount : 651
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 42
+     [java] Event: sumHumidity : 28686, count : 42, timestamp : 1508220648785
+     [java] eventCount : 652
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 677
+     [java] Event: sumHumidity : 463068, count : 677, timestamp : 1508220650134
+     [java] eventCount : 653
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 254
+     [java] Event: sumHumidity : 173990, count : 254, timestamp : 1508220651051
+     [java] eventCount : 654
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 2
+     [java] Event: sumHumidity : 1372, count : 2, timestamp : 1508220652205
+     [java] eventCount : 655
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 0
+     [java] count : 0
+     [java] count : 0
+     [java] count : 0
+     [java] count : 0
+     [java] count : 1
+     [java] Event: sumHumidity : 692, count : 1, timestamp : 1508220658138
+     [java] eventCount : 656
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 2
+     [java] Event: sumHumidity : 1386, count : 2, timestamp : 1508220659857
+     [java] eventCount : 657
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 694, count : 1, timestamp : 1508220659964
+     [java] eventCount : 658
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 695, count : 1, timestamp : 1508220661400
+     [java] eventCount : 659
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 696, count : 1, timestamp : 1508220662651
+     [java] eventCount : 660
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 697, count : 1, timestamp : 1508220663701
+     [java] eventCount : 661
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 698, count : 1, timestamp : 1508220665258
+     [java] eventCount : 662
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 383
+     [java] Event: sumHumidity : 267717, count : 383, timestamp : 1508220666631
+     [java] eventCount : 663
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 906
+     [java] Event: sumHumidity : 634200, count : 906, timestamp : 1508220667745
+     [java] eventCount : 664
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 605
+     [java] Event: sumHumidity : 424105, count : 605, timestamp : 1508220668861
+     [java] eventCount : 665
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 936
+     [java] Event: sumHumidity : 657072, count : 936, timestamp : 1508220669974
+     [java] eventCount : 666
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 589
+     [java] Event: sumHumidity : 414067, count : 589, timestamp : 1508220671093
+     [java] eventCount : 667
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 542
+     [java] Event: sumHumidity : 381568, count : 542, timestamp : 1508220672205
+     [java] eventCount : 668
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 796
+     [java] Event: sumHumidity : 561180, count : 796, timestamp : 1508220673321
+     [java] eventCount : 669
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 127
+     [java] Event: sumHumidity : 89662, count : 127, timestamp : 1508220673966
+     [java] eventCount : 670
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 707, count : 1, timestamp : 1508220674735
+     [java] eventCount : 671
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 521
+     [java] Event: sumHumidity : 368868, count : 521, timestamp : 1508220676652
+     [java] eventCount : 672
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 309
+     [java] Event: sumHumidity : 219081, count : 309, timestamp : 1508220677769
+     [java] eventCount : 673
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 263
+     [java] Event: sumHumidity : 186730, count : 263, timestamp : 1508220678861
+     [java] eventCount : 674
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 954
+     [java] Event: sumHumidity : 678294, count : 954, timestamp : 1508220679969
+     [java] eventCount : 675
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 927
+     [java] Event: sumHumidity : 660024, count : 927, timestamp : 1508220681084
+     [java] eventCount : 676
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 711
+     [java] Event: sumHumidity : 506943, count : 711, timestamp : 1508220682187
+     [java] eventCount : 677
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 734
+     [java] Event: sumHumidity : 524076, count : 734, timestamp : 1508220683304
+     [java] eventCount : 678
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 646
+     [java] Event: sumHumidity : 461890, count : 646, timestamp : 1508220684407
+     [java] eventCount : 679
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 422
+     [java] Event: sumHumidity : 302152, count : 422, timestamp : 1508220685513
+     [java] eventCount : 680
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 25
+     [java] Event: sumHumidity : 17925, count : 25, timestamp : 1508220685995
+     [java] eventCount : 681
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 718, count : 1, timestamp : 1508220686970
+     [java] eventCount : 682
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 1
+     [java] Event: sumHumidity : 719, count : 1, timestamp : 1508220688021
+     [java] eventCount : 683
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 814
+     [java] Event: sumHumidity : 586080, count : 814, timestamp : 1508220689948
+     [java] eventCount : 684
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 732
+     [java] Event: sumHumidity : 527772, count : 732, timestamp : 1508220691064
+     [java] eventCount : 685
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 870
+     [java] Event: sumHumidity : 628140, count : 870, timestamp : 1508220692167
+     [java] eventCount : 686
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 172
+     [java] Event: sumHumidity : 124356, count : 172, timestamp : 1508220692880
+     [java] eventCount : 687
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 282
+     [java] Event: sumHumidity : 204168, count : 282, timestamp : 1508220694397
+     [java] eventCount : 688
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 562
+     [java] Event: sumHumidity : 407450, count : 562, timestamp : 1508220695511
+     [java] eventCount : 689
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 796
+     [java] Event: sumHumidity : 577896, count : 796, timestamp : 1508220696631
+     [java] eventCount : 690
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 135
+     [java] Event: sumHumidity : 98145, count : 135, timestamp : 1508220697245
+     [java] eventCount : 691
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 373
+     [java] Event: sumHumidity : 271544, count : 373, timestamp : 1508220698861
+     [java] eventCount : 692
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 522
+     [java] Event: sumHumidity : 380538, count : 522, timestamp : 1508220699978
+     [java] eventCount : 693
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 44
+     [java] Event: sumHumidity : 32120, count : 44, timestamp : 1508220700765
+     [java] eventCount : 694
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 202
+     [java] Event: sumHumidity : 147662, count : 202, timestamp : 1508220702223
+     [java] eventCount : 695
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 587
+     [java] Event: sumHumidity : 429684, count : 587, timestamp : 1508220703321
+     [java] eventCount : 696
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 129
+     [java] Event: sumHumidity : 94557, count : 129, timestamp : 1508220703947
+     [java] eventCount : 697
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 355
+     [java] Event: sumHumidity : 260570, count : 355, timestamp : 1508220705526
+     [java] eventCount : 698
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 896
+     [java] Event: sumHumidity : 658560, count : 896, timestamp : 1508220706635
+     [java] eventCount : 699
+     [java] Error while consuming event, Stream closed
+     [java] java.io.IOException: Stream closed
+     [java] 	at sun.nio.cs.StreamEncoder.ensureOpen(StreamEncoder.java:45)
+     [java] 	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:118)
+     [java] 	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:135)
+     [java] 	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:220)
+     [java] 	at java.io.Writer.write(Writer.java:157)
+     [java] 	at org.wso2.carbon.sample.performance.feedback.SiddhiHandler$1.receive(Unknown Source)
+     [java] 	at org.wso2.siddhi.core.stream.output.StreamCallback.receiveEvents(StreamCallback.java:98)
+     [java] 	at org.wso2.siddhi.core.stream.output.StreamCallback.receive(StreamCallback.java:69)
+     [java] 	at org.wso2.siddhi.core.stream.StreamJunction.sendEvent(StreamJunction.java:126)
+     [java] 	at org.wso2.siddhi.core.stream.StreamJunction$Publisher.send(StreamJunction.java:323)
+     [java] 	at org.wso2.siddhi.core.query.output.callback.InsertIntoStreamCallback.send(InsertIntoStreamCallback.java:46)
+     [java] 	at org.wso2.siddhi.core.query.output.ratelimit.OutputRateLimiter.sendToCallBacks(OutputRateLimiter.java:78)
+     [java] 	at org.wso2.siddhi.core.query.output.ratelimit.PassThroughOutputRateLimiter.process(PassThroughOutputRateLimiter.java:40)
+     [java] 	at org.wso2.siddhi.core.query.selector.QuerySelector.processInBatchNoGroupBy(QuerySelector.java:205)
+     [java] 	at org.wso2.siddhi.core.query.selector.QuerySelector.process(QuerySelector.java:80)
+     [java] 	at org.wso2.siddhi.extension.customWindow.CustomWindowExtension.process(CustomWindowExtension.java:160)
+     [java] 	at org.wso2.siddhi.core.query.processor.stream.window.WindowProcessor.processEventChunk(WindowProcessor.java:57)
+     [java] 	at org.wso2.siddhi.core.query.processor.stream.AbstractStreamProcessor.process(AbstractStreamProcessor.java:101)
+     [java] 	at org.wso2.siddhi.core.query.input.ProcessStreamReceiver.processAndClear(ProcessStreamReceiver.java:154)
+     [java] 	at org.wso2.siddhi.core.query.input.ProcessStreamReceiver.process(ProcessStreamReceiver.java:80)
+     [java] 	at org.wso2.siddhi.core.query.input.ProcessStreamReceiver.receive(ProcessStreamReceiver.java:150)
+     [java] 	at org.wso2.siddhi.core.stream.StreamJunction.sendData(StreamJunction.java:214)
+     [java] 	at org.wso2.siddhi.core.stream.StreamJunction.access$200(StreamJunction.java:46)
+     [java] 	at org.wso2.siddhi.core.stream.StreamJunction$Publisher.send(StreamJunction.java:343)
+     [java] 	at org.wso2.siddhi.core.stream.input.InputDistributor.send(InputDistributor.java:49)
+     [java] 	at org.wso2.siddhi.core.stream.input.InputEntryValve.send(InputEntryValve.java:59)
+     [java] 	at org.wso2.siddhi.core.stream.input.InputHandler.send(InputHandler.java:45)
+     [java] 	at org.wso2.carbon.sample.performance.feedback.SiddhiHandler$3.run(Unknown Source)
+     [java] 	at java.lang.Thread.run(Thread.java:748)
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 950
+     [java] Event: sumHumidity : 699200, count : 950, timestamp : 1508220707739
+     [java] eventCount : 700
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 544
+     [java] Event: sumHumidity : 400928, count : 544, timestamp : 1508220708839
+     [java] eventCount : 701
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 594
+     [java] Event: sumHumidity : 438372, count : 594, timestamp : 1508220709943
+     [java] eventCount : 702
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 334
+     [java] Event: sumHumidity : 246826, count : 334, timestamp : 1508220711060
+     [java] eventCount : 703
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 776
+     [java] Event: sumHumidity : 574240, count : 776, timestamp : 1508220712176
+     [java] eventCount : 704
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 819
+     [java] Event: sumHumidity : 606879, count : 819, timestamp : 1508220713295
+     [java] eventCount : 705
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 167
+     [java] Event: sumHumidity : 123914, count : 167, timestamp : 1508220713995
+     [java] eventCount : 706
+     [java] Done the experiment. Exitting the benchmark.
+     [java] count : 0
+     [java] count : 633
+     [java] Event: sumHumidity : 470952, count : 633, timestamp : 1508220716543
+     [java] eventCount : 707
+     [java] Done the experiment. Exitting the benchmark.

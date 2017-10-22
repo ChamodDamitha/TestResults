@@ -1,0 +1,22 @@
+producer..........
+
+events = 400000
+elapsedCount = 10000
+
+sent at = 1000 per second
+
+special events after = every 4000 event
+
+consumer...............
+
+normal delay = 1 ms
+special delay = 0 ms
+
+benchmark.........
+
+record window = 20000
+time period = 11 min
+
+logging..........
+
+every 400 event

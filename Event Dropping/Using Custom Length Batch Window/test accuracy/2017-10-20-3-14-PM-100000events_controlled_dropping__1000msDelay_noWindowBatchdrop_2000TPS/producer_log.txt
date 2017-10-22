@@ -1,0 +1,140 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+    [javac] Note: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/src/main/java/org/wso2/carbon/sample/performance/Client.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+
+run:
+     [echo] Configure optionally use -DeventCount=xxxx -DelapsedCount=xxxx -DwarmUpCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx
+     [echo]             -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx -DcalcType='throughput/latency'
+     [echo]         
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - [thrift, localhost, 7661, admin, admin, 100000, 10000, 10000, throughput]
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - Starting WSO2 Performance Test Client
+     [java] FEEDBACK SERVER started................
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] dropped in window : 531
+     [java] dropped in window : 476
+     [java] dropped in window : 501
+     [java] dropped in window : 497
+     [java] dropped in window : 490
+     [java] dropped in window : 488
+     [java] dropped in window : 546
+     [java] dropped in window : 543
+     [java] dropped in window : 664
+     [java] dropped in window : 529
+     [java] dropped in window : 694
+     [java] dropped in window : 513
+     [java] dropped in window : 661
+     [java] dropped in window : 531
+     [java] dropped in window : 665
+     [java] dropped in window : 591
+     [java] dropped in window : 639
+     [java] dropped in window : 592
+     [java] dropped in window : 578
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 11442 milliseconds with total throughput of 874 events per second.
+     [java] dropped in window : 605
+     [java] dropped in window : 577
+     [java] dropped in window : 674
+     [java] dropped in window : 553
+     [java] dropped in window : 681
+     [java] dropped in window : 531
+     [java] dropped in window : 694
+     [java] dropped in window : 820
+     [java] dropped in window : 801
+     [java] dropped in window : 590
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5515 milliseconds with total throughput of 1813 events per second.
+     [java] dropped in window : 648
+     [java] dropped in window : 600
+     [java] dropped in window : 765
+     [java] dropped in window : 839
+     [java] dropped in window : 901
+     [java] dropped in window : 922
+     [java] dropped in window : 574
+     [java] dropped in window : 637
+     [java] dropped in window : 580
+     [java] dropped in window : 722
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5533 milliseconds with total throughput of 1807 events per second.
+     [java] dropped in window : 833
+     [java] dropped in window : 909
+     [java] dropped in window : 953
+     [java] dropped in window : 944
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 1 events dropped so far.
+     [java] dropped in window : 862
+     [java] dropped in window : 586
+     [java] dropped in window : 679
+     [java] dropped in window : 627
+     [java] dropped in window : 758
+     [java] dropped in window : 864
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5574 milliseconds with total throughput of 1794 events per second.
+     [java] dropped in window : 912
+     [java] dropped in window : 833
+     [java] dropped in window : 580
+     [java] dropped in window : 646
+     [java] dropped in window : 610
+     [java] dropped in window : 741
+     [java] dropped in window : 861
+     [java] dropped in window : 634
+     [java] dropped in window : 673
+     [java] dropped in window : 575
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5566 milliseconds with total throughput of 1797 events per second.
+     [java] dropped in window : 642
+     [java] dropped in window : 579
+     [java] dropped in window : 653
+     [java] dropped in window : 648
+     [java] dropped in window : 765
+     [java] dropped in window : 871
+     [java] dropped in window : 600
+     [java] dropped in window : 643
+     [java] dropped in window : 549
+     [java] dropped in window : 702
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5474 milliseconds with total throughput of 1827 events per second.
+     [java] dropped in window : 826
+     [java] dropped in window : 897
+     [java] dropped in window : 928
+     [java] dropped in window : 779
+     [java] dropped in window : 785
+     [java] dropped in window : 505
+     [java] dropped in window : 720
+     [java] dropped in window : 609
+     [java] dropped in window : 643
+     [java] dropped in window : 621
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5499 milliseconds with total throughput of 1819 events per second.
+     [java] dropped in window : 770
+     [java] dropped in window : 857
+     [java] dropped in window : 559
+     [java] dropped in window : 686
+     [java] dropped in window : 525
+     [java] dropped in window : 725
+     [java] dropped in window : 814
+     [java] dropped in window : 900
+     [java] dropped in window : 953
+     [java] dropped in window : 595
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5564 milliseconds with total throughput of 1797 events per second.
+     [java] dropped in window : 671
+     [java] dropped in window : 541
+     [java] dropped in window : 728
+     [java] dropped in window : 844
+     [java] dropped in window : 909
+     [java] dropped in window : 929
+     [java] dropped in window : 616
+     [java] dropped in window : 718
+     [java] dropped in window : 842
+     [java] dropped in window : 894
+     [java] [Thread-3] INFO  org.wso2.carbon.sample.performance.Client  - Sent 10000 sensor events in 5480 milliseconds with total throughput of 1825 events per second.
+     [java] dropped in window : 941
+     [java] EVENT SENDING FINISHED.................
+     [java] UNCONTROLLED DROPPED : 0
+     [java] CONTROLLED DROPPED : 69505
+     [java] TOTAL DROPPED : 69505
+     [java] TOTAL NO OF EVENTS : 100000
+     [java] FILTERED NO OF EVENTS : 0
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7661
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Completed shutdown for data publisher endpoint URL - tcp://localhost:7661

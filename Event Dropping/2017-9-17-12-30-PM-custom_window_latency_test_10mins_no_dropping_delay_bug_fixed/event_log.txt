@@ -1,0 +1,2465 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+init:
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:81: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: avgHumidity : 0.004600465297698975, count : 1, timestamp : 1505631553366
+     [java] eventCount : 0
+     [java] Event: avgHumidity : 0.48198865357777126, count : 401, timestamp : 1505631553880
+     [java] eventCount : 400
+     [java] Event: avgHumidity : 0.4743549654843953, count : 801, timestamp : 1505631554334
+     [java] eventCount : 800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.47533070588111875, count : 1000, timestamp : 1505631554774
+     [java] eventCount : 1200
+     [java] Event: avgHumidity : 0.48255266511440276, count : 1000, timestamp : 1505631555217
+     [java] eventCount : 1600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4919900648593903, count : 1000, timestamp : 1505631555654
+     [java] eventCount : 2000
+     [java] Event: avgHumidity : 0.5085885789990425, count : 1000, timestamp : 1505631556086
+     [java] eventCount : 2400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5014639175534248, count : 1000, timestamp : 1505631556521
+     [java] eventCount : 2800
+     [java] Event: avgHumidity : 0.5033440337777138, count : 1000, timestamp : 1505631556964
+     [java] eventCount : 3200
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4944725063443184, count : 1000, timestamp : 1505631557402
+     [java] eventCount : 3600
+     [java] Event: avgHumidity : 0.5071510378122329, count : 1000, timestamp : 1505631557841
+     [java] eventCount : 4000
+     [java] Event: avgHumidity : 0.5131451107859611, count : 1000, timestamp : 1505631558276
+     [java] eventCount : 4400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5176829177737235, count : 1000, timestamp : 1505631558713
+     [java] eventCount : 4800
+     [java] Event: avgHumidity : 0.5128359414339065, count : 1000, timestamp : 1505631559151
+     [java] eventCount : 5200
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5044222624301911, count : 1000, timestamp : 1505631559593
+     [java] eventCount : 5600
+     [java] Event: avgHumidity : 0.4938079205751419, count : 1000, timestamp : 1505631560030
+     [java] eventCount : 6000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4939508525133133, count : 1000, timestamp : 1505631560465
+     [java] eventCount : 6400
+     [java] Event: avgHumidity : 0.49978868341445926, count : 1000, timestamp : 1505631560902
+     [java] eventCount : 6800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49595491725206375, count : 1000, timestamp : 1505631561337
+     [java] eventCount : 7200
+     [java] Event: avgHumidity : 0.47808374685049054, count : 1000, timestamp : 1505631561774
+     [java] eventCount : 7600
+     [java] Event: avgHumidity : 0.4946105843782425, count : 1000, timestamp : 1505631562205
+     [java] eventCount : 8000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48809992480278014, count : 1000, timestamp : 1505631562634
+     [java] eventCount : 8400
+     [java] Event: avgHumidity : 0.4886494676470757, count : 1000, timestamp : 1505631563063
+     [java] eventCount : 8800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4906636438369751, count : 1000, timestamp : 1505631563495
+     [java] eventCount : 9200
+     [java] Event: avgHumidity : 0.5050354272723198, count : 1000, timestamp : 1505631563926
+     [java] eventCount : 9600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5084571415781974, count : 1000, timestamp : 1505631564356
+     [java] eventCount : 10000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 14722 milliseconds with total throughput of 679.26 events per second. Average delay is 673.47
+     [java] Event: avgHumidity : 0.4951357556581497, count : 1000, timestamp : 1505631564791
+     [java] eventCount : 10400
+     [java] Event: avgHumidity : 0.4930561735033989, count : 1000, timestamp : 1505631565224
+     [java] eventCount : 10800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5075626801848412, count : 1000, timestamp : 1505631565659
+     [java] eventCount : 11200
+     [java] Event: avgHumidity : 0.4947719280123711, count : 1000, timestamp : 1505631566095
+     [java] eventCount : 11600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4861692234873772, count : 1000, timestamp : 1505631566530
+     [java] eventCount : 12000
+     [java] Event: avgHumidity : 0.4874525569677353, count : 1000, timestamp : 1505631566967
+     [java] eventCount : 12400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4964795985817909, count : 1000, timestamp : 1505631567403
+     [java] eventCount : 12800
+     [java] Event: avgHumidity : 0.5030746265053749, count : 1000, timestamp : 1505631567847
+     [java] eventCount : 13200
+     [java] Event: avgHumidity : 0.4921184878349304, count : 1000, timestamp : 1505631568285
+     [java] eventCount : 13600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4871891062259674, count : 1000, timestamp : 1505631568720
+     [java] eventCount : 14000
+     [java] Event: avgHumidity : 0.48094140022993087, count : 1000, timestamp : 1505631569155
+     [java] eventCount : 14400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49861112475395203, count : 1000, timestamp : 1505631569584
+     [java] eventCount : 14800
+     [java] Event: avgHumidity : 0.5075777735114098, count : 1000, timestamp : 1505631570020
+     [java] eventCount : 15200
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.50102499127388, count : 1000, timestamp : 1505631570467
+     [java] eventCount : 15600
+     [java] Event: avgHumidity : 0.4946291984319687, count : 1000, timestamp : 1505631570900
+     [java] eventCount : 16000
+     [java] Event: avgHumidity : 0.49251378762722015, count : 1000, timestamp : 1505631571331
+     [java] eventCount : 16400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5040977554321289, count : 1000, timestamp : 1505631571767
+     [java] eventCount : 16800
+     [java] Event: avgHumidity : 0.5061965393424034, count : 1000, timestamp : 1505631572205
+     [java] eventCount : 17200
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4999032230377197, count : 1000, timestamp : 1505631572640
+     [java] eventCount : 17600
+     [java] Event: avgHumidity : 0.4944327332377434, count : 1000, timestamp : 1505631573077
+     [java] eventCount : 18000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5062103085517883, count : 1000, timestamp : 1505631573513
+     [java] eventCount : 18400
+     [java] Event: avgHumidity : 0.5098380180597305, count : 1000, timestamp : 1505631573949
+     [java] eventCount : 18800
+     [java] Event: avgHumidity : 0.5133951107263565, count : 1000, timestamp : 1505631574387
+     [java] eventCount : 19200
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5132885969281197, count : 1000, timestamp : 1505631574823
+     [java] eventCount : 19600
+     [java] Event: avgHumidity : 0.5084295674562455, count : 1000, timestamp : 1505631575257
+     [java] eventCount : 20000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 11861 milliseconds with total throughput of 843.1 events per second. Average delay is 1582
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4952666088938713, count : 1000, timestamp : 1505631575698
+     [java] eventCount : 20400
+     [java] Event: avgHumidity : 0.49621433520317076, count : 1000, timestamp : 1505631576150
+     [java] eventCount : 20800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5075743823647499, count : 1000, timestamp : 1505631576584
+     [java] eventCount : 21200
+     [java] Event: avgHumidity : 0.5073511602282524, count : 1000, timestamp : 1505631577030
+     [java] eventCount : 21600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4942530130147934, count : 1000, timestamp : 1505631577472
+     [java] eventCount : 22000
+     [java] Event: avgHumidity : 0.4874233874082565, count : 1000, timestamp : 1505631577912
+     [java] eventCount : 22400
+     [java] Event: avgHumidity : 0.49737516468763354, count : 1000, timestamp : 1505631578352
+     [java] eventCount : 22800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4927219564914703, count : 1000, timestamp : 1505631578789
+     [java] eventCount : 23200
+     [java] Event: avgHumidity : 0.48204857915639876, count : 1000, timestamp : 1505631579220
+     [java] eventCount : 23600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4832202026247978, count : 1000, timestamp : 1505631579672
+     [java] eventCount : 24000
+     [java] Event: avgHumidity : 0.4862284638285637, count : 1000, timestamp : 1505631580092
+     [java] eventCount : 24400
+     [java] Event: avgHumidity : 0.4816442273259163, count : 1000, timestamp : 1505631580531
+     [java] eventCount : 24800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48707129347324374, count : 1000, timestamp : 1505631580982
+     [java] eventCount : 25200
+     [java] Event: avgHumidity : 0.5011086914539337, count : 1000, timestamp : 1505631581409
+     [java] eventCount : 25600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5025755100846291, count : 1000, timestamp : 1505631581836
+     [java] eventCount : 26000
+     [java] Event: avgHumidity : 0.5113245244622231, count : 1000, timestamp : 1505631582276
+     [java] eventCount : 26400
+     [java] Event: avgHumidity : 0.5056034861803055, count : 1000, timestamp : 1505631582711
+     [java] eventCount : 26800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48700454747676847, count : 1000, timestamp : 1505631583145
+     [java] eventCount : 27200
+     [java] Event: avgHumidity : 0.4868356785774231, count : 1000, timestamp : 1505631583568
+     [java] eventCount : 27600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4923623403906822, count : 1000, timestamp : 1505631584011
+     [java] eventCount : 28000
+     [java] Event: avgHumidity : 0.5018233570456505, count : 1000, timestamp : 1505631584456
+     [java] eventCount : 28400
+     [java] Event: avgHumidity : 0.49838039058446887, count : 1000, timestamp : 1505631584876
+     [java] eventCount : 28800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5044602818489075, count : 1000, timestamp : 1505631585321
+     [java] eventCount : 29200
+     [java] Event: avgHumidity : 0.5073925001621247, count : 1000, timestamp : 1505631585763
+     [java] eventCount : 29600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5116627179980278, count : 1000, timestamp : 1505631586197
+     [java] eventCount : 30000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 11271 milliseconds with total throughput of 887.23 events per second. Average delay is 2361.05
+     [java] Event: avgHumidity : 0.5006143357157707, count : 1000, timestamp : 1505631586619
+     [java] eventCount : 30400
+     [java] Event: avgHumidity : 0.49115632396936415, count : 1000, timestamp : 1505631587051
+     [java] eventCount : 30800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49188010483980177, count : 1000, timestamp : 1505631587496
+     [java] eventCount : 31200
+     [java] Event: avgHumidity : 0.4924637644290924, count : 1000, timestamp : 1505631587925
+     [java] eventCount : 31600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4936527465581894, count : 1000, timestamp : 1505631588369
+     [java] eventCount : 32000
+     [java] Event: avgHumidity : 0.4885754813551903, count : 1000, timestamp : 1505631588796
+     [java] eventCount : 32400
+     [java] Event: avgHumidity : 0.500379911839962, count : 1000, timestamp : 1505631589246
+     [java] eventCount : 32800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5175207201838493, count : 1000, timestamp : 1505631589670
+     [java] eventCount : 33200
+     [java] Event: avgHumidity : 0.5102399507761002, count : 1000, timestamp : 1505631590115
+     [java] eventCount : 33600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5071092712283134, count : 1000, timestamp : 1505631590548
+     [java] eventCount : 34000
+     [java] Event: avgHumidity : 0.5067635861039161, count : 1000, timestamp : 1505631590972
+     [java] eventCount : 34400
+     [java] Event: avgHumidity : 0.5017016787528992, count : 1000, timestamp : 1505631591405
+     [java] eventCount : 34800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48879801362752917, count : 1000, timestamp : 1505631591857
+     [java] eventCount : 35200
+     [java] Event: avgHumidity : 0.4839476248025894, count : 1000, timestamp : 1505631592284
+     [java] eventCount : 35600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49584378612041474, count : 1000, timestamp : 1505631592721
+     [java] eventCount : 36000
+     [java] Event: avgHumidity : 0.503525296986103, count : 1000, timestamp : 1505631593166
+     [java] eventCount : 36400
+     [java] Event: avgHumidity : 0.5076107444167137, count : 1000, timestamp : 1505631593582
+     [java] eventCount : 36800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5022677721977233, count : 1000, timestamp : 1505631594019
+     [java] eventCount : 37200
+     [java] Event: avgHumidity : 0.4986703689098358, count : 1000, timestamp : 1505631594462
+     [java] eventCount : 37600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5001127187013626, count : 1000, timestamp : 1505631594897
+     [java] eventCount : 38000
+     [java] Event: avgHumidity : 0.5039558473825455, count : 1000, timestamp : 1505631595324
+     [java] eventCount : 38400
+     [java] Event: avgHumidity : 0.5117512543201447, count : 1000, timestamp : 1505631595768
+     [java] eventCount : 38800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5091031814813614, count : 1000, timestamp : 1505631596210
+     [java] eventCount : 39200
+     [java] Event: avgHumidity : 0.49948942452669143, count : 1000, timestamp : 1505631596640
+     [java] eventCount : 39600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5004069581031799, count : 1000, timestamp : 1505631597074
+     [java] eventCount : 40000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10883 milliseconds with total throughput of 918.86 events per second. Average delay is 2400.85
+     [java] Event: avgHumidity : 0.518988744199276, count : 1000, timestamp : 1505631597515
+     [java] eventCount : 40400
+     [java] Event: avgHumidity : 0.5060973576307297, count : 1000, timestamp : 1505631597940
+     [java] eventCount : 40800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5056667219400406, count : 1000, timestamp : 1505631598378
+     [java] eventCount : 41200
+     [java] Event: avgHumidity : 0.493383103966713, count : 1000, timestamp : 1505631598822
+     [java] eventCount : 41600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49162426030635836, count : 1000, timestamp : 1505631599240
+     [java] eventCount : 42000
+     [java] Event: avgHumidity : 0.4924277367591858, count : 1000, timestamp : 1505631599696
+     [java] eventCount : 42400
+     [java] Event: avgHumidity : 0.5057562681436538, count : 1000, timestamp : 1505631600114
+     [java] eventCount : 42800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4925527870059013, count : 1000, timestamp : 1505631600567
+     [java] eventCount : 43200
+     [java] Event: avgHumidity : 0.5024323206543923, count : 1000, timestamp : 1505631600994
+     [java] eventCount : 43600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5012079380154609, count : 1000, timestamp : 1505631601436
+     [java] eventCount : 44000
+     [java] Event: avgHumidity : 0.49080947291851046, count : 1000, timestamp : 1505631601854
+     [java] eventCount : 44400
+     [java] Event: avgHumidity : 0.49445921725034714, count : 1000, timestamp : 1505631602304
+     [java] eventCount : 44800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49226953476667407, count : 1000, timestamp : 1505631602738
+     [java] eventCount : 45200
+     [java] Event: avgHumidity : 0.4950822056531906, count : 1000, timestamp : 1505631603164
+     [java] eventCount : 45600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5034446203112602, count : 1000, timestamp : 1505631603605
+     [java] eventCount : 46000
+     [java] Event: avgHumidity : 0.5001696382164955, count : 1000, timestamp : 1505631604046
+     [java] eventCount : 46400
+     [java] Event: avgHumidity : 0.4954010253548622, count : 1000, timestamp : 1505631604463
+     [java] eventCount : 46800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5010284971594811, count : 1000, timestamp : 1505631604903
+     [java] eventCount : 47200
+     [java] Event: avgHumidity : 0.497812181532383, count : 1000, timestamp : 1505631605351
+     [java] eventCount : 47600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4966885231137276, count : 1000, timestamp : 1505631605778
+     [java] eventCount : 48000
+     [java] Event: avgHumidity : 0.49524785089492795, count : 1000, timestamp : 1505631606215
+     [java] eventCount : 48400
+     [java] Event: avgHumidity : 0.5155719895362854, count : 1000, timestamp : 1505631606639
+     [java] eventCount : 48800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5156239837408065, count : 1000, timestamp : 1505631607068
+     [java] eventCount : 49200
+     [java] Event: avgHumidity : 0.5156958413720131, count : 1000, timestamp : 1505631607508
+     [java] eventCount : 49600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49694383710622786, count : 1000, timestamp : 1505631607952
+     [java] eventCount : 50000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10990 milliseconds with total throughput of 909.92 events per second. Average delay is 2390.93
+     [java] Event: avgHumidity : 0.5076308760046959, count : 1000, timestamp : 1505631608404
+     [java] eventCount : 50400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.507158882021904, count : 1000, timestamp : 1505631608841
+     [java] eventCount : 50800
+     [java] Event: avgHumidity : 0.4959928104281425, count : 1000, timestamp : 1505631609264
+     [java] eventCount : 51200
+     [java] Event: avgHumidity : 0.49616862314939497, count : 1000, timestamp : 1505631609713
+     [java] eventCount : 51600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5014414632320404, count : 1000, timestamp : 1505631610132
+     [java] eventCount : 52000
+     [java] Event: avgHumidity : 0.5045548567175865, count : 1000, timestamp : 1505631610603
+     [java] eventCount : 52400
+     [java] Event: avgHumidity : 0.5097120605707168, count : 1000, timestamp : 1505631611049
+     [java] eventCount : 52800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.505652852833271, count : 1000, timestamp : 1505631611471
+     [java] eventCount : 53200
+     [java] Event: avgHumidity : 0.5102826936841011, count : 1000, timestamp : 1505631611902
+     [java] eventCount : 53600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.50101287150383, count : 1000, timestamp : 1505631612354
+     [java] eventCount : 54000
+     [java] Event: avgHumidity : 0.48707845121622084, count : 1000, timestamp : 1505631612777
+     [java] eventCount : 54400
+     [java] Event: avgHumidity : 0.4793023438453674, count : 1000, timestamp : 1505631613221
+     [java] eventCount : 54800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4868235528469086, count : 1000, timestamp : 1505631613647
+     [java] eventCount : 55200
+     [java] Event: avgHumidity : 0.4939161624312401, count : 1000, timestamp : 1505631614095
+     [java] eventCount : 55600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5018244016766548, count : 1000, timestamp : 1505631614517
+     [java] eventCount : 56000
+     [java] Event: avgHumidity : 0.4981461343765259, count : 1000, timestamp : 1505631614951
+     [java] eventCount : 56400
+     [java] Event: avgHumidity : 0.5070923455357551, count : 1000, timestamp : 1505631615389
+     [java] eventCount : 56800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5102222321033478, count : 1000, timestamp : 1505631615806
+     [java] eventCount : 57200
+     [java] Event: avgHumidity : 0.5059166743159295, count : 1000, timestamp : 1505631616259
+     [java] eventCount : 57600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.514755776822567, count : 1000, timestamp : 1505631616678
+     [java] eventCount : 58000
+     [java] Event: avgHumidity : 0.5054846950769425, count : 1000, timestamp : 1505631617135
+     [java] eventCount : 58400
+     [java] Event: avgHumidity : 0.4978816801905632, count : 1000, timestamp : 1505631617557
+     [java] eventCount : 58800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5010534402132034, count : 1000, timestamp : 1505631617989
+     [java] eventCount : 59200
+     [java] Event: avgHumidity : 0.5004239394664765, count : 1000, timestamp : 1505631618431
+     [java] eventCount : 59600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49813862234354017, count : 1000, timestamp : 1505631618865
+     [java] eventCount : 60000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10848 milliseconds with total throughput of 921.83 events per second. Average delay is 2411.68
+     [java] Event: avgHumidity : 0.4983956024646759, count : 1000, timestamp : 1505631619288
+     [java] eventCount : 60400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.506548089325428, count : 1000, timestamp : 1505631619722
+     [java] eventCount : 60800
+     [java] Event: avgHumidity : 0.5068882257938385, count : 1000, timestamp : 1505631620159
+     [java] eventCount : 61200
+     [java] Event: avgHumidity : 0.5087957508563995, count : 1000, timestamp : 1505631620608
+     [java] eventCount : 61600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4972044632434845, count : 1000, timestamp : 1505631621029
+     [java] eventCount : 62000
+     [java] Event: avgHumidity : 0.4929230355620384, count : 1000, timestamp : 1505631621484
+     [java] eventCount : 62400
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4968609041571617, count : 1000, timestamp : 1505631621899
+     [java] eventCount : 62800
+     [java] Event: avgHumidity : 0.49844940751791, count : 1000, timestamp : 1505631622329
+     [java] eventCount : 63200
+     [java] Event: avgHumidity : 0.5179157502055168, count : 1000, timestamp : 1505631622769
+     [java] eventCount : 63600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5157245550155639, count : 1000, timestamp : 1505631623195
+     [java] eventCount : 64000
+     [java] Event: avgHumidity : 0.5113658324480057, count : 1000, timestamp : 1505631623644
+     [java] eventCount : 64400
+     [java] Event: avgHumidity : 0.4937796512246132, count : 1000, timestamp : 1505631624072
+     [java] eventCount : 64800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5023344260454178, count : 1000, timestamp : 1505631624504
+     [java] eventCount : 65200
+     [java] Event: avgHumidity : 0.5027245296835899, count : 1000, timestamp : 1505631624941
+     [java] eventCount : 65600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4870887956023216, count : 1000, timestamp : 1505631625368
+     [java] eventCount : 66000
+     [java] Event: avgHumidity : 0.4900753334760666, count : 1000, timestamp : 1505631625808
+     [java] eventCount : 66400
+     [java] Event: avgHumidity : 0.4890353927016258, count : 1000, timestamp : 1505631626226
+     [java] eventCount : 66800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.491168531358242, count : 1000, timestamp : 1505631626666
+     [java] eventCount : 67200
+     [java] Event: avgHumidity : 0.489026417195797, count : 1000, timestamp : 1505631627087
+     [java] eventCount : 67600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48337054139375685, count : 1000, timestamp : 1505631627518
+     [java] eventCount : 68000
+     [java] Event: avgHumidity : 0.48770397502183915, count : 1000, timestamp : 1505631627953
+     [java] eventCount : 68400
+     [java] Event: avgHumidity : 0.49076154160499574, count : 1000, timestamp : 1505631628392
+     [java] eventCount : 68800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4918634704351425, count : 1000, timestamp : 1505631628824
+     [java] eventCount : 69200
+     [java] Event: avgHumidity : 0.4881395481824875, count : 1000, timestamp : 1505631629263
+     [java] eventCount : 69600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49134154289960863, count : 1000, timestamp : 1505631629702
+     [java] eventCount : 70000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10804 milliseconds with total throughput of 925.58 events per second. Average delay is 2435.92
+     [java] Event: avgHumidity : 0.4866934335827827, count : 1000, timestamp : 1505631630134
+     [java] eventCount : 70400
+     [java] Event: avgHumidity : 0.5052271547317505, count : 1000, timestamp : 1505631630568
+     [java] eventCount : 70800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.500308723628521, count : 1000, timestamp : 1505631630983
+     [java] eventCount : 71200
+     [java] Event: avgHumidity : 0.5046641895771027, count : 1000, timestamp : 1505631631422
+     [java] eventCount : 71600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4921185275912285, count : 1000, timestamp : 1505631631843
+     [java] eventCount : 72000
+     [java] Event: avgHumidity : 0.49494654542207717, count : 1000, timestamp : 1505631632279
+     [java] eventCount : 72400
+     [java] Event: avgHumidity : 0.4991949796080589, count : 1000, timestamp : 1505631632714
+     [java] eventCount : 72800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5050435579419136, count : 1000, timestamp : 1505631633133
+     [java] eventCount : 73200
+     [java] Event: avgHumidity : 0.49528268378973006, count : 1000, timestamp : 1505631633572
+     [java] eventCount : 73600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4992781631946564, count : 1000, timestamp : 1505631634003
+     [java] eventCount : 74000
+     [java] Event: avgHumidity : 0.5140384030342102, count : 1000, timestamp : 1505631634439
+     [java] eventCount : 74400
+     [java] Event: avgHumidity : 0.5115902163982391, count : 1000, timestamp : 1505631634865
+     [java] eventCount : 74800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5062397474050522, count : 1000, timestamp : 1505631635296
+     [java] eventCount : 75200
+     [java] Event: avgHumidity : 0.5051366758942604, count : 1000, timestamp : 1505631635727
+     [java] eventCount : 75600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4870221216082573, count : 1000, timestamp : 1505631636159
+     [java] eventCount : 76000
+     [java] Event: avgHumidity : 0.48085958063602446, count : 1000, timestamp : 1505631636589
+     [java] eventCount : 76400
+     [java] Event: avgHumidity : 0.49419100272655486, count : 1000, timestamp : 1505631637025
+     [java] eventCount : 76800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5003606161475181, count : 1000, timestamp : 1505631637458
+     [java] eventCount : 77200
+     [java] Event: avgHumidity : 0.5000410999059677, count : 1000, timestamp : 1505631637890
+     [java] eventCount : 77600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5137237712144852, count : 1000, timestamp : 1505631638311
+     [java] eventCount : 78000
+     [java] Event: avgHumidity : 0.5196071865558625, count : 1000, timestamp : 1505631638751
+     [java] eventCount : 78400
+     [java] Event: avgHumidity : 0.5137793596982956, count : 1000, timestamp : 1505631639182
+     [java] eventCount : 78800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5063409879207611, count : 1000, timestamp : 1505631639600
+     [java] eventCount : 79200
+     [java] Event: avgHumidity : 0.5101592846512795, count : 1000, timestamp : 1505631640030
+     [java] eventCount : 79600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5120408034324646, count : 1000, timestamp : 1505631640460
+     [java] eventCount : 80000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10774 milliseconds with total throughput of 928.16 events per second. Average delay is 2395.89
+     [java] Event: avgHumidity : 0.5032427241206169, count : 1000, timestamp : 1505631640886
+     [java] eventCount : 80400
+     [java] Event: avgHumidity : 0.49594762432575223, count : 1000, timestamp : 1505631641317
+     [java] eventCount : 80800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4943207696080208, count : 1000, timestamp : 1505631641740
+     [java] eventCount : 81200
+     [java] Event: avgHumidity : 0.4939394271373749, count : 1000, timestamp : 1505631642182
+     [java] eventCount : 81600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49774468237161634, count : 1000, timestamp : 1505631642606
+     [java] eventCount : 82000
+     [java] Event: avgHumidity : 0.49396764516830444, count : 1000, timestamp : 1505631643039
+     [java] eventCount : 82400
+     [java] Event: avgHumidity : 0.5005462552309037, count : 1000, timestamp : 1505631643476
+     [java] eventCount : 82800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48883316886425016, count : 1000, timestamp : 1505631643894
+     [java] eventCount : 83200
+     [java] Event: avgHumidity : 0.4902663183808327, count : 1000, timestamp : 1505631644351
+     [java] eventCount : 83600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4957604766488075, count : 1000, timestamp : 1505631644780
+     [java] eventCount : 84000
+     [java] Event: avgHumidity : 0.5014579354524612, count : 1000, timestamp : 1505631645191
+     [java] eventCount : 84400
+     [java] Event: avgHumidity : 0.49895300447940827, count : 1000, timestamp : 1505631645640
+     [java] eventCount : 84800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.507984665632248, count : 1000, timestamp : 1505631646065
+     [java] eventCount : 85200
+     [java] Event: avgHumidity : 0.5092536139488221, count : 1000, timestamp : 1505631646480
+     [java] eventCount : 85600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4967981071472168, count : 1000, timestamp : 1505631646924
+     [java] eventCount : 86000
+     [java] Event: avgHumidity : 0.5051391825079918, count : 1000, timestamp : 1505631647363
+     [java] eventCount : 86400
+     [java] Event: avgHumidity : 0.5106410760879516, count : 1000, timestamp : 1505631647787
+     [java] eventCount : 86800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5003908570408822, count : 1000, timestamp : 1505631648216
+     [java] eventCount : 87200
+     [java] Event: avgHumidity : 0.4890254235267639, count : 1000, timestamp : 1505631648655
+     [java] eventCount : 87600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4964803872704506, count : 1000, timestamp : 1505631649094
+     [java] eventCount : 88000
+     [java] Event: avgHumidity : 0.49652212810516355, count : 1000, timestamp : 1505631649528
+     [java] eventCount : 88400
+     [java] Event: avgHumidity : 0.4949402791261673, count : 1000, timestamp : 1505631649969
+     [java] eventCount : 88800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48454972958564757, count : 1000, timestamp : 1505631650399
+     [java] eventCount : 89200
+     [java] Event: avgHumidity : 0.4965844054818153, count : 1000, timestamp : 1505631650811
+     [java] eventCount : 89600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5042895339131356, count : 1000, timestamp : 1505631651256
+     [java] eventCount : 90000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10786 milliseconds with total throughput of 927.13 events per second. Average delay is 2399.28
+     [java] Event: avgHumidity : 0.514952978849411, count : 1000, timestamp : 1505631651684
+     [java] eventCount : 90400
+     [java] Event: avgHumidity : 0.5056899888515473, count : 1000, timestamp : 1505631652101
+     [java] eventCount : 90800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4907676381468773, count : 1000, timestamp : 1505631652541
+     [java] eventCount : 91200
+     [java] Event: avgHumidity : 0.49112000125646593, count : 1000, timestamp : 1505631652968
+     [java] eventCount : 91600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4997071166038513, count : 1000, timestamp : 1505631653381
+     [java] eventCount : 92000
+     [java] Event: avgHumidity : 0.511341253876686, count : 1000, timestamp : 1505631653820
+     [java] eventCount : 92400
+     [java] Event: avgHumidity : 0.4998066473603249, count : 1000, timestamp : 1505631654268
+     [java] eventCount : 92800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.508955267906189, count : 1000, timestamp : 1505631654692
+     [java] eventCount : 93200
+     [java] Event: avgHumidity : 0.5157113643288612, count : 1000, timestamp : 1505631655113
+     [java] eventCount : 93600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5169372127652169, count : 1000, timestamp : 1505631655557
+     [java] eventCount : 94000
+     [java] Event: avgHumidity : 0.515148879289627, count : 1000, timestamp : 1505631655977
+     [java] eventCount : 94400
+     [java] Event: avgHumidity : 0.5249508544206619, count : 1000, timestamp : 1505631656420
+     [java] eventCount : 94800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5234240109920502, count : 1000, timestamp : 1505631656837
+     [java] eventCount : 95200
+     [java] Event: avgHumidity : 0.505139113843441, count : 1000, timestamp : 1505631657281
+     [java] eventCount : 95600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5035423901677132, count : 1000, timestamp : 1505631657711
+     [java] eventCount : 96000
+     [java] Event: avgHumidity : 0.49749831277132034, count : 1000, timestamp : 1505631658140
+     [java] eventCount : 96400
+     [java] Event: avgHumidity : 0.4964382289648056, count : 1000, timestamp : 1505631658581
+     [java] eventCount : 96800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5110012518763543, count : 1000, timestamp : 1505631659013
+     [java] eventCount : 97200
+     [java] Event: avgHumidity : 0.5107655252814293, count : 1000, timestamp : 1505631659460
+     [java] eventCount : 97600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.512622949898243, count : 1000, timestamp : 1505631659883
+     [java] eventCount : 98000
+     [java] Event: avgHumidity : 0.4916377368569374, count : 1000, timestamp : 1505631660313
+     [java] eventCount : 98400
+     [java] Event: avgHumidity : 0.48821487963199617, count : 1000, timestamp : 1505631660745
+     [java] eventCount : 98800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48783601260185244, count : 1000, timestamp : 1505631661180
+     [java] eventCount : 99200
+     [java] Event: avgHumidity : 0.508312038898468, count : 1000, timestamp : 1505631661621
+     [java] eventCount : 99600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5185028670430183, count : 1000, timestamp : 1505631662050
+     [java] eventCount : 100000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10001 sensor events in 10821 milliseconds with total throughput of 924.22 events per second. Average delay is 2420.31
+     [java] Event: avgHumidity : 0.5277288877964019, count : 1000, timestamp : 1505631662491
+     [java] eventCount : 100400
+     [java] Event: avgHumidity : 0.5270790945887566, count : 1000, timestamp : 1505631662914
+     [java] eventCount : 100800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5237787571549416, count : 1000, timestamp : 1505631663332
+     [java] eventCount : 101200
+     [java] Event: avgHumidity : 0.5091552093029023, count : 1000, timestamp : 1505631663778
+     [java] eventCount : 101600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49919381284713743, count : 1000, timestamp : 1505631664194
+     [java] eventCount : 102000
+     [java] Event: avgHumidity : 0.5057958270907402, count : 1000, timestamp : 1505631664633
+     [java] eventCount : 102400
+     [java] Event: avgHumidity : 0.49795117127895355, count : 1000, timestamp : 1505631665056
+     [java] eventCount : 102800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5071306626200676, count : 1000, timestamp : 1505631665481
+     [java] eventCount : 103200
+     [java] Event: avgHumidity : 0.5003071467280388, count : 1000, timestamp : 1505631665912
+     [java] eventCount : 103600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.50500517308712, count : 1000, timestamp : 1505631666343
+     [java] eventCount : 104000
+     [java] Event: avgHumidity : 0.49419985741376876, count : 1000, timestamp : 1505631666771
+     [java] eventCount : 104400
+     [java] Event: avgHumidity : 0.4905808871388435, count : 1000, timestamp : 1505631667198
+     [java] eventCount : 104800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4872537157535553, count : 1000, timestamp : 1505631667636
+     [java] eventCount : 105200
+     [java] Event: avgHumidity : 0.4904419939517975, count : 1000, timestamp : 1505631668055
+     [java] eventCount : 105600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49905209171772, count : 1000, timestamp : 1505631668489
+     [java] eventCount : 106000
+     [java] Event: avgHumidity : 0.49752378422021865, count : 1000, timestamp : 1505631668926
+     [java] eventCount : 106400
+     [java] Event: avgHumidity : 0.494756837785244, count : 1000, timestamp : 1505631669363
+     [java] eventCount : 106800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5044184846282005, count : 1000, timestamp : 1505631669783
+     [java] eventCount : 107200
+     [java] Event: avgHumidity : 0.5037814309000969, count : 1000, timestamp : 1505631670225
+     [java] eventCount : 107600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49348759096860884, count : 1000, timestamp : 1505631670646
+     [java] eventCount : 108000
+     [java] Event: avgHumidity : 0.49828937590122224, count : 1000, timestamp : 1505631671069
+     [java] eventCount : 108400
+     [java] Event: avgHumidity : 0.5015749121904374, count : 1000, timestamp : 1505631671510
+     [java] eventCount : 108800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49384309923648834, count : 1000, timestamp : 1505631671944
+     [java] eventCount : 109200
+     [java] Event: avgHumidity : 0.4855500259399414, count : 1000, timestamp : 1505631672365
+     [java] eventCount : 109600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49415792846679685, count : 1000, timestamp : 1505631672803
+     [java] eventCount : 110000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 9999 sensor events in 10739 milliseconds with total throughput of 931.09 events per second. Average delay is 2380.48
+     [java] Event: avgHumidity : 0.49476784372329713, count : 1000, timestamp : 1505631673232
+     [java] eventCount : 110400
+     [java] Event: avgHumidity : 0.49688091802597045, count : 1000, timestamp : 1505631673662
+     [java] eventCount : 110800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4958821922540665, count : 1000, timestamp : 1505631674101
+     [java] eventCount : 111200
+     [java] Event: avgHumidity : 0.5000845577716827, count : 1000, timestamp : 1505631674512
+     [java] eventCount : 111600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49806163185834884, count : 1000, timestamp : 1505631674954
+     [java] eventCount : 112000
+     [java] Event: avgHumidity : 0.49227066081762316, count : 1000, timestamp : 1505631675386
+     [java] eventCount : 112400
+     [java] Event: avgHumidity : 0.5032150809764862, count : 1000, timestamp : 1505631675801
+     [java] eventCount : 112800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5132471202611923, count : 1000, timestamp : 1505631676231
+     [java] eventCount : 113200
+     [java] Event: avgHumidity : 0.513490199804306, count : 1000, timestamp : 1505631676651
+     [java] eventCount : 113600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5149400246739387, count : 1000, timestamp : 1505631677094
+     [java] eventCount : 114000
+     [java] Event: avgHumidity : 0.5166373633146286, count : 1000, timestamp : 1505631677509
+     [java] eventCount : 114400
+     [java] Event: avgHumidity : 0.511646208703518, count : 1000, timestamp : 1505631677944
+     [java] eventCount : 114800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5017830821871757, count : 1000, timestamp : 1505631678375
+     [java] eventCount : 115200
+     [java] Event: avgHumidity : 0.5029741807579994, count : 1000, timestamp : 1505631678805
+     [java] eventCount : 115600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.514348901450634, count : 1000, timestamp : 1505631679215
+     [java] eventCount : 116000
+     [java] Event: avgHumidity : 0.5122279950976372, count : 1000, timestamp : 1505631679658
+     [java] eventCount : 116400
+     [java] Event: avgHumidity : 0.5165520783662796, count : 1000, timestamp : 1505631680077
+     [java] eventCount : 116800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5030605255961418, count : 1000, timestamp : 1505631680501
+     [java] eventCount : 117200
+     [java] Event: avgHumidity : 0.5020514727830887, count : 1000, timestamp : 1505631680940
+     [java] eventCount : 117600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5088289552330971, count : 1000, timestamp : 1505631681347
+     [java] eventCount : 118000
+     [java] Event: avgHumidity : 0.5061125058531761, count : 1000, timestamp : 1505631681791
+     [java] eventCount : 118400
+     [java] Event: avgHumidity : 0.4990213708281517, count : 1000, timestamp : 1505631682203
+     [java] eventCount : 118800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5076432718634606, count : 1000, timestamp : 1505631682635
+     [java] eventCount : 119200
+     [java] Event: avgHumidity : 0.5084735865592956, count : 1000, timestamp : 1505631683067
+     [java] eventCount : 119600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4960977326631546, count : 1000, timestamp : 1505631683484
+     [java] eventCount : 120000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10759 milliseconds with total throughput of 929.45 events per second. Average delay is 2394.19
+     [java] Event: avgHumidity : 0.48449690216779706, count : 1000, timestamp : 1505631683915
+     [java] eventCount : 120400
+     [java] Event: avgHumidity : 0.4981407203674316, count : 1000, timestamp : 1505631684361
+     [java] eventCount : 120800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4865272735953331, count : 1000, timestamp : 1505631684797
+     [java] eventCount : 121200
+     [java] Event: avgHumidity : 0.49655478477478027, count : 1000, timestamp : 1505631685227
+     [java] eventCount : 121600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.495223605632782, count : 1000, timestamp : 1505631685647
+     [java] eventCount : 122000
+     [java] Event: avgHumidity : 0.5002259120345116, count : 1000, timestamp : 1505631686060
+     [java] eventCount : 122400
+     [java] Event: avgHumidity : 0.5022114641070365, count : 1000, timestamp : 1505631686509
+     [java] eventCount : 122800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5007294432520867, count : 1000, timestamp : 1505631686926
+     [java] eventCount : 123200
+     [java] Event: avgHumidity : 0.5145505053400994, count : 1000, timestamp : 1505631687360
+     [java] eventCount : 123600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.513355059504509, count : 1000, timestamp : 1505631687773
+     [java] eventCount : 124000
+     [java] Event: avgHumidity : 0.5069080439209938, count : 1000, timestamp : 1505631688216
+     [java] eventCount : 124400
+     [java] Event: avgHumidity : 0.5007610772848129, count : 1000, timestamp : 1505631688635
+     [java] eventCount : 124800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49721632182598113, count : 1000, timestamp : 1505631689063
+     [java] eventCount : 125200
+     [java] Event: avgHumidity : 0.49055130350589754, count : 1000, timestamp : 1505631689481
+     [java] eventCount : 125600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4833372178077698, count : 1000, timestamp : 1505631689925
+     [java] eventCount : 126000
+     [java] Event: avgHumidity : 0.49237228572368624, count : 1000, timestamp : 1505631690340
+     [java] eventCount : 126400
+     [java] Event: avgHumidity : 0.4972836816906929, count : 1000, timestamp : 1505631690765
+     [java] eventCount : 126800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4967006676197052, count : 1000, timestamp : 1505631691209
+     [java] eventCount : 127200
+     [java] Event: avgHumidity : 0.4895907673239708, count : 1000, timestamp : 1505631691633
+     [java] eventCount : 127600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49442690271139145, count : 1000, timestamp : 1505631692066
+     [java] eventCount : 128000
+     [java] Event: avgHumidity : 0.49783556085824965, count : 1000, timestamp : 1505631692496
+     [java] eventCount : 128400
+     [java] Event: avgHumidity : 0.5022803156375885, count : 1000, timestamp : 1505631692940
+     [java] eventCount : 128800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5065967215895653, count : 1000, timestamp : 1505631693372
+     [java] eventCount : 129200
+     [java] Event: avgHumidity : 0.501575853049755, count : 1000, timestamp : 1505631693791
+     [java] eventCount : 129600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4898557802438736, count : 1000, timestamp : 1505631694219
+     [java] eventCount : 130000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10687 milliseconds with total throughput of 935.72 events per second. Average delay is 2393.85
+     [java] Event: avgHumidity : 0.4865194497704506, count : 1000, timestamp : 1505631694654
+     [java] eventCount : 130400
+     [java] Event: avgHumidity : 0.4994214992523193, count : 1000, timestamp : 1505631695081
+     [java] eventCount : 130800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49388367420434953, count : 1000, timestamp : 1505631695500
+     [java] eventCount : 131200
+     [java] Event: avgHumidity : 0.49075598508119583, count : 1000, timestamp : 1505631695932
+     [java] eventCount : 131600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4955965911149979, count : 1000, timestamp : 1505631696368
+     [java] eventCount : 132000
+     [java] Event: avgHumidity : 0.5008911546468735, count : 1000, timestamp : 1505631696790
+     [java] eventCount : 132400
+     [java] Event: avgHumidity : 0.5029622507691384, count : 1000, timestamp : 1505631697211
+     [java] eventCount : 132800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.483590273141861, count : 1000, timestamp : 1505631697632
+     [java] eventCount : 133200
+     [java] Event: avgHumidity : 0.4796805017590523, count : 1000, timestamp : 1505631698075
+     [java] eventCount : 133600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.47577451741695403, count : 1000, timestamp : 1505631698501
+     [java] eventCount : 134000
+     [java] Event: avgHumidity : 0.48134346413612367, count : 1000, timestamp : 1505631698917
+     [java] eventCount : 134400
+     [java] Event: avgHumidity : 0.4910788384079933, count : 1000, timestamp : 1505631699342
+     [java] eventCount : 134800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5036452462673188, count : 1000, timestamp : 1505631699779
+     [java] eventCount : 135200
+     [java] Event: avgHumidity : 0.5037543019652366, count : 1000, timestamp : 1505631700200
+     [java] eventCount : 135600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4879517769217491, count : 1000, timestamp : 1505631700628
+     [java] eventCount : 136000
+     [java] Event: avgHumidity : 0.4837810153961182, count : 1000, timestamp : 1505631701072
+     [java] eventCount : 136400
+     [java] Event: avgHumidity : 0.48690290182828905, count : 1000, timestamp : 1505631701492
+     [java] eventCount : 136800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5032291083931922, count : 1000, timestamp : 1505631701914
+     [java] eventCount : 137200
+     [java] Event: avgHumidity : 0.5170968648195267, count : 1000, timestamp : 1505631702355
+     [java] eventCount : 137600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5062272728085518, count : 1000, timestamp : 1505631702777
+     [java] eventCount : 138000
+     [java] Event: avgHumidity : 0.5018737941384316, count : 1000, timestamp : 1505631703201
+     [java] eventCount : 138400
+     [java] Event: avgHumidity : 0.5025418431162835, count : 1000, timestamp : 1505631703638
+     [java] eventCount : 138800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5044439476132393, count : 1000, timestamp : 1505631704049
+     [java] eventCount : 139200
+     [java] Event: avgHumidity : 0.5111940650343895, count : 1000, timestamp : 1505631704474
+     [java] eventCount : 139600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49908295822143556, count : 1000, timestamp : 1505631704908
+     [java] eventCount : 140000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10001 sensor events in 10743 milliseconds with total throughput of 930.93 events per second. Average delay is 2389.41
+     [java] Event: avgHumidity : 0.5027824408411979, count : 1000, timestamp : 1505631705360
+     [java] eventCount : 140400
+     [java] Event: avgHumidity : 0.5116966294646264, count : 1000, timestamp : 1505631705774
+     [java] eventCount : 140800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5039630669355393, count : 1000, timestamp : 1505631706208
+     [java] eventCount : 141200
+     [java] Event: avgHumidity : 0.4930098481178284, count : 1000, timestamp : 1505631706624
+     [java] eventCount : 141600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49173491263389585, count : 1000, timestamp : 1505631707064
+     [java] eventCount : 142000
+     [java] Event: avgHumidity : 0.49279543018341065, count : 1000, timestamp : 1505631707499
+     [java] eventCount : 142400
+     [java] Event: avgHumidity : 0.49570957720279696, count : 1000, timestamp : 1505631707924
+     [java] eventCount : 142800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49691601341962816, count : 1000, timestamp : 1505631708352
+     [java] eventCount : 143200
+     [java] Event: avgHumidity : 0.5077470433115959, count : 1000, timestamp : 1505631708770
+     [java] eventCount : 143600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5111982409358025, count : 1000, timestamp : 1505631709211
+     [java] eventCount : 144000
+     [java] Event: avgHumidity : 0.5064462862610817, count : 1000, timestamp : 1505631709633
+     [java] eventCount : 144400
+     [java] Event: avgHumidity : 0.5004595147371292, count : 1000, timestamp : 1505631710071
+     [java] eventCount : 144800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4974625855088234, count : 1000, timestamp : 1505631710509
+     [java] eventCount : 145200
+     [java] Event: avgHumidity : 0.4960506922602653, count : 1000, timestamp : 1505631710938
+     [java] eventCount : 145600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49593374329805373, count : 1000, timestamp : 1505631711363
+     [java] eventCount : 146000
+     [java] Event: avgHumidity : 0.4919306449890137, count : 1000, timestamp : 1505631711783
+     [java] eventCount : 146400
+     [java] Event: avgHumidity : 0.4846458375453949, count : 1000, timestamp : 1505631712201
+     [java] eventCount : 146800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4862671976685524, count : 1000, timestamp : 1505631712659
+     [java] eventCount : 147200
+     [java] Event: avgHumidity : 0.49535040962696075, count : 1000, timestamp : 1505631713085
+     [java] eventCount : 147600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4944897071123123, count : 1000, timestamp : 1505631713501
+     [java] eventCount : 148000
+     [java] Event: avgHumidity : 0.5019295264482498, count : 1000, timestamp : 1505631713940
+     [java] eventCount : 148400
+     [java] Event: avgHumidity : 0.49860536569356917, count : 1000, timestamp : 1505631714364
+     [java] eventCount : 148800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4993106499314308, count : 1000, timestamp : 1505631714793
+     [java] eventCount : 149200
+     [java] Event: avgHumidity : 0.4781322667598724, count : 1000, timestamp : 1505631715225
+     [java] eventCount : 149600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4792856425046921, count : 1000, timestamp : 1505631715652
+     [java] eventCount : 150000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 9999 sensor events in 10702 milliseconds with total throughput of 934.31 events per second. Average delay is 2407.58
+     [java] Event: avgHumidity : 0.490215335726738, count : 1000, timestamp : 1505631716069
+     [java] eventCount : 150400
+     [java] Event: avgHumidity : 0.49968277508020403, count : 1000, timestamp : 1505631716503
+     [java] eventCount : 150800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49720538026094435, count : 1000, timestamp : 1505631716926
+     [java] eventCount : 151200
+     [java] Event: avgHumidity : 0.48470034945011137, count : 1000, timestamp : 1505631717360
+     [java] eventCount : 151600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4963388167619705, count : 1000, timestamp : 1505631717783
+     [java] eventCount : 152000
+     [java] Event: avgHumidity : 0.4998399548530579, count : 1000, timestamp : 1505631718211
+     [java] eventCount : 152400
+     [java] Event: avgHumidity : 0.5014077205061912, count : 1000, timestamp : 1505631718649
+     [java] eventCount : 152800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5058246031403542, count : 1000, timestamp : 1505631719058
+     [java] eventCount : 153200
+     [java] Event: avgHumidity : 0.5083030109405517, count : 1000, timestamp : 1505631719485
+     [java] eventCount : 153600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49725594890117647, count : 1000, timestamp : 1505631719926
+     [java] eventCount : 154000
+     [java] Event: avgHumidity : 0.4943805229663849, count : 1000, timestamp : 1505631720349
+     [java] eventCount : 154400
+     [java] Event: avgHumidity : 0.5025671571493149, count : 1000, timestamp : 1505631720777
+     [java] eventCount : 154800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5037623083591461, count : 1000, timestamp : 1505631721199
+     [java] eventCount : 155200
+     [java] Event: avgHumidity : 0.5119730288982391, count : 1000, timestamp : 1505631721659
+     [java] eventCount : 155600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.50287067258358, count : 1000, timestamp : 1505631722075
+     [java] eventCount : 156000
+     [java] Event: avgHumidity : 0.5113147035241127, count : 1000, timestamp : 1505631722505
+     [java] eventCount : 156400
+     [java] Event: avgHumidity : 0.5160896898508072, count : 1000, timestamp : 1505631722949
+     [java] eventCount : 156800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49462884724140166, count : 1000, timestamp : 1505631723367
+     [java] eventCount : 157200
+     [java] Event: avgHumidity : 0.4944442994594574, count : 1000, timestamp : 1505631723789
+     [java] eventCount : 157600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4943387326002121, count : 1000, timestamp : 1505631724216
+     [java] eventCount : 158000
+     [java] Event: avgHumidity : 0.5020567767620087, count : 1000, timestamp : 1505631724647
+     [java] eventCount : 158400
+     [java] Event: avgHumidity : 0.4930178127884865, count : 1000, timestamp : 1505631725073
+     [java] eventCount : 158800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.491879279255867, count : 1000, timestamp : 1505631725522
+     [java] eventCount : 159200
+     [java] Event: avgHumidity : 0.4980591030716896, count : 1000, timestamp : 1505631725942
+     [java] eventCount : 159600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5008734285235404, count : 1000, timestamp : 1505631726367
+     [java] eventCount : 160000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10001 sensor events in 10801 milliseconds with total throughput of 925.93 events per second. Average delay is 2394.09
+     [java] Event: avgHumidity : 0.5029005118012428, count : 1000, timestamp : 1505631726794
+     [java] eventCount : 160400
+     [java] Event: avgHumidity : 0.5050529505610466, count : 1000, timestamp : 1505631727232
+     [java] eventCount : 160800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4921630514860153, count : 1000, timestamp : 1505631727658
+     [java] eventCount : 161200
+     [java] Event: avgHumidity : 0.5029601892232894, count : 1000, timestamp : 1505631728099
+     [java] eventCount : 161600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5074594049453736, count : 1000, timestamp : 1505631728521
+     [java] eventCount : 162000
+     [java] Event: avgHumidity : 0.5075695139169693, count : 1000, timestamp : 1505631728956
+     [java] eventCount : 162400
+     [java] Event: avgHumidity : 0.513096262037754, count : 1000, timestamp : 1505631729386
+     [java] eventCount : 162800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5144000045657158, count : 1000, timestamp : 1505631729820
+     [java] eventCount : 163200
+     [java] Event: avgHumidity : 0.5208995441794395, count : 1000, timestamp : 1505631730245
+     [java] eventCount : 163600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5161097686886787, count : 1000, timestamp : 1505631730660
+     [java] eventCount : 164000
+     [java] Event: avgHumidity : 0.5054799444079399, count : 1000, timestamp : 1505631731081
+     [java] eventCount : 164400
+     [java] Event: avgHumidity : 0.49133143347501756, count : 1000, timestamp : 1505631731516
+     [java] eventCount : 164800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49542004650831223, count : 1000, timestamp : 1505631731939
+     [java] eventCount : 165200
+     [java] Event: avgHumidity : 0.5019647180438042, count : 1000, timestamp : 1505631732382
+     [java] eventCount : 165600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49479479956626893, count : 1000, timestamp : 1505631732788
+     [java] eventCount : 166000
+     [java] Event: avgHumidity : 0.5069457110762596, count : 1000, timestamp : 1505631733241
+     [java] eventCount : 166400
+     [java] Event: avgHumidity : 0.5048841258883476, count : 1000, timestamp : 1505631733645
+     [java] eventCount : 166800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5116717985868454, count : 1000, timestamp : 1505631734090
+     [java] eventCount : 167200
+     [java] Event: avgHumidity : 0.4984571803808212, count : 1000, timestamp : 1505631734504
+     [java] eventCount : 167600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48901931273937227, count : 1000, timestamp : 1505631734927
+     [java] eventCount : 168000
+     [java] Event: avgHumidity : 0.4956115189194679, count : 1000, timestamp : 1505631735360
+     [java] eventCount : 168400
+     [java] Event: avgHumidity : 0.507531731247902, count : 1000, timestamp : 1505631735793
+     [java] eventCount : 168800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5041306710243225, count : 1000, timestamp : 1505631736224
+     [java] eventCount : 169200
+     [java] Event: avgHumidity : 0.5076345683336257, count : 1000, timestamp : 1505631736648
+     [java] eventCount : 169600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5068868361115456, count : 1000, timestamp : 1505631737080
+     [java] eventCount : 170000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 9999 sensor events in 10624 milliseconds with total throughput of 941.17 events per second. Average delay is 2391.32
+     [java] Event: avgHumidity : 0.5098188803792, count : 1000, timestamp : 1505631737489
+     [java] eventCount : 170400
+     [java] Event: avgHumidity : 0.5110375285744667, count : 1000, timestamp : 1505631737934
+     [java] eventCount : 170800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4938293240070343, count : 1000, timestamp : 1505631738358
+     [java] eventCount : 171200
+     [java] Event: avgHumidity : 0.4953480235338211, count : 1000, timestamp : 1505631738782
+     [java] eventCount : 171600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4936102507710457, count : 1000, timestamp : 1505631739207
+     [java] eventCount : 172000
+     [java] Event: avgHumidity : 0.49577343142032626, count : 1000, timestamp : 1505631739634
+     [java] eventCount : 172400
+     [java] Event: avgHumidity : 0.49483104813098905, count : 1000, timestamp : 1505631740069
+     [java] eventCount : 172800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5094662442207336, count : 1000, timestamp : 1505631740493
+     [java] eventCount : 173200
+     [java] Event: avgHumidity : 0.514840569794178, count : 1000, timestamp : 1505631740924
+     [java] eventCount : 173600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5145923226475716, count : 1000, timestamp : 1505631741348
+     [java] eventCount : 174000
+     [java] Event: avgHumidity : 0.5056767438650132, count : 1000, timestamp : 1505631741777
+     [java] eventCount : 174400
+     [java] Event: avgHumidity : 0.48801293325424194, count : 1000, timestamp : 1505631742195
+     [java] eventCount : 174800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.487661348760128, count : 1000, timestamp : 1505631742619
+     [java] eventCount : 175200
+     [java] Event: avgHumidity : 0.49344193655252455, count : 1000, timestamp : 1505631743054
+     [java] eventCount : 175600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5058223055005073, count : 1000, timestamp : 1505631743473
+     [java] eventCount : 176000
+     [java] Event: avgHumidity : 0.510648899614811, count : 1000, timestamp : 1505631743907
+     [java] eventCount : 176400
+     [java] Event: avgHumidity : 0.5033562016487122, count : 1000, timestamp : 1505631744336
+     [java] eventCount : 176800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49912249398231506, count : 1000, timestamp : 1505631744768
+     [java] eventCount : 177200
+     [java] Event: avgHumidity : 0.49559987616539003, count : 1000, timestamp : 1505631745212
+     [java] eventCount : 177600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5007019652724266, count : 1000, timestamp : 1505631745638
+     [java] eventCount : 178000
+     [java] Event: avgHumidity : 0.48776386320590975, count : 1000, timestamp : 1505631746056
+     [java] eventCount : 178400
+     [java] Event: avgHumidity : 0.4838635063767433, count : 1000, timestamp : 1505631746503
+     [java] eventCount : 178800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49184113085269926, count : 1000, timestamp : 1505631746914
+     [java] eventCount : 179200
+     [java] Event: avgHumidity : 0.5122411243915558, count : 1000, timestamp : 1505631747354
+     [java] eventCount : 179600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.503936887562275, count : 1000, timestamp : 1505631747764
+     [java] eventCount : 180000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10709 milliseconds with total throughput of 933.79 events per second. Average delay is 2387.26
+     [java] Event: avgHumidity : 0.49403737437725065, count : 1000, timestamp : 1505631748212
+     [java] eventCount : 180400
+     [java] Event: avgHumidity : 0.48587097483873365, count : 1000, timestamp : 1505631748627
+     [java] eventCount : 180800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49148989892005923, count : 1000, timestamp : 1505631749055
+     [java] eventCount : 181200
+     [java] Event: avgHumidity : 0.4965360132455826, count : 1000, timestamp : 1505631749495
+     [java] eventCount : 181600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5073492220640182, count : 1000, timestamp : 1505631749915
+     [java] eventCount : 182000
+     [java] Event: avgHumidity : 0.5074948925375938, count : 1000, timestamp : 1505631750343
+     [java] eventCount : 182400
+     [java] Event: avgHumidity : 0.5067064625024795, count : 1000, timestamp : 1505631750782
+     [java] eventCount : 182800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5004707080721855, count : 1000, timestamp : 1505631751198
+     [java] eventCount : 183200
+     [java] Event: avgHumidity : 0.4964997295737267, count : 1000, timestamp : 1505631751656
+     [java] eventCount : 183600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4985644514560699, count : 1000, timestamp : 1505631752077
+     [java] eventCount : 184000
+     [java] Event: avgHumidity : 0.48942326110601425, count : 1000, timestamp : 1505631752504
+     [java] eventCount : 184400
+     [java] Event: avgHumidity : 0.4869106104373932, count : 1000, timestamp : 1505631752917
+     [java] eventCount : 184800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49100515025854113, count : 1000, timestamp : 1505631753355
+     [java] eventCount : 185200
+     [java] Event: avgHumidity : 0.4839610651135445, count : 1000, timestamp : 1505631753778
+     [java] eventCount : 185600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5012184930443764, count : 1000, timestamp : 1505631754210
+     [java] eventCount : 186000
+     [java] Event: avgHumidity : 0.5102462720274925, count : 1000, timestamp : 1505631754634
+     [java] eventCount : 186400
+     [java] Event: avgHumidity : 0.5050155742764473, count : 1000, timestamp : 1505631755073
+     [java] eventCount : 186800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.505551882326603, count : 1000, timestamp : 1505631755486
+     [java] eventCount : 187200
+     [java] Event: avgHumidity : 0.5004559393525123, count : 1000, timestamp : 1505631755927
+     [java] eventCount : 187600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49965219140052797, count : 1000, timestamp : 1505631756338
+     [java] eventCount : 188000
+     [java] Event: avgHumidity : 0.5043809990286827, count : 1000, timestamp : 1505631756765
+     [java] eventCount : 188400
+     [java] Event: avgHumidity : 0.5025995362401009, count : 1000, timestamp : 1505631757217
+     [java] eventCount : 188800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.507975128531456, count : 1000, timestamp : 1505631757641
+     [java] eventCount : 189200
+     [java] Event: avgHumidity : 0.5031136367321014, count : 1000, timestamp : 1505631758072
+     [java] eventCount : 189600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49912875062227247, count : 1000, timestamp : 1505631758494
+     [java] eventCount : 190000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10794 milliseconds with total throughput of 926.44 events per second. Average delay is 2408.8
+     [java] Event: avgHumidity : 0.4991238797903061, count : 1000, timestamp : 1505631758924
+     [java] eventCount : 190400
+     [java] Event: avgHumidity : 0.5067709943652153, count : 1000, timestamp : 1505631759345
+     [java] eventCount : 190800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5076554268598557, count : 1000, timestamp : 1505631759798
+     [java] eventCount : 191200
+     [java] Event: avgHumidity : 0.5182579007744789, count : 1000, timestamp : 1505631760208
+     [java] eventCount : 191600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.513989728987217, count : 1000, timestamp : 1505631760638
+     [java] eventCount : 192000
+     [java] Event: avgHumidity : 0.5081085145473481, count : 1000, timestamp : 1505631761075
+     [java] eventCount : 192400
+     [java] Event: avgHumidity : 0.5111005029082298, count : 1000, timestamp : 1505631761509
+     [java] eventCount : 192800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5054766439795494, count : 1000, timestamp : 1505631761939
+     [java] eventCount : 193200
+     [java] Event: avgHumidity : 0.496596021771431, count : 1000, timestamp : 1505631762366
+     [java] eventCount : 193600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48908729618787766, count : 1000, timestamp : 1505631762783
+     [java] eventCount : 194000
+     [java] Event: avgHumidity : 0.49472203546762467, count : 1000, timestamp : 1505631763226
+     [java] eventCount : 194400
+     [java] Event: avgHumidity : 0.4882086223363876, count : 1000, timestamp : 1505631763649
+     [java] eventCount : 194800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5026444159150124, count : 1000, timestamp : 1505631764069
+     [java] eventCount : 195200
+     [java] Event: avgHumidity : 0.5152002602815628, count : 1000, timestamp : 1505631764505
+     [java] eventCount : 195600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5108338348269462, count : 1000, timestamp : 1505631764924
+     [java] eventCount : 196000
+     [java] Event: avgHumidity : 0.4928873863220215, count : 1000, timestamp : 1505631765356
+     [java] eventCount : 196400
+     [java] Event: avgHumidity : 0.4908560683131218, count : 1000, timestamp : 1505631765775
+     [java] eventCount : 196800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5061548321843147, count : 1000, timestamp : 1505631766210
+     [java] eventCount : 197200
+     [java] Event: avgHumidity : 0.5133963675498963, count : 1000, timestamp : 1505631766638
+     [java] eventCount : 197600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4962803257703781, count : 1000, timestamp : 1505631767072
+     [java] eventCount : 198000
+     [java] Event: avgHumidity : 0.49961803340911864, count : 1000, timestamp : 1505631767483
+     [java] eventCount : 198400
+     [java] Event: avgHumidity : 0.4953186342716217, count : 1000, timestamp : 1505631767925
+     [java] eventCount : 198800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49801349395513533, count : 1000, timestamp : 1505631768342
+     [java] eventCount : 199200
+     [java] Event: avgHumidity : 0.4853853328824043, count : 1000, timestamp : 1505631768778
+     [java] eventCount : 199600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4867065875530243, count : 1000, timestamp : 1505631769197
+     [java] eventCount : 200000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10645 milliseconds with total throughput of 939.41 events per second. Average delay is 2393.25
+     [java] Event: avgHumidity : 0.4888101209998131, count : 1000, timestamp : 1505631769621
+     [java] eventCount : 200400
+     [java] Event: avgHumidity : 0.5009966686964035, count : 1000, timestamp : 1505631770059
+     [java] eventCount : 200800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5041187858581543, count : 1000, timestamp : 1505631770469
+     [java] eventCount : 201200
+     [java] Event: avgHumidity : 0.5002306335568428, count : 1000, timestamp : 1505631770896
+     [java] eventCount : 201600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4989127198457718, count : 1000, timestamp : 1505631771339
+     [java] eventCount : 202000
+     [java] Event: avgHumidity : 0.5046762250065804, count : 1000, timestamp : 1505631771767
+     [java] eventCount : 202400
+     [java] Event: avgHumidity : 0.49244381773471835, count : 1000, timestamp : 1505631772180
+     [java] eventCount : 202800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49429999345541, count : 1000, timestamp : 1505631772610
+     [java] eventCount : 203200
+     [java] Event: avgHumidity : 0.4922336235046387, count : 1000, timestamp : 1505631773033
+     [java] eventCount : 203600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4928388771414757, count : 1000, timestamp : 1505631773454
+     [java] eventCount : 204000
+     [java] Event: avgHumidity : 0.49428402400016785, count : 1000, timestamp : 1505631773879
+     [java] eventCount : 204400
+     [java] Event: avgHumidity : 0.4895951347351074, count : 1000, timestamp : 1505631774319
+     [java] eventCount : 204800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.495816625058651, count : 1000, timestamp : 1505631774738
+     [java] eventCount : 205200
+     [java] Event: avgHumidity : 0.49803552943468093, count : 1000, timestamp : 1505631775170
+     [java] eventCount : 205600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5027827988266945, count : 1000, timestamp : 1505631775620
+     [java] eventCount : 206000
+     [java] Event: avgHumidity : 0.4902463175654411, count : 1000, timestamp : 1505631776041
+     [java] eventCount : 206400
+     [java] Event: avgHumidity : 0.5065210123062134, count : 1000, timestamp : 1505631776469
+     [java] eventCount : 206800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5006608799099922, count : 1000, timestamp : 1505631776884
+     [java] eventCount : 207200
+     [java] Event: avgHumidity : 0.5037447137832641, count : 1000, timestamp : 1505631777318
+     [java] eventCount : 207600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48834341192245484, count : 1000, timestamp : 1505631777750
+     [java] eventCount : 208000
+     [java] Event: avgHumidity : 0.5079097928404808, count : 1000, timestamp : 1505631778172
+     [java] eventCount : 208400
+     [java] Event: avgHumidity : 0.5123693729043007, count : 1000, timestamp : 1505631778610
+     [java] eventCount : 208800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5025834399461746, count : 1000, timestamp : 1505631779030
+     [java] eventCount : 209200
+     [java] Event: avgHumidity : 0.49046289640665053, count : 1000, timestamp : 1505631779463
+     [java] eventCount : 209600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4950873641371727, count : 1000, timestamp : 1505631779896
+     [java] eventCount : 210000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10707 milliseconds with total throughput of 933.97 events per second. Average delay is 2383.52
+     [java] Event: avgHumidity : 0.5059379677176475, count : 1000, timestamp : 1505631780319
+     [java] eventCount : 210400
+     [java] Event: avgHumidity : 0.5110022689700127, count : 1000, timestamp : 1505631780743
+     [java] eventCount : 210800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5047805650234223, count : 1000, timestamp : 1505631781160
+     [java] eventCount : 211200
+     [java] Event: avgHumidity : 0.5036887881159783, count : 1000, timestamp : 1505631781601
+     [java] eventCount : 211600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4986553073525429, count : 1000, timestamp : 1505631782020
+     [java] eventCount : 212000
+     [java] Event: avgHumidity : 0.5055653283596039, count : 1000, timestamp : 1505631782448
+     [java] eventCount : 212400
+     [java] Event: avgHumidity : 0.5030246274471283, count : 1000, timestamp : 1505631782877
+     [java] eventCount : 212800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5142099183797836, count : 1000, timestamp : 1505631783311
+     [java] eventCount : 213200
+     [java] Event: avgHumidity : 0.5113380084633827, count : 1000, timestamp : 1505631783722
+     [java] eventCount : 213600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5114692476391792, count : 1000, timestamp : 1505631784167
+     [java] eventCount : 214000
+     [java] Event: avgHumidity : 0.51002287119627, count : 1000, timestamp : 1505631784590
+     [java] eventCount : 214400
+     [java] Event: avgHumidity : 0.5116147124767303, count : 1000, timestamp : 1505631785017
+     [java] eventCount : 214800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5012770172357559, count : 1000, timestamp : 1505631785454
+     [java] eventCount : 215200
+     [java] Event: avgHumidity : 0.49205602204799653, count : 1000, timestamp : 1505631785881
+     [java] eventCount : 215600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4994898623228073, count : 1000, timestamp : 1505631786291
+     [java] eventCount : 216000
+     [java] Event: avgHumidity : 0.5023634154200554, count : 1000, timestamp : 1505631786724
+     [java] eventCount : 216400
+     [java] Event: avgHumidity : 0.4872786164283752, count : 1000, timestamp : 1505631787146
+     [java] eventCount : 216800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4935615399479866, count : 1000, timestamp : 1505631787570
+     [java] eventCount : 217200
+     [java] Event: avgHumidity : 0.49433332842588423, count : 1000, timestamp : 1505631788000
+     [java] eventCount : 217600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5031545830965042, count : 1000, timestamp : 1505631788441
+     [java] eventCount : 218000
+     [java] Event: avgHumidity : 0.5000685791373253, count : 1000, timestamp : 1505631788856
+     [java] eventCount : 218400
+     [java] Event: avgHumidity : 0.5080752492547035, count : 1000, timestamp : 1505631789281
+     [java] eventCount : 218800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49957204884290696, count : 1000, timestamp : 1505631789705
+     [java] eventCount : 219200
+     [java] Event: avgHumidity : 0.5044248760342598, count : 1000, timestamp : 1505631790138
+     [java] eventCount : 219600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49772003704309464, count : 1000, timestamp : 1505631790571
+     [java] eventCount : 220000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10680 milliseconds with total throughput of 936.33 events per second. Average delay is 2381.05
+     [java] Event: avgHumidity : 0.4889824988245964, count : 1000, timestamp : 1505631790994
+     [java] eventCount : 220400
+     [java] Event: avgHumidity : 0.49304333633184433, count : 1000, timestamp : 1505631791415
+     [java] eventCount : 220800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4887677870988846, count : 1000, timestamp : 1505631791847
+     [java] eventCount : 221200
+     [java] Event: avgHumidity : 0.5036242616176605, count : 1000, timestamp : 1505631792273
+     [java] eventCount : 221600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5017489833235741, count : 1000, timestamp : 1505631792688
+     [java] eventCount : 222000
+     [java] Event: avgHumidity : 0.4959955550432205, count : 1000, timestamp : 1505631793117
+     [java] eventCount : 222400
+     [java] Event: avgHumidity : 0.49744928133487704, count : 1000, timestamp : 1505631793549
+     [java] eventCount : 222800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4905929990410805, count : 1000, timestamp : 1505631793986
+     [java] eventCount : 223200
+     [java] Event: avgHumidity : 0.49628257954120636, count : 1000, timestamp : 1505631794413
+     [java] eventCount : 223600
+     [java] Event: avgHumidity : 0.5017250642180443, count : 1000, timestamp : 1505631794839
+     [java] eventCount : 224000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4965333236455917, count : 1000, timestamp : 1505631795267
+     [java] eventCount : 224400
+     [java] Event: avgHumidity : 0.49360824781656265, count : 1000, timestamp : 1505631795684
+     [java] eventCount : 224800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4942854034304619, count : 1000, timestamp : 1505631796114
+     [java] eventCount : 225200
+     [java] Event: avgHumidity : 0.49830855464935303, count : 1000, timestamp : 1505631796538
+     [java] eventCount : 225600
+     [java] Event: avgHumidity : 0.5047557820081711, count : 1000, timestamp : 1505631796978
+     [java] eventCount : 226000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5030531463027, count : 1000, timestamp : 1505631797414
+     [java] eventCount : 226400
+     [java] Event: avgHumidity : 0.506380832195282, count : 1000, timestamp : 1505631797833
+     [java] eventCount : 226800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5094553079009057, count : 1000, timestamp : 1505631798263
+     [java] eventCount : 227200
+     [java] Event: avgHumidity : 0.5003139886260033, count : 1000, timestamp : 1505631798688
+     [java] eventCount : 227600
+     [java] Event: avgHumidity : 0.5028908771276474, count : 1000, timestamp : 1505631799126
+     [java] eventCount : 228000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5078558576703072, count : 1000, timestamp : 1505631799548
+     [java] eventCount : 228400
+     [java] Event: avgHumidity : 0.5043906908631325, count : 1000, timestamp : 1505631799968
+     [java] eventCount : 228800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5105570229887962, count : 1000, timestamp : 1505631800393
+     [java] eventCount : 229200
+     [java] Event: avgHumidity : 0.5059156460762024, count : 1000, timestamp : 1505631800818
+     [java] eventCount : 229600
+     [java] Event: avgHumidity : 0.4979134159088135, count : 1000, timestamp : 1505631801257
+     [java] eventCount : 230000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10001 sensor events in 10697 milliseconds with total throughput of 934.94 events per second. Average delay is 2375.86
+     [java] Event: avgHumidity : 0.4925436255335808, count : 1000, timestamp : 1505631801671
+     [java] eventCount : 230400
+     [java] Event: avgHumidity : 0.5014555516839028, count : 1000, timestamp : 1505631802109
+     [java] eventCount : 230800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5089134269952774, count : 1000, timestamp : 1505631802535
+     [java] eventCount : 231200
+     [java] Event: avgHumidity : 0.5043951026797294, count : 1000, timestamp : 1505631802975
+     [java] eventCount : 231600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5010135586857796, count : 1000, timestamp : 1505631803387
+     [java] eventCount : 232000
+     [java] Event: avgHumidity : 0.5104028252959252, count : 1000, timestamp : 1505631803811
+     [java] eventCount : 232400
+     [java] Event: avgHumidity : 0.5042225972414017, count : 1000, timestamp : 1505631804248
+     [java] eventCount : 232800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4952086048126221, count : 1000, timestamp : 1505631804679
+     [java] eventCount : 233200
+     [java] Event: avgHumidity : 0.5087669726610183, count : 1000, timestamp : 1505631805106
+     [java] eventCount : 233600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5118341032266617, count : 1000, timestamp : 1505631805525
+     [java] eventCount : 234000
+     [java] Event: avgHumidity : 0.5147909888029099, count : 1000, timestamp : 1505631805951
+     [java] eventCount : 234400
+     [java] Event: avgHumidity : 0.5029650653004646, count : 1000, timestamp : 1505631806375
+     [java] eventCount : 234800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5071591861844063, count : 1000, timestamp : 1505631806814
+     [java] eventCount : 235200
+     [java] Event: avgHumidity : 0.5098942834734916, count : 1000, timestamp : 1505631807246
+     [java] eventCount : 235600
+     [java] Event: avgHumidity : 0.5044451414942741, count : 1000, timestamp : 1505631807674
+     [java] eventCount : 236000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49999987584352495, count : 1000, timestamp : 1505631808103
+     [java] eventCount : 236400
+     [java] Event: avgHumidity : 0.5037044167518616, count : 1000, timestamp : 1505631808520
+     [java] eventCount : 236800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49796148425340653, count : 1000, timestamp : 1505631808948
+     [java] eventCount : 237200
+     [java] Event: avgHumidity : 0.4990864313840866, count : 1000, timestamp : 1505631809376
+     [java] eventCount : 237600
+     [java] Event: avgHumidity : 0.4941394563317299, count : 1000, timestamp : 1505631809806
+     [java] eventCount : 238000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5047535907030105, count : 1000, timestamp : 1505631810238
+     [java] eventCount : 238400
+     [java] Event: avgHumidity : 0.5087605739831924, count : 1000, timestamp : 1505631810652
+     [java] eventCount : 238800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49735430580377576, count : 1000, timestamp : 1505631811088
+     [java] eventCount : 239200
+     [java] Event: avgHumidity : 0.49933478790521624, count : 1000, timestamp : 1505631811522
+     [java] eventCount : 239600
+     [java] Event: avgHumidity : 0.4994873941540718, count : 1000, timestamp : 1505631811939
+     [java] eventCount : 240000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 9999 sensor events in 10697 milliseconds with total throughput of 934.75 events per second. Average delay is 2385.87
+     [java] Event: avgHumidity : 0.5016547132134438, count : 1000, timestamp : 1505631812358
+     [java] eventCount : 240400
+     [java] Event: avgHumidity : 0.4875506736636162, count : 1000, timestamp : 1505631812798
+     [java] eventCount : 240800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5009546202421188, count : 1000, timestamp : 1505631813215
+     [java] eventCount : 241200
+     [java] Event: avgHumidity : 0.5060148094892502, count : 1000, timestamp : 1505631813652
+     [java] eventCount : 241600
+     [java] Event: avgHumidity : 0.5175601471662521, count : 1000, timestamp : 1505631814072
+     [java] eventCount : 242000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5061282868981362, count : 1000, timestamp : 1505631814513
+     [java] eventCount : 242400
+     [java] Event: avgHumidity : 0.5134750760197639, count : 1000, timestamp : 1505631814936
+     [java] eventCount : 242800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5036677721738815, count : 1000, timestamp : 1505631815350
+     [java] eventCount : 243200
+     [java] Event: avgHumidity : 0.501714107453823, count : 1000, timestamp : 1505631815782
+     [java] eventCount : 243600
+     [java] Event: avgHumidity : 0.5001302239894867, count : 1000, timestamp : 1505631816224
+     [java] eventCount : 244000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5006332107782364, count : 1000, timestamp : 1505631816644
+     [java] eventCount : 244400
+     [java] Event: avgHumidity : 0.5051791377663613, count : 1000, timestamp : 1505631817069
+     [java] eventCount : 244800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.501256105363369, count : 1000, timestamp : 1505631817498
+     [java] eventCount : 245200
+     [java] Event: avgHumidity : 0.5057574365139007, count : 1000, timestamp : 1505631817930
+     [java] eventCount : 245600
+     [java] Event: avgHumidity : 0.4828692519068718, count : 1000, timestamp : 1505631818359
+     [java] eventCount : 246000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4695784389972687, count : 1000, timestamp : 1505631818788
+     [java] eventCount : 246400
+     [java] Event: avgHumidity : 0.48235661548376085, count : 1000, timestamp : 1505631819218
+     [java] eventCount : 246800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5025707312822342, count : 1000, timestamp : 1505631819637
+     [java] eventCount : 247200
+     [java] Event: avgHumidity : 0.516436757683754, count : 1000, timestamp : 1505631820061
+     [java] eventCount : 247600
+     [java] Event: avgHumidity : 0.504749985396862, count : 1000, timestamp : 1505631820502
+     [java] eventCount : 248000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4907989690899849, count : 1000, timestamp : 1505631820910
+     [java] eventCount : 248400
+     [java] Event: avgHumidity : 0.4924872965216637, count : 1000, timestamp : 1505631821338
+     [java] eventCount : 248800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5061792963147164, count : 1000, timestamp : 1505631821781
+     [java] eventCount : 249200
+     [java] Event: avgHumidity : 0.5185358645915985, count : 1000, timestamp : 1505631822210
+     [java] eventCount : 249600
+     [java] Event: avgHumidity : 0.5176508032083511, count : 1000, timestamp : 1505631822633
+     [java] eventCount : 250000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10748 milliseconds with total throughput of 930.41 events per second. Average delay is 2389.45
+     [java] Event: avgHumidity : 0.5135008683800697, count : 1000, timestamp : 1505631823060
+     [java] eventCount : 250400
+     [java] Event: avgHumidity : 0.5062658135890961, count : 1000, timestamp : 1505631823487
+     [java] eventCount : 250800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5107849299907684, count : 1000, timestamp : 1505631823915
+     [java] eventCount : 251200
+     [java] Event: avgHumidity : 0.5075263806581497, count : 1000, timestamp : 1505631824375
+     [java] eventCount : 251600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5059929828643799, count : 1000, timestamp : 1505631824797
+     [java] eventCount : 252000
+     [java] Event: avgHumidity : 0.4922482652068138, count : 1000, timestamp : 1505631825242
+     [java] eventCount : 252400
+     [java] Event: avgHumidity : 0.48103296506404875, count : 1000, timestamp : 1505631825659
+     [java] eventCount : 252800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48032415902614595, count : 1000, timestamp : 1505631826102
+     [java] eventCount : 253200
+     [java] Event: avgHumidity : 0.4932555391788483, count : 1000, timestamp : 1505631826530
+     [java] eventCount : 253600
+     [java] Event: avgHumidity : 0.493450425028801, count : 1000, timestamp : 1505631826952
+     [java] eventCount : 254000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4947785201072693, count : 1000, timestamp : 1505631827378
+     [java] eventCount : 254400
+     [java] Event: avgHumidity : 0.4981274737715721, count : 1000, timestamp : 1505631827820
+     [java] eventCount : 254800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5106296566724777, count : 1000, timestamp : 1505631828241
+     [java] eventCount : 255200
+     [java] Event: avgHumidity : 0.5142038865685463, count : 1000, timestamp : 1505631828666
+     [java] eventCount : 255600
+     [java] Event: avgHumidity : 0.5099078203439713, count : 1000, timestamp : 1505631829095
+     [java] eventCount : 256000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5131058769226075, count : 1000, timestamp : 1505631829516
+     [java] eventCount : 256400
+     [java] Event: avgHumidity : 0.508029681444168, count : 1000, timestamp : 1505631829951
+     [java] eventCount : 256800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49826130563020704, count : 1000, timestamp : 1505631830396
+     [java] eventCount : 257200
+     [java] Event: avgHumidity : 0.49229270190000535, count : 1000, timestamp : 1505631830818
+     [java] eventCount : 257600
+     [java] Event: avgHumidity : 0.4946614221334457, count : 1000, timestamp : 1505631831250
+     [java] eventCount : 258000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4964538798928261, count : 1000, timestamp : 1505631831678
+     [java] eventCount : 258400
+     [java] Event: avgHumidity : 0.5025489292740822, count : 1000, timestamp : 1505631832106
+     [java] eventCount : 258800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4989895243644714, count : 1000, timestamp : 1505631832523
+     [java] eventCount : 259200
+     [java] Event: avgHumidity : 0.5048336409926415, count : 1000, timestamp : 1505631832953
+     [java] eventCount : 259600
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5076544056534767, count : 1000, timestamp : 1505631833376
+     [java] eventCount : 260000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10770 milliseconds with total throughput of 928.51 events per second. Average delay is 2423.36
+     [java] Event: avgHumidity : 0.5033027397394181, count : 1000, timestamp : 1505631833820
+     [java] eventCount : 260400
+     [java] Event: avgHumidity : 0.5006202964186668, count : 1000, timestamp : 1505631834251
+     [java] eventCount : 260800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4941063140630722, count : 1000, timestamp : 1505631834681
+     [java] eventCount : 261200
+     [java] Event: avgHumidity : 0.4961682244539261, count : 1000, timestamp : 1505631835106
+     [java] eventCount : 261600
+     [java] Event: avgHumidity : 0.501318984746933, count : 1000, timestamp : 1505631835528
+     [java] eventCount : 262000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49003178066015246, count : 1000, timestamp : 1505631835959
+     [java] eventCount : 262400
+     [java] Event: avgHumidity : 0.491971393764019, count : 1000, timestamp : 1505631836399
+     [java] eventCount : 262800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4928590761423111, count : 1000, timestamp : 1505631836811
+     [java] eventCount : 263200
+     [java] Event: avgHumidity : 0.4882244042158127, count : 1000, timestamp : 1505631837262
+     [java] eventCount : 263600
+     [java] Event: avgHumidity : 0.48742346292734146, count : 1000, timestamp : 1505631837693
+     [java] eventCount : 264000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4914366837143898, count : 1000, timestamp : 1505631838110
+     [java] eventCount : 264400
+     [java] Event: avgHumidity : 0.49536197805404664, count : 1000, timestamp : 1505631838539
+     [java] eventCount : 264800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4992997648715973, count : 1000, timestamp : 1505631838976
+     [java] eventCount : 265200
+     [java] Event: avgHumidity : 0.4964493248462677, count : 1000, timestamp : 1505631839394
+     [java] eventCount : 265600
+     [java] Event: avgHumidity : 0.5013693705201149, count : 1000, timestamp : 1505631839824
+     [java] eventCount : 266000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5062892175316811, count : 1000, timestamp : 1505631840257
+     [java] eventCount : 266400
+     [java] Event: avgHumidity : 0.4995862883925438, count : 1000, timestamp : 1505631840669
+     [java] eventCount : 266800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4948358047008514, count : 1000, timestamp : 1505631841094
+     [java] eventCount : 267200
+     [java] Event: avgHumidity : 0.48443232518434526, count : 1000, timestamp : 1505631841521
+     [java] eventCount : 267600
+     [java] Event: avgHumidity : 0.49082921159267423, count : 1000, timestamp : 1505631841950
+     [java] eventCount : 268000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5000865735411644, count : 1000, timestamp : 1505631842374
+     [java] eventCount : 268400
+     [java] Event: avgHumidity : 0.5075108093023301, count : 1000, timestamp : 1505631842804
+     [java] eventCount : 268800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49529114145040515, count : 1000, timestamp : 1505631843243
+     [java] eventCount : 269200
+     [java] Event: avgHumidity : 0.4957741329073906, count : 1000, timestamp : 1505631843667
+     [java] eventCount : 269600
+     [java] Event: avgHumidity : 0.5073681581616402, count : 1000, timestamp : 1505631844091
+     [java] eventCount : 270000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10701 milliseconds with total throughput of 934.49 events per second. Average delay is 2404.63
+     [java] Event: avgHumidity : 0.4937888332605362, count : 1000, timestamp : 1505631844525
+     [java] eventCount : 270400
+     [java] Event: avgHumidity : 0.49940099954605105, count : 1000, timestamp : 1505631844953
+     [java] eventCount : 270800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49646086698770525, count : 1000, timestamp : 1505631845394
+     [java] eventCount : 271200
+     [java] Event: avgHumidity : 0.5008018595576287, count : 1000, timestamp : 1505631845815
+     [java] eventCount : 271600
+     [java] Event: avgHumidity : 0.4938078107833862, count : 1000, timestamp : 1505631846261
+     [java] eventCount : 272000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4887576903700829, count : 1000, timestamp : 1505631846672
+     [java] eventCount : 272400
+     [java] Event: avgHumidity : 0.494887580871582, count : 1000, timestamp : 1505631847100
+     [java] eventCount : 272800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5005864155888557, count : 1000, timestamp : 1505631847543
+     [java] eventCount : 273200
+     [java] Event: avgHumidity : 0.5129266212582588, count : 1000, timestamp : 1505631847965
+     [java] eventCount : 273600
+     [java] Event: avgHumidity : 0.5048483372330665, count : 1000, timestamp : 1505631848391
+     [java] eventCount : 274000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4847904835939407, count : 1000, timestamp : 1505631848817
+     [java] eventCount : 274400
+     [java] Event: avgHumidity : 0.4825969190001488, count : 1000, timestamp : 1505631849243
+     [java] eventCount : 274800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4885998106598854, count : 1000, timestamp : 1505631849681
+     [java] eventCount : 275200
+     [java] Event: avgHumidity : 0.48696811658143996, count : 1000, timestamp : 1505631850104
+     [java] eventCount : 275600
+     [java] Event: avgHumidity : 0.5046849930882454, count : 1000, timestamp : 1505631850539
+     [java] eventCount : 276000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5174466984272004, count : 1000, timestamp : 1505631850966
+     [java] eventCount : 276400
+     [java] Event: avgHumidity : 0.5080123218894005, count : 1000, timestamp : 1505631851392
+     [java] eventCount : 276800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49444199454784393, count : 1000, timestamp : 1505631851825
+     [java] eventCount : 277200
+     [java] Event: avgHumidity : 0.4916313138604164, count : 1000, timestamp : 1505631852253
+     [java] eventCount : 277600
+     [java] Event: avgHumidity : 0.4914709132909775, count : 1000, timestamp : 1505631852695
+     [java] eventCount : 278000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4949230781197548, count : 1000, timestamp : 1505631853107
+     [java] eventCount : 278400
+     [java] Event: avgHumidity : 0.4876423169374466, count : 1000, timestamp : 1505631853544
+     [java] eventCount : 278800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4965265447497368, count : 1000, timestamp : 1505631853969
+     [java] eventCount : 279200
+     [java] Event: avgHumidity : 0.49660957807302475, count : 1000, timestamp : 1505631854412
+     [java] eventCount : 279600
+     [java] Event: avgHumidity : 0.49370635962486265, count : 1000, timestamp : 1505631854840
+     [java] eventCount : 280000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10744 milliseconds with total throughput of 930.75 events per second. Average delay is 2405.82
+     [java] Event: avgHumidity : 0.4942656902074814, count : 1000, timestamp : 1505631855262
+     [java] eventCount : 280400
+     [java] Event: avgHumidity : 0.49835439187288283, count : 1000, timestamp : 1505631855694
+     [java] eventCount : 280800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5006223108172416, count : 1000, timestamp : 1505631856122
+     [java] eventCount : 281200
+     [java] Event: avgHumidity : 0.5077258427739143, count : 1000, timestamp : 1505631856574
+     [java] eventCount : 281600
+     [java] Event: avgHumidity : 0.5037774761915207, count : 1000, timestamp : 1505631856983
+     [java] eventCount : 282000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4970963932275772, count : 1000, timestamp : 1505631857421
+     [java] eventCount : 282400
+     [java] Event: avgHumidity : 0.49979497331380845, count : 1000, timestamp : 1505631857849
+     [java] eventCount : 282800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.51193612408638, count : 1000, timestamp : 1505631858270
+     [java] eventCount : 283200
+     [java] Event: avgHumidity : 0.5074607596993447, count : 1000, timestamp : 1505631858697
+     [java] eventCount : 283600
+     [java] Event: avgHumidity : 0.5044881210327149, count : 1000, timestamp : 1505631859133
+     [java] eventCount : 284000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.489937867641449, count : 1000, timestamp : 1505631859547
+     [java] eventCount : 284400
+     [java] Event: avgHumidity : 0.497666046500206, count : 1000, timestamp : 1505631859988
+     [java] eventCount : 284800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5066247135400772, count : 1000, timestamp : 1505631860412
+     [java] eventCount : 285200
+     [java] Event: avgHumidity : 0.5163701195120811, count : 1000, timestamp : 1505631860830
+     [java] eventCount : 285600
+     [java] Event: avgHumidity : 0.5059097662568093, count : 1000, timestamp : 1505631861269
+     [java] eventCount : 286000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4867898262143135, count : 1000, timestamp : 1505631861688
+     [java] eventCount : 286400
+     [java] Event: avgHumidity : 0.49946670031547546, count : 1000, timestamp : 1505631862109
+     [java] eventCount : 286800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48734645718336106, count : 1000, timestamp : 1505631862539
+     [java] eventCount : 287200
+     [java] Event: avgHumidity : 0.4947414222955704, count : 1000, timestamp : 1505631862970
+     [java] eventCount : 287600
+     [java] Event: avgHumidity : 0.4920682816505432, count : 1000, timestamp : 1505631863407
+     [java] eventCount : 288000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49238266271352765, count : 1000, timestamp : 1505631863817
+     [java] eventCount : 288400
+     [java] Event: avgHumidity : 0.4953777574300766, count : 1000, timestamp : 1505631864250
+     [java] eventCount : 288800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4990391710400581, count : 1000, timestamp : 1505631864682
+     [java] eventCount : 289200
+     [java] Event: avgHumidity : 0.4980585302114487, count : 1000, timestamp : 1505631865116
+     [java] eventCount : 289600
+     [java] Event: avgHumidity : 0.5135635365843773, count : 1000, timestamp : 1505631865534
+     [java] eventCount : 290000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10003 sensor events in 10680 milliseconds with total throughput of 936.61 events per second. Average delay is 2382.19
+     [java] Event: avgHumidity : 0.5146392743587493, count : 1000, timestamp : 1505631865967
+     [java] eventCount : 290400
+     [java] Event: avgHumidity : 0.5123527846336364, count : 1000, timestamp : 1505631866383
+     [java] eventCount : 290800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4986245750784874, count : 1000, timestamp : 1505631866818
+     [java] eventCount : 291200
+     [java] Event: avgHumidity : 0.5028143491744995, count : 1000, timestamp : 1505631867240
+     [java] eventCount : 291600
+     [java] Event: avgHumidity : 0.5072575880289077, count : 1000, timestamp : 1505631867672
+     [java] eventCount : 292000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5155466775894165, count : 1000, timestamp : 1505631868095
+     [java] eventCount : 292400
+     [java] Event: avgHumidity : 0.4999297624230385, count : 1000, timestamp : 1505631868537
+     [java] eventCount : 292800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4972325316667557, count : 1000, timestamp : 1505631868951
+     [java] eventCount : 293200
+     [java] Event: avgHumidity : 0.4985768003463745, count : 1000, timestamp : 1505631869385
+     [java] eventCount : 293600
+     [java] Event: avgHumidity : 0.4922842563390732, count : 1000, timestamp : 1505631869815
+     [java] eventCount : 294000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5011311041116715, count : 1000, timestamp : 1505631870239
+     [java] eventCount : 294400
+     [java] Event: avgHumidity : 0.5002150848507881, count : 1000, timestamp : 1505631870675
+     [java] eventCount : 294800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49338094067573546, count : 1000, timestamp : 1505631871102
+     [java] eventCount : 295200
+     [java] Event: avgHumidity : 0.5033064739108085, count : 1000, timestamp : 1505631871513
+     [java] eventCount : 295600
+     [java] Event: avgHumidity : 0.5126302849054336, count : 1000, timestamp : 1505631871942
+     [java] eventCount : 296000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49752592891454694, count : 1000, timestamp : 1505631872382
+     [java] eventCount : 296400
+     [java] Event: avgHumidity : 0.48794844061136244, count : 1000, timestamp : 1505631872800
+     [java] eventCount : 296800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4915492963194847, count : 1000, timestamp : 1505631873225
+     [java] eventCount : 297200
+     [java] Event: avgHumidity : 0.49687595945596696, count : 1000, timestamp : 1505631873665
+     [java] eventCount : 297600
+     [java] Event: avgHumidity : 0.5006185234189033, count : 1000, timestamp : 1505631874079
+     [java] eventCount : 298000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4973926428556442, count : 1000, timestamp : 1505631874505
+     [java] eventCount : 298400
+     [java] Event: avgHumidity : 0.49543723756074903, count : 1000, timestamp : 1505631874949
+     [java] eventCount : 298800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4904997634291649, count : 1000, timestamp : 1505631875365
+     [java] eventCount : 299200
+     [java] Event: avgHumidity : 0.495362496137619, count : 1000, timestamp : 1505631875786
+     [java] eventCount : 299600
+     [java] Event: avgHumidity : 0.49300368744134904, count : 1000, timestamp : 1505631876224
+     [java] eventCount : 300000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 9997 sensor events in 10708 milliseconds with total throughput of 933.6 events per second. Average delay is 2373.83
+     [java] Event: avgHumidity : 0.49043270194530486, count : 1000, timestamp : 1505631876635
+     [java] eventCount : 300400
+     [java] Event: avgHumidity : 0.4919248780608177, count : 1000, timestamp : 1505631877073
+     [java] eventCount : 300800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4856198968887329, count : 1000, timestamp : 1505631877501
+     [java] eventCount : 301200
+     [java] Event: avgHumidity : 0.49673584079742433, count : 1000, timestamp : 1505631877930
+     [java] eventCount : 301600
+     [java] Event: avgHumidity : 0.5049213317036628, count : 1000, timestamp : 1505631878365
+     [java] eventCount : 302000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5051003305912017, count : 1000, timestamp : 1505631878798
+     [java] eventCount : 302400
+     [java] Event: avgHumidity : 0.49116919523477554, count : 1000, timestamp : 1505631879215
+     [java] eventCount : 302800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.490171647131443, count : 1000, timestamp : 1505631879643
+     [java] eventCount : 303200
+     [java] Event: avgHumidity : 0.4761806057691574, count : 1000, timestamp : 1505631880081
+     [java] eventCount : 303600
+     [java] Event: avgHumidity : 0.476939868748188, count : 1000, timestamp : 1505631880512
+     [java] eventCount : 304000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4945149975419044, count : 1000, timestamp : 1505631880933
+     [java] eventCount : 304400
+     [java] Event: avgHumidity : 0.49637256062030793, count : 1000, timestamp : 1505631881353
+     [java] eventCount : 304800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5111611563563346, count : 1000, timestamp : 1505631881779
+     [java] eventCount : 305200
+     [java] Event: avgHumidity : 0.5084079620838166, count : 1000, timestamp : 1505631882206
+     [java] eventCount : 305600
+     [java] Event: avgHumidity : 0.5248150988817215, count : 1000, timestamp : 1505631882634
+     [java] eventCount : 306000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5162096405029297, count : 1000, timestamp : 1505631883070
+     [java] eventCount : 306400
+     [java] Event: avgHumidity : 0.5020192355513573, count : 1000, timestamp : 1505631883506
+     [java] eventCount : 306800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4967747403383255, count : 1000, timestamp : 1505631883928
+     [java] eventCount : 307200
+     [java] Event: avgHumidity : 0.5089176183342934, count : 1000, timestamp : 1505631884358
+     [java] eventCount : 307600
+     [java] Event: avgHumidity : 0.5068392831087113, count : 1000, timestamp : 1505631884789
+     [java] eventCount : 308000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5000138288140297, count : 1000, timestamp : 1505631885225
+     [java] eventCount : 308400
+     [java] Event: avgHumidity : 0.49762316918373106, count : 1000, timestamp : 1505631885650
+     [java] eventCount : 308800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5066002501249314, count : 1000, timestamp : 1505631886067
+     [java] eventCount : 309200
+     [java] Event: avgHumidity : 0.4993030213713646, count : 1000, timestamp : 1505631886500
+     [java] eventCount : 309600
+     [java] Event: avgHumidity : 0.4948105385899544, count : 1000, timestamp : 1505631886931
+     [java] eventCount : 310000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10681 milliseconds with total throughput of 936.24 events per second. Average delay is 2387.73
+     [java] Event: avgHumidity : 0.5029061428308487, count : 1000, timestamp : 1505631887367
+     [java] eventCount : 310400
+     [java] Event: avgHumidity : 0.49801649087667466, count : 1000, timestamp : 1505631887793
+     [java] eventCount : 310800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.500584984600544, count : 1000, timestamp : 1505631888212
+     [java] eventCount : 311200
+     [java] Event: avgHumidity : 0.5099681865572929, count : 1000, timestamp : 1505631888649
+     [java] eventCount : 311600
+     [java] Event: avgHumidity : 0.503224257349968, count : 1000, timestamp : 1505631889064
+     [java] eventCount : 312000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49552022069692614, count : 1000, timestamp : 1505631889505
+     [java] eventCount : 312400
+     [java] Event: avgHumidity : 0.48972444933652876, count : 1000, timestamp : 1505631889920
+     [java] eventCount : 312800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48979932874441146, count : 1000, timestamp : 1505631890347
+     [java] eventCount : 313200
+     [java] Event: avgHumidity : 0.488874657869339, count : 1000, timestamp : 1505631890789
+     [java] eventCount : 313600
+     [java] Event: avgHumidity : 0.49549857920408247, count : 1000, timestamp : 1505631891218
+     [java] eventCount : 314000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49920367926359177, count : 1000, timestamp : 1505631891652
+     [java] eventCount : 314400
+     [java] Event: avgHumidity : 0.49840631121397017, count : 1000, timestamp : 1505631892081
+     [java] eventCount : 314800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5004257760047912, count : 1000, timestamp : 1505631892522
+     [java] eventCount : 315200
+     [java] Event: avgHumidity : 0.49227157002687455, count : 1000, timestamp : 1505631892945
+     [java] eventCount : 315600
+     [java] Event: avgHumidity : 0.5012175792455673, count : 1000, timestamp : 1505631893389
+     [java] eventCount : 316000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49549660277366636, count : 1000, timestamp : 1505631893806
+     [java] eventCount : 316400
+     [java] Event: avgHumidity : 0.496737601518631, count : 1000, timestamp : 1505631894253
+     [java] eventCount : 316800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5034761741161347, count : 1000, timestamp : 1505631894680
+     [java] eventCount : 317200
+     [java] Event: avgHumidity : 0.49980252504348754, count : 1000, timestamp : 1505631895093
+     [java] eventCount : 317600
+     [java] Event: avgHumidity : 0.5006637687087059, count : 1000, timestamp : 1505631895520
+     [java] eventCount : 318000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.503395671069622, count : 1000, timestamp : 1505631895967
+     [java] eventCount : 318400
+     [java] Event: avgHumidity : 0.5006267138123512, count : 1000, timestamp : 1505631896394
+     [java] eventCount : 318800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5027574563026428, count : 1000, timestamp : 1505631896808
+     [java] eventCount : 319200
+     [java] Event: avgHumidity : 0.5064973444342613, count : 1000, timestamp : 1505631897242
+     [java] eventCount : 319600
+     [java] Event: avgHumidity : 0.5189626572728157, count : 1000, timestamp : 1505631897661
+     [java] eventCount : 320000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10752 milliseconds with total throughput of 930.06 events per second. Average delay is 2404.99
+     [java] Event: avgHumidity : 0.5033224675059319, count : 1000, timestamp : 1505631898086
+     [java] eventCount : 320400
+     [java] Event: avgHumidity : 0.503036131978035, count : 1000, timestamp : 1505631898521
+     [java] eventCount : 320800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5068429336547852, count : 1000, timestamp : 1505631898939
+     [java] eventCount : 321200
+     [java] Event: avgHumidity : 0.4984950756430626, count : 1000, timestamp : 1505631899367
+     [java] eventCount : 321600
+     [java] Event: avgHumidity : 0.49643329697847366, count : 1000, timestamp : 1505631899808
+     [java] eventCount : 322000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.493208941757679, count : 1000, timestamp : 1505631900221
+     [java] eventCount : 322400
+     [java] Event: avgHumidity : 0.4870457510948181, count : 1000, timestamp : 1505631900646
+     [java] eventCount : 322800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5053623542785645, count : 1000, timestamp : 1505631901077
+     [java] eventCount : 323200
+     [java] Event: avgHumidity : 0.5050882628560066, count : 1000, timestamp : 1505631901516
+     [java] eventCount : 323600
+     [java] Event: avgHumidity : 0.5021430340409279, count : 1000, timestamp : 1505631901933
+     [java] eventCount : 324000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49583262532949446, count : 1000, timestamp : 1505631902372
+     [java] eventCount : 324400
+     [java] Event: avgHumidity : 0.49609887540340425, count : 1000, timestamp : 1505631902792
+     [java] eventCount : 324800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4935406044125557, count : 1000, timestamp : 1505631903221
+     [java] eventCount : 325200
+     [java] Event: avgHumidity : 0.5061465329527854, count : 1000, timestamp : 1505631903651
+     [java] eventCount : 325600
+     [java] Event: avgHumidity : 0.5038005234599113, count : 1000, timestamp : 1505631904078
+     [java] eventCount : 326000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4953839111328125, count : 1000, timestamp : 1505631904496
+     [java] eventCount : 326400
+     [java] Event: avgHumidity : 0.483840033531189, count : 1000, timestamp : 1505631904939
+     [java] eventCount : 326800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4736802754998207, count : 1000, timestamp : 1505631905358
+     [java] eventCount : 327200
+     [java] Event: avgHumidity : 0.4729486448764801, count : 1000, timestamp : 1505631905796
+     [java] eventCount : 327600
+     [java] Event: avgHumidity : 0.4863203618526459, count : 1000, timestamp : 1505631906224
+     [java] eventCount : 328000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5080735456347466, count : 1000, timestamp : 1505631906649
+     [java] eventCount : 328400
+     [java] Event: avgHumidity : 0.5254727316498756, count : 1000, timestamp : 1505631907060
+     [java] eventCount : 328800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5305026886463166, count : 1000, timestamp : 1505631907508
+     [java] eventCount : 329200
+     [java] Event: avgHumidity : 0.509014496743679, count : 1000, timestamp : 1505631907916
+     [java] eventCount : 329600
+     [java] Event: avgHumidity : 0.4968014702796936, count : 1000, timestamp : 1505631908353
+     [java] eventCount : 330000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10707 milliseconds with total throughput of 933.97 events per second. Average delay is 2383.37
+     [java] Event: avgHumidity : 0.4881322849988937, count : 1000, timestamp : 1505631908784
+     [java] eventCount : 330400
+     [java] Event: avgHumidity : 0.5003943377733231, count : 1000, timestamp : 1505631909208
+     [java] eventCount : 330800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5099794816970825, count : 1000, timestamp : 1505631909635
+     [java] eventCount : 331200
+     [java] Event: avgHumidity : 0.5005582984089851, count : 1000, timestamp : 1505631910057
+     [java] eventCount : 331600
+     [java] Event: avgHumidity : 0.48857264572381975, count : 1000, timestamp : 1505631910484
+     [java] eventCount : 332000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.505643524825573, count : 1000, timestamp : 1505631910912
+     [java] eventCount : 332400
+     [java] Event: avgHumidity : 0.5114155407547951, count : 1000, timestamp : 1505631911349
+     [java] eventCount : 332800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5079742388129235, count : 1000, timestamp : 1505631911770
+     [java] eventCount : 333200
+     [java] Event: avgHumidity : 0.4927060515284538, count : 1000, timestamp : 1505631912199
+     [java] eventCount : 333600
+     [java] Event: avgHumidity : 0.49851686000823975, count : 1000, timestamp : 1505631912622
+     [java] eventCount : 334000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5026601741909981, count : 1000, timestamp : 1505631913059
+     [java] eventCount : 334400
+     [java] Event: avgHumidity : 0.5116217181682586, count : 1000, timestamp : 1505631913478
+     [java] eventCount : 334800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5178225148320198, count : 1000, timestamp : 1505631913893
+     [java] eventCount : 335200
+     [java] Event: avgHumidity : 0.5065625863671303, count : 1000, timestamp : 1505631914326
+     [java] eventCount : 335600
+     [java] Event: avgHumidity : 0.507771383702755, count : 1000, timestamp : 1505631914752
+     [java] eventCount : 336000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5105950521230698, count : 1000, timestamp : 1505631915178
+     [java] eventCount : 336400
+     [java] Event: avgHumidity : 0.5042117523550987, count : 1000, timestamp : 1505631915605
+     [java] eventCount : 336800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4940018597841263, count : 1000, timestamp : 1505631916046
+     [java] eventCount : 337200
+     [java] Event: avgHumidity : 0.48529409831762316, count : 1000, timestamp : 1505631916481
+     [java] eventCount : 337600
+     [java] Event: avgHumidity : 0.5046150223612785, count : 1000, timestamp : 1505631916902
+     [java] eventCount : 338000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5107268768548966, count : 1000, timestamp : 1505631917351
+     [java] eventCount : 338400
+     [java] Event: avgHumidity : 0.5011660133600235, count : 1000, timestamp : 1505631917771
+     [java] eventCount : 338800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49102921622991563, count : 1000, timestamp : 1505631918195
+     [java] eventCount : 339200
+     [java] Event: avgHumidity : 0.49488031017780304, count : 1000, timestamp : 1505631918633
+     [java] eventCount : 339600
+     [java] Event: avgHumidity : 0.4982034332156181, count : 1000, timestamp : 1505631919053
+     [java] eventCount : 340000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10702 milliseconds with total throughput of 934.4 events per second. Average delay is 2390.84
+     [java] Event: avgHumidity : 0.5069071011543274, count : 1000, timestamp : 1505631919486
+     [java] eventCount : 340400
+     [java] Event: avgHumidity : 0.4999457405805588, count : 1000, timestamp : 1505631919921
+     [java] eventCount : 340800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4966091990470886, count : 1000, timestamp : 1505631920344
+     [java] eventCount : 341200
+     [java] Event: avgHumidity : 0.4908100091814995, count : 1000, timestamp : 1505631920770
+     [java] eventCount : 341600
+     [java] Event: avgHumidity : 0.4905567331314087, count : 1000, timestamp : 1505631921206
+     [java] eventCount : 342000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5050976836085319, count : 1000, timestamp : 1505631921611
+     [java] eventCount : 342400
+     [java] Event: avgHumidity : 0.49205198550224305, count : 1000, timestamp : 1505631922046
+     [java] eventCount : 342800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48853561067581175, count : 1000, timestamp : 1505631922482
+     [java] eventCount : 343200
+     [java] Event: avgHumidity : 0.4831253346800804, count : 1000, timestamp : 1505631922909
+     [java] eventCount : 343600
+     [java] Event: avgHumidity : 0.4880657861828804, count : 1000, timestamp : 1505631923325
+     [java] eventCount : 344000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4893548916578293, count : 1000, timestamp : 1505631923756
+     [java] eventCount : 344400
+     [java] Event: avgHumidity : 0.4950892979502678, count : 1000, timestamp : 1505631924170
+     [java] eventCount : 344800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5071940546631813, count : 1000, timestamp : 1505631924609
+     [java] eventCount : 345200
+     [java] Event: avgHumidity : 0.5064698452949524, count : 1000, timestamp : 1505631925027
+     [java] eventCount : 345600
+     [java] Event: avgHumidity : 0.5062605832219124, count : 1000, timestamp : 1505631925471
+     [java] eventCount : 346000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4960670431852341, count : 1000, timestamp : 1505631925889
+     [java] eventCount : 346400
+     [java] Event: avgHumidity : 0.4989508415460587, count : 1000, timestamp : 1505631926327
+     [java] eventCount : 346800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4981166353225708, count : 1000, timestamp : 1505631926755
+     [java] eventCount : 347200
+     [java] Event: avgHumidity : 0.5115734143853188, count : 1000, timestamp : 1505631927177
+     [java] eventCount : 347600
+     [java] Event: avgHumidity : 0.5131326919794083, count : 1000, timestamp : 1505631927607
+     [java] eventCount : 348000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5151668215990066, count : 1000, timestamp : 1505631928030
+     [java] eventCount : 348400
+     [java] Event: avgHumidity : 0.5209052616357803, count : 1000, timestamp : 1505631928445
+     [java] eventCount : 348800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5083676666021347, count : 1000, timestamp : 1505631928889
+     [java] eventCount : 349200
+     [java] Event: avgHumidity : 0.495268184363842, count : 1000, timestamp : 1505631929315
+     [java] eventCount : 349600
+     [java] Event: avgHumidity : 0.498179274559021, count : 1000, timestamp : 1505631929734
+     [java] eventCount : 350000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10692 milliseconds with total throughput of 935.28 events per second. Average delay is 2376.76
+     [java] Event: avgHumidity : 0.4983118585348129, count : 1000, timestamp : 1505631930155
+     [java] eventCount : 350400
+     [java] Event: avgHumidity : 0.49669561064243317, count : 1000, timestamp : 1505631930597
+     [java] eventCount : 350800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5020536302924156, count : 1000, timestamp : 1505631931017
+     [java] eventCount : 351200
+     [java] Event: avgHumidity : 0.5058323393464088, count : 1000, timestamp : 1505631931450
+     [java] eventCount : 351600
+     [java] Event: avgHumidity : 0.49986176764965057, count : 1000, timestamp : 1505631931864
+     [java] eventCount : 352000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5001309741735458, count : 1000, timestamp : 1505631932293
+     [java] eventCount : 352400
+     [java] Event: avgHumidity : 0.49414971923828127, count : 1000, timestamp : 1505631932723
+     [java] eventCount : 352800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49503928035497663, count : 1000, timestamp : 1505631933162
+     [java] eventCount : 353200
+     [java] Event: avgHumidity : 0.497858464717865, count : 1000, timestamp : 1505631933589
+     [java] eventCount : 353600
+     [java] Event: avgHumidity : 0.5054329982995986, count : 1000, timestamp : 1505631934000
+     [java] eventCount : 354000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5075853296518326, count : 1000, timestamp : 1505631934438
+     [java] eventCount : 354400
+     [java] Event: avgHumidity : 0.5041273497343063, count : 1000, timestamp : 1505631934857
+     [java] eventCount : 354800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49716235971450806, count : 1000, timestamp : 1505631935295
+     [java] eventCount : 355200
+     [java] Event: avgHumidity : 0.49511274671554567, count : 1000, timestamp : 1505631935708
+     [java] eventCount : 355600
+     [java] Event: avgHumidity : 0.5005329497456551, count : 1000, timestamp : 1505631936147
+     [java] eventCount : 356000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49365429937839506, count : 1000, timestamp : 1505631936578
+     [java] eventCount : 356400
+     [java] Event: avgHumidity : 0.4928207801580429, count : 1000, timestamp : 1505631937004
+     [java] eventCount : 356800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4845104115605354, count : 1000, timestamp : 1505631937418
+     [java] eventCount : 357200
+     [java] Event: avgHumidity : 0.48453699535131456, count : 1000, timestamp : 1505631937851
+     [java] eventCount : 357600
+     [java] Event: avgHumidity : 0.4985884217619896, count : 1000, timestamp : 1505631938271
+     [java] eventCount : 358000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5109761748313904, count : 1000, timestamp : 1505631938707
+     [java] eventCount : 358400
+     [java] Event: avgHumidity : 0.5168393036723137, count : 1000, timestamp : 1505631939129
+     [java] eventCount : 358800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5063739122152329, count : 1000, timestamp : 1505631939574
+     [java] eventCount : 359200
+     [java] Event: avgHumidity : 0.50292169713974, count : 1000, timestamp : 1505631939982
+     [java] eventCount : 359600
+     [java] Event: avgHumidity : 0.5063542057871818, count : 1000, timestamp : 1505631940429
+     [java] eventCount : 360000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10692 milliseconds with total throughput of 935.28 events per second. Average delay is 2384.68
+     [java] Event: avgHumidity : 0.5128039395809174, count : 1000, timestamp : 1505631940857
+     [java] eventCount : 360400
+     [java] Event: avgHumidity : 0.511861790060997, count : 1000, timestamp : 1505631941263
+     [java] eventCount : 360800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4912874614596367, count : 1000, timestamp : 1505631941705
+     [java] eventCount : 361200
+     [java] Event: avgHumidity : 0.48861770206689836, count : 1000, timestamp : 1505631942137
+     [java] eventCount : 361600
+     [java] Event: avgHumidity : 0.5052522222995758, count : 1000, timestamp : 1505631942548
+     [java] eventCount : 362000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5096764355897904, count : 1000, timestamp : 1505631942988
+     [java] eventCount : 362400
+     [java] Event: avgHumidity : 0.502309833407402, count : 1000, timestamp : 1505631943409
+     [java] eventCount : 362800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4984143625497818, count : 1000, timestamp : 1505631943844
+     [java] eventCount : 363200
+     [java] Event: avgHumidity : 0.4964158067703247, count : 1000, timestamp : 1505631944269
+     [java] eventCount : 363600
+     [java] Event: avgHumidity : 0.4912880311012268, count : 1000, timestamp : 1505631944686
+     [java] eventCount : 364000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4864845734238625, count : 1000, timestamp : 1505631945112
+     [java] eventCount : 364400
+     [java] Event: avgHumidity : 0.4896168961524963, count : 1000, timestamp : 1505631945552
+     [java] eventCount : 364800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.509178807258606, count : 1000, timestamp : 1505631945973
+     [java] eventCount : 365200
+     [java] Event: avgHumidity : 0.5213329467177391, count : 1000, timestamp : 1505631946397
+     [java] eventCount : 365600
+     [java] Event: avgHumidity : 0.5153001009225845, count : 1000, timestamp : 1505631946819
+     [java] eventCount : 366000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5045921874642372, count : 1000, timestamp : 1505631947252
+     [java] eventCount : 366400
+     [java] Event: avgHumidity : 0.5038098339438438, count : 1000, timestamp : 1505631947682
+     [java] eventCount : 366800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5179733390212059, count : 1000, timestamp : 1505631948114
+     [java] eventCount : 367200
+     [java] Event: avgHumidity : 0.5114964988827705, count : 1000, timestamp : 1505631948538
+     [java] eventCount : 367600
+     [java] Event: avgHumidity : 0.5042265388965607, count : 1000, timestamp : 1505631948969
+     [java] eventCount : 368000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49361034673452375, count : 1000, timestamp : 1505631949398
+     [java] eventCount : 368400
+     [java] Event: avgHumidity : 0.49100427705049515, count : 1000, timestamp : 1505631949826
+     [java] eventCount : 368800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5071205669641494, count : 1000, timestamp : 1505631950234
+     [java] eventCount : 369200
+     [java] Event: avgHumidity : 0.5119520535469055, count : 1000, timestamp : 1505631950672
+     [java] eventCount : 369600
+     [java] Event: avgHumidity : 0.5110301163196563, count : 1000, timestamp : 1505631951086
+     [java] eventCount : 370000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10667 milliseconds with total throughput of 937.47 events per second. Average delay is 2370.91
+     [java] Event: avgHumidity : 0.5094770931601524, count : 1000, timestamp : 1505631951523
+     [java] eventCount : 370400
+     [java] Event: avgHumidity : 0.523097063601017, count : 1000, timestamp : 1505631951952
+     [java] eventCount : 370800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5027881281971931, count : 1000, timestamp : 1505631952377
+     [java] eventCount : 371200
+     [java] Event: avgHumidity : 0.4968074147105217, count : 1000, timestamp : 1505631952791
+     [java] eventCount : 371600
+     [java] Event: avgHumidity : 0.4887282664179802, count : 1000, timestamp : 1505631953239
+     [java] eventCount : 372000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48908278107643127, count : 1000, timestamp : 1505631953654
+     [java] eventCount : 372400
+     [java] Event: avgHumidity : 0.5010087813138961, count : 1000, timestamp : 1505631954089
+     [java] eventCount : 372800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49834976440668105, count : 1000, timestamp : 1505631954505
+     [java] eventCount : 373200
+     [java] Event: avgHumidity : 0.5056556224822998, count : 1000, timestamp : 1505631954944
+     [java] eventCount : 373600
+     [java] Event: avgHumidity : 0.5031870984435082, count : 1000, timestamp : 1505631955368
+     [java] eventCount : 374000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49317261624336245, count : 1000, timestamp : 1505631955795
+     [java] eventCount : 374400
+     [java] Event: avgHumidity : 0.4839839079976082, count : 1000, timestamp : 1505631956225
+     [java] eventCount : 374800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4879856625199318, count : 1000, timestamp : 1505631956638
+     [java] eventCount : 375200
+     [java] Event: avgHumidity : 0.4995586266517639, count : 1000, timestamp : 1505631957078
+     [java] eventCount : 375600
+     [java] Event: avgHumidity : 0.5050840685963631, count : 1000, timestamp : 1505631957496
+     [java] eventCount : 376000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5048312366604805, count : 1000, timestamp : 1505631957925
+     [java] eventCount : 376400
+     [java] Event: avgHumidity : 0.4958772494196892, count : 1000, timestamp : 1505631958344
+     [java] eventCount : 376800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49463597720861435, count : 1000, timestamp : 1505631958766
+     [java] eventCount : 377200
+     [java] Event: avgHumidity : 0.49689342027902605, count : 1000, timestamp : 1505631959207
+     [java] eventCount : 377600
+     [java] Event: avgHumidity : 0.4942126107215881, count : 1000, timestamp : 1505631959631
+     [java] eventCount : 378000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49079857897758483, count : 1000, timestamp : 1505631960053
+     [java] eventCount : 378400
+     [java] Event: avgHumidity : 0.4884234519600868, count : 1000, timestamp : 1505631960496
+     [java] eventCount : 378800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.503616272509098, count : 1000, timestamp : 1505631960911
+     [java] eventCount : 379200
+     [java] Event: avgHumidity : 0.4982487829327583, count : 1000, timestamp : 1505631961340
+     [java] eventCount : 379600
+     [java] Event: avgHumidity : 0.49297051215171817, count : 1000, timestamp : 1505631961773
+     [java] eventCount : 380000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10710 milliseconds with total throughput of 933.71 events per second. Average delay is 2381.74
+     [java] Event: avgHumidity : 0.5059781328439713, count : 1000, timestamp : 1505631962200
+     [java] eventCount : 380400
+     [java] Event: avgHumidity : 0.5153304802775382, count : 1000, timestamp : 1505631962630
+     [java] eventCount : 380800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.497249081492424, count : 1000, timestamp : 1505631963046
+     [java] eventCount : 381200
+     [java] Event: avgHumidity : 0.4787634266614914, count : 1000, timestamp : 1505631963482
+     [java] eventCount : 381600
+     [java] Event: avgHumidity : 0.4722952223420143, count : 1000, timestamp : 1505631963907
+     [java] eventCount : 382000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4777560179233551, count : 1000, timestamp : 1505631964328
+     [java] eventCount : 382400
+     [java] Event: avgHumidity : 0.49062156039476396, count : 1000, timestamp : 1505631964775
+     [java] eventCount : 382800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.501681122481823, count : 1000, timestamp : 1505631965181
+     [java] eventCount : 383200
+     [java] Event: avgHumidity : 0.5049629719853401, count : 1000, timestamp : 1505631965619
+     [java] eventCount : 383600
+     [java] Event: avgHumidity : 0.5091386795043945, count : 1000, timestamp : 1505631966045
+     [java] eventCount : 384000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5045770264267921, count : 1000, timestamp : 1505631966480
+     [java] eventCount : 384400
+     [java] Event: avgHumidity : 0.5081397363543511, count : 1000, timestamp : 1505631966904
+     [java] eventCount : 384800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5022236749529838, count : 1000, timestamp : 1505631967321
+     [java] eventCount : 385200
+     [java] Event: avgHumidity : 0.5134897102713585, count : 1000, timestamp : 1505631967744
+     [java] eventCount : 385600
+     [java] Event: avgHumidity : 0.5086476989984512, count : 1000, timestamp : 1505631968188
+     [java] eventCount : 386000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5023950443863868, count : 1000, timestamp : 1505631968608
+     [java] eventCount : 386400
+     [java] Event: avgHumidity : 0.4925139426589012, count : 1000, timestamp : 1505631969037
+     [java] eventCount : 386800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.48498068743944167, count : 1000, timestamp : 1505631969468
+     [java] eventCount : 387200
+     [java] Event: avgHumidity : 0.4788233461380005, count : 1000, timestamp : 1505631969883
+     [java] eventCount : 387600
+     [java] Event: avgHumidity : 0.4890596842765808, count : 1000, timestamp : 1505631970308
+     [java] eventCount : 388000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5057964122891426, count : 1000, timestamp : 1505631970735
+     [java] eventCount : 388400
+     [java] Event: avgHumidity : 0.5106411410570144, count : 1000, timestamp : 1505631971159
+     [java] eventCount : 388800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4985300351381302, count : 1000, timestamp : 1505631971603
+     [java] eventCount : 389200
+     [java] Event: avgHumidity : 0.49417894387245176, count : 1000, timestamp : 1505631972015
+     [java] eventCount : 389600
+     [java] Event: avgHumidity : 0.508966604590416, count : 1000, timestamp : 1505631972456
+     [java] eventCount : 390000
+     [java] Received Punctuation : -1
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10681 milliseconds with total throughput of 936.24 events per second. Average delay is 2385.2
+     [java] Event: avgHumidity : 0.49610739266872406, count : 1000, timestamp : 1505631972868
+     [java] eventCount : 390400
+     [java] Event: avgHumidity : 0.4851224796175957, count : 1000, timestamp : 1505631973316
+     [java] eventCount : 390800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4774221826195717, count : 1000, timestamp : 1505631973725
+     [java] eventCount : 391200
+     [java] Event: avgHumidity : 0.48668679797649383, count : 1000, timestamp : 1505631974167
+     [java] eventCount : 391600
+     [java] Event: avgHumidity : 0.5013894810080528, count : 1000, timestamp : 1505631974588
+     [java] eventCount : 392000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4922298866510391, count : 1000, timestamp : 1505631975011
+     [java] eventCount : 392400
+     [java] Event: avgHumidity : 0.4824266170859337, count : 1000, timestamp : 1505631975436
+     [java] eventCount : 392800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4762118311524391, count : 1000, timestamp : 1505631975871
+     [java] eventCount : 393200
+     [java] Event: avgHumidity : 0.48710243761539457, count : 1000, timestamp : 1505631976305
+     [java] eventCount : 393600
+     [java] Event: avgHumidity : 0.4936341010928154, count : 1000, timestamp : 1505631976738
+     [java] eventCount : 394000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4982421754002571, count : 1000, timestamp : 1505631977165
+     [java] eventCount : 394400
+     [java] Event: avgHumidity : 0.5098402292728424, count : 1000, timestamp : 1505631977585
+     [java] eventCount : 394800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.5288432452678681, count : 1000, timestamp : 1505631978020
+     [java] eventCount : 395200
+     [java] Event: avgHumidity : 0.4948141391277313, count : 1000, timestamp : 1505631978464
+     [java] eventCount : 395600
+     [java] Event: avgHumidity : 0.49394422018527984, count : 1000, timestamp : 1505631978893
+     [java] eventCount : 396000
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.49513076663017275, count : 1000, timestamp : 1505631979319
+     [java] eventCount : 396400
+     [java] Event: avgHumidity : 0.5079439060688019, count : 1000, timestamp : 1505631979750
+     [java] eventCount : 396800
+     [java] Received Punctuation : -1
+     [java] Event: avgHumidity : 0.4995199480056763, count : 1000, timestamp : 1505631980179
+     [java] eventCount : 397200
+     [java] Event: avgHumidity : 0.4944220427274704, count : 1000, timestamp : 1505631980617
+     [java] eventCount : 397600
+     [java] Event: avgHumidity : 0.4963386325240135, count : 1000, timestamp : 1505631981045
+     [java] eventCount : 398000
+     [java] Received Punctuation : -1
+     [java] user admin disconnected
+     [java] Event: avgHumidity : 0.5053408968448639, count : 1000, timestamp : 1505631981468
+     [java] eventCount : 398400
+     [java] Event: avgHumidity : 0.5073138790726661, count : 1000, timestamp : 1505631981890
+     [java] eventCount : 398800
+     [java] Event: avgHumidity : 0.5040783261656762, count : 1000, timestamp : 1505631982307
+     [java] eventCount : 399200
+     [java] Event: avgHumidity : 0.48811437702178956, count : 1000, timestamp : 1505631982741
+     [java] eventCount : 399600
+     [java] Event: avgHumidity : 0.49505964654684065, count : 1000, timestamp : 1505631983173
+     [java] eventCount : 400000
+     [java] [DataBridge-Core-pool-1-thread-1] Received 10000 sensor events in 10816 milliseconds with total throughput of 924.56 events per second. Average delay is 2425.65

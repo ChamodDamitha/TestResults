@@ -1,0 +1,522 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:80: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: avgHumidity:0.49573808152501175, timestamp : 1504843814711
+     [java] Time diff in Siddhi Handler: 1854
+     [java] Event: avgHumidity:0.6698109904925028, timestamp : 1504843814505
+     [java] Time diff in Siddhi Handler: 3612
+     [java] Event: avgHumidity:0.5358850401945603, timestamp : 1504843814761
+     [java] Time diff in Siddhi Handler: 4896
+     [java] Event: avgHumidity:0.45098077181058055, timestamp : 1504843814771
+     [java] Time diff in Siddhi Handler: 6397
+     [java] Event: avgHumidity:0.3226654171943665, timestamp : 1504843814781
+     [java] Time diff in Siddhi Handler: 7889
+     [java] Event: avgHumidity:0.6618443727493286, timestamp : 1504843814794
+     [java] Time diff in Siddhi Handler: 9381
+     [java] Event: avgHumidity:0.7116076827049256, timestamp : 1504843814800
+     [java] Time diff in Siddhi Handler: 10878
+     [java] Event: avgHumidity:0.3766763210296631, timestamp : 1504843814805
+     [java] Time diff in Siddhi Handler: 12374
+     [java] Event: avgHumidity:0.5554734110832215, timestamp : 1504843814811
+     [java] Time diff in Siddhi Handler: 13872
+     [java] user admin disconnected
+     [java] Event: avgHumidity:0.46423805952072145, timestamp : 1504843814817
+     [java] Time diff in Siddhi Handler: 15368
+     [java] Event: avgHumidity:0.455354106426239, timestamp : 1504843814822
+     [java] Time diff in Siddhi Handler: 16866
+     [java] Event: avgHumidity:0.6395473718643189, timestamp : 1504843814828
+     [java] Time diff in Siddhi Handler: 18362
+     [java] Event: avgHumidity:0.46690562963485716, timestamp : 1504843814833
+     [java] Time diff in Siddhi Handler: 19860
+     [java] Event: avgHumidity:0.5363649129867554, timestamp : 1504843814839
+     [java] Time diff in Siddhi Handler: 21356
+     [java] Event: avgHumidity:0.6371675133705139, timestamp : 1504843814844
+     [java] Time diff in Siddhi Handler: 22854
+     [java] Event: avgHumidity:0.48332072496414186, timestamp : 1504843814850
+     [java] Time diff in Siddhi Handler: 24351
+     [java] Event: avgHumidity:0.44480682611465455, timestamp : 1504843814856
+     [java] Time diff in Siddhi Handler: 25848
+     [java] Event: avgHumidity:0.36554049253463744, timestamp : 1504843814861
+     [java] Time diff in Siddhi Handler: 27346
+     [java] Event: avgHumidity:0.3980809569358826, timestamp : 1504843814867
+     [java] Time diff in Siddhi Handler: 28843
+     [java] Event: avgHumidity:0.518394935131073, timestamp : 1504843814872
+     [java] Time diff in Siddhi Handler: 30341
+     [java] Event: avgHumidity:0.711712658405304, timestamp : 1504843814878
+     [java] Time diff in Siddhi Handler: 31838
+     [java] Event: avgHumidity:0.6223094224929809, timestamp : 1504843814884
+     [java] Time diff in Siddhi Handler: 33335
+     [java] Event: avgHumidity:0.4651188254356384, timestamp : 1504843814889
+     [java] Time diff in Siddhi Handler: 34833
+     [java] Event: avgHumidity:0.538424551486969, timestamp : 1504843814895
+     [java] Time diff in Siddhi Handler: 36330
+     [java] Event: avgHumidity:0.4289758324623108, timestamp : 1504843814901
+     [java] Time diff in Siddhi Handler: 37827
+     [java] Event: avgHumidity:0.3399653434753418, timestamp : 1504843814906
+     [java] Time diff in Siddhi Handler: 39325
+     [java] Event: avgHumidity:0.6101904392242432, timestamp : 1504843814911
+     [java] Time diff in Siddhi Handler: 40823
+     [java] Event: avgHumidity:0.5191351413726807, timestamp : 1504843814917
+     [java] Time diff in Siddhi Handler: 42320
+     [java] Event: avgHumidity:0.36249170303344724, timestamp : 1504843814923
+     [java] Time diff in Siddhi Handler: 43817
+     [java] Event: avgHumidity:0.5429427862167359, timestamp : 1504843814928
+     [java] Time diff in Siddhi Handler: 45316
+     [java] Event: avgHumidity:0.5206148982048034, timestamp : 1504843814934
+     [java] Time diff in Siddhi Handler: 46813
+     [java] Event: avgHumidity:0.5846975922584534, timestamp : 1504843814939
+     [java] Time diff in Siddhi Handler: 48311
+     [java] Event: avgHumidity:0.4072014331817627, timestamp : 1504843814945
+     [java] Time diff in Siddhi Handler: 49807
+     [java] Event: avgHumidity:0.3476684331893921, timestamp : 1504843814950
+     [java] Time diff in Siddhi Handler: 51305
+     [java] Event: avgHumidity:0.4705683946609497, timestamp : 1504843814956
+     [java] Time diff in Siddhi Handler: 52801
+     [java] Event: avgHumidity:0.3288556933403015, timestamp : 1504843814961
+     [java] Time diff in Siddhi Handler: 54298
+     [java] Event: avgHumidity:0.46044747829437255, timestamp : 1504843814967
+     [java] Time diff in Siddhi Handler: 55795
+     [java] Event: avgHumidity:0.2893632173538208, timestamp : 1504843814972
+     [java] Time diff in Siddhi Handler: 57292
+     [java] Event: avgHumidity:0.3830245018005371, timestamp : 1504843814978
+     [java] Time diff in Siddhi Handler: 58788
+     [java] Event: avgHumidity:0.3798154592514038, timestamp : 1504843814983
+     [java] Time diff in Siddhi Handler: 60286
+     [java] Event: avgHumidity:0.3788886904716492, timestamp : 1504843814989
+     [java] Time diff in Siddhi Handler: 61782
+     [java] Event: avgHumidity:0.7333687305450439, timestamp : 1504843814994
+     [java] Time diff in Siddhi Handler: 63280
+     [java] Event: avgHumidity:0.5543193578720093, timestamp : 1504843815000
+     [java] Time diff in Siddhi Handler: 64776
+     [java] Event: avgHumidity:0.3790759563446045, timestamp : 1504843815005
+     [java] Time diff in Siddhi Handler: 66274
+     [java] Event: avgHumidity:0.23172558546066285, timestamp : 1504843815011
+     [java] Time diff in Siddhi Handler: 67770
+     [java] Event: avgHumidity:0.5533143877983093, timestamp : 1504843815016
+     [java] Time diff in Siddhi Handler: 69267
+     [java] Event: avgHumidity:0.6501068472862244, timestamp : 1504843815022
+     [java] Time diff in Siddhi Handler: 70764
+     [java] Event: avgHumidity:0.6082305312156677, timestamp : 1504843815027
+     [java] Time diff in Siddhi Handler: 72261
+     [java] Event: avgHumidity:0.33322986364364626, timestamp : 1504843815033
+     [java] Time diff in Siddhi Handler: 73757
+     [java] Event: avgHumidity:0.23348643779754638, timestamp : 1504843815038
+     [java] Time diff in Siddhi Handler: 75254
+     [java] Event: avgHumidity:0.4235114693641663, timestamp : 1504843815044
+     [java] Time diff in Siddhi Handler: 76751
+     [java] Event: avgHumidity:0.3882411241531372, timestamp : 1504843815049
+     [java] Time diff in Siddhi Handler: 78249
+     [java] Event: avgHumidity:0.3369282841682434, timestamp : 1504843815055
+     [java] Time diff in Siddhi Handler: 79745
+     [java] Event: avgHumidity:0.5248205065727234, timestamp : 1504843815060
+     [java] Time diff in Siddhi Handler: 81242
+     [java] Event: avgHumidity:0.6607627391815185, timestamp : 1504843815066
+     [java] Time diff in Siddhi Handler: 82739
+     [java] Event: avgHumidity:0.17809029817581176, timestamp : 1504843815075
+     [java] Time diff in Siddhi Handler: 84232
+     [java] Event: avgHumidity:0.5965261220932007, timestamp : 1504843815070
+     [java] Time diff in Siddhi Handler: 85740
+     [java] Event: avgHumidity:0.4916312832098741, timestamp : 1504843815094
+     [java] Time diff in Siddhi Handler: 87219
+     [java] Event: avgHumidity:0.6083708643913269, timestamp : 1504843815096
+     [java] Time diff in Siddhi Handler: 88719
+     [java] Event: avgHumidity:0.4664091825485229, timestamp : 1504843815101
+     [java] Time diff in Siddhi Handler: 90216
+     [java] Event: avgHumidity:0.6791113376617431, timestamp : 1504843815107
+     [java] Time diff in Siddhi Handler: 91713
+     [java] Event: avgHumidity:0.41492844820022584, timestamp : 1504843815112
+     [java] Time diff in Siddhi Handler: 93210
+     [java] Event: avgHumidity:0.33773618936538696, timestamp : 1504843815118
+     [java] Time diff in Siddhi Handler: 94706
+     [java] Event: avgHumidity:0.5123061656951904, timestamp : 1504843815123
+     [java] Time diff in Siddhi Handler: 96203
+     [java] Event: avgHumidity:0.42258434295654296, timestamp : 1504843815128
+     [java] Time diff in Siddhi Handler: 97701
+     [java] Event: avgHumidity:0.45737876892089846, timestamp : 1504843815134
+     [java] Time diff in Siddhi Handler: 99197
+     [java] Event: avgHumidity:0.22994513511657716, timestamp : 1504843815139
+     [java] Time diff in Siddhi Handler: 100695
+     [java] Event: avgHumidity:0.3222183585166931, timestamp : 1504843815145
+     [java] Time diff in Siddhi Handler: 102191
+     [java] Event: avgHumidity:0.3201856970787048, timestamp : 1504843815150
+     [java] Time diff in Siddhi Handler: 103689
+     [java] Event: avgHumidity:0.6952879428863525, timestamp : 1504843815156
+     [java] Time diff in Siddhi Handler: 105185
+     [java] Event: avgHumidity:0.4560468077659607, timestamp : 1504843815161
+     [java] Time diff in Siddhi Handler: 106682
+     [java] Event: avgHumidity:0.43981064558029176, timestamp : 1504843815167
+     [java] Time diff in Siddhi Handler: 108178
+     [java] Event: avgHumidity:0.6232896685600281, timestamp : 1504843815172
+     [java] Time diff in Siddhi Handler: 109676
+     [java] Event: avgHumidity:0.2758907675743103, timestamp : 1504843815178
+     [java] Time diff in Siddhi Handler: 111173
+     [java] Event: avgHumidity:0.7576312065124512, timestamp : 1504843815183
+     [java] Time diff in Siddhi Handler: 112670
+     [java] Event: avgHumidity:0.703123676776886, timestamp : 1504843815189
+     [java] Time diff in Siddhi Handler: 114167
+     [java] Event: avgHumidity:0.38238900899887085, timestamp : 1504843815194
+     [java] Time diff in Siddhi Handler: 115666
+     [java] Event: avgHumidity:0.7785925269126892, timestamp : 1504843815198
+     [java] Time diff in Siddhi Handler: 116863
+     [java] Event: avgHumidity:0.6639187455177307, timestamp : 1504843815204
+     [java] Time diff in Siddhi Handler: 118360
+     [java] Event: avgHumidity:0.6555909872055053, timestamp : 1504843815209
+     [java] Time diff in Siddhi Handler: 119857
+     [java] Event: avgHumidity:0.4142459392547607, timestamp : 1504843815215
+     [java] Time diff in Siddhi Handler: 121354
+     [java] Event: avgHumidity:0.5769088625907898, timestamp : 1504843815220
+     [java] Time diff in Siddhi Handler: 122851
+     [java] Event: avgHumidity:0.4618010401725769, timestamp : 1504843815225
+     [java] Time diff in Siddhi Handler: 124349
+     [java] Event: avgHumidity:0.6843794465065003, timestamp : 1504843815231
+     [java] Time diff in Siddhi Handler: 125845
+     [java] Event: avgHumidity:0.5445852160453797, timestamp : 1504843815237
+     [java] Time diff in Siddhi Handler: 127342
+     [java] Event: avgHumidity:0.5174618482589721, timestamp : 1504843815242
+     [java] Time diff in Siddhi Handler: 128839
+     [java] Event: avgHumidity:0.5304190039634704, timestamp : 1504843815247
+     [java] Time diff in Siddhi Handler: 130336
+     [java] Event: avgHumidity:0.38221642971038816, timestamp : 1504843815253
+     [java] Time diff in Siddhi Handler: 131832
+     [java] Event: avgHumidity:0.5243559360504151, timestamp : 1504843815258
+     [java] Time diff in Siddhi Handler: 133330
+     [java] Event: avgHumidity:0.3519449234008789, timestamp : 1504843815264
+     [java] Time diff in Siddhi Handler: 134826
+     [java] Event: avgHumidity:0.5285617232322692, timestamp : 1504843815269
+     [java] Time diff in Siddhi Handler: 136323
+     [java] Event: avgHumidity:0.5481796503067017, timestamp : 1504843815275
+     [java] Time diff in Siddhi Handler: 137820
+     [java] Event: avgHumidity:0.6700328350067138, timestamp : 1504843815280
+     [java] Time diff in Siddhi Handler: 139317
+     [java] Event: avgHumidity:0.4489764332771301, timestamp : 1504843815286
+     [java] Time diff in Siddhi Handler: 140813
+     [java] Event: avgHumidity:0.4904353260993958, timestamp : 1504843815291
+     [java] Time diff in Siddhi Handler: 142311
+     [java] Event: avgHumidity:0.5930538296699523, timestamp : 1504843815297
+     [java] Time diff in Siddhi Handler: 143807
+     [java] Event: avgHumidity:0.4090356707572937, timestamp : 1504843815302
+     [java] Time diff in Siddhi Handler: 145304
+     [java] Event: avgHumidity:0.575668728351593, timestamp : 1504843815308
+     [java] Time diff in Siddhi Handler: 146800
+     [java] Event: avgHumidity:0.6203732132911682, timestamp : 1504843815313
+     [java] Time diff in Siddhi Handler: 148298
+     [java] Event: avgHumidity:0.3864647388458252, timestamp : 1504843815319
+     [java] Time diff in Siddhi Handler: 149794
+     [java] Event: avgHumidity:0.5221497058868408, timestamp : 1504843815324
+     [java] Time diff in Siddhi Handler: 151291
+     [java] Event: avgHumidity:0.3263269066810608, timestamp : 1504843815330
+     [java] Time diff in Siddhi Handler: 152787
+     [java] Event: avgHumidity:0.3795335292816162, timestamp : 1504843815335
+     [java] Time diff in Siddhi Handler: 154285
+     [java] Event: avgHumidity:0.609893000125885, timestamp : 1504843815341
+     [java] Time diff in Siddhi Handler: 155781
+     [java] Event: avgHumidity:0.5817679762840271, timestamp : 1504843815346
+     [java] Time diff in Siddhi Handler: 157279
+     [java] Event: avgHumidity:0.481786847114563, timestamp : 1504843815352
+     [java] Time diff in Siddhi Handler: 158775
+     [java] Event: avgHumidity:0.3226797580718994, timestamp : 1504843815357
+     [java] Time diff in Siddhi Handler: 160273
+     [java] Event: avgHumidity:0.2947837710380554, timestamp : 1504843815361
+     [java] Time diff in Siddhi Handler: 161769
+     [java] Event: avgHumidity:0.63823358880149, timestamp : 1504843815372
+     [java] Time diff in Siddhi Handler: 163261
+     [java] Event: avgHumidity:0.43212889432907103, timestamp : 1504843815378
+     [java] Time diff in Siddhi Handler: 164757
+     [java] Event: avgHumidity:0.4691799163818359, timestamp : 1504843815383
+     [java] Time diff in Siddhi Handler: 166254
+     [java] Event: avgHumidity:0.6571126937866211, timestamp : 1504843815389
+     [java] Time diff in Siddhi Handler: 167750
+     [java] Event: avgHumidity:0.45854040384292605, timestamp : 1504843815394
+     [java] Time diff in Siddhi Handler: 169247
+     [java] Event: avgHumidity:0.49869709014892577, timestamp : 1504843815400
+     [java] Time diff in Siddhi Handler: 170743
+     [java] Event: avgHumidity:0.43634910583496095, timestamp : 1504843815405
+     [java] Time diff in Siddhi Handler: 172240
+     [java] Event: avgHumidity:0.4740574598312378, timestamp : 1504843815411
+     [java] Time diff in Siddhi Handler: 173736
+     [java] Event: avgHumidity:0.6066447854042053, timestamp : 1504843815416
+     [java] Time diff in Siddhi Handler: 175232
+     [java] Event: avgHumidity:0.4932555675506592, timestamp : 1504843815422
+     [java] Time diff in Siddhi Handler: 176729
+     [java] Event: avgHumidity:0.5695688486099243, timestamp : 1504843815427
+     [java] Time diff in Siddhi Handler: 178225
+     [java] Event: avgHumidity:0.3234523177146912, timestamp : 1504843815433
+     [java] Time diff in Siddhi Handler: 179721
+     [java] Event: avgHumidity:0.5329355239868164, timestamp : 1504843815438
+     [java] Time diff in Siddhi Handler: 181218
+     [java] Event: avgHumidity:0.4157092809677124, timestamp : 1504843815444
+     [java] Time diff in Siddhi Handler: 182714
+     [java] Event: avgHumidity:0.3338321208953857, timestamp : 1504843815449
+     [java] Time diff in Siddhi Handler: 184211
+     [java] Event: avgHumidity:0.7396649360656739, timestamp : 1504843815455
+     [java] Time diff in Siddhi Handler: 185707
+     [java] Event: avgHumidity:0.591964852809906, timestamp : 1504843815460
+     [java] Time diff in Siddhi Handler: 187204
+     [java] Event: avgHumidity:0.5648036599159241, timestamp : 1504843815466
+     [java] Time diff in Siddhi Handler: 188700
+     [java] Event: avgHumidity:0.27054070234298705, timestamp : 1504843815471
+     [java] Time diff in Siddhi Handler: 190197
+     [java] Event: avgHumidity:0.5047017455101013, timestamp : 1504843815477
+     [java] Time diff in Siddhi Handler: 191693
+     [java] Event: avgHumidity:0.4869058012962341, timestamp : 1504843815483
+     [java] Time diff in Siddhi Handler: 193188
+     [java] Event: avgHumidity:0.5796485066413879, timestamp : 1504843815488
+     [java] Time diff in Siddhi Handler: 194686
+     [java] Event: avgHumidity:0.7876093745231628, timestamp : 1504843815493
+     [java] Time diff in Siddhi Handler: 196183
+     [java] Event: avgHumidity:0.6094920754432678, timestamp : 1504843815499
+     [java] Time diff in Siddhi Handler: 197679
+     [java] Event: avgHumidity:0.4437860608100891, timestamp : 1504843815504
+     [java] Time diff in Siddhi Handler: 199176
+     [java] Event: avgHumidity:0.6555680394172668, timestamp : 1504843815510
+     [java] Time diff in Siddhi Handler: 200673
+     [java] Event: avgHumidity:0.6631022930145264, timestamp : 1504843815515
+     [java] Time diff in Siddhi Handler: 202170
+     [java] Event: avgHumidity:0.20168687105178834, timestamp : 1504843815521
+     [java] Time diff in Siddhi Handler: 203666
+     [java] Event: avgHumidity:0.41784260272979734, timestamp : 1504843815526
+     [java] Time diff in Siddhi Handler: 205163
+     [java] Event: avgHumidity:0.39642360210418703, timestamp : 1504843815532
+     [java] Time diff in Siddhi Handler: 206660
+     [java] Event: avgHumidity:0.5795819997787476, timestamp : 1504843815537
+     [java] Time diff in Siddhi Handler: 208157
+     [java] Event: avgHumidity:0.8099931359291077, timestamp : 1504843815543
+     [java] Time diff in Siddhi Handler: 209653
+     [java] Event: avgHumidity:0.551659095287323, timestamp : 1504843815548
+     [java] Time diff in Siddhi Handler: 211151
+     [java] Event: avgHumidity:0.5656829953193665, timestamp : 1504843815554
+     [java] Time diff in Siddhi Handler: 212647
+     [java] Event: avgHumidity:0.3825005292892456, timestamp : 1504843815559
+     [java] Time diff in Siddhi Handler: 214144
+     [java] Event: avgHumidity:0.6537633419036866, timestamp : 1504843815565
+     [java] Time diff in Siddhi Handler: 215640
+     [java] Event: avgHumidity:0.36169205904006957, timestamp : 1504843815570
+     [java] Time diff in Siddhi Handler: 217138
+     [java] Event: avgHumidity:0.47966166734695437, timestamp : 1504843815576
+     [java] Time diff in Siddhi Handler: 218633
+     [java] Event: avgHumidity:0.487151050567627, timestamp : 1504843815581
+     [java] Time diff in Siddhi Handler: 220131
+     [java] Event: avgHumidity:0.41224374771118166, timestamp : 1504843815587
+     [java] Time diff in Siddhi Handler: 221627
+     [java] Event: avgHumidity:0.549061405658722, timestamp : 1504843815592
+     [java] Time diff in Siddhi Handler: 223124
+     [java] Event: avgHumidity:0.5687396168708801, timestamp : 1504843815598
+     [java] Time diff in Siddhi Handler: 224620
+     [java] Event: avgHumidity:0.6154382944107055, timestamp : 1504843815603
+     [java] Time diff in Siddhi Handler: 226117
+     [java] Event: avgHumidity:0.44777960777282716, timestamp : 1504843815609
+     [java] Time diff in Siddhi Handler: 227613
+     [java] Event: avgHumidity:0.5389650940895081, timestamp : 1504843815614
+     [java] Time diff in Siddhi Handler: 229110
+     [java] Event: avgHumidity:0.6136775612831116, timestamp : 1504843815620
+     [java] Time diff in Siddhi Handler: 230606
+     [java] Event: avgHumidity:0.7121465802192688, timestamp : 1504843815625
+     [java] Time diff in Siddhi Handler: 232102
+     [java] Event: avgHumidity:0.4117348313331604, timestamp : 1504843815631
+     [java] Time diff in Siddhi Handler: 233598
+     [java] Event: avgHumidity:0.5392910718917847, timestamp : 1504843815636
+     [java] Time diff in Siddhi Handler: 235095
+     [java] Event: avgHumidity:0.39926759004592893, timestamp : 1504843815642
+     [java] Time diff in Siddhi Handler: 236590
+     [java] Event: avgHumidity:0.4222455620765686, timestamp : 1504843815647
+     [java] Time diff in Siddhi Handler: 238087
+     [java] Event: avgHumidity:0.5743796586990356, timestamp : 1504843815653
+     [java] Time diff in Siddhi Handler: 239583
+     [java] Event: avgHumidity:0.39157921075820923, timestamp : 1504843815658
+     [java] Time diff in Siddhi Handler: 241081
+     [java] Event: avgHumidity:0.5599260926246643, timestamp : 1504843815664
+     [java] Time diff in Siddhi Handler: 242577
+     [java] Event: avgHumidity:0.5734579563140869, timestamp : 1504843815669
+     [java] Time diff in Siddhi Handler: 244075
+     [java] Event: avgHumidity:0.627140462398529, timestamp : 1504843815675
+     [java] Time diff in Siddhi Handler: 245571
+     [java] Event: avgHumidity:0.512529456615448, timestamp : 1504843815680
+     [java] Time diff in Siddhi Handler: 247068
+     [java] Event: avgHumidity:0.5562321424484253, timestamp : 1504843815686
+     [java] Time diff in Siddhi Handler: 248564
+     [java] Event: avgHumidity:0.33482741117477416, timestamp : 1504843815691
+     [java] Time diff in Siddhi Handler: 250061
+     [java] Event: avgHumidity:0.6271108865737915, timestamp : 1504843815697
+     [java] Time diff in Siddhi Handler: 251557
+     [java] Event: avgHumidity:0.35111498832702637, timestamp : 1504843815702
+     [java] Time diff in Siddhi Handler: 253053
+     [java] Event: avgHumidity:0.6580884695053101, timestamp : 1504843815708
+     [java] Time diff in Siddhi Handler: 254549
+     [java] Event: avgHumidity:0.3610030055046082, timestamp : 1504843815713
+     [java] Time diff in Siddhi Handler: 256046
+     [java] Event: avgHumidity:0.3624501943588257, timestamp : 1504843815719
+     [java] Time diff in Siddhi Handler: 257542
+     [java] Event: avgHumidity:0.34023523330688477, timestamp : 1504843815724
+     [java] Time diff in Siddhi Handler: 259039
+     [java] Event: avgHumidity:0.6122981190681458, timestamp : 1504843815730
+     [java] Time diff in Siddhi Handler: 260535
+     [java] Event: avgHumidity:0.39765568971633913, timestamp : 1504843815735
+     [java] Time diff in Siddhi Handler: 262032
+     [java] Event: avgHumidity:0.5892157912254333, timestamp : 1504843815741
+     [java] Time diff in Siddhi Handler: 263527
+     [java] Event: avgHumidity:0.6185550212860107, timestamp : 1504843815746
+     [java] Time diff in Siddhi Handler: 265024
+     [java] Event: avgHumidity:0.3611958384513855, timestamp : 1504843815752
+     [java] Time diff in Siddhi Handler: 266521
+     [java] Event: avgHumidity:0.7457445502281189, timestamp : 1504843815757
+     [java] Time diff in Siddhi Handler: 268018
+     [java] Event: avgHumidity:0.7543959021568298, timestamp : 1504843815763
+     [java] Time diff in Siddhi Handler: 269514
+     [java] Event: avgHumidity:0.3941665291786194, timestamp : 1504843815768
+     [java] Time diff in Siddhi Handler: 271011
+     [java] Event: avgHumidity:0.35396522283554077, timestamp : 1504843815774
+     [java] Time diff in Siddhi Handler: 272508
+     [java] Event: avgHumidity:0.656766664981842, timestamp : 1504843815779
+     [java] Time diff in Siddhi Handler: 274005
+     [java] Event: avgHumidity:0.8086511611938476, timestamp : 1504843815785
+     [java] Time diff in Siddhi Handler: 275502
+     [java] Event: avgHumidity:0.5640518426895141, timestamp : 1504843815790
+     [java] Time diff in Siddhi Handler: 276999
+     [java] Event: avgHumidity:0.280948543548584, timestamp : 1504843815796
+     [java] Time diff in Siddhi Handler: 278495
+     [java] Event: avgHumidity:0.5687825918197632, timestamp : 1504843815801
+     [java] Time diff in Siddhi Handler: 279993
+     [java] Event: avgHumidity:0.41089234352111814, timestamp : 1504843815806
+     [java] Time diff in Siddhi Handler: 281490
+     [java] Event: avgHumidity:0.4797098636627197, timestamp : 1504843815812
+     [java] Time diff in Siddhi Handler: 282986
+     [java] Event: avgHumidity:0.3692794322967529, timestamp : 1504843815817
+     [java] Time diff in Siddhi Handler: 284484
+     [java] Event: avgHumidity:0.3706719636917114, timestamp : 1504843815823
+     [java] Time diff in Siddhi Handler: 285980
+     [java] Event: avgHumidity:0.6237916350364685, timestamp : 1504843815828
+     [java] Time diff in Siddhi Handler: 287480
+     [java] Event: avgHumidity:0.5380637526512146, timestamp : 1504843815834
+     [java] Time diff in Siddhi Handler: 288977
+     [java] Event: avgHumidity:0.5393302321434021, timestamp : 1504843815839
+     [java] Time diff in Siddhi Handler: 290474
+     [java] Event: avgHumidity:0.39212138652801515, timestamp : 1504843815845
+     [java] Time diff in Siddhi Handler: 291970
+     [java] Event: avgHumidity:0.6362489938735962, timestamp : 1504843815851
+     [java] Time diff in Siddhi Handler: 293467
+     [java] Event: avgHumidity:0.5968275308609009, timestamp : 1504843815856
+     [java] Time diff in Siddhi Handler: 294964
+     [java] Event: avgHumidity:0.1476777195930481, timestamp : 1504843815862
+     [java] Time diff in Siddhi Handler: 296461
+     [java] Event: avgHumidity:0.5172855377197265, timestamp : 1504843815867
+     [java] Time diff in Siddhi Handler: 297958
+     [java] Event: avgHumidity:0.6704391837120056, timestamp : 1504843815873
+     [java] Time diff in Siddhi Handler: 299454
+     [java] Event: avgHumidity:0.5744554996490479, timestamp : 1504843815878
+     [java] Time diff in Siddhi Handler: 300951
+     [java] Event: avgHumidity:0.3735937595367432, timestamp : 1504843815883
+     [java] Time diff in Siddhi Handler: 302449
+     [java] Event: avgHumidity:0.6845303058624268, timestamp : 1504843815889
+     [java] Time diff in Siddhi Handler: 303945
+     [java] Event: avgHumidity:0.4352009057998657, timestamp : 1504843815894
+     [java] Time diff in Siddhi Handler: 305443
+     [java] Event: avgHumidity:0.4468183755874634, timestamp : 1504843815900
+     [java] Time diff in Siddhi Handler: 306939
+     [java] Event: avgHumidity:0.6606244206428528, timestamp : 1504843815905
+     [java] Time diff in Siddhi Handler: 308437
+     [java] Event: avgHumidity:0.5024149775505066, timestamp : 1504843815911
+     [java] Time diff in Siddhi Handler: 309933
+     [java] Event: avgHumidity:0.7751740097999573, timestamp : 1504843815916
+     [java] Time diff in Siddhi Handler: 311430
+     [java] Event: avgHumidity:0.43666882514953614, timestamp : 1504843815922
+     [java] Time diff in Siddhi Handler: 312926
+     [java] Event: avgHumidity:0.4489216208457947, timestamp : 1504843815927
+     [java] Time diff in Siddhi Handler: 314424
+     [java] Event: avgHumidity:0.3379879593849182, timestamp : 1504843815933
+     [java] Time diff in Siddhi Handler: 315920
+     [java] Event: avgHumidity:0.590344250202179, timestamp : 1504843815938
+     [java] Time diff in Siddhi Handler: 317417
+     [java] Event: avgHumidity:0.3892189621925354, timestamp : 1504843815943
+     [java] Time diff in Siddhi Handler: 318915
+     [java] Event: avgHumidity:0.5520492672920227, timestamp : 1504843815949
+     [java] Time diff in Siddhi Handler: 320411
+     [java] Event: avgHumidity:0.6508701890707016, timestamp : 1504843815953
+     [java] Time diff in Siddhi Handler: 321609
+     [java] Event: avgHumidity:0.5018783926963806, timestamp : 1504843815963
+     [java] Time diff in Siddhi Handler: 323101
+     [java] Event: avgHumidity:0.3799605846405029, timestamp : 1504843815968
+     [java] Time diff in Siddhi Handler: 324599
+     [java] Event: avgHumidity:0.4216723680496216, timestamp : 1504843815974
+     [java] Time diff in Siddhi Handler: 326095
+     [java] Event: avgHumidity:0.749267828464508, timestamp : 1504843815979
+     [java] Time diff in Siddhi Handler: 327592
+     [java] Event: avgHumidity:0.45703747123479843, timestamp : 1504843815988
+     [java] Time diff in Siddhi Handler: 329086
+     [java] Event: avgHumidity:0.6544036269187927, timestamp : 1504843815994
+     [java] Time diff in Siddhi Handler: 330582
+     [java] Event: avgHumidity:0.7151537060737609, timestamp : 1504843815999
+     [java] Time diff in Siddhi Handler: 332080
+     [java] Event: avgHumidity:0.5843658447265625, timestamp : 1504843816005
+     [java] Time diff in Siddhi Handler: 333576
+     [java] Event: avgHumidity:0.43671377897262575, timestamp : 1504843816010
+     [java] Time diff in Siddhi Handler: 335073
+     [java] Event: avgHumidity:0.6046377897262574, timestamp : 1504843816016
+     [java] Time diff in Siddhi Handler: 336570
+     [java] Event: avgHumidity:0.5444748520851135, timestamp : 1504843816021
+     [java] Time diff in Siddhi Handler: 338067
+     [java] Event: avgHumidity:0.41844360828399657, timestamp : 1504843816027
+     [java] Time diff in Siddhi Handler: 339563
+     [java] Event: avgHumidity:0.6433199048042297, timestamp : 1504843816032
+     [java] Time diff in Siddhi Handler: 341059
+     [java] Event: avgHumidity:0.7395216584205627, timestamp : 1504843816037
+     [java] Time diff in Siddhi Handler: 342556
+     [java] Event: avgHumidity:0.3101722002029419, timestamp : 1504843816043
+     [java] Time diff in Siddhi Handler: 344052
+     [java] Event: avgHumidity:0.6790837645530701, timestamp : 1504843816048
+     [java] Time diff in Siddhi Handler: 345549
+     [java] Event: avgHumidity:0.5531211018562316, timestamp : 1504843816053
+     [java] Time diff in Siddhi Handler: 347046
+     [java] Event: avgHumidity:0.7072776675224304, timestamp : 1504843816059
+     [java] Time diff in Siddhi Handler: 348541
+     [java] Event: avgHumidity:0.4060792088508606, timestamp : 1504843816064
+     [java] Time diff in Siddhi Handler: 350038
+     [java] Event: avgHumidity:0.7454796433448792, timestamp : 1504843816070
+     [java] Time diff in Siddhi Handler: 351534
+     [java] Event: avgHumidity:0.6477410197257996, timestamp : 1504843816075
+     [java] Time diff in Siddhi Handler: 353032
+     [java] Event: avgHumidity:0.5815776944160461, timestamp : 1504843816080
+     [java] Time diff in Siddhi Handler: 354529
+     [java] Event: avgHumidity:0.5869760274887085, timestamp : 1504843816086
+     [java] Time diff in Siddhi Handler: 356025
+     [java] Event: avgHumidity:0.4361329793930054, timestamp : 1504843816091
+     [java] Time diff in Siddhi Handler: 357523
+     [java] Event: avgHumidity:0.21943637132644653, timestamp : 1504843816096
+     [java] Time diff in Siddhi Handler: 359081
+     [java] Event: avgHumidity:0.4136767625808716, timestamp : 1504843816102
+     [java] Time diff in Siddhi Handler: 360577
+     [java] Event: avgHumidity:0.4440102204680443, timestamp : 1504843816110
+     [java] Time diff in Siddhi Handler: 362072
+     [java] Event: avgHumidity:0.3965842366218567, timestamp : 1504843816116
+     [java] Time diff in Siddhi Handler: 363568
+     [java] Event: avgHumidity:0.6164509892463684, timestamp : 1504843816121
+     [java] Time diff in Siddhi Handler: 365065
+     [java] Event: avgHumidity:0.7194932579994202, timestamp : 1504843816127
+     [java] Time diff in Siddhi Handler: 366562
+     [java] Event: avgHumidity:0.6000545024871826, timestamp : 1504843816132
+     [java] Time diff in Siddhi Handler: 368059
+     [java] Event: avgHumidity:0.4141995072364807, timestamp : 1504843816138
+     [java] Time diff in Siddhi Handler: 369555
+     [java] Event: avgHumidity:0.5476810336112976, timestamp : 1504843816143
+     [java] Time diff in Siddhi Handler: 371052
+     [java] Event: avgHumidity:0.6007554531097412, timestamp : 1504843816149
+     [java] Time diff in Siddhi Handler: 372549
