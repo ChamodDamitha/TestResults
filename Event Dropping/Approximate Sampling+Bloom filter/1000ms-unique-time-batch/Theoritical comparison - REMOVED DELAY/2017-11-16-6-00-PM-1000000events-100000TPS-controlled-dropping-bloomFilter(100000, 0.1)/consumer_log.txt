@@ -1,0 +1,41 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:87: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: distinct count : 2776, timestamp : 1510835357657
+     [java] Event: distinct count : 1930, timestamp : 1510835358032
+     [java] Event: distinct count : 1244, timestamp : 1510835358199
+     [java] Event: distinct count : 4603, timestamp : 1510835358243
+     [java] Event: distinct count : 6937, timestamp : 1510835359300
+     [java] Event: distinct count : 4004, timestamp : 1510835360137
+     [java] Event: distinct count : 5930, timestamp : 1510835360850
+     [java] Event: distinct count : 7976, timestamp : 1510835361236
+     [java] Event: distinct count : 7321, timestamp : 1510835362584
+     [java] Event: distinct count : 10237, timestamp : 1510835363122
+     [java] Event: distinct count : 8388, timestamp : 1510835364767
+     [java] user admin disconnected
+     [java] Event: distinct count : 7588, timestamp : 1510835364995
+     [java] Event: distinct count : 8257, timestamp : 1510835366610
+     [java] Event: distinct count : 9122, timestamp : 1510835366907
+     [java] Event: distinct count : 7564, timestamp : 1510835368521
+     [java] Event: distinct count : 4063, timestamp : 1510835368790

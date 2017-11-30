@@ -1,0 +1,285 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+init:
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:83: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] count : 1000
+     [java] Event: max : 9984, count : 1000, timestamp : 1508926404484
+     [java] eventCount : 0
+     [java] count : 775
+     [java] Event: max : 9998, count : 775, timestamp : 1508926405000
+     [java] eventCount : 1
+     [java] count : 1000
+     [java] Event: max : 9985, count : 1000, timestamp : 1508926405377
+     [java] eventCount : 2
+     [java] count : 1000
+     [java] Event: max : 9998, count : 1000, timestamp : 1508926405775
+     [java] eventCount : 3
+     [java] count : 1000
+     [java] Event: max : 9990, count : 1000, timestamp : 1508926406139
+     [java] eventCount : 4
+     [java] count : 1000
+     [java] count : 629
+     [java] count : 3
+     [java] count : 0
+     [java] Event: max : 9965, count : 1000, timestamp : 1508926406507
+     [java] eventCount : 5
+     [java] Event: max : 9938, count : 629, timestamp : 1508926406741
+     [java] eventCount : 6
+     [java] Event: max : 9717, count : 3, timestamp : 1508926406903
+     [java] eventCount : 7
+     [java] count : 361
+     [java] Event: max : 9980, count : 361, timestamp : 1508926408014
+     [java] eventCount : 8
+     [java] count : 1000
+     [java] count : 138
+     [java] Event: max : 9985, count : 1000, timestamp : 1508926408383
+     [java] eventCount : 9
+     [java] Event: max : 9952, count : 138, timestamp : 1508926408435
+     [java] eventCount : 10
+     [java] count : 439
+     [java] Event: max : 9965, count : 439, timestamp : 1508926409129
+     [java] eventCount : 11
+     [java] count : 1000
+     [java] count : 390
+     [java] Event: max : 9982, count : 1000, timestamp : 1508926409492
+     [java] eventCount : 12
+     [java] Event: max : 9982, count : 390, timestamp : 1508926409636
+     [java] eventCount : 13
+     [java] count : 205
+     [java] Event: max : 9872, count : 205, timestamp : 1508926410250
+     [java] eventCount : 14
+     [java] count : 1000
+     [java] Event: max : 9995, count : 1000, timestamp : 1508926410611
+     [java] eventCount : 15
+     [java] count : 753
+     [java] count : 0
+     [java] Event: max : 9994, count : 753, timestamp : 1508926410883
+     [java] eventCount : 16
+     [java] count : 809
+     [java] Event: max : 9994, count : 809, timestamp : 1508926411721
+     [java] eventCount : 17
+     [java] count : 1000
+     [java] count : 428
+     [java] Event: max : 9972, count : 1000, timestamp : 1508926412099
+     [java] eventCount : 18
+     [java] Event: max : 9979, count : 428, timestamp : 1508926412256
+     [java] eventCount : 19
+     [java] count : 218
+     [java] Event: max : 9999, count : 218, timestamp : 1508926412875
+     [java] eventCount : 20
+     [java] count : 1000
+     [java] Event: max : 9996, count : 1000, timestamp : 1508926413235
+     [java] eventCount : 21
+     [java] count : 557
+     [java] Event: max : 9994, count : 557, timestamp : 1508926413444
+     [java] eventCount : 22
+     [java] count : 68
+     [java] Event: max : 9810, count : 68, timestamp : 1508926414000
+     [java] eventCount : 23
+     [java] count : 1000
+     [java] Event: max : 9999, count : 1000, timestamp : 1508926414359
+     [java] eventCount : 24
+     [java] count : 944
+     [java] count : 0
+     [java] Event: max : 9998, count : 944, timestamp : 1508926414703
+     [java] eventCount : 25
+     [java] user admin disconnected
+     [java] count : 618
+     [java] Event: max : 9996, count : 618, timestamp : 1508926415464
+     [java] eventCount : 26
+     [java] count : 1000
+     [java] count : 321
+     [java] Event: max : 9986, count : 1000, timestamp : 1508926415831
+     [java] eventCount : 27
+     [java] Event: max : 9981, count : 321, timestamp : 1508926415957
+     [java] eventCount : 28
+     [java] count : 250
+     [java] Event: max : 9987, count : 250, timestamp : 1508926416573
+     [java] eventCount : 29
+     [java] count : 1000
+     [java] Event: max : 9996, count : 1000, timestamp : 1508926416941
+     [java] eventCount : 30
+     [java] count : 541
+     [java] Event: max : 9997, count : 541, timestamp : 1508926417140
+     [java] eventCount : 31
+     [java] count : 6
+     [java] Event: max : 9441, count : 6, timestamp : 1508926417668
+     [java] eventCount : 32
+     [java] count : 973
+     [java] count : 229
+     [java] count : 6
+     [java] count : 0
+     [java] count : 0
+     [java] Event: max : 9994, count : 973, timestamp : 1508926418037
+     [java] eventCount : 33
+     [java] Event: max : 9966, count : 229, timestamp : 1508926418119
+     [java] eventCount : 34
+     [java] Event: max : 9536, count : 6, timestamp : 1508926418684
+     [java] eventCount : 35
+     [java] count : 339
+     [java] Event: max : 9997, count : 339, timestamp : 1508926419927
+     [java] eventCount : 36
+     [java] count : 914
+     [java] count : 0
+     [java] Event: max : 9994, count : 914, timestamp : 1508926420262
+     [java] eventCount : 37
+     [java] count : 669
+     [java] count : 455
+     [java] count : 11
+     [java] count : 12
+     [java] count : 0
+     [java] Event: max : 9983, count : 669, timestamp : 1508926421044
+     [java] eventCount : 38
+     [java] Event: max : 9927, count : 455, timestamp : 1508926421207
+     [java] eventCount : 39
+     [java] Event: max : 9412, count : 11, timestamp : 1508926421794
+     [java] eventCount : 40
+     [java] Event: max : 6845, count : 12, timestamp : 1508926421798
+     [java] eventCount : 41
+     [java] count : 515
+     [java] Event: max : 9997, count : 515, timestamp : 1508926422925
+     [java] eventCount : 42
+     [java] count : 1000
+     [java] count : 47
+     [java] Event: max : 9997, count : 1000, timestamp : 1508926423289
+     [java] eventCount : 43
+     [java] Event: max : 9803, count : 47, timestamp : 1508926423307
+     [java] eventCount : 44
+     [java] count : 506
+     [java] Event: max : 9990, count : 506, timestamp : 1508926424037
+     [java] eventCount : 45
+     [java] count : 870
+     [java] count : 0
+     [java] count : 24
+     [java] count : 0
+     [java] Event: max : 9996, count : 870, timestamp : 1508926424359
+     [java] eventCount : 46
+     [java] Event: max : 9614, count : 24, timestamp : 1508926424918
+     [java] eventCount : 47
+     [java] count : 154
+     [java] Event: max : 9966, count : 154, timestamp : 1508926425913
+     [java] eventCount : 48
+     [java] count : 1000
+     [java] count : 105
+     [java] Event: max : 9999, count : 1000, timestamp : 1508926426285
+     [java] eventCount : 49
+     [java] Event: max : 9994, count : 105, timestamp : 1508926426326
+     [java] eventCount : 50
+     [java] count : 502
+     [java] Event: max : 9982, count : 502, timestamp : 1508926427037
+     [java] eventCount : 51
+     [java] count : 1000
+     [java] Event: max : 9995, count : 1000, timestamp : 1508926427403
+     [java] eventCount : 52
+     [java] count : 2
+     [java] Event: max : 9838, count : 2, timestamp : 1508926427405
+     [java] eventCount : 53
+     [java] count : 565
+     [java] count : 742
+     [java] count : 0
+     [java] Event: max : 9997, count : 565, timestamp : 1508926428150
+     [java] eventCount : 54
+     [java] Event: max : 9985, count : 742, timestamp : 1508926428420
+     [java] eventCount : 55
+     [java] count : 60
+     [java] count : 0
+     [java] Event: max : 9867, count : 60, timestamp : 1508926429012
+     [java] eventCount : 56
+     [java] count : 195
+     [java] Event: max : 9998, count : 195, timestamp : 1508926430009
+     [java] eventCount : 57
+     [java] count : 1000
+     [java] count : 205
+     [java] Event: max : 9993, count : 1000, timestamp : 1508926430375
+     [java] eventCount : 58
+     [java] Event: max : 9999, count : 205, timestamp : 1508926430450
+     [java] eventCount : 59
+     [java] count : 297
+     [java] Event: max : 9954, count : 297, timestamp : 1508926431088
+     [java] eventCount : 60
+     [java] count : 1000
+     [java] Event: max : 9977, count : 1000, timestamp : 1508926431448
+     [java] eventCount : 61
+     [java] count : 193
+     [java] Event: max : 9903, count : 193, timestamp : 1508926431519
+     [java] eventCount : 62
+     [java] count : 381
+     [java] Event: max : 9985, count : 381, timestamp : 1508926432196
+     [java] eventCount : 63
+     [java] count : 1000
+     [java] count : 35
+     [java] Event: max : 9989, count : 1000, timestamp : 1508926432570
+     [java] eventCount : 64
+     [java] Event: max : 9702, count : 35, timestamp : 1508926432583
+     [java] eventCount : 65
+     [java] count : 536
+     [java] Event: max : 9991, count : 536, timestamp : 1508926433320
+     [java] eventCount : 66
+     [java] count : 560
+     [java] count : 0
+     [java] Event: max : 9931, count : 560, timestamp : 1508926433526
+     [java] eventCount : 67
+     [java] count : 918
+     [java] Event: max : 9996, count : 918, timestamp : 1508926434435
+     [java] eventCount : 68
+     [java] count : 356
+     [java] Event: max : 9965, count : 356, timestamp : 1508926434567
+     [java] eventCount : 69
+     [java] count : 233
+     [java] Event: max : 9939, count : 233, timestamp : 1508926435182
+     [java] eventCount : 70
+     [java] count : 1000
+     [java] count : 293
+     [java] count : 3
+     [java] count : 0
+     [java] count : 0
+     [java] Event: max : 9999, count : 1000, timestamp : 1508926435549
+     [java] eventCount : 71
+     [java] Event: max : 9967, count : 293, timestamp : 1508926435659
+     [java] eventCount : 72
+     [java] Event: max : 7712, count : 3, timestamp : 1508926436182
+     [java] eventCount : 73
+     [java] count : 779
+     [java] count : 327
+     [java] Event: max : 9992, count : 779, timestamp : 1508926437420
+     [java] eventCount : 74
+     [java] Event: max : 9979, count : 327, timestamp : 1508926437542
+     [java] eventCount : 75
+     [java] count : 199
+     [java] count : 868
+     [java] count : 0
+     [java] Event: max : 9967, count : 199, timestamp : 1508926438176
+     [java] eventCount : 76
+     [java] Event: max : 9980, count : 868, timestamp : 1508926438494
+     [java] eventCount : 77
+     [java] count : 709
+     [java] Event: max : 9980, count : 709, timestamp : 1508926439289
+     [java] eventCount : 78
+     [java] count : 859
+     [java] count : 0
+     [java] Event: max : 9992, count : 859, timestamp : 1508926439596
+     [java] eventCount : 79
+     [java] count : 748
+     [java] count : 670
+     [java] count : 0
+     [java] Event: max : 9998, count : 748, timestamp : 1508926440408
+     [java] eventCount : 80
+     [java] Event: max : 9994, count : 670, timestamp : 1508926440658
+     [java] eventCount : 81

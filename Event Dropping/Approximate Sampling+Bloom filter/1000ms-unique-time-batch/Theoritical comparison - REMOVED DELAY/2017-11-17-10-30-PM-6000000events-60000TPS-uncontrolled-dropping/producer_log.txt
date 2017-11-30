@@ -1,0 +1,157 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+     [copy] Copying 2 files to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+
+run:
+     [echo] Configure optionally use -DeventCount=xxxx -DelapsedCount=xxxx -DwarmUpCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx
+     [echo]             -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx -DcalcType='throughput/latency'
+     [echo]         
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - [thrift, localhost, 7661, admin, admin, 6000000, 100000, 10000, throughput]
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - Starting WSO2 Performance Test Client
+     [java] FEEDBACK SERVER started................
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 1 events dropped so far.
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Time Passage : 1 s : Events sent : 32972
+     [java] new out-of-order thresholdInterval : 0
+     [java] Time Passage : 1 s : Events sent : 30389
+     [java] Time Passage : 1 s : Events sent : 43560
+     [java] Time Passage : 1 s : Events sent : 45660
+     [java] Time Passage : 1 s : Events sent : 49020
+     [java] Time Passage : 1 s : Events sent : 51540
+     [java] Time Passage : 1 s : Events sent : 52792
+     [java] Time Passage : 1 s : Events sent : 51608
+     [java] Time Passage : 1 s : Events sent : 52560
+     [java] Time Passage : 1 s : Events sent : 54138
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 184990 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 53022
+     [java] Time Passage : 1 s : Events sent : 53460
+     [java] Time Passage : 1 s : Events sent : 51000
+     [java] Time Passage : 1 s : Events sent : 51900
+     [java] Time Passage : 1 s : Events sent : 51240
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 51900
+     [java] Time Passage : 1 s : Events sent : 50340
+     [java] Time Passage : 1 s : Events sent : 51240
+     [java] Time Passage : 1 s : Events sent : 51123
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 469410 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 52197
+     [java] Time Passage : 1 s : Events sent : 52740
+     [java] Time Passage : 1 s : Events sent : 51240
+     [java] Time Passage : 1 s : Events sent : 50640
+     [java] Time Passage : 1 s : Events sent : 51300
+     [java] Time Passage : 1 s : Events sent : 50400
+     [java] Time Passage : 1 s : Events sent : 49800
+     [java] Time Passage : 1 s : Events sent : 49980
+     [java] Time Passage : 1 s : Events sent : 51660
+     [java] Time Passage : 1 s : Events sent : 51000
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 823143 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51000
+     [java] Time Passage : 1 s : Events sent : 51540
+     [java] Time Passage : 1 s : Events sent : 50340
+     [java] Time Passage : 1 s : Events sent : 49894
+     [java] Time Passage : 1 s : Events sent : 51866
+     [java] Time Passage : 1 s : Events sent : 51780
+     [java] Time Passage : 1 s : Events sent : 51180
+     [java] Time Passage : 1 s : Events sent : 50760
+     [java] Time Passage : 1 s : Events sent : 51300
+     [java] Time Passage : 1 s : Events sent : 50160
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 1165387 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 50580
+     [java] Time Passage : 1 s : Events sent : 51660
+     [java] Time Passage : 1 s : Events sent : 51300
+     [java] Time Passage : 1 s : Events sent : 50400
+     [java] Time Passage : 1 s : Events sent : 51953
+     [java] Time Passage : 1 s : Events sent : 50527
+     [java] Time Passage : 1 s : Events sent : 51420
+     [java] Time Passage : 1 s : Events sent : 50280
+     [java] Time Passage : 1 s : Events sent : 51480
+     [java] Time Passage : 1 s : Events sent : 51720
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 1504078 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 52260
+     [java] Time Passage : 1 s : Events sent : 52380
+     [java] Time Passage : 1 s : Events sent : 52200
+     [java] Time Passage : 1 s : Events sent : 51780
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 50760
+     [java] Time Passage : 1 s : Events sent : 51000
+     [java] Time Passage : 1 s : Events sent : 51660
+     [java] Time Passage : 1 s : Events sent : 51215
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 1857023 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51625
+     [java] Time Passage : 1 s : Events sent : 53040
+     [java] Time Passage : 1 s : Events sent : 53040
+     [java] Time Passage : 1 s : Events sent : 52200
+     [java] Time Passage : 1 s : Events sent : 50880
+     [java] Time Passage : 1 s : Events sent : 52020
+     [java] Time Passage : 1 s : Events sent : 51120
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 52140
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 2208991 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51360
+     [java] Time Passage : 1 s : Events sent : 51960
+     [java] Time Passage : 1 s : Events sent : 51480
+     [java] Time Passage : 1 s : Events sent : 51600
+     [java] Time Passage : 1 s : Events sent : 50040
+     [java] Time Passage : 1 s : Events sent : 51720
+     [java] Time Passage : 1 s : Events sent : 51360
+     [java] Time Passage : 1 s : Events sent : 49680
+     [java] Time Passage : 1 s : Events sent : 50880
+     [java] Time Passage : 1 s : Events sent : 51300
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 2561625 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51660
+     [java] Time Passage : 1 s : Events sent : 49200
+     [java] Time Passage : 1 s : Events sent : 50880
+     [java] Time Passage : 1 s : Events sent : 51240
+     [java] Time Passage : 1 s : Events sent : 50640
+     [java] Time Passage : 1 s : Events sent : 50280
+     [java] Time Passage : 1 s : Events sent : 51480
+     [java] Time Passage : 1 s : Events sent : 50834
+     [java] Time Passage : 1 s : Events sent : 52606
+     [java] Time Passage : 1 s : Events sent : 51180
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 2919148 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 52980
+     [java] Time Passage : 1 s : Events sent : 51240
+     [java] Time Passage : 1 s : Events sent : 50160
+     [java] Time Passage : 1 s : Events sent : 52980
+     [java] Time Passage : 1 s : Events sent : 51300
+     [java] Time Passage : 1 s : Events sent : 50400
+     [java] Time Passage : 1 s : Events sent : 53460
+     [java] Time Passage : 1 s : Events sent : 50820
+     [java] Time Passage : 1 s : Events sent : 52500
+     [java] Time Passage : 1 s : Events sent : 53280
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 3264996 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 52680
+     [java] Time Passage : 1 s : Events sent : 52920
+     [java] Time Passage : 1 s : Events sent : 52980
+     [java] Time Passage : 1 s : Events sent : 52920
+     [java] Time Passage : 1 s : Events sent : 50749
+     [java] Time Passage : 1 s : Events sent : 51671
+     [java] Time Passage : 1 s : Events sent : 52400
+     [java] Time Passage : 1 s : Events sent : 51340
+     [java] Time Passage : 1 s : Events sent : 51540
+     [java] Time Passage : 1 s : Events sent : 52140
+     [java] [Thread-3] WARN  org.wso2.carbon.databridge.agent.DataPublisher  - Event queue is full, unable to process the event for endpoint group [ ( Receiver URL : tcp://localhost:7661, Authentication URL : ssl://localhost:7761) ], 3601600 events dropped so far.
+     [java] Time Passage : 1 s : Events sent : 51480
+     [java] Time Passage : 1 s : Events sent : 52680
+     [java] Time Passage : 1 s : Events sent : 51960
+     [java] Time Passage : 1 s : Events sent : 50220
+     [java] Time Passage : 1 s : Events sent : 52320
+     [java] Time Passage : 1 s : Events sent : 53084
+     [java] Time Passage : 1 s : Events sent : 52416
+     [java] EVENT SENDING FINISHED.................
+     [java] UNCONTROLLED DROPPED : 3860187
+     [java] CONTROLLED DROPPED : 0
+     [java] TOTAL DROPPED : 3860187
+     [java] TOTAL NO OF EVENTS : 6000000
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7661
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Completed shutdown for data publisher endpoint URL - tcp://localhost:7661

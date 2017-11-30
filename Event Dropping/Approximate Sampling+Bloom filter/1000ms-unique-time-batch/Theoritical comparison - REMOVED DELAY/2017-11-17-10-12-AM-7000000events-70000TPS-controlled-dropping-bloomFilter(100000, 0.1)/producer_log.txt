@@ -1,0 +1,144 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+    [javac] Note: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/src/main/java/org/wso2/carbon/sample/performance/Client.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 2 files to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+
+run:
+     [echo] Configure optionally use -DeventCount=xxxx -DelapsedCount=xxxx -DwarmUpCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx
+     [echo]             -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx -DcalcType='throughput/latency'
+     [echo]         
+     [java] FEEDBACK SERVER started................
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - [thrift, localhost, 7661, admin, admin, 7000000, 100000, 10000, throughput]
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - Starting WSO2 Performance Test Client
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Time Passage : 1 s : Events sent : 28281
+     [java] new out-of-order thresholdInterval : 0
+     [java] Time Passage : 1 s : Events sent : 45360
+     [java] Time Passage : 1 s : Events sent : 53072
+     [java] Time Passage : 1 s : Events sent : 61853
+     [java] Time Passage : 1 s : Events sent : 61475
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 62020
+     [java] Time Passage : 1 s : Events sent : 61950
+     [java] Time Passage : 1 s : Events sent : 62370
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 62020
+     [java] Time Passage : 1 s : Events sent : 61390
+     [java] Time Passage : 1 s : Events sent : 62020
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 62650
+     [java] Time Passage : 1 s : Events sent : 61320
+     [java] Time Passage : 1 s : Events sent : 62300
+     [java] Time Passage : 1 s : Events sent : 62370
+     [java] Time Passage : 1 s : Events sent : 61950
+     [java] Time Passage : 1 s : Events sent : 62012
+     [java] Time Passage : 1 s : Events sent : 62448
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 62650
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 62440
+     [java] Time Passage : 1 s : Events sent : 62370
+     [java] Time Passage : 1 s : Events sent : 62790
+     [java] Time Passage : 1 s : Events sent : 62720
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 62370
+     [java] Time Passage : 1 s : Events sent : 62860
+     [java] Time Passage : 1 s : Events sent : 62580
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 62440
+     [java] Time Passage : 1 s : Events sent : 62440
+     [java] Time Passage : 1 s : Events sent : 62300
+     [java] Time Passage : 1 s : Events sent : 62930
+     [java] Time Passage : 1 s : Events sent : 62160
+     [java] Time Passage : 1 s : Events sent : 61740
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 61530
+     [java] Time Passage : 1 s : Events sent : 62930
+     [java] Time Passage : 1 s : Events sent : 62580
+     [java] Time Passage : 1 s : Events sent : 61600
+     [java] Time Passage : 1 s : Events sent : 61250
+     [java] Time Passage : 1 s : Events sent : 60900
+     [java] Time Passage : 1 s : Events sent : 61670
+     [java] Time Passage : 1 s : Events sent : 60550
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 62160
+     [java] Time Passage : 1 s : Events sent : 61996
+     [java] Time Passage : 1 s : Events sent : 62044
+     [java] Time Passage : 1 s : Events sent : 61670
+     [java] Time Passage : 1 s : Events sent : 61040
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 61320
+     [java] Time Passage : 1 s : Events sent : 60830
+     [java] Time Passage : 1 s : Events sent : 60550
+     [java] Time Passage : 1 s : Events sent : 62020
+     [java] Time Passage : 1 s : Events sent : 62720
+     [java] Time Passage : 1 s : Events sent : 60760
+     [java] Time Passage : 1 s : Events sent : 61110
+     [java] Time Passage : 1 s : Events sent : 61460
+     [java] Time Passage : 1 s : Events sent : 61600
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 61670
+     [java] Time Passage : 1 s : Events sent : 62230
+     [java] Time Passage : 1 s : Events sent : 62300
+     [java] Time Passage : 1 s : Events sent : 61530
+     [java] Time Passage : 1 s : Events sent : 61390
+     [java] Time Passage : 1 s : Events sent : 61250
+     [java] Time Passage : 1 s : Events sent : 62300
+     [java] Time Passage : 1 s : Events sent : 61600
+     [java] Time Passage : 1 s : Events sent : 61460
+     [java] Time Passage : 1 s : Events sent : 62160
+     [java] Time Passage : 1 s : Events sent : 59920
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 61810
+     [java] Time Passage : 1 s : Events sent : 61950
+     [java] Time Passage : 1 s : Events sent : 62371
+     [java] Time Passage : 1 s : Events sent : 61879
+     [java] Time Passage : 1 s : Events sent : 61740
+     [java] Time Passage : 1 s : Events sent : 61180
+     [java] Time Passage : 1 s : Events sent : 61530
+     [java] Time Passage : 1 s : Events sent : 62160
+     [java] Time Passage : 1 s : Events sent : 61740
+     [java] Time Passage : 1 s : Events sent : 61250
+     [java] Time Passage : 1 s : Events sent : 62160
+     [java] Time Passage : 1 s : Events sent : 62510
+     [java] Time Passage : 1 s : Events sent : 60690
+     [java] Time Passage : 1 s : Events sent : 61740
+     [java] Time Passage : 1 s : Events sent : 61740
+     [java] Time Passage : 1 s : Events sent : 60760
+     [java] Time Passage : 1 s : Events sent : 60900
+     [java] Time Passage : 1 s : Events sent : 61040
+     [java] Time Passage : 1 s : Events sent : 61460
+     [java] Time Passage : 1 s : Events sent : 61040
+     [java] Time Passage : 1 s : Events sent : 60900
+     [java] Time Passage : 1 s : Events sent : 61180
+     [java] Time Passage : 1 s : Events sent : 61530
+     [java] Time Passage : 1 s : Events sent : 61110
+     [java] Time Passage : 1 s : Events sent : 60970
+     [java] Time Passage : 1 s : Events sent : 61670
+     [java] Time Passage : 1 s : Events sent : 61250
+     [java] Time Passage : 1 s : Events sent : 60690
+     [java] Time Passage : 1 s : Events sent : 61180
+     [java] Time Passage : 1 s : Events sent : 60830
+     [java] Time Passage : 1 s : Events sent : 62580
+     [java] Time Passage : 1 s : Events sent : 61880
+     [java] Time Passage : 1 s : Events sent : 61600
+     [java] Time Passage : 1 s : Events sent : 61110
+     [java] EVENT SENDING FINISHED.................
+     [java] UNCONTROLLED DROPPED : 0
+     [java] CONTROLLED DROPPED : 6301885
+     [java] TOTAL DROPPED : 6301885
+     [java] TOTAL NO OF EVENTS : 7000000
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7661
+     [java] [Thread-3] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Completed shutdown for data publisher endpoint URL - tcp://localhost:7661

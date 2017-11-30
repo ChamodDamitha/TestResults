@@ -1,0 +1,181 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:87: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: distinct count : 105, timestamp : 1510894669561
+     [java] Event: distinct count : 88, timestamp : 1510894671223
+     [java] Event: distinct count : 158, timestamp : 1510894670829
+     [java] Event: distinct count : 886, timestamp : 1510894671425
+     [java] Event: distinct count : 1295, timestamp : 1510894671932
+     [java] Event: distinct count : 1441, timestamp : 1510894671941
+     [java] Event: distinct count : 1755, timestamp : 1510894672805
+     [java] Event: distinct count : 1313, timestamp : 1510894672827
+     [java] Event: distinct count : 1117, timestamp : 1510894673469
+     [java] Event: distinct count : 1244, timestamp : 1510894673723
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100010 sensor events in 27343 milliseconds with total throughput of 3657.61 events per second. Average delay is 4953.75
+     [java] Event: distinct count : 1399, timestamp : 1510894673726
+     [java] Event: distinct count : 1537, timestamp : 1510894674498
+     [java] Event: distinct count : 1805, timestamp : 1510894675362
+     [java] Event: distinct count : 1746, timestamp : 1510894676054
+     [java] Event: distinct count : 1823, timestamp : 1510894676137
+     [java] Event: distinct count : 1610, timestamp : 1510894676924
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100105 sensor events in 6060 milliseconds with total throughput of 16518.98 events per second. Average delay is 8734.48
+     [java] Event: distinct count : 1714, timestamp : 1510894677710
+     [java] Event: distinct count : 1724, timestamp : 1510894677713
+     [java] Event: distinct count : 1587, timestamp : 1510894678494
+     [java] Event: distinct count : 1594, timestamp : 1510894679046
+     [java] Event: distinct count : 1671, timestamp : 1510894679248
+     [java] Event: distinct count : 1732, timestamp : 1510894679797
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99900 sensor events in 6019 milliseconds with total throughput of 16597.44 events per second. Average delay is 11575.76
+     [java] Event: distinct count : 1613, timestamp : 1510894680011
+     [java] Event: distinct count : 1610, timestamp : 1510894680489
+     [java] Event: distinct count : 1762, timestamp : 1510894680790
+     [java] Event: distinct count : 800, timestamp : 1510894681008
+     [java] Event: distinct count : 1693, timestamp : 1510894681424
+     [java] Event: distinct count : 1780, timestamp : 1510894681560
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99997 sensor events in 6452 milliseconds with total throughput of 15498.61 events per second. Average delay is 15549.13
+     [java] Event: distinct count : 1670, timestamp : 1510894682347
+     [java] Event: distinct count : 1772, timestamp : 1510894683944
+     [java] Event: distinct count : 1838, timestamp : 1510894684746
+     [java] Event: distinct count : 1226, timestamp : 1510894685540
+     [java] Event: distinct count : 1742, timestamp : 1510894686324
+     [java] Event: distinct count : 1762, timestamp : 1510894687119
+     [java] Event: distinct count : 1642, timestamp : 1510894687938
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100019 sensor events in 6060 milliseconds with total throughput of 16504.79 events per second. Average delay is 17132.01
+     [java] Event: distinct count : 1791, timestamp : 1510894689534
+     [java] Event: distinct count : 1686, timestamp : 1510894690317
+     [java] Event: distinct count : 1878, timestamp : 1510894691107
+     [java] Event: distinct count : 1609, timestamp : 1510894692680
+     [java] Event: distinct count : 1767, timestamp : 1510894693476
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99991 sensor events in 5744 milliseconds with total throughput of 17407.9 events per second. Average delay is 17027.88
+     [java] Event: distinct count : 1817, timestamp : 1510894694300
+     [java] Event: distinct count : 1698, timestamp : 1510894695924
+     [java] Event: distinct count : 1681, timestamp : 1510894697556
+     [java] Event: distinct count : 1814, timestamp : 1510894697559
+     [java] Event: distinct count : 1788, timestamp : 1510894699164
+     [java] Event: distinct count : 1789, timestamp : 1510894699959
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100004 sensor events in 5767 milliseconds with total throughput of 17340.73 events per second. Average delay is 16405.08
+     [java] Event: distinct count : 1787, timestamp : 1510894700754
+     [java] Event: distinct count : 1609, timestamp : 1510894702372
+     [java] Event: distinct count : 1631, timestamp : 1510894703207
+     [java] Event: distinct count : 1523, timestamp : 1510894703980
+     [java] Event: distinct count : 1701, timestamp : 1510894705583
+     [java] Event: distinct count : 1643, timestamp : 1510894706379
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100028 sensor events in 6133 milliseconds with total throughput of 16309.8 events per second. Average delay is 16164.64
+     [java] Event: distinct count : 1632, timestamp : 1510894707193
+     [java] Event: distinct count : 1711, timestamp : 1510894707997
+     [java] Event: distinct count : 1506, timestamp : 1510894708764
+     [java] Event: distinct count : 1785, timestamp : 1510894709599
+     [java] Event: distinct count : 1674, timestamp : 1510894711219
+     [java] Event: distinct count : 1702, timestamp : 1510894712011
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100098 sensor events in 6043 milliseconds with total throughput of 16564.29 events per second. Average delay is 16422.18
+     [java] Event: distinct count : 1640, timestamp : 1510894712787
+     [java] Event: distinct count : 1701, timestamp : 1510894713626
+     [java] Event: distinct count : 1804, timestamp : 1510894715221
+     [java] Event: distinct count : 1861, timestamp : 1510894716029
+     [java] Event: distinct count : 1756, timestamp : 1510894716825
+     [java] Event: distinct count : 1639, timestamp : 1510894717632
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99863 sensor events in 5752 milliseconds with total throughput of 17361.44 events per second. Average delay is 16542.39
+     [java] Event: distinct count : 1756, timestamp : 1510894719230
+     [java] Event: distinct count : 1576, timestamp : 1510894720001
+     [java] Event: distinct count : 1563, timestamp : 1510894720804
+     [java] Event: distinct count : 1537, timestamp : 1510894721596
+     [java] Event: distinct count : 1624, timestamp : 1510894722377
+     [java] Event: distinct count : 1779, timestamp : 1510894723951
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100083 sensor events in 6169 milliseconds with total throughput of 16223.54 events per second. Average delay is 16534.15
+     [java] Event: distinct count : 1754, timestamp : 1510894724730
+     [java] Event: distinct count : 1622, timestamp : 1510894725531
+     [java] Event: distinct count : 1569, timestamp : 1510894727150
+     [java] Event: distinct count : 1648, timestamp : 1510894727939
+     [java] Event: distinct count : 1618, timestamp : 1510894728730
+     [java] Event: distinct count : 1614, timestamp : 1510894729492
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99932 sensor events in 6353 milliseconds with total throughput of 15729.89 events per second. Average delay is 16565.39
+     [java] Event: distinct count : 1358, timestamp : 1510894730337
+     [java] Event: distinct count : 1390, timestamp : 1510894731093
+     [java] Event: distinct count : 1646, timestamp : 1510894732641
+     [java] Event: distinct count : 1574, timestamp : 1510894733428
+     [java] Event: distinct count : 1324, timestamp : 1510894734229
+     [java] Event: distinct count : 1688, timestamp : 1510894735037
+     [java] Event: distinct count : 1499, timestamp : 1510894735798
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100092 sensor events in 6675 milliseconds with total throughput of 14995.06 events per second. Average delay is 17366.19
+     [java] Event: distinct count : 1432, timestamp : 1510894736629
+     [java] Event: distinct count : 1522, timestamp : 1510894737421
+     [java] Event: distinct count : 1514, timestamp : 1510894738991
+     [java] Event: distinct count : 1582, timestamp : 1510894739792
+     [java] Event: distinct count : 1793, timestamp : 1510894740594
+     [java] Event: distinct count : 1592, timestamp : 1510894741383
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99924 sensor events in 6324 milliseconds with total throughput of 15800.76 events per second. Average delay is 17843.31
+     [java] Event: distinct count : 1617, timestamp : 1510894742158
+     [java] Event: distinct count : 1226, timestamp : 1510894742967
+     [java] Event: distinct count : 1304, timestamp : 1510894743771
+     [java] Event: distinct count : 2104, timestamp : 1510894744590
+     [java] Event: distinct count : 1399, timestamp : 1510894746178
+     [java] Event: distinct count : 1983, timestamp : 1510894747805
+     [java] Event: distinct count : 1907, timestamp : 1510894749414
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100022 sensor events in 6126 milliseconds with total throughput of 16327.46 events per second. Average delay is 17998.98
+     [java] Event: distinct count : 1848, timestamp : 1510894749394
+     [java] Event: distinct count : 1985, timestamp : 1510894750994
+     [java] Event: distinct count : 2107, timestamp : 1510894752645
+     [java] Event: distinct count : 2074, timestamp : 1510894754255
+     [java] Event: distinct count : 2084, timestamp : 1510894755869
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100012 sensor events in 4952 milliseconds with total throughput of 20196.28 events per second. Average delay is 16710.15
+     [java] Event: distinct count : 2005, timestamp : 1510894756667
+     [java] Event: distinct count : 1846, timestamp : 1510894758262
+     [java] Event: distinct count : 1377, timestamp : 1510894759027
+     [java] Event: distinct count : 1939, timestamp : 1510894759844
+     [java] Event: distinct count : 1693, timestamp : 1510894761359
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99973 sensor events in 5584 milliseconds with total throughput of 17903.47 events per second. Average delay is 15415.53
+     [java] Event: distinct count : 2025, timestamp : 1510894762232
+     [java] Event: distinct count : 1427, timestamp : 1510894763778
+     [java] Event: distinct count : 1864, timestamp : 1510894764602
+     [java] Event: distinct count : 1813, timestamp : 1510894765406
+     [java] Event: distinct count : 1997, timestamp : 1510894766975
+     [java] Event: distinct count : 1510, timestamp : 1510894767765
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99980 sensor events in 5861 milliseconds with total throughput of 17058.52 events per second. Average delay is 14873.76
+     [java] Event: distinct count : 1802, timestamp : 1510894768553
+     [java] Event: distinct count : 1876, timestamp : 1510894769309
+     [java] Event: distinct count : 1780, timestamp : 1510894770105
+     [java] Event: distinct count : 1573, timestamp : 1510894770857
+     [java] user admin disconnected
+     [java] Event: distinct count : 1650, timestamp : 1510894771646
+     [java] Event: distinct count : 1823, timestamp : 1510894772422
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100032 sensor events in 5732 milliseconds with total throughput of 17451.5 events per second. Average delay is 15489.42
+     [java] Event: distinct count : 1491, timestamp : 1510894773186
+     [java] Event: distinct count : 1629, timestamp : 1510894773983
+     [java] Event: distinct count : 1551, timestamp : 1510894775581
+     [java] Event: distinct count : 1150, timestamp : 1510894776293
+     [java] Event: distinct count : 1786, timestamp : 1510894777172
+     [java] Event: distinct count : 1598, timestamp : 1510894777925
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100028 sensor events in 6522 milliseconds with total throughput of 15337.01 events per second. Average delay is 16311.09
+     [java] Event: distinct count : 1658, timestamp : 1510894778759
+     [java] Event: distinct count : 1576, timestamp : 1510894779532
+     [java] Event: distinct count : 1474, timestamp : 1510894780331
+     [java] Event: distinct count : 2132, timestamp : 1510894781861
+     [java] Event: distinct count : 1435, timestamp : 1510894782664
+     [java] Event: distinct count : 1411, timestamp : 1510894783504
+     [java] Event: distinct count : 1363, timestamp : 1510894784292
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99964 sensor events in 6451 milliseconds with total throughput of 15495.89 events per second. Average delay is 16924.47
+     [java] Event: distinct count : 1356, timestamp : 1510894785053
+     [java] Event: distinct count : 1382, timestamp : 1510894785812
+     [java] Event: distinct count : 1373, timestamp : 1510894786608
+     [java] Event: distinct count : 166, timestamp : 1510894787011

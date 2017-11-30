@@ -1,0 +1,255 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+init:
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:83: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: percentile : 7.0, timestamp : 1508914332167
+     [java] eventCountCorr : 0
+     [java] Event: percentile : 203.0, timestamp : 1508914332210
+     [java] eventCountCorr : 100
+     [java] Event: percentile : 342.0, timestamp : 1508914332267
+     [java] eventCountCorr : 200
+     [java] Event: percentile : 524.5, timestamp : 1508914332411
+     [java] eventCountCorr : 300
+     [java] Event: percentile : 1640.0, timestamp : 1508914332523
+     [java] eventCountCorr : 400
+     [java] Event: percentile : 1640.5, timestamp : 1508914332305
+     [java] eventCountCorr : 500
+     [java] Event: percentile : 1152.5, timestamp : 1508914332364
+     [java] eventCountCorr : 600
+     [java] Event: percentile : 1423.0, timestamp : 1508914332731
+     [java] eventCountCorr : 700
+     [java] Event: percentile : 1641.0, timestamp : 1508914332648
+     [java] eventCountCorr : 800
+     [java] Event: percentile : 1901.0, timestamp : 1508914332687
+     [java] eventCountCorr : 900
+     [java] Event: percentile : 2225.0, timestamp : 1508914332771
+     [java] eventCountCorr : 1000
+     [java] Event: percentile : 2531.0, timestamp : 1508914332812
+     [java] eventCountCorr : 1100
+     [java] Event: percentile : 2897.0, timestamp : 1508914332854
+     [java] eventCountCorr : 1200
+     [java] Event: percentile : 3268.0, timestamp : 1508914332890
+     [java] eventCountCorr : 1300
+     [java] Event: percentile : 3442.0, timestamp : 1508914332929
+     [java] eventCountCorr : 1400
+     [java] Event: percentile : 3616.0, timestamp : 1508914332972
+     [java] eventCountCorr : 1500
+     [java] Event: percentile : 3779.0, timestamp : 1508914333007
+     [java] eventCountCorr : 1600
+     [java] user admin disconnected
+     [java] Event: percentile : 3934.0, timestamp : 1508914333046
+     [java] eventCountCorr : 1700
+     [java] Event: percentile : 4100.0, timestamp : 1508914333089
+     [java] eventCountCorr : 1800
+     [java] Event: percentile : 4254.0, timestamp : 1508914333125
+     [java] eventCountCorr : 1900
+     [java] Event: percentile : 4415.0, timestamp : 1508914333161
+     [java] eventCountCorr : 2000
+     [java] Event: percentile : 4562.0, timestamp : 1508914333200
+     [java] eventCountCorr : 2100
+     [java] Event: percentile : 4733.0, timestamp : 1508914333236
+     [java] eventCountCorr : 2200
+     [java] Event: percentile : 4886.5, timestamp : 1508914333272
+     [java] eventCountCorr : 2300
+     [java] Event: percentile : 5084.0, timestamp : 1508914333312
+     [java] eventCountCorr : 2400
+     [java] Event: percentile : 5241.0, timestamp : 1508914333348
+     [java] eventCountCorr : 2500
+     [java] Event: percentile : 5377.0, timestamp : 1508914333387
+     [java] eventCountCorr : 2600
+     [java] Event: percentile : 5544.0, timestamp : 1508914333424
+     [java] eventCountCorr : 2700
+     [java] Event: percentile : 5698.0, timestamp : 1508914333462
+     [java] eventCountCorr : 2800
+     [java] Event: percentile : 5876.0, timestamp : 1508914333498
+     [java] eventCountCorr : 2900
+     [java] Event: percentile : 6066.5, timestamp : 1508914333537
+     [java] eventCountCorr : 3000
+     [java] Event: percentile : 6204.0, timestamp : 1508914333575
+     [java] eventCountCorr : 3100
+     [java] Event: percentile : 6378.0, timestamp : 1508914333606
+     [java] eventCountCorr : 3200
+     [java] Event: percentile : 6553.0, timestamp : 1508914333645
+     [java] eventCountCorr : 3300
+     [java] Event: percentile : 6710.0, timestamp : 1508914333685
+     [java] eventCountCorr : 3400
+     [java] Event: percentile : 6908.5, timestamp : 1508914333718
+     [java] eventCountCorr : 3500
+     [java] Event: percentile : 7094.0, timestamp : 1508914333757
+     [java] eventCountCorr : 3600
+     [java] Event: percentile : 7256.0, timestamp : 1508914333796
+     [java] eventCountCorr : 3700
+     [java] Event: percentile : 7415.0, timestamp : 1508914333834
+     [java] eventCountCorr : 3800
+     [java] Event: percentile : 7574.0, timestamp : 1508914333869
+     [java] eventCountCorr : 3900
+     [java] Event: percentile : 7727.0, timestamp : 1508914333908
+     [java] eventCountCorr : 4000
+     [java] Event: percentile : 7913.5, timestamp : 1508914334699
+     [java] eventCountCorr : 4100
+     [java] Event: percentile : 8069.5, timestamp : 1508914335118
+     [java] eventCountCorr : 4200
+     [java] Event: percentile : 8217.5, timestamp : 1508914334329
+     [java] eventCountCorr : 4300
+     [java] Event: percentile : 8379.0, timestamp : 1508914334440
+     [java] eventCountCorr : 4400
+     [java] Event: percentile : 8508.0, timestamp : 1508914334151
+     [java] eventCountCorr : 4500
+     [java] Event: percentile : 8685.0, timestamp : 1508914334239
+     [java] eventCountCorr : 4600
+     [java] Event: percentile : 8821.0, timestamp : 1508914334034
+     [java] eventCountCorr : 4700
+     [java] Event: percentile : 9029.0, timestamp : 1508914334098
+     [java] eventCountCorr : 4800
+     [java] Event: percentile : 9220.0, timestamp : 1508914333955
+     [java] eventCountCorr : 4900
+     [java] Event: percentile : 9334.5, timestamp : 1508914333986
+     [java] eventCountCorr : 5000
+     [java] Event: percentile : 9516.5, timestamp : 1508914339303
+     [java] eventCountCorr : 5100
+     [java] Event: percentile : 9695.0, timestamp : 1508914339346
+     [java] eventCountCorr : 5200
+     [java] Event: percentile : 9825.5, timestamp : 1508914339220
+     [java] eventCountCorr : 5300
+     [java] Event: percentile : 10012.0, timestamp : 1508914339257
+     [java] eventCountCorr : 5400
+     [java] Event: percentile : 10177.0, timestamp : 1508914338964
+     [java] eventCountCorr : 5500
+     [java] Event: percentile : 10338.0, timestamp : 1508914338662
+     [java] eventCountCorr : 5600
+     [java] Event: percentile : 10492.0, timestamp : 1508914338786
+     [java] eventCountCorr : 5700
+     [java] Event: percentile : 10656.0, timestamp : 1508914338510
+     [java] eventCountCorr : 5800
+     [java] Event: percentile : 10820.5, timestamp : 1508914338585
+     [java] eventCountCorr : 5900
+     [java] Event: percentile : 11008.5, timestamp : 1508914338403
+     [java] eventCountCorr : 6000
+     [java] Event: percentile : 11148.0, timestamp : 1508914338455
+     [java] eventCountCorr : 6100
+     [java] Event: percentile : 11338.0, timestamp : 1508914338316
+     [java] eventCountCorr : 6200
+     [java] Event: percentile : 11471.0, timestamp : 1508914338356
+     [java] eventCountCorr : 6300
+     [java] Event: percentile : 11613.0, timestamp : 1508914339807
+     [java] eventCountCorr : 6400
+     [java] Event: percentile : 11762.0, timestamp : 1508914340014
+     [java] eventCountCorr : 6500
+     [java] Event: percentile : 11951.0, timestamp : 1508914339620
+     [java] eventCountCorr : 6600
+     [java] Event: percentile : 12119.0, timestamp : 1508914339745
+     [java] eventCountCorr : 6700
+     [java] Event: percentile : 12301.5, timestamp : 1508914339455
+     [java] eventCountCorr : 6800
+     [java] Event: percentile : 12454.0, timestamp : 1508914339534
+     [java] eventCountCorr : 6900
+     [java] Event: percentile : 12588.0, timestamp : 1508914340172
+     [java] eventCountCorr : 7000
+     [java] Event: percentile : 12765.0, timestamp : 1508914340203
+     [java] eventCountCorr : 7100
+     [java] Event: percentile : 12938.0, timestamp : 1508914341070
+     [java] eventCountCorr : 7200
+     [java] Event: percentile : 13091.0, timestamp : 1508914340662
+     [java] eventCountCorr : 7300
+     [java] Event: percentile : 13277.0, timestamp : 1508914340815
+     [java] eventCountCorr : 7400
+     [java] Event: percentile : 13424.0, timestamp : 1508914340473
+     [java] eventCountCorr : 7500
+     [java] Event: percentile : 13606.0, timestamp : 1508914340565
+     [java] eventCountCorr : 7600
+     [java] Event: percentile : 13768.5, timestamp : 1508914340355
+     [java] eventCountCorr : 7700
+     [java] Event: percentile : 13900.0, timestamp : 1508914340412
+     [java] eventCountCorr : 7800
+     [java] Event: percentile : 14081.0, timestamp : 1508914340256
+     [java] eventCountCorr : 7900
+     [java] Event: percentile : 14249.0, timestamp : 1508914340296
+     [java] eventCountCorr : 8000
+     [java] Event: percentile : 14452.5, timestamp : 1508914341161
+     [java] eventCountCorr : 8100
+     [java] Event: percentile : 14631.5, timestamp : 1508914341209
+     [java] eventCountCorr : 8200
+     [java] Event: percentile : 14815.0, timestamp : 1508914341222
+     [java] eventCountCorr : 8300
+     [java] Event: percentile : 14998.0, timestamp : 1508914342176
+     [java] eventCountCorr : 8400
+     [java] Event: percentile : 15222.0, timestamp : 1508914342029
+     [java] eventCountCorr : 8500
+     [java] Event: percentile : 15499.5, timestamp : 1508914341656
+     [java] eventCountCorr : 8600
+     [java] Event: percentile : 15742.0, timestamp : 1508914341792
+     [java] eventCountCorr : 8700
+     [java] Event: percentile : 15944.5, timestamp : 1508914341495
+     [java] eventCountCorr : 8800
+     [java] Event: percentile : 16167.0, timestamp : 1508914341563
+     [java] eventCountCorr : 8900
+     [java] Event: percentile : 16499.0, timestamp : 1508914341378
+     [java] eventCountCorr : 9000
+     [java] Event: percentile : 16859.0, timestamp : 1508914341434
+     [java] eventCountCorr : 9100
+     [java] Event: percentile : 17238.5, timestamp : 1508914341294
+     [java] eventCountCorr : 9200
+     [java] Event: percentile : 17616.5, timestamp : 1508914341334
+     [java] eventCountCorr : 9300
+     [java] Event: percentile : 18051.5, timestamp : 1508914342211
+     [java] eventCountCorr : 9400
+     [java] Event: percentile : 18526.0, timestamp : 1508914342255
+     [java] eventCountCorr : 9500
+     [java] Event: percentile : 18999.0, timestamp : 1508914342286
+     [java] eventCountCorr : 9600
+     [java] Event: percentile : 19881.0, timestamp : 1508914342930
+     [java] eventCountCorr : 9700
+     [java] Event: percentile : 20632.5, timestamp : 1508914343195
+     [java] eventCountCorr : 9800
+     [java] Event: percentile : 22190.0, timestamp : 1508914342735
+     [java] eventCountCorr : 9900
+     [java] Event: percentile : 24106.0, timestamp : 1508914342886
+     [java] eventCountCorr : 10000
+     [java] Event: percentile : 52045.0, timestamp : 1508914342567
+     [java] eventCountCorr : 10100
+     [java] Event: percentile : 52201.0, timestamp : 1508914342402
+     [java] eventCountCorr : 10200
+     [java] Event: percentile : 52350.5, timestamp : 1508914342453
+     [java] eventCountCorr : 10300
+     [java] Event: percentile : 52513.0, timestamp : 1508914342318
+     [java] eventCountCorr : 10400
+     [java] Event: percentile : 52700.5, timestamp : 1508914342360
+     [java] eventCountCorr : 10500
+     [java] Event: percentile : 52927.5, timestamp : 1508914343240
+     [java] eventCountCorr : 10600
+     [java] Event: percentile : 53136.0, timestamp : 1508914343270
+     [java] eventCountCorr : 10700
+     [java] Event: percentile : 53404.0, timestamp : 1508914343310
+     [java] eventCountCorr : 10800
+     [java] Event: percentile : 53595.0, timestamp : 1508914343351
+     [java] eventCountCorr : 10900
+     [java] Event: percentile : 53907.0, timestamp : 1508914343471
+     [java] eventCountCorr : 11000
+     [java] Event: percentile : 54190.0, timestamp : 1508914343533
+     [java] eventCountCorr : 11100
+     [java] Event: percentile : 54542.0, timestamp : 1508914343386
+     [java] eventCountCorr : 11200
+     [java] Event: percentile : 54949.0, timestamp : 1508914343428
+     [java] eventCountCorr : 11300
+     [java] Event: percentile : 55266.0, timestamp : 1508914343544
+     [java] eventCountCorr : 11400
+     [java] Event: percentile : 55816.0, timestamp : 1508914343609
+     [java] eventCountCorr : 11500

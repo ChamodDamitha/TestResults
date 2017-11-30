@@ -1,0 +1,170 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:87: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: count : 3623, sumHumidity : 918712, timestamp : 1511412695604
+     [java] Event: count : 11710, sumHumidity : 1990486, timestamp : 1511412695820
+     [java] Event: count : 14092, sumHumidity : 861190, timestamp : 1511412696008
+     [java] Event: count : 12821, sumHumidity : 658701, timestamp : 1511412696179
+     [java] Event: count : 17211, sumHumidity : 874516, timestamp : 1511412696407
+     [java] Event: count : 18175, sumHumidity : 930340, timestamp : 1511412696659
+     [java] Event: count : 15549, sumHumidity : 850927, timestamp : 1511412696840
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100004 sensor events in 17527 milliseconds with total throughput of 5705.71 events per second. Average delay is 3544.93
+     [java] Event: count : 14213, sumHumidity : 707345, timestamp : 1511412697007
+     [java] Event: count : 17397, sumHumidity : 1614149, timestamp : 1511412697490
+     [java] Event: count : 19649, sumHumidity : 2463301, timestamp : 1511412697876
+     [java] Event: count : 19386, sumHumidity : 2204394, timestamp : 1511412698533
+     [java] Event: count : 19680, sumHumidity : 3047162, timestamp : 1511412699194
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100031 sensor events in 5523 milliseconds with total throughput of 18111.71 events per second. Average delay is 7611.55
+     [java] Event: count : 17974, sumHumidity : 1802662, timestamp : 1511412699606
+     [java] Event: count : 19719, sumHumidity : 2093964, timestamp : 1511412700083
+     [java] Event: count : 17452, sumHumidity : 1357979, timestamp : 1511412700365
+     [java] Event: count : 17887, sumHumidity : 2138155, timestamp : 1511412700846
+     [java] Event: count : 16747, sumHumidity : 1334136, timestamp : 1511412701177
+     [java] Event: count : 17660, sumHumidity : 1820029, timestamp : 1511412701555
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100049 sensor events in 5642 milliseconds with total throughput of 17732.9 events per second. Average delay is 10509.21
+     [java] Event: count : 16131, sumHumidity : 1146200, timestamp : 1511412701786
+     [java] Event: count : 16485, sumHumidity : 1172099, timestamp : 1511412702029
+     [java] Event: count : 19437, sumHumidity : 1089305, timestamp : 1511412702290
+     [java] Event: count : 16142, sumHumidity : 1105093, timestamp : 1511412702517
+     [java] Event: count : 16798, sumHumidity : 1477103, timestamp : 1511412702840
+     [java] Event: count : 16795, sumHumidity : 4563470, timestamp : 1511412704050
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99982 sensor events in 6027 milliseconds with total throughput of 16589.02 events per second. Average delay is 14418.48
+     [java] Event: count : 15817, sumHumidity : 2906242, timestamp : 1511412704794
+     [java] Event: count : 20694, sumHumidity : 4589733, timestamp : 1511412705846
+     [java] Event: count : 16093, sumHumidity : 3388282, timestamp : 1511412706665
+     [java] Event: count : 16710, sumHumidity : 3484156, timestamp : 1511412707532
+     [java] Event: count : 15285, sumHumidity : 3540926, timestamp : 1511412708494
+     [java] Event: count : 17705, sumHumidity : 3969605, timestamp : 1511412709359
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100054 sensor events in 5751 milliseconds with total throughput of 17397.67 events per second. Average delay is 15886.63
+     [java] Event: count : 14735, sumHumidity : 3848897, timestamp : 1511412710150
+     [java] Event: count : 16633, sumHumidity : 4128250, timestamp : 1511412711151
+     [java] Event: count : 18305, sumHumidity : 4211650, timestamp : 1511412712186
+     [java] Event: count : 18360, sumHumidity : 4252348, timestamp : 1511412713215
+     [java] Event: count : 16922, sumHumidity : 4203128, timestamp : 1511412714298
+     [java] Event: count : 16640, sumHumidity : 4345015, timestamp : 1511412715176
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99931 sensor events in 5884 milliseconds with total throughput of 16983.51 events per second. Average delay is 16312.48
+     [java] Event: count : 14154, sumHumidity : 3643672, timestamp : 1511412716000
+     [java] Event: count : 15026, sumHumidity : 3782316, timestamp : 1511412717001
+     [java] Event: count : 16121, sumHumidity : 4086995, timestamp : 1511412717862
+     [java] Event: count : 14296, sumHumidity : 2982429, timestamp : 1511412718761
+     [java] Event: count : 14895, sumHumidity : 3648582, timestamp : 1511412719648
+     [java] Event: count : 18320, sumHumidity : 4785817, timestamp : 1511412720720
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99954 sensor events in 6474 milliseconds with total throughput of 15439.3 events per second. Average delay is 16671.48
+     [java] Event: count : 14756, sumHumidity : 2777201, timestamp : 1511412721367
+     [java] Event: count : 14386, sumHumidity : 3968341, timestamp : 1511412722278
+     [java] Event: count : 13329, sumHumidity : 3591492, timestamp : 1511412723082
+     [java] Event: count : 14057, sumHumidity : 3921676, timestamp : 1511412723987
+     [java] Event: count : 12511, sumHumidity : 2930534, timestamp : 1511412724798
+     [java] Event: count : 12787, sumHumidity : 2907665, timestamp : 1511412725489
+     [java] Event: count : 12678, sumHumidity : 3431821, timestamp : 1511412726384
+     [java] Event: count : 13824, sumHumidity : 3866311, timestamp : 1511412727307
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100054 sensor events in 7477 milliseconds with total throughput of 13381.57 events per second. Average delay is 17639.61
+     [java] Event: count : 12923, sumHumidity : 3573918, timestamp : 1511412727901
+     [java] Event: count : 13515, sumHumidity : 2689007, timestamp : 1511412728778
+     [java] Event: count : 12500, sumHumidity : 2882133, timestamp : 1511412729316
+     [java] Event: count : 13358, sumHumidity : 3543257, timestamp : 1511412730136
+     [java] Event: count : 14072, sumHumidity : 4035488, timestamp : 1511412731060
+     [java] Event: count : 11787, sumHumidity : 2244492, timestamp : 1511412731765
+     [java] Event: count : 12886, sumHumidity : 3673428, timestamp : 1511412732754
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100131 sensor events in 7803 milliseconds with total throughput of 12832.37 events per second. Average delay is 19283.93
+     [java] Event: count : 11792, sumHumidity : 3195651, timestamp : 1511412733456
+     [java] Event: count : 20572, sumHumidity : 5445179, timestamp : 1511412734715
+     [java] Event: count : 21239, sumHumidity : 6433147, timestamp : 1511412736183
+     [java] Event: count : 20178, sumHumidity : 4759647, timestamp : 1511412737334
+     [java] Event: count : 19058, sumHumidity : 4918816, timestamp : 1511412738612
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99854 sensor events in 4884 milliseconds with total throughput of 20445.13 events per second. Average delay is 19343.53
+     [java] Event: count : 21062, sumHumidity : 6739151, timestamp : 1511412740044
+     [java] Event: count : 19860, sumHumidity : 5131335, timestamp : 1511412741556
+     [java] Event: count : 18781, sumHumidity : 6613850, timestamp : 1511412743077
+     [java] Event: count : 19110, sumHumidity : 5211351, timestamp : 1511412744639
+     [java] Event: count : 19242, sumHumidity : 6599303, timestamp : 1511412745985
+     [java] Event: count : 18637, sumHumidity : 5220390, timestamp : 1511412747307
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100154 sensor events in 5235 milliseconds with total throughput of 19131.61 events per second. Average delay is 17280.67
+     [java] Event: count : 18092, sumHumidity : 5959857, timestamp : 1511412748722
+     [java] Event: count : 17840, sumHumidity : 5941631, timestamp : 1511412750092
+     [java] Event: count : 19341, sumHumidity : 5493498, timestamp : 1511412751735
+     [java] Event: count : 19637, sumHumidity : 6209698, timestamp : 1511412752994
+     [java] Event: count : 17813, sumHumidity : 5191518, timestamp : 1511412754258
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99931 sensor events in 5342 milliseconds with total throughput of 18706.66 events per second. Average delay is 15022.27
+     [java] Event: count : 18560, sumHumidity : 4069152, timestamp : 1511412755014
+     [java] Event: count : 19070, sumHumidity : 4132244, timestamp : 1511412756063
+     [java] Event: count : 16872, sumHumidity : 3551045, timestamp : 1511412756833
+     [java] Event: count : 17709, sumHumidity : 3706156, timestamp : 1511412757705
+     [java] Event: count : 16838, sumHumidity : 3309644, timestamp : 1511412758579
+     [java] Event: count : 19635, sumHumidity : 4197262, timestamp : 1511412759594
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99954 sensor events in 5584 milliseconds with total throughput of 17900.07 events per second. Average delay is 14669.03
+     [java] Event: count : 18450, sumHumidity : 4291110, timestamp : 1511412760515
+     [java] Event: count : 17296, sumHumidity : 3871301, timestamp : 1511412761395
+     [java] Event: count : 16462, sumHumidity : 3706504, timestamp : 1511412762292
+     [java] Event: count : 16918, sumHumidity : 4070333, timestamp : 1511412763226
+     [java] Event: count : 15139, sumHumidity : 3835802, timestamp : 1511412764084
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100054 sensor events in 5933 milliseconds with total throughput of 16863.98 events per second. Average delay is 15192.41
+     [java] Event: count : 16801, sumHumidity : 3927948, timestamp : 1511412764967
+     [java] Event: count : 16530, sumHumidity : 3696941, timestamp : 1511412765923
+     [java] Event: count : 16049, sumHumidity : 3045413, timestamp : 1511412766673
+     [java] Event: count : 17117, sumHumidity : 3623585, timestamp : 1511412767511
+     [java] Event: count : 17551, sumHumidity : 3978865, timestamp : 1511412768547
+     [java] Event: count : 15159, sumHumidity : 3408665, timestamp : 1511412769308
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99954 sensor events in 6019 milliseconds with total throughput of 16606.41 events per second. Average delay is 15890.79
+     [java] Event: count : 17232, sumHumidity : 4007744, timestamp : 1511412770336
+     [java] Event: count : 16821, sumHumidity : 4231526, timestamp : 1511412771141
+     [java] Event: count : 16860, sumHumidity : 4273684, timestamp : 1511412772248
+     [java] Event: count : 18939, sumHumidity : 4481815, timestamp : 1511412773268
+     [java] Event: count : 15457, sumHumidity : 3868269, timestamp : 1511412774092
+     [java] Event: count : 14972, sumHumidity : 3223985, timestamp : 1511412774903
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99954 sensor events in 5978 milliseconds with total throughput of 16720.31 events per second. Average delay is 16364.43
+     [java] Event: count : 17706, sumHumidity : 4117831, timestamp : 1511412775812
+     [java] Event: count : 14957, sumHumidity : 3667075, timestamp : 1511412776714
+     [java] Event: count : 15283, sumHumidity : 3784440, timestamp : 1511412777697
+     [java] Event: count : 16527, sumHumidity : 4161867, timestamp : 1511412778678
+     [java] Event: count : 15969, sumHumidity : 4401468, timestamp : 1511412779625
+     [java] Event: count : 13377, sumHumidity : 3274762, timestamp : 1511412780601
+     [java] Event: count : 14341, sumHumidity : 3535330, timestamp : 1511412781470
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100054 sensor events in 6670 milliseconds with total throughput of 15000.6 events per second. Average delay is 16844.17
+     [java] Event: count : 14257, sumHumidity : 3859354, timestamp : 1511412782216
+     [java] Event: count : 14483, sumHumidity : 3970762, timestamp : 1511412783174
+     [java] Event: count : 14089, sumHumidity : 3280383, timestamp : 1511412783888
+     [java] Event: count : 15577, sumHumidity : 4148994, timestamp : 1511412784909
+     [java] Event: count : 21262, sumHumidity : 5230649, timestamp : 1511412786181
+     [java] user admin disconnected
+     [java] Event: count : 17363, sumHumidity : 4391639, timestamp : 1511412787128
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99931 sensor events in 6009 milliseconds with total throughput of 16630.22 events per second. Average delay is 17432.12
+     [java] Event: count : 17446, sumHumidity : 4343163, timestamp : 1511412788200
+     [java] Event: count : 17257, sumHumidity : 4361074, timestamp : 1511412789228
+     [java] Event: count : 17398, sumHumidity : 4130837, timestamp : 1511412790297
+     [java] Event: count : 17386, sumHumidity : 4769719, timestamp : 1511412791480
+     [java] Event: count : 17192, sumHumidity : 4402949, timestamp : 1511412792415
+     [java] Event: count : 18049, sumHumidity : 4404160, timestamp : 1511412793570
+     [java] [DataBridge-Core-pool-1-thread-1] Received 100154 sensor events in 5753 milliseconds with total throughput of 17409 events per second. Average delay is 17169.22
+     [java] Event: count : 16733, sumHumidity : 4708322, timestamp : 1511412794677
+     [java] Event: count : 16856, sumHumidity : 4138694, timestamp : 1511412795618
+     [java] Event: count : 16138, sumHumidity : 4353179, timestamp : 1511412796825
+     [java] Event: count : 15546, sumHumidity : 4809239, timestamp : 1511412797863
+     [java] Event: count : 16339, sumHumidity : 5099624, timestamp : 1511412799145
+     [java] Event: count : 15871, sumHumidity : 4160443, timestamp : 1511412800178
+     [java] [DataBridge-Core-pool-1-thread-1] Received 99954 sensor events in 6174 milliseconds with total throughput of 16189.5 events per second. Average delay is 16672.21
+     [java] Event: count : 16208, sumHumidity : 4465304, timestamp : 1511412801273
+     [java] Event: count : 16053, sumHumidity : 4170198, timestamp : 1511412802357
+     [java] Event: count : 18744, sumHumidity : 3996977, timestamp : 1511412803186
+     [java] Event: count : 5685, sumHumidity : 1019680, timestamp : 1511412803469

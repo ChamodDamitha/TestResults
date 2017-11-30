@@ -1,0 +1,9 @@
+ if (Math.abs(queueFillage - 1) < 0.001) {
+                        accuracy = 0;
+////                            System.out.println("ac : 0");
+                    } else if (maxHumidity < humidity){
+                        accuracy = 1;
+                        maxHumidity = humidity;
+                    } else {
+                        accuracy = 0.05;
+                    }

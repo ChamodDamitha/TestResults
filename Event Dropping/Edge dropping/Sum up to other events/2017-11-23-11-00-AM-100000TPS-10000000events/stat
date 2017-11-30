@@ -1,0 +1,2 @@
+
+            double deltaValue = 10 * errorSum / (expectedEventsInBatch - eventCountInWindow);

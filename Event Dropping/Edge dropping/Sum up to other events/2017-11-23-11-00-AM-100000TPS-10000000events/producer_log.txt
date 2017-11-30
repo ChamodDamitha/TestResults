@@ -1,0 +1,246 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 2 files to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+
+run:
+     [echo] Configure optionally use -DeventCount=xxxx -DelapsedCount=xxxx -DwarmUpCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx
+     [echo]             -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx -DcalcType='throughput/latency'
+     [echo]         
+     [java] Started recording 1. The result will be written to:
+     [java] 
+     [java] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/event_producer_recording.jfr
+     [java] FEEDBACK SERVER started................
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - [thrift, localhost, 7661, admin, admin, 10000000, 1000000, 10000, throughput]
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - Starting WSO2 Performance Test Client
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] new out-of-order thresholdInterval : 0
+     [java] Time Passage : 1 s : Events sent : 75101
+     [java] ACTUAL SUM : 3710898.0 : count : 75101
+     [java] Time Passage : 1 s : Events sent : 81300
+     [java] ACTUAL SUM : 4026751.0 : count : 81300
+     [java] Time Passage : 1 s : Events sent : 91700
+     [java] ACTUAL SUM : 4536042.0 : count : 91700
+     [java] Time Passage : 1 s : Events sent : 88600
+     [java] ACTUAL SUM : 4395721.0 : count : 88600
+     [java] Time Passage : 1 s : Events sent : 91300
+     [java] ACTUAL SUM : 4523573.0 : count : 91300
+     [java] Time Passage : 1 s : Events sent : 91600
+     [java] ACTUAL SUM : 4528185.0 : count : 91600
+     [java] Time Passage : 1 s : Events sent : 91300
+     [java] ACTUAL SUM : 4522465.0 : count : 91300
+     [java] Time Passage : 1 s : Events sent : 91900
+     [java] ACTUAL SUM : 4559895.0 : count : 91900
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4576631.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 91800
+     [java] ACTUAL SUM : 4543199.0 : count : 91800
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4572606.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4577466.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4577454.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4592150.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4576400.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4575523.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92100
+     [java] ACTUAL SUM : 4563728.0 : count : 92100
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4569121.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4577208.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4585255.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4585950.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4587830.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4584470.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92000
+     [java] ACTUAL SUM : 4555817.0 : count : 92000
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4587119.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4563229.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4580539.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4559040.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4583803.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4577762.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4573130.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4595890.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 91700
+     [java] ACTUAL SUM : 4539515.0 : count : 91700
+     [java] Time Passage : 1 s : Events sent : 92100
+     [java] ACTUAL SUM : 4553783.0 : count : 92100
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4547856.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4590518.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4586510.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4578946.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4589607.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4570116.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4573695.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4578319.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92000
+     [java] ACTUAL SUM : 4556370.0 : count : 92000
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4561093.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92751
+     [java] ACTUAL SUM : 4588391.0 : count : 92751
+     [java] Time Passage : 1 s : Events sent : 92649
+     [java] ACTUAL SUM : 4580376.0 : count : 92649
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4567738.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92800
+     [java] ACTUAL SUM : 4598943.0 : count : 92800
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4589727.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4578666.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4558893.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4554797.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4587039.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4576398.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4581605.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92800
+     [java] ACTUAL SUM : 4588017.0 : count : 92800
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4567691.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4571337.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92800
+     [java] ACTUAL SUM : 4610760.0 : count : 92800
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4586547.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4582745.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4584734.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4575047.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92000
+     [java] ACTUAL SUM : 4549639.0 : count : 92000
+     [java] Time Passage : 1 s : Events sent : 91900
+     [java] ACTUAL SUM : 4566942.0 : count : 91900
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4576067.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4578234.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4593831.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4593907.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4566691.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4591157.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4573781.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4585204.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4575867.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4576522.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4596126.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4586539.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4607760.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4569035.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4589540.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4569636.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4596481.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4601718.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4577723.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4580700.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4573801.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4568981.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4590488.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4587687.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4573352.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4581569.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4589508.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4587699.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92200
+     [java] ACTUAL SUM : 4575484.0 : count : 92200
+     [java] Time Passage : 1 s : Events sent : 92300
+     [java] ACTUAL SUM : 4584779.0 : count : 92300
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4601232.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4578484.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4577908.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4570236.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4585740.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4590386.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4583035.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4594285.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92700
+     [java] ACTUAL SUM : 4580225.0 : count : 92700
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4599345.0 : count : 92600
+     [java] Time Passage : 1 s : Events sent : 92500
+     [java] ACTUAL SUM : 4575645.0 : count : 92500
+     [java] Time Passage : 1 s : Events sent : 92400
+     [java] ACTUAL SUM : 4569056.0 : count : 92400
+     [java] Time Passage : 1 s : Events sent : 92600
+     [java] ACTUAL SUM : 4572897.0 : count : 92600
+     [java] EVENT SENDING FINISHED.................
+     [java] UNCONTROLLED DROPPED : 0
+     [java] CONTROLLED DROPPED : 7952404
+     [java] TOTAL DROPPED : 7952404
+     [java] TOTAL NO OF EVENTS : 10000000
+     [java] [Thread-5] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7661
+     [java] [Thread-5] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Completed shutdown for data publisher endpoint URL - tcp://localhost:7661

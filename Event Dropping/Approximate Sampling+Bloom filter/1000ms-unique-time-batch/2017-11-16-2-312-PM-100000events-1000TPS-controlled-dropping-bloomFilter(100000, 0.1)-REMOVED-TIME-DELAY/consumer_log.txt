@@ -1,0 +1,137 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/build.xml:87: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+     [copy] Copying 1 file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/consumers/wso2-event-consumer/temp/classes
+
+run:
+     [echo] Configure optionally use -DelapsedCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx -Dport=xxxx
+     [echo]             -DcalcType='throughput/latency'
+     [echo]         
+     [java] Shutdown hook added.
+     [java] PUNCTUATION SERVER started................
+     [java] Unable to determine dialect of the StAX implementation at jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/axiom_1.2.11.wso2v11.jar!/
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] Thrift Server started at localhost
+     [java] Thrift SSL port : 7761
+     [java] Thrift port : 7661
+     [java] Test Server Started
+     [java] user admin connected
+     [java] Event: distinct count : 127, timestamp : 1510823162222
+     [java] Event: distinct count : 89, timestamp : 1510823163217
+     [java] Event: distinct count : 89, timestamp : 1510823163674
+     [java] Event: distinct count : 90, timestamp : 1510823165222
+     [java] Event: distinct count : 90, timestamp : 1510823166222
+     [java] Event: distinct count : 89, timestamp : 1510823166528
+     [java] Event: distinct count : 92, timestamp : 1510823168222
+     [java] Event: distinct count : 90, timestamp : 1510823169219
+     [java] Event: distinct count : 90, timestamp : 1510823169392
+     [java] Event: distinct count : 91, timestamp : 1510823171215
+     [java] Event: distinct count : 88, timestamp : 1510823172216
+     [java] Event: distinct count : 88, timestamp : 1510823172271
+     [java] Event: distinct count : 87, timestamp : 1510823174221
+     [java] Event: distinct count : 92, timestamp : 1510823175168
+     [java] Event: distinct count : 90, timestamp : 1510823176221
+     [java] Event: distinct count : 90, timestamp : 1510823177222
+     [java] Event: distinct count : 92, timestamp : 1510823178024
+     [java] Event: distinct count : 92, timestamp : 1510823179225
+     [java] Event: distinct count : 91, timestamp : 1510823180216
+     [java] Event: distinct count : 89, timestamp : 1510823180858
+     [java] Event: distinct count : 92, timestamp : 1510823182222
+     [java] Event: distinct count : 91, timestamp : 1510823183214
+     [java] Event: distinct count : 91, timestamp : 1510823183688
+     [java] Event: distinct count : 89, timestamp : 1510823185216
+     [java] Event: distinct count : 92, timestamp : 1510823186216
+     [java] Event: distinct count : 89, timestamp : 1510823186520
+     [java] Event: distinct count : 92, timestamp : 1510823188218
+     [java] Event: distinct count : 91, timestamp : 1510823189215
+     [java] Event: distinct count : 92, timestamp : 1510823189349
+     [java] Event: distinct count : 90, timestamp : 1510823191222
+     [java] Event: distinct count : 91, timestamp : 1510823192186
+     [java] Event: distinct count : 92, timestamp : 1510823193220
+     [java] Event: distinct count : 92, timestamp : 1510823194222
+     [java] Event: distinct count : 91, timestamp : 1510823195006
+     [java] Event: distinct count : 91, timestamp : 1510823196221
+     [java] Event: distinct count : 89, timestamp : 1510823197218
+     [java] Event: distinct count : 91, timestamp : 1510823197862
+     [java] Event: distinct count : 89, timestamp : 1510823199221
+     [java] Event: distinct count : 89, timestamp : 1510823200224
+     [java] Event: distinct count : 91, timestamp : 1510823200754
+     [java] Event: distinct count : 90, timestamp : 1510823202223
+     [java] Event: distinct count : 88, timestamp : 1510823203219
+     [java] Event: distinct count : 88, timestamp : 1510823203646
+     [java] Event: distinct count : 87, timestamp : 1510823205220
+     [java] Event: distinct count : 90, timestamp : 1510823206215
+     [java] Event: distinct count : 90, timestamp : 1510823206567
+     [java] Event: distinct count : 90, timestamp : 1510823208221
+     [java] Event: distinct count : 90, timestamp : 1510823209222
+     [java] Event: distinct count : 90, timestamp : 1510823209433
+     [java] Event: distinct count : 89, timestamp : 1510823211218
+     [java] Event: distinct count : 89, timestamp : 1510823212217
+     [java] Event: distinct count : 89, timestamp : 1510823212317
+     [java] Event: distinct count : 89, timestamp : 1510823214223
+     [java] Event: distinct count : 89, timestamp : 1510823215222
+     [java] Event: distinct count : 89, timestamp : 1510823215229
+     [java] Event: distinct count : 91, timestamp : 1510823217220
+     [java] Event: distinct count : 91, timestamp : 1510823218089
+     [java] Event: distinct count : 90, timestamp : 1510823219222
+     [java] Event: distinct count : 90, timestamp : 1510823220222
+     [java] Event: distinct count : 92, timestamp : 1510823220942
+     [java] Event: distinct count : 89, timestamp : 1510823222223
+     [java] Event: distinct count : 91, timestamp : 1510823223221
+     [java] Event: distinct count : 90, timestamp : 1510823223796
+     [java] Event: distinct count : 91, timestamp : 1510823225224
+     [java] Event: distinct count : 91, timestamp : 1510823226225
+     [java] Event: distinct count : 89, timestamp : 1510823226643
+     [java] Event: distinct count : 89, timestamp : 1510823228220
+     [java] Event: distinct count : 89, timestamp : 1510823229219
+     [java] Event: distinct count : 90, timestamp : 1510823229550
+     [java] Event: distinct count : 90, timestamp : 1510823231217
+     [java] Event: distinct count : 91, timestamp : 1510823232224
+     [java] Event: distinct count : 90, timestamp : 1510823232405
+     [java] Event: distinct count : 89, timestamp : 1510823234220
+     [java] Event: distinct count : 91, timestamp : 1510823235220
+     [java] Event: distinct count : 91, timestamp : 1510823235264
+     [java] Event: distinct count : 90, timestamp : 1510823237222
+     [java] Event: distinct count : 90, timestamp : 1510823238132
+     [java] Event: distinct count : 91, timestamp : 1510823239221
+     [java] Event: distinct count : 91, timestamp : 1510823240224
+     [java] Event: distinct count : 88, timestamp : 1510823240985
+     [java] Event: distinct count : 89, timestamp : 1510823242218
+     [java] Event: distinct count : 90, timestamp : 1510823243215
+     [java] Event: distinct count : 91, timestamp : 1510823243871
+     [java] Event: distinct count : 89, timestamp : 1510823245223
+     [java] Event: distinct count : 90, timestamp : 1510823246219
+     [java] Event: distinct count : 91, timestamp : 1510823246741
+     [java] Event: distinct count : 91, timestamp : 1510823248225
+     [java] Event: distinct count : 91, timestamp : 1510823249217
+     [java] Event: distinct count : 91, timestamp : 1510823249578
+     [java] Event: distinct count : 92, timestamp : 1510823251223
+     [java] Event: distinct count : 90, timestamp : 1510823252222
+     [java] Event: distinct count : 91, timestamp : 1510823252419
+     [java] Event: distinct count : 91, timestamp : 1510823254215
+     [java] Event: distinct count : 92, timestamp : 1510823255224
+     [java] Event: distinct count : 91, timestamp : 1510823255246
+     [java] Event: distinct count : 91, timestamp : 1510823257215
+     [java] Event: distinct count : 91, timestamp : 1510823258077
+     [java] Event: distinct count : 90, timestamp : 1510823259221
+     [java] Event: distinct count : 89, timestamp : 1510823260219
+     [java] Event: distinct count : 92, timestamp : 1510823260952
+     [java] Event: distinct count : 91, timestamp : 1510823262218
+     [java] Event: distinct count : 91, timestamp : 1510823263222
+     [java] Event: distinct count : 90, timestamp : 1510823263793
+     [java] Event: distinct count : 90, timestamp : 1510823265223
+     [java] Event: distinct count : 91, timestamp : 1510823266220
+     [java] Event: distinct count : 92, timestamp : 1510823266645
+     [java] Event: distinct count : 90, timestamp : 1510823268224
+     [java] Event: distinct count : 91, timestamp : 1510823269223
+     [java] Event: distinct count : 89, timestamp : 1510823269509
+     [java] Event: distinct count : 90, timestamp : 1510823271217
+     [java] Event: distinct count : 91, timestamp : 1510823272222
+     [java] user admin disconnected
+     [java] Event: distinct count : 30, timestamp : 1510823272371

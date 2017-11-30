@@ -1,0 +1,142 @@
+Buildfile: /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml
+
+init:
+
+compile:
+    [javac] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+     [copy] Copying 2 files to /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/temp/classes
+
+run:
+     [echo] Configure optionally use -DeventCount=xxxx -DelapsedCount=xxxx -DwarmUpCount=xxxx -Dprotocol='thrift/binary' -Dhost=xxxx
+     [echo]             -Dport=xxxx -Dusername=xxxx -Dpassword=xxxx -DcalcType='throughput/latency'
+     [echo]         
+     [java] Started recording 1. The result will be written to:
+     [java] 
+     [java] /home/chamod/Softwares/wso2/wso2das-3.1.0/samples/cep/producers/wso2-event-producer/event_producer_recording.jfr
+     [java] FEEDBACK SERVER started................
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - [thrift, localhost, 7661, admin, admin, 100000, 10000, 10000, throughput]
+     [java] [main] INFO  org.wso2.carbon.sample.performance.Client  - Starting WSO2 Performance Test Client
+     [java] SLF4J: Class path contains multiple SLF4J bindings.
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: Found binding in [jar:file:/home/chamod/Softwares/wso2/wso2das-3.1.0/repository/components/plugins/slf4j.log4j12_1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+     [java] SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+     [java] new out-of-order thresholdInterval : 0
+     [java] Time Passage : 1 s : Events sent : 799
+     [java] Time Passage : 1 s : Events sent : 897
+     [java] Time Passage : 1 s : Events sent : 917
+     [java] Time Passage : 1 s : Events sent : 914
+     [java] Time Passage : 1 s : Events sent : 889
+     [java] Time Passage : 1 s : Events sent : 890
+     [java] Time Passage : 1 s : Events sent : 926
+     [java] Time Passage : 1 s : Events sent : 913
+     [java] Time Passage : 1 s : Events sent : 901
+     [java] Time Passage : 1 s : Events sent : 921
+     [java] Time Passage : 1 s : Events sent : 930
+     [java] Time Passage : 1 s : Events sent : 934
+     [java] Time Passage : 1 s : Events sent : 935
+     [java] Time Passage : 1 s : Events sent : 936
+     [java] Time Passage : 1 s : Events sent : 932
+     [java] Time Passage : 1 s : Events sent : 922
+     [java] Time Passage : 1 s : Events sent : 917
+     [java] Time Passage : 1 s : Events sent : 917
+     [java] Time Passage : 1 s : Events sent : 919
+     [java] Time Passage : 1 s : Events sent : 913
+     [java] Time Passage : 1 s : Events sent : 907
+     [java] Time Passage : 1 s : Events sent : 915
+     [java] Time Passage : 1 s : Events sent : 894
+     [java] Time Passage : 1 s : Events sent : 901
+     [java] Time Passage : 1 s : Events sent : 900
+     [java] Time Passage : 1 s : Events sent : 911
+     [java] Time Passage : 1 s : Events sent : 872
+     [java] Time Passage : 1 s : Events sent : 908
+     [java] Time Passage : 1 s : Events sent : 902
+     [java] Time Passage : 1 s : Events sent : 873
+     [java] Time Passage : 1 s : Events sent : 882
+     [java] Time Passage : 1 s : Events sent : 863
+     [java] Time Passage : 1 s : Events sent : 869
+     [java] Time Passage : 1 s : Events sent : 866
+     [java] Time Passage : 1 s : Events sent : 859
+     [java] Time Passage : 1 s : Events sent : 923
+     [java] Time Passage : 1 s : Events sent : 892
+     [java] Time Passage : 1 s : Events sent : 892
+     [java] Time Passage : 1 s : Events sent : 897
+     [java] Time Passage : 1 s : Events sent : 909
+     [java] Time Passage : 1 s : Events sent : 902
+     [java] Time Passage : 1 s : Events sent : 892
+     [java] Time Passage : 1 s : Events sent : 881
+     [java] Time Passage : 1 s : Events sent : 915
+     [java] Time Passage : 1 s : Events sent : 906
+     [java] Time Passage : 1 s : Events sent : 891
+     [java] Time Passage : 1 s : Events sent : 884
+     [java] Time Passage : 1 s : Events sent : 906
+     [java] Time Passage : 1 s : Events sent : 887
+     [java] Time Passage : 1 s : Events sent : 886
+     [java] Time Passage : 1 s : Events sent : 860
+     [java] Time Passage : 1 s : Events sent : 872
+     [java] Time Passage : 1 s : Events sent : 892
+     [java] Time Passage : 1 s : Events sent : 891
+     [java] Time Passage : 1 s : Events sent : 909
+     [java] Time Passage : 1 s : Events sent : 891
+     [java] Time Passage : 1 s : Events sent : 869
+     [java] Time Passage : 1 s : Events sent : 865
+     [java] Time Passage : 1 s : Events sent : 884
+     [java] Time Passage : 1 s : Events sent : 883
+     [java] Time Passage : 1 s : Events sent : 881
+     [java] Time Passage : 1 s : Events sent : 889
+     [java] Time Passage : 1 s : Events sent : 911
+     [java] Time Passage : 1 s : Events sent : 885
+     [java] Time Passage : 1 s : Events sent : 905
+     [java] Time Passage : 1 s : Events sent : 899
+     [java] Time Passage : 1 s : Events sent : 909
+     [java] Time Passage : 1 s : Events sent : 886
+     [java] Time Passage : 1 s : Events sent : 905
+     [java] Time Passage : 1 s : Events sent : 917
+     [java] Time Passage : 1 s : Events sent : 923
+     [java] Time Passage : 1 s : Events sent : 914
+     [java] Time Passage : 1 s : Events sent : 913
+     [java] Time Passage : 1 s : Events sent : 927
+     [java] Time Passage : 1 s : Events sent : 924
+     [java] Time Passage : 1 s : Events sent : 928
+     [java] Time Passage : 1 s : Events sent : 921
+     [java] Time Passage : 1 s : Events sent : 928
+     [java] Time Passage : 1 s : Events sent : 914
+     [java] Time Passage : 1 s : Events sent : 917
+     [java] Time Passage : 1 s : Events sent : 886
+     [java] Time Passage : 1 s : Events sent : 883
+     [java] Time Passage : 1 s : Events sent : 909
+     [java] Time Passage : 1 s : Events sent : 918
+     [java] Time Passage : 1 s : Events sent : 884
+     [java] Time Passage : 1 s : Events sent : 905
+     [java] Time Passage : 1 s : Events sent : 892
+     [java] Time Passage : 1 s : Events sent : 896
+     [java] Time Passage : 1 s : Events sent : 884
+     [java] Time Passage : 1 s : Events sent : 880
+     [java] Time Passage : 1 s : Events sent : 885
+     [java] Time Passage : 1 s : Events sent : 879
+     [java] Time Passage : 1 s : Events sent : 910
+     [java] Time Passage : 1 s : Events sent : 912
+     [java] Time Passage : 1 s : Events sent : 908
+     [java] Time Passage : 1 s : Events sent : 913
+     [java] Time Passage : 1 s : Events sent : 886
+     [java] Time Passage : 1 s : Events sent : 889
+     [java] Time Passage : 1 s : Events sent : 885
+     [java] Time Passage : 1 s : Events sent : 894
+     [java] Time Passage : 1 s : Events sent : 927
+     [java] Time Passage : 1 s : Events sent : 923
+     [java] Time Passage : 1 s : Events sent : 907
+     [java] Time Passage : 1 s : Events sent : 913
+     [java] Time Passage : 1 s : Events sent : 912
+     [java] Time Passage : 1 s : Events sent : 905
+     [java] Time Passage : 1 s : Events sent : 915
+     [java] Time Passage : 1 s : Events sent : 914
+     [java] Time Passage : 1 s : Events sent : 904
+     [java] Time Passage : 1 s : Events sent : 897
+     [java] Time Passage : 1 s : Events sent : 905
+     [java] EVENT SENDING FINISHED.................
+     [java] UNCONTROLLED DROPPED : 0
+     [java] CONTROLLED DROPPED : 98581
+     [java] TOTAL DROPPED : 98581
+     [java] TOTAL NO OF EVENTS : 100000
+     [java] [Thread-5] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Shutdown triggered for data publisher endpoint URL - tcp://localhost:7661
+     [java] [Thread-5] INFO  org.wso2.carbon.databridge.agent.endpoint.DataEndpoint  - Completed shutdown for data publisher endpoint URL - tcp://localhost:7661
